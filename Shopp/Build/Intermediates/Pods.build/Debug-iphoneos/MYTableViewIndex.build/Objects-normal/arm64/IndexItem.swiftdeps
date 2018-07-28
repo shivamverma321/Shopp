@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IndexItem"
+- "IndexItemAttributes"
+provides-nominal:
+- "16MYTableViewIndex0C4ItemP"
+- "16MYTableViewIndex0C14ItemAttributesP"
+- "So6UIViewC"
+provides-member:
+- ["16MYTableViewIndex0C4ItemP", ""]
+- ["16MYTableViewIndex0C14ItemAttributesP", ""]
+- ["So6UIViewC", ""]
+provides-dynamic-lookup:
+- "applyAttributes"
+- "blocksEdgeTruncation"
+- "font"
+- "sizeThatFits"
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGSize"
+- "IndexItem"
+- "IndexItemAttributes"
+- "UIFont"
+- "UIView"
+depends-member:
+- ["So15CALayerDelegateP", "applyAttributes"]
+- ["So15CALayerDelegateP", "blocksEdgeTruncation"]
+- ["So15CALayerDelegateP", "sizeThatFits"]
+- ["s7CVarArgP", "applyAttributes"]
+- ["s7CVarArgP", "blocksEdgeTruncation"]
+- ["s7CVarArgP", "sizeThatFits"]
+- ["s28CustomDebugStringConvertibleP", "applyAttributes"]
+- ["s28CustomDebugStringConvertibleP", "blocksEdgeTruncation"]
+- ["s28CustomDebugStringConvertibleP", "sizeThatFits"]
+- ["s23CustomStringConvertibleP", "applyAttributes"]
+- ["s23CustomStringConvertibleP", "blocksEdgeTruncation"]
+- ["s23CustomStringConvertibleP", "sizeThatFits"]
+- ["s9EquatableP", "applyAttributes"]
+- ["s9EquatableP", "blocksEdgeTruncation"]
+- ["s9EquatableP", "sizeThatFits"]
+- ["s8HashableP", "applyAttributes"]
+- ["s8HashableP", "blocksEdgeTruncation"]
+- ["s8HashableP", "sizeThatFits"]
+- ["16MYTableViewIndex0C4ItemP", "Bool"]
+- ["16MYTableViewIndex0C4ItemP", "CGSize"]
+- ["16MYTableViewIndex0C4ItemP", "IndexItemAttributes"]
+- ["16MYTableViewIndex0C4ItemP", ""]
+- ["16MYTableViewIndex0C4ItemP", "applyAttributes"]
+- ["16MYTableViewIndex0C4ItemP", "blocksEdgeTruncation"]
+- ["16MYTableViewIndex0C4ItemP", "sizeThatFits"]
+- ["16MYTableViewIndex0C14ItemAttributesP", "UIFont"]
+- ["16MYTableViewIndex0C14ItemAttributesP", "font"]
+- ["So8NSCodingP", "applyAttributes"]
+- ["So8NSCodingP", "blocksEdgeTruncation"]
+- ["So8NSCodingP", "sizeThatFits"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "IndexItemAttributes"]
+- ["So8NSObjectC", "applyAttributes"]
+- ["So8NSObjectC", "blocksEdgeTruncation"]
+- ["So8NSObjectC", "sizeThatFits"]
+- ["So16NSObjectProtocolP", "applyAttributes"]
+- ["So16NSObjectProtocolP", "blocksEdgeTruncation"]
+- ["So16NSObjectProtocolP", "sizeThatFits"]
+- ["So29UIAccessibilityIdentificationP", "applyAttributes"]
+- ["So29UIAccessibilityIdentificationP", "blocksEdgeTruncation"]
+- ["So29UIAccessibilityIdentificationP", "sizeThatFits"]
+- ["So12UIAppearanceP", "applyAttributes"]
+- ["So12UIAppearanceP", "blocksEdgeTruncation"]
+- ["So12UIAppearanceP", "sizeThatFits"]
+- ["So21UIAppearanceContainerP", "applyAttributes"]
+- ["So21UIAppearanceContainerP", "blocksEdgeTruncation"]
+- ["So21UIAppearanceContainerP", "sizeThatFits"]
+- ["So17UICoordinateSpaceP", "applyAttributes"]
+- ["So17UICoordinateSpaceP", "blocksEdgeTruncation"]
+- ["So17UICoordinateSpaceP", "sizeThatFits"]
+- ["So13UIDynamicItemP", "applyAttributes"]
+- ["So13UIDynamicItemP", "blocksEdgeTruncation"]
+- ["So13UIDynamicItemP", "sizeThatFits"]
+- ["So18UIFocusEnvironmentP", "applyAttributes"]
+- ["So18UIFocusEnvironmentP", "blocksEdgeTruncation"]
+- ["So18UIFocusEnvironmentP", "sizeThatFits"]
+- ["So11UIFocusItemP", "applyAttributes"]
+- ["So11UIFocusItemP", "blocksEdgeTruncation"]
+- ["So11UIFocusItemP", "sizeThatFits"]
+- ["So30UIPasteConfigurationSupportingP", "applyAttributes"]
+- ["So30UIPasteConfigurationSupportingP", "blocksEdgeTruncation"]
+- ["So30UIPasteConfigurationSupportingP", "sizeThatFits"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "IndexItemAttributes"]
+- ["So11UIResponderC", "applyAttributes"]
+- ["So11UIResponderC", "blocksEdgeTruncation"]
+- ["So11UIResponderC", "sizeThatFits"]
+- ["So30UIResponderStandardEditActionsP", "applyAttributes"]
+- ["So30UIResponderStandardEditActionsP", "blocksEdgeTruncation"]
+- ["So30UIResponderStandardEditActionsP", "sizeThatFits"]
+- ["So18UITraitEnvironmentP", "applyAttributes"]
+- ["So18UITraitEnvironmentP", "blocksEdgeTruncation"]
+- ["So18UITraitEnvironmentP", "sizeThatFits"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "IndexItemAttributes"]
+- ["So6UIViewC", "applyAttributes"]
+- ["So6UIViewC", "blocksEdgeTruncation"]
+- ["So6UIViewC", "deinit"]
+- ["So6UIViewC", "sizeThatFits"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "applyAttributes"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "blocksEdgeTruncation"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "sizeThatFits"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applyAttributes"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "blocksEdgeTruncation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sizeThatFits"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "16MYTableViewIndex0C4ItemP"
+- "16MYTableViewIndex0C14ItemAttributesP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/MYTableViewIndex/MYTableViewIndex-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/MYTableViewIndex.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "df5b370d99f8d9f6bdaf0dd2907ca56c"

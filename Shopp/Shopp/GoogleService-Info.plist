@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>432409396424-okf62g95eamejeoulp3f3h0qhg50ldr1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.432409396424-okf62g95eamejeoulp3f3h0qhg50ldr1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDTZZgTa7sSBr62tMrTftr-htJXz_jSp6A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>432409396424</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rsrn.Shopp</string>
+	<key>PROJECT_ID</key>
+	<string>shopp-ad9d8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shopp-ad9d8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:432409396424:ios:11d3117b9f73f9b1</string>
+	<key>DATABASE_URL</key>
+	<string>https://shopp-ad9d8.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "7c5b4827ea2d6191b358ac8b4c203d45"
+build_time: [1532813044, 657584000]
+inputs:
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemRepoVC.swift": [1532811810, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppDelegate.swift": [1532812899, 0]

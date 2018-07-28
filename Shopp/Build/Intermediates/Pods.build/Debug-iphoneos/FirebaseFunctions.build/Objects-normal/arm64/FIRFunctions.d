@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/FIRFunctions.m \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/FirebaseFunctions.build/module.modulemap \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/Public/FIRFunctions.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/FIRFunctions+Internal.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/Public/FIRError.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/FIRHTTPSCallable+Internal.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/Public/FIRHTTPSCallable.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/FUNContext.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/FUNError.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/FUNSerializer.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/FUNUsageValidation.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target\ Support\ Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h

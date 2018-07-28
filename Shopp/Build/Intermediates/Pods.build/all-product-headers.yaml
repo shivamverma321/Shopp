@@ -1,0 +1,1361 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/BoringSSL/openssl.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "openssl-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/BoringSSL/openssl.framework/Headers/openssl-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/BoringSSL/openssl.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/BoringSSL.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ESPullToRefresh-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ESPullToRefresh-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ESPullToRefresh/ESPullToRefresh-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/ESPullToRefresh.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FIRActionCodeSettings.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRActionCodeSettings.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAdditionalUserInfo.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAdditionalUserInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAuth.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAuthAPNSTokenType.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAuthCredential.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAuthDataResult.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthDataResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAuthErrors.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAuthSettings.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthSettings.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAuthTokenResult.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthTokenResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAuthUIDelegate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthUIDelegate.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIREmailAuthProvider.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIREmailAuthProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRFacebookAuthProvider.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRFacebookAuthProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRGitHubAuthProvider.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGitHubAuthProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRGoogleAuthProvider.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRGoogleAuthProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIROAuthProvider.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRPhoneAuthCredential.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthCredential.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRPhoneAuthProvider.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRTwitterAuthProvider.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRTwitterAuthProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRUser.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRUserInfo.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUserInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRUserMetadata.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRUserMetadata.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseAuth-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseAuth-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseAuth.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuth.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseAuthVersion.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuthVersion.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/FirebaseAuth.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FIRAnalyticsConfiguration.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRApp.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRConfiguration.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRLoggerLevel.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIROptions.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseCore-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseCore-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/FirebaseCore/FirebaseCore-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseCore.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FIRAnalyticsConfiguration+Internal.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAppAssociationRegistration.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRAppAssociationRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAppEnvironmentUtil.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/third_party/FIRAppEnvironmentUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRAppInternal.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRBundleUtil.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRErrorCode.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRErrors.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRLogger.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRMutableDictionary.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRMutableDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetwork.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRNetwork.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetworkConstants.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetworkLoggerProtocol.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkLoggerProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetworkMessageCode.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkMessageCode.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRNetworkURLSession.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRNetworkURLSession.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIROptionsInternal.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIROptionsInternal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRReachabilityChecker+Internal.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRReachabilityChecker+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRReachabilityChecker.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRReachabilityChecker.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRVersion.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseCore/Firebase/Core/Private/FIRVersion.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FIRCollectionReference.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRCollectionReference.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRDocumentChange.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRDocumentChange.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRDocumentReference.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRDocumentReference.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRDocumentSnapshot.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRDocumentSnapshot.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRFieldPath.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRFieldPath.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRFieldValue.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRFieldValue.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRFirestore.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRFirestore.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRFirestoreErrors.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRFirestoreErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRFirestoreSettings.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRFirestoreSettings.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRFirestoreSource.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRFirestoreSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRGeoPoint.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRGeoPoint.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRListenerRegistration.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRListenerRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRQuery.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRQuerySnapshot.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRQuerySnapshot.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRSnapshotMetadata.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRSnapshotMetadata.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRTimestamp.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRTimestamp.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRTransaction.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRTransaction.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRWriteBatch.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FIRWriteBatch.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseFirestore-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseFirestore-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/FirebaseFirestore/FirebaseFirestore-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseFirestore.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/FirebaseFirestore.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FIRError.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/Public/FIRError.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRFunctions.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/Public/FIRFunctions.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRHTTPSCallable.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/Public/FIRHTTPSCallable.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseFunctions-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Headers/FirebaseFunctions-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseFunctions-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/FirebaseFunctions/FirebaseFunctions-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseFunctions.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseFunctions/Functions/FirebaseFunctions/Public/FirebaseFunctions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/FirebaseFunctions.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FIRStorage.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorage.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRStorageConstants.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRStorageDownloadTask.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageDownloadTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRStorageMetadata.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageMetadata.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRStorageObservableTask.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageObservableTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRStorageReference.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageReference.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRStorageTask.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRStorageTaskSnapshot.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageTaskSnapshot.h"
+        },
+        {
+          'type': 'file',
+          'name': "FIRStorageUploadTask.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageUploadTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseStorage-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseStorage-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/FirebaseStorage/FirebaseStorage-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseStorage.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseStorage/Firebase/Storage/Public/FirebaseStorage.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/FirebaseStorage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcherLogging.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcherService.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionUploadFetcher.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMDefines.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GoogleToolboxForMac/GTMDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSData+zlib.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/MYTableViewIndex/MYTableViewIndex.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MYTableViewIndex-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/MYTableViewIndex/MYTableViewIndex.framework/Headers/MYTableViewIndex-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MYTableViewIndex-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/MYTableViewIndex/MYTableViewIndex-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/MYTableViewIndex/MYTableViewIndex.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/MYTableViewIndex.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Pods_Shopp.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Shopp-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Pods-Shopp/Pods-Shopp-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Shopp-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Pods_Shopp.framework/Headers/Pods_Shopp-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Pods_Shopp.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Shopp.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Protobuf/Protobuf.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Any.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/Any.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Api.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/Api.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Duration.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/Duration.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Empty.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/Empty.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "FieldMask.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/FieldMask.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBArray.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBArray.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBArray_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBArray_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBBootstrap.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBBootstrap.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBCodedInputStream.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBCodedInputStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBCodedInputStream_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBCodedInputStream_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBCodedOutputStream.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBCodedOutputStream.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBCodedOutputStream_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBCodedOutputStream_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBDescriptor.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBDescriptor.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBDescriptor_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBDescriptor_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBDictionary.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBDictionary_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBDictionary_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBExtensionInternals.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBExtensionInternals.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBExtensionRegistry.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBExtensionRegistry.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBMessage.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBMessage_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBMessage_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBProtocolBuffers.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBProtocolBuffers.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBProtocolBuffers_RuntimeSupport.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBProtocolBuffers_RuntimeSupport.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBRootObject.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBRootObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBRootObject_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBRootObject_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBRuntimeTypes.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBRuntimeTypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUnknownField.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBUnknownField.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUnknownFieldSet.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBUnknownFieldSet.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUnknownFieldSet_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBUnknownFieldSet_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUnknownField_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBUnknownField_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUtilities.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBUtilities.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBUtilities_PackagePrivate.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBUtilities_PackagePrivate.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBWellKnownTypes.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBWellKnownTypes.h"
+        },
+        {
+          'type': 'file',
+          'name': "GPBWireFormat.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/GPBWireFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "Protobuf-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Protobuf/Protobuf.framework/Headers/Protobuf-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Protobuf-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Protobuf/Protobuf-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SourceContext.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/SourceContext.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Struct.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/Struct.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Timestamp.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/Timestamp.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Type.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/Type.pbobjc.h"
+        },
+        {
+          'type': 'file',
+          'name': "Wrappers.pbobjc.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Protobuf/objectivec/google/protobuf/Wrappers.pbobjc.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Protobuf/Protobuf.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/Protobuf.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SVIndefiniteAnimatedView.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressAnimatedView.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVRadialGradientLayer.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/SVProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-Core/grpc.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "grpc-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-Core/grpc.framework/Headers/grpc-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-Core/grpc.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/gRPC-Core.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-ProtoRPC/ProtoRPC.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ProtoMethod.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC-ProtoRPC/src/objective-c/ProtoRPC/ProtoMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "ProtoRPC-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-ProtoRPC/ProtoRPC.framework/Headers/ProtoRPC-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ProtoRPC.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC-ProtoRPC/src/objective-c/ProtoRPC/ProtoRPC.h"
+        },
+        {
+          'type': 'file',
+          'name': "ProtoService.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC-ProtoRPC/src/objective-c/ProtoRPC/ProtoService.h"
+        },
+        {
+          'type': 'file',
+          'name': "gRPC-ProtoRPC-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/gRPC-ProtoRPC/gRPC-ProtoRPC-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-ProtoRPC/ProtoRPC.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/gRPC-ProtoRPC.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-RxLibrary/RxLibrary.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxLibrary-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-RxLibrary/RxLibrary.framework/Headers/RxLibrary-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "gRPC-RxLibrary-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/gRPC-RxLibrary/gRPC-RxLibrary-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC-RxLibrary/RxLibrary.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/gRPC-RxLibrary.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC/GRPCClient.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GRPCCall+ChannelArg.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/GRPCCall+ChannelArg.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCCall+ChannelCredentials.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/GRPCCall+ChannelCredentials.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCCall+Cronet.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/GRPCCall+Cronet.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCCall+InternalTests.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/internal_testing/GRPCCall+InternalTests.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCCall+OAuth2.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/GRPCCall+OAuth2.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCCall+Tests.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/GRPCCall+Tests.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCCall.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/GRPCCall.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCClient-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC/GRPCClient.framework/Headers/GRPCClient-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "gRPC-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/gRPC/gRPC-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC/GRPCClient.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/gRPC.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/gRPC/GRPCClient.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GRPCChannel.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/GRPCChannel.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCCompletionQueue.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/GRPCCompletionQueue.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCConnectivityMonitor.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/GRPCConnectivityMonitor.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCHost.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/GRPCHost.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCOpBatchLog.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/GRPCOpBatchLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCReachabilityFlagNames.xmacro.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/GRPCReachabilityFlagNames.xmacro.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCRequestHeaders.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/GRPCRequestHeaders.h"
+        },
+        {
+          'type': 'file',
+          'name': "GRPCWrappedCall.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/GRPCWrappedCall.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSData+GRPC.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/NSData+GRPC.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+GRPC.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/NSDictionary+GRPC.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSError+GRPC.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/NSError+GRPC.h"
+        },
+        {
+          'type': 'file',
+          'name': "version.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/gRPC/src/objective-c/GRPCClient/private/version.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "c.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/c.h"
+        },
+        {
+          'type': 'file',
+          'name': "cache.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/cache.h"
+        },
+        {
+          'type': 'file',
+          'name': "comparator.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/comparator.h"
+        },
+        {
+          'type': 'file',
+          'name': "db.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/db.h"
+        },
+        {
+          'type': 'file',
+          'name': "dumpfile.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/dumpfile.h"
+        },
+        {
+          'type': 'file',
+          'name': "env.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/env.h"
+        },
+        {
+          'type': 'file',
+          'name': "filter_policy.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/filter_policy.h"
+        },
+        {
+          'type': 'file',
+          'name': "iterator.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/iterator.h"
+        },
+        {
+          'type': 'file',
+          'name': "leveldb-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Headers/leveldb-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "leveldb-library-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/leveldb-library/leveldb-library-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "options.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/options.h"
+        },
+        {
+          'type': 'file',
+          'name': "slice.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/slice.h"
+        },
+        {
+          'type': 'file',
+          'name': "status.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/status.h"
+        },
+        {
+          'type': 'file',
+          'name': "table.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/table.h"
+        },
+        {
+          'type': 'file',
+          'name': "table_builder.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/table_builder.h"
+        },
+        {
+          'type': 'file',
+          'name': "write_batch.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/leveldb-library/include/leveldb/write_batch.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/leveldb-library/leveldb.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/leveldb-library.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "nanopb-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Headers/nanopb-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "nanopb-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/nanopb/nanopb-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "pb.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/nanopb/pb.h"
+        },
+        {
+          'type': 'file',
+          'name': "pb_common.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/nanopb/pb_common.h"
+        },
+        {
+          'type': 'file',
+          'name': "pb_decode.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/nanopb/pb_decode.h"
+        },
+        {
+          'type': 'file',
+          'name': "pb_encode.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/nanopb/pb_encode.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/nanopb/nanopb.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/nanopb.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

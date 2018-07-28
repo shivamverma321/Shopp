@@ -1,0 +1,242 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyValueObserver"
+provides-nominal:
+- "16MYTableViewIndex16KeyValueObserverC"
+provides-member:
+- ["16MYTableViewIndex16KeyValueObserverC", ""]
+provides-dynamic-lookup:
+- "observeValue"
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "KVOContext"
+- "KeyValueObserver"
+- "NSKeyValueChangeKey"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "UnsafeMutableRawPointer"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "KVOContext"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "my_deinitHandler"]
+- !private ["s7CVarArgP", "observe"]
+- !private ["s7CVarArgP", "observeHandler"]
+- !private ["s7CVarArgP", "observeValue"]
+- !private ["s7CVarArgP", "observedKeyPaths"]
+- !private ["s7CVarArgP", "observedObject"]
+- !private ["s7CVarArgP", "observing"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "unobserve"]
+- !private ["s28CustomDebugStringConvertibleP", "KVOContext"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "my_deinitHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "observe"]
+- !private ["s28CustomDebugStringConvertibleP", "observeHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "observeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "observedKeyPaths"]
+- !private ["s28CustomDebugStringConvertibleP", "observedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "observing"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "unobserve"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "KVOContext"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "my_deinitHandler"]
+- !private ["s23CustomStringConvertibleP", "observe"]
+- !private ["s23CustomStringConvertibleP", "observeHandler"]
+- !private ["s23CustomStringConvertibleP", "observeValue"]
+- !private ["s23CustomStringConvertibleP", "observedKeyPaths"]
+- !private ["s23CustomStringConvertibleP", "observedObject"]
+- !private ["s23CustomStringConvertibleP", "observing"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "unobserve"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "KVOContext"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initial"]
+- !private ["s9EquatableP", "my_deinitHandler"]
+- !private ["s9EquatableP", "new"]
+- !private ["s9EquatableP", "observe"]
+- !private ["s9EquatableP", "observeHandler"]
+- !private ["s9EquatableP", "observeValue"]
+- !private ["s9EquatableP", "observedKeyPaths"]
+- !private ["s9EquatableP", "observedObject"]
+- !private ["s9EquatableP", "observing"]
+- !private ["s9EquatableP", "removeObserver"]
+- !private ["s9EquatableP", "unobserve"]
+- !private ["s25ExpressibleByArrayLiteralP", "initial"]
+- !private ["s25ExpressibleByArrayLiteralP", "new"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "KVOContext"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "my_deinitHandler"]
+- !private ["s8HashableP", "observe"]
+- !private ["s8HashableP", "observeHandler"]
+- !private ["s8HashableP", "observeValue"]
+- !private ["s8HashableP", "observedKeyPaths"]
+- !private ["s8HashableP", "observedObject"]
+- !private ["s8HashableP", "observing"]
+- !private ["s8HashableP", "removeObserver"]
+- !private ["s8HashableP", "unobserve"]
+- ["16MYTableViewIndex16KeyValueObserverC", "Bool"]
+- !private ["16MYTableViewIndex16KeyValueObserverC", "KVOContext"]
+- ["16MYTableViewIndex16KeyValueObserverC", "NSKeyValueChangeKey"]
+- ["16MYTableViewIndex16KeyValueObserverC", "NSObject"]
+- ["16MYTableViewIndex16KeyValueObserverC", "String"]
+- ["16MYTableViewIndex16KeyValueObserverC", "UnsafeMutableRawPointer"]
+- ["16MYTableViewIndex16KeyValueObserverC", "deinit"]
+- ["16MYTableViewIndex16KeyValueObserverC", "init"]
+- !private ["16MYTableViewIndex16KeyValueObserverC", "observe"]
+- !private ["16MYTableViewIndex16KeyValueObserverC", "observeHandler"]
+- ["16MYTableViewIndex16KeyValueObserverC", "observeValue"]
+- !private ["16MYTableViewIndex16KeyValueObserverC", "observedKeyPaths"]
+- !private ["16MYTableViewIndex16KeyValueObserverC", "observedObject"]
+- !private ["16MYTableViewIndex16KeyValueObserverC", "observing"]
+- !private ["16MYTableViewIndex16KeyValueObserverC", "unobserve"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SC26NSKeyValueObservingOptionsV", "initial"]
+- !private ["SC26NSKeyValueObservingOptionsV", "new"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "KVOContext"]
+- ["So8NSObjectC", "NSKeyValueChangeKey"]
+- ["So8NSObjectC", "NSObject"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UnsafeMutableRawPointer"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "my_deinitHandler"]
+- ["So8NSObjectC", "observe"]
+- ["So8NSObjectC", "observeHandler"]
+- ["So8NSObjectC", "observeValue"]
+- ["So8NSObjectC", "observedKeyPaths"]
+- ["So8NSObjectC", "observedObject"]
+- ["So8NSObjectC", "observing"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "unobserve"]
+- !private ["So16NSObjectProtocolP", "KVOContext"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "my_deinitHandler"]
+- !private ["So16NSObjectProtocolP", "observe"]
+- !private ["So16NSObjectProtocolP", "observeHandler"]
+- !private ["So16NSObjectProtocolP", "observeValue"]
+- !private ["So16NSObjectProtocolP", "observedKeyPaths"]
+- !private ["So16NSObjectProtocolP", "observedObject"]
+- !private ["So16NSObjectProtocolP", "observing"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- !private ["So16NSObjectProtocolP", "unobserve"]
+- !private ["s9OptionSetP", "initial"]
+- !private ["s9OptionSetP", "new"]
+- !private ["s16RawRepresentableP", "initial"]
+- !private ["s16RawRepresentableP", "new"]
+- !private ["s10SetAlgebraP", "initial"]
+- !private ["s10SetAlgebraP", "new"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "KVOContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "my_deinitHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observeHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observeValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observedKeyPaths"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unobserve"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "16MYTableViewIndex16KeyValueObserverC"
+- !private "s25LosslessStringConvertibleP"
+- !private "SC26NSKeyValueObservingOptionsV"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s9OptionSetP"
+- !private "s16RawRepresentableP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/MYTableViewIndex/MYTableViewIndex-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/MYTableViewIndex.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "462d15b535b90ba19993181018edbc7c"

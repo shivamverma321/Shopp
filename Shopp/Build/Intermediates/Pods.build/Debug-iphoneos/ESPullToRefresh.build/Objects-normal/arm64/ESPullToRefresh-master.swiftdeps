@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "c39ff0548a49d00d782996843b0f0631"
+build_time: [1532812914, 118731000]
+inputs:
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ES.swift": [1532811914, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESPullToRefresh+Manager.swift": [1532811914, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESPullToRefresh.swift": [1532811914, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshAnimator.swift": [1532811914, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshComponent.swift": [1532811914, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/Animator/ESRefreshFooterAnimator.swift": [1532811914, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/Animator/ESRefreshHeaderAnimator.swift": [1532811914, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshProtocol.swift": [1532811914, 0]

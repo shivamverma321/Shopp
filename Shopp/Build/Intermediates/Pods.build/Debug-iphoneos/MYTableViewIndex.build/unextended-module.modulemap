@@ -1,0 +1,10 @@
+framework module MYTableViewIndex {
+  umbrella header "MYTableViewIndex-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MYTableViewIndex.__Swift {
+    exclude header "MYTableViewIndex-Swift.h"
+}
