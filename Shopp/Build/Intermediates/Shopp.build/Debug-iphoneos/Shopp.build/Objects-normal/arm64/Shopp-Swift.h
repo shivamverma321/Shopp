@@ -331,6 +331,25 @@ SWIFT_CLASS("_TtC5Shopp9ProductVC")
 @end
 
 
+SWIFT_CLASS("_TtC5Shopp13RecognitionVC")
+@interface RecognitionVC : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate, UINavigationControllerDelegate>
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+- (IBAction)camera:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImagePickerController;
+
+@interface RecognitionVC (SWIFT_EXTENSION(Shopp)) <UIImagePickerControllerDelegate>
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * _Nonnull)picker;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+@end
+
+
 
 
 

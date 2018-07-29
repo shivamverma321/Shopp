@@ -10,7 +10,6 @@ import Foundation
 import Firebase
 import FirebaseFirestore
 import FirebaseStorage
-import Geofirestore
 
 class BusinessSystem {
     

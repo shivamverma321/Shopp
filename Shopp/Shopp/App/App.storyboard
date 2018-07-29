@@ -23,6 +23,7 @@
                     <connections>
                         <segue destination="Yd2-h4-sOl" kind="relationship" relationship="viewControllers" id="3yq-b2-8s2"/>
                         <segue destination="7Dr-rs-3Fi" kind="relationship" relationship="viewControllers" id="Lmb-iU-Vfl"/>
+                        <segue destination="czP-Sc-Ijr" kind="relationship" relationship="viewControllers" id="Gkb-oU-kTk"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mru-ba-mhz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -196,7 +197,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vfG-pg-O6U"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HHM-Px-mgM"/>
+                    <navigationItem key="navigationItem" title="Items" id="HHM-Px-mgM"/>
                     <connections>
                         <outlet property="itemCountLabel" destination="wuw-3s-q9d" id="657-6g-W46"/>
                         <outlet property="noItemsAddItemBtn" destination="bZI-rM-Qto" id="28L-fI-BSD"/>
@@ -213,7 +214,7 @@
             </objects>
             <point key="canvasLocation" x="-65" y="115"/>
         </scene>
-        <!--MapVC-->
+        <!--Routes-->
         <scene sceneID="hgT-Ll-A0G">
             <objects>
                 <viewController id="osv-i8-LUT" customClass="MapVC" customModule="Shopp" customModuleProvider="target" sceneMemberID="viewController">
@@ -234,7 +235,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cHI-Dl-Do5"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7wN-OT-5up"/>
+                    <navigationItem key="navigationItem" title="Routes" id="7wN-OT-5up"/>
                     <connections>
                         <outlet property="mapView" destination="dIP-M8-cOc" id="p0i-nn-fn7"/>
                     </connections>
@@ -243,10 +244,10 @@
             </objects>
             <point key="canvasLocation" x="-66" y="828"/>
         </scene>
-        <!--ProductVC-->
+        <!--Add Item-->
         <scene sceneID="YWs-MA-bOx">
             <objects>
-                <tableViewController hidesBottomBarWhenPushed="YES" id="hxb-cj-s7b" customClass="ProductVC" customModule="Shopp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Add Item" hidesBottomBarWhenPushed="YES" id="hxb-cj-s7b" customClass="ProductVC" customModule="Shopp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AiM-yt-3Ei">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -404,8 +405,51 @@
             </objects>
             <point key="canvasLocation" x="-812" y="828"/>
         </scene>
+        <!--Augmented Reality-->
+        <scene sceneID="Cuw-Mv-Qbz">
+            <objects>
+                <viewController id="omz-3m-dtp" customClass="RecognitionVC" customModule="Shopp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G1x-ud-mZN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XhV-BI-JnM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Augmented Reality" id="a9R-hf-MRw">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="YeT-db-k82">
+                            <connections>
+                                <action selector="camera:" destination="omz-3m-dtp" id="ll3-p2-WoK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hDv-w1-wMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66" y="1547"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="64I-AN-t4C">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="czP-Sc-Ijr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="CameraIconGray" selectedImage="CameraIconRed" id="7GK-If-S9R"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1FX-4a-1bW">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="omz-3m-dtp" kind="relationship" relationship="rootViewController" id="Z3H-iE-IQj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eKh-c0-vIg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-812" y="1547"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="CameraIconGray" width="25" height="25"/>
+        <image name="CameraIconRed" width="25" height="25"/>
         <image name="ListIconGray" width="25" height="25"/>
         <image name="ListIconRed" width="25" height="25"/>
         <image name="MapIconGray" width="25" height="25"/>

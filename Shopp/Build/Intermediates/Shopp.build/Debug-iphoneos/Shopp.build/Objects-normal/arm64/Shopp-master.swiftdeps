@@ -1,7 +1,8 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "a2407e2e7cb8d8077a4c62acade43fbd"
-build_time: [1532885478, 389131000]
+options: "ef7d0f2df61257ba26671b5ffadbabba"
+build_time: [1532890677, 965411000]
 inputs:
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/AR/RecognitionVC.swift": [1532890676, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/ProductVC.swift": [1532845372, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/Item.swift": [1532852122, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/Extensions.swift": [1532845372, 0]
@@ -9,8 +10,9 @@ inputs:
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppDelegate.swift": [1532873257, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Routes/MapVC.swift": [1532885226, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AsyncImageView.swift": [1532845372, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/BusinessSystem.swift": [1532884091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/BusinessSystem.swift": [1532888116, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/NameFile.swift": [1532884063, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Routes/Business.swift": [1532882106, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemSystem.swift": [1532852244, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppStorage.swift": [1532845372, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Shopp.build/Debug-iphoneos/Shopp.build/DerivedSources/CoreMLGenerated/Inceptionv3/Inceptionv3.swift": [1532889568, 0]

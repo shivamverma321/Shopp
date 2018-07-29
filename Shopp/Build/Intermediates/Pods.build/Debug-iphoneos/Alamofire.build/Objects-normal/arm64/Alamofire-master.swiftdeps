@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "2662f4a602fc089c3841073654d324d0"
-build_time: [1532884721, 109355000]
+build_time: [1532889430, 63787000]
 inputs:
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/AFError.swift": [1532845370, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/Alamofire.swift": [1532845370, 0]

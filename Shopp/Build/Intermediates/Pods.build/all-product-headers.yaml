@@ -4,6 +4,33 @@
   'roots': [
     {
       'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ARCL/ARCL.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ARCL-Swift.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ARCL/ARCL.framework/Headers/ARCL-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ARCL-umbrella.h",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ARCL/ARCL-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ARCL/ARCL.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/ARCL.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
@@ -375,78 +402,6 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "FIRDataEventType.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataEventType.h"
-        },
-        {
-          'type': 'file',
-          'name': "FIRDataSnapshot.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataSnapshot.h"
-        },
-        {
-          'type': 'file',
-          'name': "FIRDatabase.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabase.h"
-        },
-        {
-          'type': 'file',
-          'name': "FIRDatabaseQuery.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseQuery.h"
-        },
-        {
-          'type': 'file',
-          'name': "FIRDatabaseReference.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseReference.h"
-        },
-        {
-          'type': 'file',
-          'name': "FIRMutableData.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FIRMutableData.h"
-        },
-        {
-          'type': 'file',
-          'name': "FIRServerValue.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FIRServerValue.h"
-        },
-        {
-          'type': 'file',
-          'name': "FIRTransactionResult.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FIRTransactionResult.h"
-        },
-        {
-          'type': 'file',
-          'name': "FirebaseDatabase-Swift.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "FirebaseDatabase-umbrella.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/FirebaseDatabase/FirebaseDatabase-umbrella.h"
-        },
-        {
-          'type': 'file',
-          'name': "FirebaseDatabase.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseDatabase/Firebase/Database/Public/FirebaseDatabase.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/FirebaseDatabase.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
       'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers",
       'contents': [
         {
@@ -735,105 +690,6 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "GFBase32Utils.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/Implementation/GFBase32Utils.h"
-        },
-        {
-          'type': 'file',
-          'name': "GFCircleQuery.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/API/GFCircleQuery.h"
-        },
-        {
-          'type': 'file',
-          'name': "GFGeoHash.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/Implementation/GFGeoHash.h"
-        },
-        {
-          'type': 'file',
-          'name': "GFGeoHashQuery.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/Implementation/GFGeoHashQuery.h"
-        },
-        {
-          'type': 'file',
-          'name': "GFQuery+Private.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/Implementation/GFQuery+Private.h"
-        },
-        {
-          'type': 'file',
-          'name': "GFQuery.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/API/GFQuery.h"
-        },
-        {
-          'type': 'file',
-          'name': "GFRegionQuery.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/API/GFRegionQuery.h"
-        },
-        {
-          'type': 'file',
-          'name': "GeoFire+Private.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/Implementation/GeoFire+Private.h"
-        },
-        {
-          'type': 'file',
-          'name': "GeoFire-Swift.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "GeoFire-umbrella.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/GeoFire/GeoFire-umbrella.h"
-        },
-        {
-          'type': 'file',
-          'name': "GeoFire.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/GeoFire/GeoFire/API/GeoFire.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/GeoFire.build/module.modulemap"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Geofirestore/Geofirestore.framework/Headers",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "Geofirestore-Swift.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Geofirestore/Geofirestore.framework/Headers/Geofirestore-Swift.h"
-        },
-        {
-          'type': 'file',
-          'name': "Geofirestore-umbrella.h",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Geofirestore/Geofirestore-umbrella.h"
-        }
-      ]
-    },
-    {
-      'type': 'directory',
-      'name': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Geofirestore/Geofirestore.framework/Modules",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "module.modulemap",
-          'external-contents': "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/Geofirestore.build/module.modulemap"
         }
       ]
     },

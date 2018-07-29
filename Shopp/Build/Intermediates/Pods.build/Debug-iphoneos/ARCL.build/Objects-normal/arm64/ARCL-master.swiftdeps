@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "aa09240db478aa0ad248817d423206d7"
+build_time: [1532889429, 770541000]
+inputs:
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/CGPoint+Extensions.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/CLLocation+Extensions.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/FloatingPoint+Radians.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/LocationManager.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/LocationNode.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/SceneLocationEstimate+Extensions.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/SceneLocationEstimate.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/SceneLocationView.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/SCNNode+Extensions.swift": [1532886091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ARCL/ARCL/Source/SCNVector3+Extensions.swift": [1532886091, 0]

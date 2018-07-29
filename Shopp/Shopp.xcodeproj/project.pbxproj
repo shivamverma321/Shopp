@@ -16,6 +16,8 @@
 		581FA8FD210D253300EA4F4C /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FA8FC210D253300EA4F4C /* AppStorage.swift */; };
 		581FA8FF210D55D000EA4F4C /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FA8FE210D55D000EA4F4C /* ProductVC.swift */; };
 		581FA905210D5CC400EA4F4C /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FA904210D5CC400EA4F4C /* MapVC.swift */; };
+		5839988B210E39D200A4D532 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5839988A210E39D200A4D532 /* Inceptionv3.mlmodel */; };
+		5839988E210E3A0700A4D532 /* RecognitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5839988D210E3A0700A4D532 /* RecognitionVC.swift */; };
 		5896907E210DD1AA00B4AC64 /* google.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5896907D210DD1AA00B4AC64 /* google.plist */; };
 		58A1E5B6210E173A004F8AFF /* BusinessSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A1E5B5210E173A004F8AFF /* BusinessSystem.swift */; };
 		58A1E5B8210E17D2004F8AFF /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A1E5B7210E17D2004F8AFF /* Business.swift */; };
@@ -40,6 +42,8 @@
 		581FA8FC210D253300EA4F4C /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
 		581FA8FE210D55D000EA4F4C /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 		581FA904210D5CC400EA4F4C /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		5839988A210E39D200A4D532 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		5839988D210E3A0700A4D532 /* RecognitionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognitionVC.swift; sourceTree = "<group>"; };
 		5896907D210DD1AA00B4AC64 /* google.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = google.plist; sourceTree = "<group>"; };
 		58A1E5B5210E173A004F8AFF /* BusinessSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSystem.swift; sourceTree = "<group>"; };
 		58A1E5B7210E17D2004F8AFF /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
@@ -87,6 +91,14 @@
 			path = Routes;
 			sourceTree = "<group>";
 		};
+		5839988C210E39FB00A4D532 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				5839988D210E3A0700A4D532 /* RecognitionVC.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
 		B5EF3913210D06AC00DFD0C1 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +120,7 @@
 		B5EF391E210D06AD00DFD0C1 /* Shopp */ = {
 			isa = PBXGroup;
 			children = (
+				5839988A210E39D200A4D532 /* Inceptionv3.mlmodel */,
 				B5EF3923210D06AD00DFD0C1 /* Main.storyboard */,
 				B5EF391F210D06AD00DFD0C1 /* AppDelegate.swift */,
 				581FA8FC210D253300EA4F4C /* AppStorage.swift */,
@@ -139,6 +152,7 @@
 				B5EF3934210D074A00DFD0C1 /* App.storyboard */,
 				581FA8F8210D205D00EA4F4C /* ItemSystem.swift */,
 				58A1E5B5210E173A004F8AFF /* BusinessSystem.swift */,
+				5839988C210E39FB00A4D532 /* AR */,
 				581FA903210D5CA600EA4F4C /* Routes */,
 				581FA902210D5C6400EA4F4C /* Items */,
 			);
@@ -259,6 +273,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Shopp/Pods-Shopp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework",
@@ -277,6 +292,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESPullToRefresh.framework",
@@ -305,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5839988E210E3A0700A4D532 /* RecognitionVC.swift in Sources */,
 				581FA8FF210D55D000EA4F4C /* ProductVC.swift in Sources */,
 				581FA8F3210D1C3400EA4F4C /* Item.swift in Sources */,
 				581FA8F5210D1F0400EA4F4C /* Extensions.swift in Sources */,
@@ -318,6 +335,7 @@
 				58A1E5B8210E17D2004F8AFF /* Business.swift in Sources */,
 				581FA8F9210D205D00EA4F4C /* ItemSystem.swift in Sources */,
 				581FA8FD210D253300EA4F4C /* AppStorage.swift in Sources */,
+				5839988B210E39D200A4D532 /* Inceptionv3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
