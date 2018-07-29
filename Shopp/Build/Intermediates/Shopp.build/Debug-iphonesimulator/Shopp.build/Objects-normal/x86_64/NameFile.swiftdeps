@@ -3,16 +3,18 @@ provides-top-level:
 - "NameFile"
 provides-nominal:
 - "5Shopp8NameFileV"
+- "5Shopp8NameFileV6SeguesV"
 - "5Shopp8NameFileV5CellsV"
 - "5Shopp8NameFileV8FirebaseV"
 - "5Shopp8NameFileV8FirebaseV6ItemDBV"
-- "5Shopp8NameFileV8FirebaseV12ImageStorageV"
+- "5Shopp8NameFileV8FirebaseV9ProductDBV"
 provides-member:
 - ["5Shopp8NameFileV", ""]
+- ["5Shopp8NameFileV6SeguesV", ""]
 - ["5Shopp8NameFileV5CellsV", ""]
 - ["5Shopp8NameFileV8FirebaseV", ""]
 - ["5Shopp8NameFileV8FirebaseV6ItemDBV", ""]
-- ["5Shopp8NameFileV8FirebaseV12ImageStorageV", ""]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "NameFile"
@@ -22,6 +24,7 @@ depends-member:
 - ["s7CVarArgP", "init"]
 - ["5Shopp8NameFileV5CellsV", "init"]
 - ["5Shopp8NameFileV5CellsV", "item"]
+- ["5Shopp8NameFileV5CellsV", "product"]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "init"]
@@ -34,12 +37,10 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["5Shopp8NameFileV8FirebaseV", "ImageStorage"]
 - ["5Shopp8NameFileV8FirebaseV", "ItemDB"]
+- ["5Shopp8NameFileV8FirebaseV", "ProductDB"]
 - ["5Shopp8NameFileV8FirebaseV", "init"]
 - ["s8HashableP", "init"]
-- ["5Shopp8NameFileV8FirebaseV12ImageStorageV", "init"]
-- ["5Shopp8NameFileV8FirebaseV12ImageStorageV", "itemImages"]
 - ["5Shopp8NameFileV8FirebaseV6ItemDBV", "description"]
 - ["5Shopp8NameFileV8FirebaseV6ItemDBV", "imageURL"]
 - ["5Shopp8NameFileV8FirebaseV6ItemDBV", "init"]
@@ -52,8 +53,19 @@ depends-member:
 - ["s10MirrorPathP", "init"]
 - ["5Shopp8NameFileV", "Cells"]
 - ["5Shopp8NameFileV", "Firebase"]
+- ["5Shopp8NameFileV", "Segues"]
 - ["5Shopp8NameFileV", "init"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "description"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "imageURL"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "init"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "name"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "price"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "products"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "type"]
 - ["s26RangeReplaceableCollectionP", "init"]
+- ["5Shopp8NameFileV6SeguesV", "init"]
+- ["5Shopp8NameFileV6SeguesV", "toProductVC"]
+- ["5Shopp8NameFileV6SeguesV", "unwindToItems"]
 - ["s8SequenceP", "init"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
@@ -84,12 +96,13 @@ depends-nominal:
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - "5Shopp8NameFileV8FirebaseV"
 - "s8HashableP"
-- "5Shopp8NameFileV8FirebaseV12ImageStorageV"
 - "5Shopp8NameFileV8FirebaseV6ItemDBV"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - "5Shopp8NameFileV"
+- "5Shopp8NameFileV8FirebaseV9ProductDBV"
 - "s26RangeReplaceableCollectionP"
+- "5Shopp8NameFileV6SeguesV"
 - "s8SequenceP"
 - "SS"
 - "s14StringProtocolP"
@@ -113,11 +126,13 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
@@ -220,8 +235,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "124988e8bc4ada8840467faf2f086a7f"
+interface-hash: "ad26aa963706611fc095499c3662dfcd"

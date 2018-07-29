@@ -1,55 +1,221 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "ProductCell"
+- "ItemCell"
 - "Item"
 - "ItemType"
 provides-nominal:
+- "5Shopp11ProductCellC"
+- "5Shopp8ItemCellC"
 - "5Shopp4ItemC"
 - "5Shopp8ItemTypeO"
 provides-member:
+- ["5Shopp11ProductCellC", ""]
+- ["5Shopp8ItemCellC", ""]
 - ["5Shopp4ItemC", ""]
 - ["5Shopp8ItemTypeO", ""]
 provides-dynamic-lookup:
+- "addBtn"
+- "awakeFromNib"
+- "descriptionLabel"
+- "itemImageView"
+- "nameLabel"
+- "priceLabel"
+- "productImageView"
 depends-top-level:
+- !private "/"
 - "=="
 - "AssignmentPrecedence"
+- "AsyncImageView"
+- !private "BooleanLiteralType"
 - "Double"
 - "Item"
+- "ItemCell"
 - "ItemType"
+- "ProductCell"
 - "String"
 - !private "StringLiteralType"
+- "UIButton"
+- "UILabel"
+- "UITableViewCell"
 depends-member:
+- !private ["5Shopp14AsyncImageViewC", "layer"]
+- !private ["5Shopp14AsyncImageViewC", "setFirebaseURL"]
 - !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "dollarCurrency"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So7CALayerC", "masksToBounds"]
+- ["So15CALayerDelegateP", "Item"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addBtn"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "descriptionLabel"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "item"]
+- !private ["So15CALayerDelegateP", "itemImageView"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "nameLabel"]
+- !private ["So15CALayerDelegateP", "priceLabel"]
+- !private ["So15CALayerDelegateP", "product"]
+- !private ["So15CALayerDelegateP", "productImageView"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "setFirebaseURL"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So13CAMediaTimingP", "masksToBounds"]
+- !private ["SC6CGRectV", "width"]
+- ["s7CVarArgP", "Item"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addBtn"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "descriptionLabel"]
+- !private ["s7CVarArgP", "dollarCurrency"]
+- !private ["s7CVarArgP", "frame"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "item"]
+- !private ["s7CVarArgP", "itemImageView"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "masksToBounds"]
+- !private ["s7CVarArgP", "nameLabel"]
+- !private ["s7CVarArgP", "priceLabel"]
+- !private ["s7CVarArgP", "product"]
+- !private ["s7CVarArgP", "productImageView"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "setFirebaseURL"]
+- !private ["s7CVarArgP", "text"]
 - !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "dollarCurrency"]
 - !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Item"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addBtn"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "descriptionLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "dollarCurrency"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
+- !private ["s28CustomDebugStringConvertibleP", "itemImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "nameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "priceLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "product"]
+- !private ["s28CustomDebugStringConvertibleP", "productImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "setFirebaseURL"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "dollarCurrency"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "dollarCurrency"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", "Item"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addBtn"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "descriptionLabel"]
+- !private ["s23CustomStringConvertibleP", "dollarCurrency"]
+- !private ["s23CustomStringConvertibleP", "frame"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- !private ["s23CustomStringConvertibleP", "itemImageView"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "masksToBounds"]
+- !private ["s23CustomStringConvertibleP", "nameLabel"]
+- !private ["s23CustomStringConvertibleP", "priceLabel"]
+- !private ["s23CustomStringConvertibleP", "product"]
+- !private ["s23CustomStringConvertibleP", "productImageView"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "setFirebaseURL"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s9DecodableP", "dollarCurrency"]
 - !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "width"]
+- !private ["Sd", "dollarCurrency"]
+- !private ["s9EncodableP", "dollarCurrency"]
 - !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "width"]
+- ["s9EquatableP", "Item"]
 - ["s9EquatableP", ""]
+- !private ["s9EquatableP", "addBtn"]
+- !private ["s9EquatableP", "awakeFromNib"]
+- !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "descriptionLabel"]
+- !private ["s9EquatableP", "dollarCurrency"]
+- !private ["s9EquatableP", "frame"]
 - ["s9EquatableP", "hashValue"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "item"]
+- !private ["s9EquatableP", "itemImageView"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "masksToBounds"]
+- !private ["s9EquatableP", "nameLabel"]
 - !private ["s9EquatableP", "none"]
+- !private ["s9EquatableP", "priceLabel"]
+- !private ["s9EquatableP", "product"]
+- !private ["s9EquatableP", "productImageView"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "setFirebaseURL"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "width"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "dollarCurrency"]
+- !private ["s27ExpressibleByIntegerLiteralP", "dollarCurrency"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "dollarCurrency"]
+- ["s8HashableP", "Item"]
 - ["s8HashableP", ""]
+- !private ["s8HashableP", "addBtn"]
+- !private ["s8HashableP", "awakeFromNib"]
+- !private ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "descriptionLabel"]
+- !private ["s8HashableP", "dollarCurrency"]
+- !private ["s8HashableP", "frame"]
 - ["s8HashableP", "hashValue"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "item"]
+- !private ["s8HashableP", "itemImageView"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "masksToBounds"]
+- !private ["s8HashableP", "nameLabel"]
 - !private ["s8HashableP", "none"]
+- !private ["s8HashableP", "priceLabel"]
+- !private ["s8HashableP", "product"]
+- !private ["s8HashableP", "productImageView"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "setFirebaseURL"]
+- !private ["s8HashableP", "text"]
 - ["5Shopp4ItemC", "Double"]
 - ["5Shopp4ItemC", "ItemType"]
 - ["5Shopp4ItemC", "String"]
+- ["5Shopp4ItemC", "databaseID"]
 - ["5Shopp4ItemC", "deinit"]
 - ["5Shopp4ItemC", "description"]
 - ["5Shopp4ItemC", "imageURL"]
 - ["5Shopp4ItemC", "init"]
-- ["5Shopp4ItemC", "itemID"]
 - ["5Shopp4ItemC", "name"]
 - ["5Shopp4ItemC", "price"]
 - ["5Shopp4ItemC", "type"]
+- ["5Shopp8ItemCellC", "AsyncImageView"]
+- ["5Shopp8ItemCellC", "Item"]
+- ["5Shopp8ItemCellC", "UILabel"]
+- ["5Shopp8ItemCellC", "awakeFromNib"]
+- ["5Shopp8ItemCellC", "deinit"]
+- ["5Shopp8ItemCellC", "descriptionLabel"]
+- ["5Shopp8ItemCellC", "init"]
+- ["5Shopp8ItemCellC", "item"]
+- ["5Shopp8ItemCellC", "itemImageView"]
+- ["5Shopp8ItemCellC", "nameLabel"]
+- ["5Shopp8ItemCellC", "priceLabel"]
+- !private ["5Shopp8ItemCellC", "reloadData"]
 - ["5Shopp8ItemTypeO", "__derived_enum_equals"]
 - ["5Shopp8ItemTypeO", "clothing"]
 - ["5Shopp8ItemTypeO", "deinit"]
@@ -57,52 +223,469 @@ depends-member:
 - ["5Shopp8ItemTypeO", "hashValue"]
 - ["5Shopp8ItemTypeO", "none"]
 - ["5Shopp8ItemTypeO", "pharmacy"]
+- !private ["s25LosslessStringConvertibleP", "dollarCurrency"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "Item"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addBtn"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "descriptionLabel"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "item"]
+- !private ["So8NSCodingP", "itemImageView"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "masksToBounds"]
+- !private ["So8NSCodingP", "nameLabel"]
+- !private ["So8NSCodingP", "priceLabel"]
+- !private ["So8NSCodingP", "product"]
+- !private ["So8NSCodingP", "productImageView"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "setFirebaseURL"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSObjectC", "AsyncImageView"]
+- ["So8NSObjectC", "Item"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "addBtn"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "descriptionLabel"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "item"]
+- ["So8NSObjectC", "itemImageView"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "masksToBounds"]
+- ["So8NSObjectC", "nameLabel"]
+- ["So8NSObjectC", "priceLabel"]
+- ["So8NSObjectC", "product"]
+- ["So8NSObjectC", "productImageView"]
+- ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "setFirebaseURL"]
+- !private ["So8NSObjectC", "text"]
+- ["So16NSObjectProtocolP", "Item"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addBtn"]
+- !private ["So16NSObjectProtocolP", "awakeFromNib"]
+- !private ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "descriptionLabel"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "item"]
+- !private ["So16NSObjectProtocolP", "itemImageView"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "masksToBounds"]
+- !private ["So16NSObjectProtocolP", "nameLabel"]
+- !private ["So16NSObjectProtocolP", "priceLabel"]
+- !private ["So16NSObjectProtocolP", "product"]
+- !private ["So16NSObjectProtocolP", "productImageView"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "setFirebaseURL"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["s7NumericP", "dollarCurrency"]
+- ["5Shopp11ProductCellC", "AsyncImageView"]
+- ["5Shopp11ProductCellC", "Item"]
+- ["5Shopp11ProductCellC", "UIButton"]
+- ["5Shopp11ProductCellC", "UILabel"]
+- ["5Shopp11ProductCellC", "addBtn"]
+- ["5Shopp11ProductCellC", "awakeFromNib"]
+- ["5Shopp11ProductCellC", "deinit"]
+- ["5Shopp11ProductCellC", "descriptionLabel"]
+- ["5Shopp11ProductCellC", "init"]
+- ["5Shopp11ProductCellC", "nameLabel"]
+- ["5Shopp11ProductCellC", "priceLabel"]
+- ["5Shopp11ProductCellC", "product"]
+- ["5Shopp11ProductCellC", "productImageView"]
+- !private ["5Shopp11ProductCellC", "reloadData"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s8SequenceP", "init"]
+- !private ["s13SignedNumericP", "dollarCurrency"]
+- !private ["s10StrideableP", "dollarCurrency"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setFirebaseURL"]
+- ["So29UIAccessibilityIdentificationP", "Item"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addBtn"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "descriptionLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "item"]
+- !private ["So29UIAccessibilityIdentificationP", "itemImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "nameLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "priceLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "product"]
+- !private ["So29UIAccessibilityIdentificationP", "productImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "setFirebaseURL"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So12UIAppearanceP", "Item"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addBtn"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "descriptionLabel"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "item"]
+- !private ["So12UIAppearanceP", "itemImageView"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "nameLabel"]
+- !private ["So12UIAppearanceP", "priceLabel"]
+- !private ["So12UIAppearanceP", "product"]
+- !private ["So12UIAppearanceP", "productImageView"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "setFirebaseURL"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "Item"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addBtn"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "descriptionLabel"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "item"]
+- !private ["So21UIAppearanceContainerP", "itemImageView"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "nameLabel"]
+- !private ["So21UIAppearanceContainerP", "priceLabel"]
+- !private ["So21UIAppearanceContainerP", "product"]
+- !private ["So21UIAppearanceContainerP", "productImageView"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "setFirebaseURL"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So8UIButtonC", "frame"]
+- !private ["So8UIButtonC", "layer"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "frame"]
+- !private ["So9UIControlC", "layer"]
+- ["So17UICoordinateSpaceP", "Item"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addBtn"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "descriptionLabel"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "item"]
+- !private ["So17UICoordinateSpaceP", "itemImageView"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "nameLabel"]
+- !private ["So17UICoordinateSpaceP", "priceLabel"]
+- !private ["So17UICoordinateSpaceP", "product"]
+- !private ["So17UICoordinateSpaceP", "productImageView"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "setFirebaseURL"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So13UIDynamicItemP", "Item"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addBtn"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "descriptionLabel"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "item"]
+- !private ["So13UIDynamicItemP", "itemImageView"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "nameLabel"]
+- !private ["So13UIDynamicItemP", "priceLabel"]
+- !private ["So13UIDynamicItemP", "product"]
+- !private ["So13UIDynamicItemP", "productImageView"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "setFirebaseURL"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "Item"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addBtn"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "descriptionLabel"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "item"]
+- !private ["So18UIFocusEnvironmentP", "itemImageView"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "nameLabel"]
+- !private ["So18UIFocusEnvironmentP", "priceLabel"]
+- !private ["So18UIFocusEnvironmentP", "product"]
+- !private ["So18UIFocusEnvironmentP", "productImageView"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "setFirebaseURL"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So11UIFocusItemP", "Item"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addBtn"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "descriptionLabel"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "item"]
+- !private ["So11UIFocusItemP", "itemImageView"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "nameLabel"]
+- !private ["So11UIFocusItemP", "priceLabel"]
+- !private ["So11UIFocusItemP", "product"]
+- !private ["So11UIFocusItemP", "productImageView"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "setFirebaseURL"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So27UIGestureRecognizerDelegateP", "Item"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "addBtn"]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "descriptionLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "item"]
+- !private ["So27UIGestureRecognizerDelegateP", "itemImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "nameLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "priceLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "product"]
+- !private ["So27UIGestureRecognizerDelegateP", "productImageView"]
+- !private ["So27UIGestureRecognizerDelegateP", "reloadData"]
+- !private ["So11UIImageViewC", "layer"]
+- !private ["So11UIImageViewC", "setFirebaseURL"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", "Item"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addBtn"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "descriptionLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "item"]
+- !private ["So30UIPasteConfigurationSupportingP", "itemImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "nameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "priceLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "product"]
+- !private ["So30UIPasteConfigurationSupportingP", "productImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "setFirebaseURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "AsyncImageView"]
+- ["So11UIResponderC", "Item"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "addBtn"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "descriptionLabel"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "item"]
+- ["So11UIResponderC", "itemImageView"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "nameLabel"]
+- ["So11UIResponderC", "priceLabel"]
+- ["So11UIResponderC", "product"]
+- ["So11UIResponderC", "productImageView"]
+- ["So11UIResponderC", "reloadData"]
+- !private ["So11UIResponderC", "setFirebaseURL"]
+- !private ["So11UIResponderC", "text"]
+- ["So30UIResponderStandardEditActionsP", "Item"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addBtn"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "descriptionLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "item"]
+- !private ["So30UIResponderStandardEditActionsP", "itemImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "nameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "priceLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "product"]
+- !private ["So30UIResponderStandardEditActionsP", "productImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "setFirebaseURL"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "frame"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "layer"]
+- ["So15UITableViewCellC", "AsyncImageView"]
+- ["So15UITableViewCellC", "Item"]
+- ["So15UITableViewCellC", "UIButton"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "addBtn"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "descriptionLabel"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "item"]
+- ["So15UITableViewCellC", "itemImageView"]
+- ["So15UITableViewCellC", "nameLabel"]
+- ["So15UITableViewCellC", "priceLabel"]
+- ["So15UITableViewCellC", "product"]
+- ["So15UITableViewCellC", "productImageView"]
+- ["So15UITableViewCellC", "reloadData"]
+- ["So18UITraitEnvironmentP", "Item"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addBtn"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "descriptionLabel"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "item"]
+- !private ["So18UITraitEnvironmentP", "itemImageView"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "nameLabel"]
+- !private ["So18UITraitEnvironmentP", "priceLabel"]
+- !private ["So18UITraitEnvironmentP", "product"]
+- !private ["So18UITraitEnvironmentP", "productImageView"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "setFirebaseURL"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So6UIViewC", "AsyncImageView"]
+- ["So6UIViewC", "Item"]
+- ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "addBtn"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "descriptionLabel"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "item"]
+- ["So6UIViewC", "itemImageView"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "nameLabel"]
+- ["So6UIViewC", "priceLabel"]
+- ["So6UIViewC", "product"]
+- ["So6UIViewC", "productImageView"]
+- ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "setFirebaseURL"]
+- !private ["So6UIViewC", "text"]
+- !private ["s15_CVarArgAlignedP", "dollarCurrency"]
+- !private ["s22_CVarArgPassedAsDoubleP", "dollarCurrency"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "Item"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addBtn"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "descriptionLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "item"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "itemImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "nameLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "priceLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "product"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "productImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setFirebaseURL"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "dollarCurrency"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "dollarCurrency"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Item"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addBtn"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "priceLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "product"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFirebaseURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "dollarCurrency"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "5Shopp14AsyncImageViewC"
 - !private "s23BidirectionalCollectionP"
-- !private "s7CVarArgP"
+- !private "s19BinaryFloatingPointP"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
-- !private "s28CustomDebugStringConvertibleP"
+- "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
-- !private "s23CustomStringConvertibleP"
+- "s23CustomStringConvertibleP"
 - !private "s9DecodableP"
+- !private "Sd"
 - !private "s9EncodableP"
 - "s9EquatableP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
 - "s8HashableP"
 - "5Shopp4ItemC"
+- "5Shopp8ItemCellC"
 - "5Shopp8ItemTypeO"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- "5Shopp11ProductCellC"
 - !private "s26RangeReplaceableCollectionP"
 - !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
@@ -116,11 +699,13 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
@@ -223,8 +808,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "b0551e1360dd459548a867c7e84827e3"
+interface-hash: "883b00dbf970fa14429852b9e5dab67e"

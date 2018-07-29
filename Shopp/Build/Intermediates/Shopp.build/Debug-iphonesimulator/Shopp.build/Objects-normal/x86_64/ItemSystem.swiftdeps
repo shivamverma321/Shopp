@@ -9,8 +9,9 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "=="
 - !private "AppStorage"
-- !private "AssignmentPrecedence"
+- "AssignmentPrecedence"
 - !private "CastingPrecedence"
+- !private "Dictionary"
 - "DocumentChangeType"
 - !private "Double"
 - "Error"
@@ -22,6 +23,7 @@ depends-top-level:
 - "NameFile"
 - "Storage"
 - "String"
+- !private "UnicodeScalarType"
 - "Void"
 depends-member:
 - !private ["5Shopp10AppStorageV", "User"]
@@ -35,7 +37,6 @@ depends-member:
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addSnapshotListener"]
 - !private ["s7CVarArgP", "append"]
-- ["s7CVarArgP", "child"]
 - ["s7CVarArgP", "collection"]
 - !private ["s7CVarArgP", "data"]
 - !private ["s7CVarArgP", "delete"]
@@ -46,6 +47,7 @@ depends-member:
 - !private ["s7CVarArgP", "forEach"]
 - ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "reference"]
+- !private ["s7CVarArgP", "setData"]
 - ["s7CVarArgP", "storage"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "type"]
@@ -59,7 +61,6 @@ depends-member:
 - !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "addSnapshotListener"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
-- ["s28CustomDebugStringConvertibleP", "child"]
 - ["s28CustomDebugStringConvertibleP", "collection"]
 - !private ["s28CustomDebugStringConvertibleP", "data"]
 - !private ["s28CustomDebugStringConvertibleP", "delete"]
@@ -70,6 +71,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "forEach"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "reference"]
+- !private ["s28CustomDebugStringConvertibleP", "setData"]
 - ["s28CustomDebugStringConvertibleP", "storage"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "type"]
@@ -84,7 +86,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addSnapshotListener"]
 - !private ["s23CustomStringConvertibleP", "append"]
-- ["s23CustomStringConvertibleP", "child"]
 - ["s23CustomStringConvertibleP", "collection"]
 - !private ["s23CustomStringConvertibleP", "data"]
 - !private ["s23CustomStringConvertibleP", "delete"]
@@ -95,6 +96,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "forEach"]
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "reference"]
+- !private ["s23CustomStringConvertibleP", "setData"]
 - ["s23CustomStringConvertibleP", "storage"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "type"]
@@ -108,6 +110,7 @@ depends-member:
 - !private ["So14DocumentChangeC", "document"]
 - !private ["So14DocumentChangeC", "type"]
 - !private ["So17DocumentReferenceC", "delete"]
+- !private ["So17DocumentReferenceC", "setData"]
 - !private ["So16DocumentSnapshotC", "data"]
 - !private ["So16DocumentSnapshotC", "documentID"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
@@ -118,8 +121,7 @@ depends-member:
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addSnapshotListener"]
 - !private ["s9EquatableP", "append"]
-- ["s9EquatableP", "child"]
-- !private ["s9EquatableP", "clothing"]
+- ["s9EquatableP", "clothing"]
 - ["s9EquatableP", "collection"]
 - !private ["s9EquatableP", "data"]
 - !private ["s9EquatableP", "delete"]
@@ -128,11 +130,12 @@ depends-member:
 - !private ["s9EquatableP", "documentID"]
 - ["s9EquatableP", "firestore"]
 - !private ["s9EquatableP", "forEach"]
-- !private ["s9EquatableP", "grocery"]
+- ["s9EquatableP", "grocery"]
 - ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "none"]
-- !private ["s9EquatableP", "pharmacy"]
+- ["s9EquatableP", "pharmacy"]
 - ["s9EquatableP", "reference"]
+- !private ["s9EquatableP", "setData"]
 - ["s9EquatableP", "storage"]
 - !private ["s9EquatableP", "subscript"]
 - !private ["s9EquatableP", "type"]
@@ -145,14 +148,13 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["5Shopp8NameFileV8FirebaseV", "ImageStorage"]
 - ["5Shopp8NameFileV8FirebaseV", "ItemDB"]
+- ["5Shopp8NameFileV8FirebaseV", "ProductDB"]
 - ["So9FirestoreC", "collection"]
 - ["So9FirestoreC", "firestore"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addSnapshotListener"]
-- ["s8HashableP", "child"]
-- !private ["s8HashableP", "clothing"]
+- ["s8HashableP", "clothing"]
 - ["s8HashableP", "collection"]
 - !private ["s8HashableP", "data"]
 - !private ["s8HashableP", "delete"]
@@ -160,16 +162,21 @@ depends-member:
 - !private ["s8HashableP", "documentChanges"]
 - !private ["s8HashableP", "documentID"]
 - ["s8HashableP", "firestore"]
-- !private ["s8HashableP", "grocery"]
+- ["s8HashableP", "grocery"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "none"]
-- !private ["s8HashableP", "pharmacy"]
+- ["s8HashableP", "pharmacy"]
 - ["s8HashableP", "reference"]
+- !private ["s8HashableP", "setData"]
 - ["s8HashableP", "storage"]
 - !private ["s8HashableP", "type"]
 - !private ["s8HashableP", "whereField"]
-- ["5Shopp8NameFileV8FirebaseV12ImageStorageV", "itemImages"]
+- !private ["5Shopp4ItemC", "description"]
+- !private ["5Shopp4ItemC", "imageURL"]
 - !private ["5Shopp4ItemC", "init"]
+- !private ["5Shopp4ItemC", "name"]
+- !private ["5Shopp4ItemC", "price"]
+- !private ["5Shopp4ItemC", "type"]
 - !private ["5Shopp8NameFileV8FirebaseV6ItemDBV", "description"]
 - !private ["5Shopp8NameFileV8FirebaseV6ItemDBV", "imageURL"]
 - ["5Shopp8NameFileV8FirebaseV6ItemDBV", "items"]
@@ -192,20 +199,25 @@ depends-member:
 - ["5Shopp10ItemSystemC", "Storage"]
 - ["5Shopp10ItemSystemC", "String"]
 - ["5Shopp10ItemSystemC", "Void"]
+- ["5Shopp10ItemSystemC", "addItem"]
 - ["5Shopp10ItemSystemC", "addItemObserver"]
+- ["5Shopp10ItemSystemC", "addProductObserver"]
 - !private ["5Shopp10ItemSystemC", "database"]
 - ["5Shopp10ItemSystemC", "deinit"]
 - ["5Shopp10ItemSystemC", "deleteItem"]
 - ["5Shopp10ItemSystemC", "init"]
-- !private ["5Shopp10ItemSystemC", "itemImages"]
 - !private ["5Shopp10ItemSystemC", "itemRegistrations"]
 - !private ["5Shopp10ItemSystemC", "items"]
+- !private ["5Shopp10ItemSystemC", "productRegistrations"]
+- !private ["5Shopp10ItemSystemC", "products"]
 - ["5Shopp10ItemSystemC", "removeItemObservers"]
+- ["5Shopp10ItemSystemC", "removeProductObservers"]
+- !private ["5Shopp10ItemSystemC", "storage"]
 - ["5Shopp10ItemSystemC", "system"]
-- !private ["5Shopp8ItemTypeO", "clothing"]
-- !private ["5Shopp8ItemTypeO", "grocery"]
+- ["5Shopp8ItemTypeO", "clothing"]
+- ["5Shopp8ItemTypeO", "grocery"]
 - !private ["5Shopp8ItemTypeO", "none"]
-- !private ["5Shopp8ItemTypeO", "pharmacy"]
+- ["5Shopp8ItemTypeO", "pharmacy"]
 - !private ["So20ListenerRegistrationP", "remove"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
@@ -214,7 +226,6 @@ depends-member:
 - !private ["s17MutableCollectionP", "forEach"]
 - ["s17MutableCollectionP", "init"]
 - !private ["So8NSObjectC", "addSnapshotListener"]
-- ["So8NSObjectC", "child"]
 - ["So8NSObjectC", "collection"]
 - !private ["So8NSObjectC", "data"]
 - !private ["So8NSObjectC", "delete"]
@@ -223,11 +234,11 @@ depends-member:
 - !private ["So8NSObjectC", "documentID"]
 - ["So8NSObjectC", "firestore"]
 - ["So8NSObjectC", "reference"]
+- !private ["So8NSObjectC", "setData"]
 - ["So8NSObjectC", "storage"]
 - !private ["So8NSObjectC", "type"]
 - !private ["So8NSObjectC", "whereField"]
 - !private ["So16NSObjectProtocolP", "addSnapshotListener"]
-- ["So16NSObjectProtocolP", "child"]
 - ["So16NSObjectProtocolP", "collection"]
 - !private ["So16NSObjectProtocolP", "data"]
 - !private ["So16NSObjectProtocolP", "delete"]
@@ -237,10 +248,13 @@ depends-member:
 - ["So16NSObjectProtocolP", "firestore"]
 - ["So16NSObjectProtocolP", "reference"]
 - !private ["So16NSObjectProtocolP", "remove"]
+- !private ["So16NSObjectProtocolP", "setData"]
 - ["So16NSObjectProtocolP", "storage"]
 - !private ["So16NSObjectProtocolP", "type"]
 - !private ["So16NSObjectProtocolP", "whereField"]
 - ["5Shopp8NameFileV", "Firebase"]
+- !private ["5Shopp8NameFileV8FirebaseV9ProductDBV", "name"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "products"]
 - !private ["So5QueryC", "addSnapshotListener"]
 - !private ["So5QueryC", "document"]
 - !private ["So5QueryC", "whereField"]
@@ -259,7 +273,6 @@ depends-member:
 - !private ["s8SequenceP", "subscript"]
 - ["So7StorageC", "reference"]
 - ["So7StorageC", "storage"]
-- ["So16StorageReferenceC", "child"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
@@ -278,7 +291,6 @@ depends-member:
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSnapshotListener"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "child"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "collection"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
@@ -287,6 +299,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "documentID"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "firestore"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setData"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "whereField"]
@@ -325,11 +338,10 @@ depends-nominal:
 - "5Shopp8NameFileV8FirebaseV"
 - "So9FirestoreC"
 - "s8HashableP"
-- "5Shopp8NameFileV8FirebaseV12ImageStorageV"
 - !private "5Shopp4ItemC"
 - "5Shopp8NameFileV8FirebaseV6ItemDBV"
 - "5Shopp10ItemSystemC"
-- !private "5Shopp8ItemTypeO"
+- "5Shopp8ItemTypeO"
 - !private "So20ListenerRegistrationP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
@@ -337,6 +349,7 @@ depends-nominal:
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - "5Shopp8NameFileV"
+- "5Shopp8NameFileV8FirebaseV9ProductDBV"
 - !private "So5QueryC"
 - !private "So21QueryDocumentSnapshotC"
 - !private "So13QuerySnapshotC"
@@ -344,7 +357,6 @@ depends-nominal:
 - "s26RangeReplaceableCollectionP"
 - "s8SequenceP"
 - "So7StorageC"
-- "So16StorageReferenceC"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
@@ -372,11 +384,13 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
@@ -479,8 +493,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "f000c1ef2b7fceba944fa03c216b30ee"
+interface-hash: "0372c4a53080bf222629d5dcf03bd323"

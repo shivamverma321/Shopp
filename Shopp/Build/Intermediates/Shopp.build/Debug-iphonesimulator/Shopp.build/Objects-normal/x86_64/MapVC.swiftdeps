@@ -1,0 +1,1115 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapVC"
+provides-nominal:
+- "5Shopp5MapVCC"
+provides-member:
+- ["5Shopp5MapVCC", ""]
+provides-dynamic-lookup:
+- "mapView"
+- "viewDidLoad"
+depends-top-level:
+- !private "+"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "AutoreleasingUnsafeMutablePointer"
+- "CLLocationCoordinate2D"
+- !private "CLLocationDegrees"
+- "CastingPrecedence"
+- !private "JSONSerialization"
+- !private "MKCoordinateRegion"
+- !private "MKCoordinateSpan"
+- "MKMapView"
+- "MKMapViewDelegate"
+- "MKOverlay"
+- "MKOverlayRenderer"
+- "MKPolyline"
+- !private "MKPolylineRenderer"
+- "MapVC"
+- !private "NSArray"
+- !private "NSDictionary"
+- !private "NSURL"
+- !private "NSURLConnection"
+- !private "Pin"
+- !private "String"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLResponse"
+- !private "fatalError"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "add"]
+- !private ["So15CALayerDelegateP", "addAnnotation"]
+- !private ["So15CALayerDelegateP", "centerCoordinate"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "region"]
+- !private ["SC22CLLocationCoordinate2DV", "init"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "MKCoordinateRegion"]
+- !private ["s7CVarArgP", "MKCoordinateSpan"]
+- !private ["s7CVarArgP", "MKPolyline"]
+- !private ["s7CVarArgP", "MKPolylineRenderer"]
+- !private ["s7CVarArgP", "NSURL"]
+- !private ["s7CVarArgP", "NSURLConnection"]
+- !private ["s7CVarArgP", "Pin"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "URLRequest"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "addAnnotation"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "centerCoordinate"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "draw"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "lineWidth"]
+- ["s7CVarArgP", "mapView"]
+- ["s7CVarArgP", "mapViewDidFailLoadingMap"]
+- ["s7CVarArgP", "mapViewDidFinishLoadingMap"]
+- ["s7CVarArgP", "mapViewDidFinishRenderingMap"]
+- ["s7CVarArgP", "mapViewDidStopLocatingUser"]
+- ["s7CVarArgP", "mapViewWillStartLoadingMap"]
+- ["s7CVarArgP", "mapViewWillStartLocatingUser"]
+- ["s7CVarArgP", "mapViewWillStartRenderingMap"]
+- !private ["s7CVarArgP", "orange"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "region"]
+- !private ["s7CVarArgP", "sendSynchronousRequest"]
+- !private ["s7CVarArgP", "strokeColor"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "MKCoordinateRegion"]
+- !private ["s28CustomDebugStringConvertibleP", "MKCoordinateSpan"]
+- !private ["s28CustomDebugStringConvertibleP", "MKPolyline"]
+- !private ["s28CustomDebugStringConvertibleP", "MKPolylineRenderer"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURL"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURLConnection"]
+- !private ["s28CustomDebugStringConvertibleP", "Pin"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "addAnnotation"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "centerCoordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "draw"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "lineWidth"]
+- ["s28CustomDebugStringConvertibleP", "mapView"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidFailLoadingMap"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidFinishLoadingMap"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidFinishRenderingMap"]
+- ["s28CustomDebugStringConvertibleP", "mapViewDidStopLocatingUser"]
+- ["s28CustomDebugStringConvertibleP", "mapViewWillStartLoadingMap"]
+- ["s28CustomDebugStringConvertibleP", "mapViewWillStartLocatingUser"]
+- ["s28CustomDebugStringConvertibleP", "mapViewWillStartRenderingMap"]
+- !private ["s28CustomDebugStringConvertibleP", "orange"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "region"]
+- !private ["s28CustomDebugStringConvertibleP", "sendSynchronousRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "strokeColor"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "orange"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "MKCoordinateRegion"]
+- !private ["s23CustomStringConvertibleP", "MKCoordinateSpan"]
+- !private ["s23CustomStringConvertibleP", "MKPolyline"]
+- !private ["s23CustomStringConvertibleP", "MKPolylineRenderer"]
+- !private ["s23CustomStringConvertibleP", "NSURL"]
+- !private ["s23CustomStringConvertibleP", "NSURLConnection"]
+- !private ["s23CustomStringConvertibleP", "Pin"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "addAnnotation"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "centerCoordinate"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "draw"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "lineWidth"]
+- ["s23CustomStringConvertibleP", "mapView"]
+- ["s23CustomStringConvertibleP", "mapViewDidFailLoadingMap"]
+- ["s23CustomStringConvertibleP", "mapViewDidFinishLoadingMap"]
+- ["s23CustomStringConvertibleP", "mapViewDidFinishRenderingMap"]
+- ["s23CustomStringConvertibleP", "mapViewDidStopLocatingUser"]
+- ["s23CustomStringConvertibleP", "mapViewWillStartLoadingMap"]
+- ["s23CustomStringConvertibleP", "mapViewWillStartLocatingUser"]
+- ["s23CustomStringConvertibleP", "mapViewWillStartRenderingMap"]
+- !private ["s23CustomStringConvertibleP", "orange"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "region"]
+- !private ["s23CustomStringConvertibleP", "sendSynchronousRequest"]
+- !private ["s23CustomStringConvertibleP", "strokeColor"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "orange"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "orange"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "CLLocationCoordinate2D"]
+- !private ["s9EquatableP", "JSONSerialization"]
+- !private ["s9EquatableP", "MKCoordinateRegion"]
+- !private ["s9EquatableP", "MKCoordinateSpan"]
+- !private ["s9EquatableP", "MKPolyline"]
+- !private ["s9EquatableP", "MKPolylineRenderer"]
+- !private ["s9EquatableP", "NSURL"]
+- !private ["s9EquatableP", "NSURLConnection"]
+- !private ["s9EquatableP", "Pin"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "URLRequest"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "add"]
+- !private ["s9EquatableP", "addAnnotation"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "centerCoordinate"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "draw"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "jsonObject"]
+- !private ["s9EquatableP", "lineWidth"]
+- ["s9EquatableP", "mapView"]
+- ["s9EquatableP", "mapViewDidFailLoadingMap"]
+- ["s9EquatableP", "mapViewDidFinishLoadingMap"]
+- ["s9EquatableP", "mapViewDidFinishRenderingMap"]
+- ["s9EquatableP", "mapViewDidStopLocatingUser"]
+- ["s9EquatableP", "mapViewWillStartLoadingMap"]
+- ["s9EquatableP", "mapViewWillStartLocatingUser"]
+- ["s9EquatableP", "mapViewWillStartRenderingMap"]
+- !private ["s9EquatableP", "orange"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "region"]
+- !private ["s9EquatableP", "sendSynchronousRequest"]
+- !private ["s9EquatableP", "strokeColor"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "orange"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CLLocationCoordinate2D"]
+- !private ["s8HashableP", "JSONSerialization"]
+- !private ["s8HashableP", "MKCoordinateRegion"]
+- !private ["s8HashableP", "MKCoordinateSpan"]
+- !private ["s8HashableP", "MKPolyline"]
+- !private ["s8HashableP", "MKPolylineRenderer"]
+- !private ["s8HashableP", "NSURL"]
+- !private ["s8HashableP", "NSURLConnection"]
+- !private ["s8HashableP", "Pin"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "URLRequest"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "add"]
+- !private ["s8HashableP", "addAnnotation"]
+- !private ["s8HashableP", "centerCoordinate"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "draw"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "jsonObject"]
+- !private ["s8HashableP", "lineWidth"]
+- ["s8HashableP", "mapView"]
+- ["s8HashableP", "mapViewDidFailLoadingMap"]
+- ["s8HashableP", "mapViewDidFinishLoadingMap"]
+- ["s8HashableP", "mapViewDidFinishRenderingMap"]
+- ["s8HashableP", "mapViewDidStopLocatingUser"]
+- ["s8HashableP", "mapViewWillStartLoadingMap"]
+- ["s8HashableP", "mapViewWillStartLocatingUser"]
+- ["s8HashableP", "mapViewWillStartRenderingMap"]
+- !private ["s8HashableP", "orange"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "region"]
+- !private ["s8HashableP", "sendSynchronousRequest"]
+- !private ["s8HashableP", "strokeColor"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["So17JSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So12MKAnnotationP", "init"]
+- !private ["SC18MKCoordinateRegionV", "init"]
+- !private ["SC16MKCoordinateSpanV", "init"]
+- !private ["So9MKMapViewC", "add"]
+- !private ["So9MKMapViewC", "addAnnotation"]
+- !private ["So9MKMapViewC", "centerCoordinate"]
+- !private ["So9MKMapViewC", "delegate"]
+- !private ["So9MKMapViewC", "region"]
+- !private ["So17MKMapViewDelegateP", "CLLocationCoordinate2D"]
+- !private ["So17MKMapViewDelegateP", "JSONSerialization"]
+- !private ["So17MKMapViewDelegateP", "MKCoordinateRegion"]
+- !private ["So17MKMapViewDelegateP", "MKCoordinateSpan"]
+- !private ["So17MKMapViewDelegateP", "MKPolyline"]
+- !private ["So17MKMapViewDelegateP", "MKPolylineRenderer"]
+- !private ["So17MKMapViewDelegateP", "NSURL"]
+- !private ["So17MKMapViewDelegateP", "NSURLConnection"]
+- !private ["So17MKMapViewDelegateP", "Pin"]
+- !private ["So17MKMapViewDelegateP", "String"]
+- !private ["So17MKMapViewDelegateP", "URLRequest"]
+- ["So17MKMapViewDelegateP", ""]
+- !private ["So17MKMapViewDelegateP", "draw"]
+- !private ["So17MKMapViewDelegateP", "fatalError"]
+- ["So17MKMapViewDelegateP", "mapView"]
+- ["So17MKMapViewDelegateP", "mapViewDidFailLoadingMap"]
+- ["So17MKMapViewDelegateP", "mapViewDidFinishLoadingMap"]
+- ["So17MKMapViewDelegateP", "mapViewDidFinishRenderingMap"]
+- ["So17MKMapViewDelegateP", "mapViewDidStopLocatingUser"]
+- ["So17MKMapViewDelegateP", "mapViewWillStartLoadingMap"]
+- ["So17MKMapViewDelegateP", "mapViewWillStartLocatingUser"]
+- ["So17MKMapViewDelegateP", "mapViewWillStartRenderingMap"]
+- !private ["So17MKMapViewDelegateP", "print"]
+- !private ["So12MKMultiPointC", "init"]
+- !private ["So9MKOverlayP", "init"]
+- !private ["So21MKOverlayPathRendererC", "init"]
+- !private ["So21MKOverlayPathRendererC", "lineWidth"]
+- !private ["So21MKOverlayPathRendererC", "strokeColor"]
+- !private ["So17MKOverlayRendererC", "init"]
+- !private ["So17MKOverlayRendererC", "lineWidth"]
+- !private ["So17MKOverlayRendererC", "strokeColor"]
+- !private ["So10MKPolylineC", "init"]
+- !private ["So18MKPolylineRendererC", "init"]
+- !private ["So18MKPolylineRendererC", "lineWidth"]
+- !private ["So18MKPolylineRendererC", "strokeColor"]
+- !private ["So7MKShapeC", "init"]
+- !private ["5Shopp5MapVCC", "AutoreleasingUnsafeMutablePointer"]
+- ["5Shopp5MapVCC", "CLLocationCoordinate2D"]
+- !private ["5Shopp5MapVCC", "CLLocationDegrees"]
+- !private ["5Shopp5MapVCC", "JSONSerialization"]
+- !private ["5Shopp5MapVCC", "MKCoordinateRegion"]
+- !private ["5Shopp5MapVCC", "MKCoordinateSpan"]
+- ["5Shopp5MapVCC", "MKMapView"]
+- ["5Shopp5MapVCC", "MKOverlay"]
+- ["5Shopp5MapVCC", "MKOverlayRenderer"]
+- ["5Shopp5MapVCC", "MKPolyline"]
+- !private ["5Shopp5MapVCC", "MKPolylineRenderer"]
+- !private ["5Shopp5MapVCC", "NSArray"]
+- !private ["5Shopp5MapVCC", "NSDictionary"]
+- !private ["5Shopp5MapVCC", "NSURL"]
+- !private ["5Shopp5MapVCC", "NSURLConnection"]
+- !private ["5Shopp5MapVCC", "Pin"]
+- !private ["5Shopp5MapVCC", "String"]
+- !private ["5Shopp5MapVCC", "URL"]
+- !private ["5Shopp5MapVCC", "URLRequest"]
+- !private ["5Shopp5MapVCC", "URLResponse"]
+- ["5Shopp5MapVCC", "deinit"]
+- !private ["5Shopp5MapVCC", "draw"]
+- !private ["5Shopp5MapVCC", "fatalError"]
+- ["5Shopp5MapVCC", "init"]
+- ["5Shopp5MapVCC", "mapView"]
+- ["5Shopp5MapVCC", "mapViewDidFailLoadingMap"]
+- ["5Shopp5MapVCC", "mapViewDidFinishLoadingMap"]
+- ["5Shopp5MapVCC", "mapViewDidFinishRenderingMap"]
+- ["5Shopp5MapVCC", "mapViewDidStopLocatingUser"]
+- ["5Shopp5MapVCC", "mapViewWillStartLoadingMap"]
+- ["5Shopp5MapVCC", "mapViewWillStartLocatingUser"]
+- ["5Shopp5MapVCC", "mapViewWillStartRenderingMap"]
+- !private ["5Shopp5MapVCC", "print"]
+- ["5Shopp5MapVCC", "viewDidLoad"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["So7NSArrayC", "subscript"]
+- !private ["So8NSCodingP", "CLLocationCoordinate2D"]
+- !private ["So8NSCodingP", "JSONSerialization"]
+- !private ["So8NSCodingP", "MKCoordinateRegion"]
+- !private ["So8NSCodingP", "MKCoordinateSpan"]
+- !private ["So8NSCodingP", "MKPolyline"]
+- !private ["So8NSCodingP", "MKPolylineRenderer"]
+- !private ["So8NSCodingP", "NSURL"]
+- !private ["So8NSCodingP", "NSURLConnection"]
+- !private ["So8NSCodingP", "Pin"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "URLRequest"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "add"]
+- !private ["So8NSCodingP", "addAnnotation"]
+- !private ["So8NSCodingP", "centerCoordinate"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "draw"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "mapView"]
+- ["So8NSCodingP", "mapViewDidFailLoadingMap"]
+- ["So8NSCodingP", "mapViewDidFinishLoadingMap"]
+- ["So8NSCodingP", "mapViewDidFinishRenderingMap"]
+- ["So8NSCodingP", "mapViewDidStopLocatingUser"]
+- ["So8NSCodingP", "mapViewWillStartLoadingMap"]
+- ["So8NSCodingP", "mapViewWillStartLocatingUser"]
+- ["So8NSCodingP", "mapViewWillStartRenderingMap"]
+- !private ["So8NSCodingP", "orange"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "region"]
+- !private ["So8NSCodingP", "subscript"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "orange"]
+- !private ["So9NSCopyingP", "subscript"]
+- !private ["So12NSDictionaryC", "subscript"]
+- !private ["So26NSExtensionRequestHandlingP", "CLLocationCoordinate2D"]
+- !private ["So26NSExtensionRequestHandlingP", "JSONSerialization"]
+- !private ["So26NSExtensionRequestHandlingP", "MKCoordinateRegion"]
+- !private ["So26NSExtensionRequestHandlingP", "MKCoordinateSpan"]
+- !private ["So26NSExtensionRequestHandlingP", "MKPolyline"]
+- !private ["So26NSExtensionRequestHandlingP", "MKPolylineRenderer"]
+- !private ["So26NSExtensionRequestHandlingP", "NSURL"]
+- !private ["So26NSExtensionRequestHandlingP", "NSURLConnection"]
+- !private ["So26NSExtensionRequestHandlingP", "Pin"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "URLRequest"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "draw"]
+- !private ["So26NSExtensionRequestHandlingP", "fatalError"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "mapView"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidFailLoadingMap"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidFinishLoadingMap"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidFinishRenderingMap"]
+- ["So26NSExtensionRequestHandlingP", "mapViewDidStopLocatingUser"]
+- ["So26NSExtensionRequestHandlingP", "mapViewWillStartLoadingMap"]
+- ["So26NSExtensionRequestHandlingP", "mapViewWillStartLocatingUser"]
+- ["So26NSExtensionRequestHandlingP", "mapViewWillStartRenderingMap"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So17NSFastEnumerationP", "subscript"]
+- !private ["So20NSFetchRequestResultP", "subscript"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "orange"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "orange"]
+- !private ["So16NSMutableCopyingP", "subscript"]
+- !private ["So8NSObjectC", "AutoreleasingUnsafeMutablePointer"]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectC", "CLLocationDegrees"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- !private ["So8NSObjectC", "MKCoordinateRegion"]
+- !private ["So8NSObjectC", "MKCoordinateSpan"]
+- ["So8NSObjectC", "MKMapView"]
+- ["So8NSObjectC", "MKOverlay"]
+- ["So8NSObjectC", "MKOverlayRenderer"]
+- ["So8NSObjectC", "MKPolyline"]
+- !private ["So8NSObjectC", "MKPolylineRenderer"]
+- !private ["So8NSObjectC", "NSArray"]
+- !private ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSURL"]
+- !private ["So8NSObjectC", "NSURLConnection"]
+- !private ["So8NSObjectC", "Pin"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- !private ["So8NSObjectC", "URLResponse"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "addAnnotation"]
+- !private ["So8NSObjectC", "centerCoordinate"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "draw"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "lineWidth"]
+- ["So8NSObjectC", "mapView"]
+- ["So8NSObjectC", "mapViewDidFailLoadingMap"]
+- ["So8NSObjectC", "mapViewDidFinishLoadingMap"]
+- ["So8NSObjectC", "mapViewDidFinishRenderingMap"]
+- ["So8NSObjectC", "mapViewDidStopLocatingUser"]
+- ["So8NSObjectC", "mapViewWillStartLoadingMap"]
+- ["So8NSObjectC", "mapViewWillStartLocatingUser"]
+- ["So8NSObjectC", "mapViewWillStartRenderingMap"]
+- !private ["So8NSObjectC", "orange"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "region"]
+- !private ["So8NSObjectC", "sendSynchronousRequest"]
+- !private ["So8NSObjectC", "strokeColor"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CLLocationCoordinate2D"]
+- !private ["So16NSObjectProtocolP", "JSONSerialization"]
+- !private ["So16NSObjectProtocolP", "MKCoordinateRegion"]
+- !private ["So16NSObjectProtocolP", "MKCoordinateSpan"]
+- !private ["So16NSObjectProtocolP", "MKPolyline"]
+- !private ["So16NSObjectProtocolP", "MKPolylineRenderer"]
+- !private ["So16NSObjectProtocolP", "NSURL"]
+- !private ["So16NSObjectProtocolP", "NSURLConnection"]
+- !private ["So16NSObjectProtocolP", "Pin"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "URLRequest"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "add"]
+- !private ["So16NSObjectProtocolP", "addAnnotation"]
+- !private ["So16NSObjectProtocolP", "centerCoordinate"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "draw"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "jsonObject"]
+- !private ["So16NSObjectProtocolP", "lineWidth"]
+- ["So16NSObjectProtocolP", "mapView"]
+- ["So16NSObjectProtocolP", "mapViewDidFailLoadingMap"]
+- ["So16NSObjectProtocolP", "mapViewDidFinishLoadingMap"]
+- ["So16NSObjectProtocolP", "mapViewDidFinishRenderingMap"]
+- ["So16NSObjectProtocolP", "mapViewDidStopLocatingUser"]
+- ["So16NSObjectProtocolP", "mapViewWillStartLoadingMap"]
+- ["So16NSObjectProtocolP", "mapViewWillStartLocatingUser"]
+- ["So16NSObjectProtocolP", "mapViewWillStartRenderingMap"]
+- !private ["So16NSObjectProtocolP", "orange"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "region"]
+- !private ["So16NSObjectProtocolP", "sendSynchronousRequest"]
+- !private ["So16NSObjectProtocolP", "strokeColor"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "orange"]
+- !private ["So14NSSecureCodingP", "subscript"]
+- !private ["So5NSURLC", "init"]
+- !private ["So15NSURLConnectionC", "sendSynchronousRequest"]
+- !private ["Sq", "orange"]
+- !private ["5Shopp3PinC", "deinit"]
+- !private ["5Shopp3PinC", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "add"]
+- !private ["So29UIAccessibilityIdentificationP", "addAnnotation"]
+- !private ["So29UIAccessibilityIdentificationP", "centerCoordinate"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "region"]
+- !private ["So12UIAppearanceP", "add"]
+- !private ["So12UIAppearanceP", "addAnnotation"]
+- !private ["So12UIAppearanceP", "centerCoordinate"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "region"]
+- !private ["So21UIAppearanceContainerP", "CLLocationCoordinate2D"]
+- !private ["So21UIAppearanceContainerP", "JSONSerialization"]
+- !private ["So21UIAppearanceContainerP", "MKCoordinateRegion"]
+- !private ["So21UIAppearanceContainerP", "MKCoordinateSpan"]
+- !private ["So21UIAppearanceContainerP", "MKPolyline"]
+- !private ["So21UIAppearanceContainerP", "MKPolylineRenderer"]
+- !private ["So21UIAppearanceContainerP", "NSURL"]
+- !private ["So21UIAppearanceContainerP", "NSURLConnection"]
+- !private ["So21UIAppearanceContainerP", "Pin"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "URLRequest"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "add"]
+- !private ["So21UIAppearanceContainerP", "addAnnotation"]
+- !private ["So21UIAppearanceContainerP", "centerCoordinate"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "draw"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "mapView"]
+- ["So21UIAppearanceContainerP", "mapViewDidFailLoadingMap"]
+- ["So21UIAppearanceContainerP", "mapViewDidFinishLoadingMap"]
+- ["So21UIAppearanceContainerP", "mapViewDidFinishRenderingMap"]
+- ["So21UIAppearanceContainerP", "mapViewDidStopLocatingUser"]
+- ["So21UIAppearanceContainerP", "mapViewWillStartLoadingMap"]
+- ["So21UIAppearanceContainerP", "mapViewWillStartLocatingUser"]
+- ["So21UIAppearanceContainerP", "mapViewWillStartRenderingMap"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "region"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So7UIColorC", "orange"]
+- !private ["So18UIContentContainerP", "CLLocationCoordinate2D"]
+- !private ["So18UIContentContainerP", "JSONSerialization"]
+- !private ["So18UIContentContainerP", "MKCoordinateRegion"]
+- !private ["So18UIContentContainerP", "MKCoordinateSpan"]
+- !private ["So18UIContentContainerP", "MKPolyline"]
+- !private ["So18UIContentContainerP", "MKPolylineRenderer"]
+- !private ["So18UIContentContainerP", "NSURL"]
+- !private ["So18UIContentContainerP", "NSURLConnection"]
+- !private ["So18UIContentContainerP", "Pin"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "URLRequest"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "draw"]
+- !private ["So18UIContentContainerP", "fatalError"]
+- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "mapView"]
+- ["So18UIContentContainerP", "mapViewDidFailLoadingMap"]
+- ["So18UIContentContainerP", "mapViewDidFinishLoadingMap"]
+- ["So18UIContentContainerP", "mapViewDidFinishRenderingMap"]
+- ["So18UIContentContainerP", "mapViewDidStopLocatingUser"]
+- ["So18UIContentContainerP", "mapViewWillStartLoadingMap"]
+- ["So18UIContentContainerP", "mapViewWillStartLocatingUser"]
+- ["So18UIContentContainerP", "mapViewWillStartRenderingMap"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "add"]
+- !private ["So17UICoordinateSpaceP", "addAnnotation"]
+- !private ["So17UICoordinateSpaceP", "centerCoordinate"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "region"]
+- !private ["So13UIDynamicItemP", "add"]
+- !private ["So13UIDynamicItemP", "addAnnotation"]
+- !private ["So13UIDynamicItemP", "centerCoordinate"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "region"]
+- !private ["So18UIFocusEnvironmentP", "CLLocationCoordinate2D"]
+- !private ["So18UIFocusEnvironmentP", "JSONSerialization"]
+- !private ["So18UIFocusEnvironmentP", "MKCoordinateRegion"]
+- !private ["So18UIFocusEnvironmentP", "MKCoordinateSpan"]
+- !private ["So18UIFocusEnvironmentP", "MKPolyline"]
+- !private ["So18UIFocusEnvironmentP", "MKPolylineRenderer"]
+- !private ["So18UIFocusEnvironmentP", "NSURL"]
+- !private ["So18UIFocusEnvironmentP", "NSURLConnection"]
+- !private ["So18UIFocusEnvironmentP", "Pin"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "URLRequest"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "add"]
+- !private ["So18UIFocusEnvironmentP", "addAnnotation"]
+- !private ["So18UIFocusEnvironmentP", "centerCoordinate"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "draw"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "mapView"]
+- ["So18UIFocusEnvironmentP", "mapViewDidFailLoadingMap"]
+- ["So18UIFocusEnvironmentP", "mapViewDidFinishLoadingMap"]
+- ["So18UIFocusEnvironmentP", "mapViewDidFinishRenderingMap"]
+- ["So18UIFocusEnvironmentP", "mapViewDidStopLocatingUser"]
+- ["So18UIFocusEnvironmentP", "mapViewWillStartLoadingMap"]
+- ["So18UIFocusEnvironmentP", "mapViewWillStartLocatingUser"]
+- ["So18UIFocusEnvironmentP", "mapViewWillStartRenderingMap"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "region"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "add"]
+- !private ["So11UIFocusItemP", "addAnnotation"]
+- !private ["So11UIFocusItemP", "centerCoordinate"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "region"]
+- !private ["So30UIPasteConfigurationSupportingP", "CLLocationCoordinate2D"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSONSerialization"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKCoordinateRegion"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKCoordinateSpan"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKPolyline"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKPolylineRenderer"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSURLConnection"]
+- !private ["So30UIPasteConfigurationSupportingP", "Pin"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "URLRequest"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "add"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAnnotation"]
+- !private ["So30UIPasteConfigurationSupportingP", "centerCoordinate"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "draw"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "mapView"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidFailLoadingMap"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidFinishLoadingMap"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidFinishRenderingMap"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewDidStopLocatingUser"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewWillStartLoadingMap"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewWillStartLocatingUser"]
+- ["So30UIPasteConfigurationSupportingP", "mapViewWillStartRenderingMap"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "region"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AutoreleasingUnsafeMutablePointer"]
+- ["So11UIResponderC", "CLLocationCoordinate2D"]
+- !private ["So11UIResponderC", "CLLocationDegrees"]
+- !private ["So11UIResponderC", "JSONSerialization"]
+- !private ["So11UIResponderC", "MKCoordinateRegion"]
+- !private ["So11UIResponderC", "MKCoordinateSpan"]
+- ["So11UIResponderC", "MKMapView"]
+- ["So11UIResponderC", "MKOverlay"]
+- ["So11UIResponderC", "MKOverlayRenderer"]
+- ["So11UIResponderC", "MKPolyline"]
+- !private ["So11UIResponderC", "MKPolylineRenderer"]
+- !private ["So11UIResponderC", "NSArray"]
+- !private ["So11UIResponderC", "NSDictionary"]
+- !private ["So11UIResponderC", "NSURL"]
+- !private ["So11UIResponderC", "NSURLConnection"]
+- !private ["So11UIResponderC", "Pin"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "URLRequest"]
+- !private ["So11UIResponderC", "URLResponse"]
+- !private ["So11UIResponderC", "add"]
+- !private ["So11UIResponderC", "addAnnotation"]
+- !private ["So11UIResponderC", "centerCoordinate"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "draw"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "mapView"]
+- ["So11UIResponderC", "mapViewDidFailLoadingMap"]
+- ["So11UIResponderC", "mapViewDidFinishLoadingMap"]
+- ["So11UIResponderC", "mapViewDidFinishRenderingMap"]
+- ["So11UIResponderC", "mapViewDidStopLocatingUser"]
+- ["So11UIResponderC", "mapViewWillStartLoadingMap"]
+- ["So11UIResponderC", "mapViewWillStartLocatingUser"]
+- ["So11UIResponderC", "mapViewWillStartRenderingMap"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "region"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CLLocationCoordinate2D"]
+- !private ["So30UIResponderStandardEditActionsP", "JSONSerialization"]
+- !private ["So30UIResponderStandardEditActionsP", "MKCoordinateRegion"]
+- !private ["So30UIResponderStandardEditActionsP", "MKCoordinateSpan"]
+- !private ["So30UIResponderStandardEditActionsP", "MKPolyline"]
+- !private ["So30UIResponderStandardEditActionsP", "MKPolylineRenderer"]
+- !private ["So30UIResponderStandardEditActionsP", "NSURL"]
+- !private ["So30UIResponderStandardEditActionsP", "NSURLConnection"]
+- !private ["So30UIResponderStandardEditActionsP", "Pin"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "URLRequest"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "add"]
+- !private ["So30UIResponderStandardEditActionsP", "addAnnotation"]
+- !private ["So30UIResponderStandardEditActionsP", "centerCoordinate"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "draw"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "mapView"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidFailLoadingMap"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidFinishLoadingMap"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidFinishRenderingMap"]
+- ["So30UIResponderStandardEditActionsP", "mapViewDidStopLocatingUser"]
+- ["So30UIResponderStandardEditActionsP", "mapViewWillStartLoadingMap"]
+- ["So30UIResponderStandardEditActionsP", "mapViewWillStartLocatingUser"]
+- ["So30UIResponderStandardEditActionsP", "mapViewWillStartRenderingMap"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "region"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "CLLocationCoordinate2D"]
+- !private ["So16UIStateRestoringP", "JSONSerialization"]
+- !private ["So16UIStateRestoringP", "MKCoordinateRegion"]
+- !private ["So16UIStateRestoringP", "MKCoordinateSpan"]
+- !private ["So16UIStateRestoringP", "MKPolyline"]
+- !private ["So16UIStateRestoringP", "MKPolylineRenderer"]
+- !private ["So16UIStateRestoringP", "NSURL"]
+- !private ["So16UIStateRestoringP", "NSURLConnection"]
+- !private ["So16UIStateRestoringP", "Pin"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "URLRequest"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "draw"]
+- !private ["So16UIStateRestoringP", "fatalError"]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "mapView"]
+- ["So16UIStateRestoringP", "mapViewDidFailLoadingMap"]
+- ["So16UIStateRestoringP", "mapViewDidFinishLoadingMap"]
+- ["So16UIStateRestoringP", "mapViewDidFinishRenderingMap"]
+- ["So16UIStateRestoringP", "mapViewDidStopLocatingUser"]
+- ["So16UIStateRestoringP", "mapViewWillStartLoadingMap"]
+- ["So16UIStateRestoringP", "mapViewWillStartLocatingUser"]
+- ["So16UIStateRestoringP", "mapViewWillStartRenderingMap"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "CLLocationCoordinate2D"]
+- !private ["So18UITraitEnvironmentP", "JSONSerialization"]
+- !private ["So18UITraitEnvironmentP", "MKCoordinateRegion"]
+- !private ["So18UITraitEnvironmentP", "MKCoordinateSpan"]
+- !private ["So18UITraitEnvironmentP", "MKPolyline"]
+- !private ["So18UITraitEnvironmentP", "MKPolylineRenderer"]
+- !private ["So18UITraitEnvironmentP", "NSURL"]
+- !private ["So18UITraitEnvironmentP", "NSURLConnection"]
+- !private ["So18UITraitEnvironmentP", "Pin"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "URLRequest"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "add"]
+- !private ["So18UITraitEnvironmentP", "addAnnotation"]
+- !private ["So18UITraitEnvironmentP", "centerCoordinate"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "draw"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "mapView"]
+- ["So18UITraitEnvironmentP", "mapViewDidFailLoadingMap"]
+- ["So18UITraitEnvironmentP", "mapViewDidFinishLoadingMap"]
+- ["So18UITraitEnvironmentP", "mapViewDidFinishRenderingMap"]
+- ["So18UITraitEnvironmentP", "mapViewDidStopLocatingUser"]
+- ["So18UITraitEnvironmentP", "mapViewWillStartLoadingMap"]
+- ["So18UITraitEnvironmentP", "mapViewWillStartLocatingUser"]
+- ["So18UITraitEnvironmentP", "mapViewWillStartRenderingMap"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "region"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "add"]
+- !private ["So6UIViewC", "addAnnotation"]
+- !private ["So6UIViewC", "centerCoordinate"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "region"]
+- !private ["So16UIViewControllerC", "AutoreleasingUnsafeMutablePointer"]
+- ["So16UIViewControllerC", "CLLocationCoordinate2D"]
+- !private ["So16UIViewControllerC", "CLLocationDegrees"]
+- !private ["So16UIViewControllerC", "JSONSerialization"]
+- !private ["So16UIViewControllerC", "MKCoordinateRegion"]
+- !private ["So16UIViewControllerC", "MKCoordinateSpan"]
+- ["So16UIViewControllerC", "MKMapView"]
+- ["So16UIViewControllerC", "MKOverlay"]
+- ["So16UIViewControllerC", "MKOverlayRenderer"]
+- ["So16UIViewControllerC", "MKPolyline"]
+- !private ["So16UIViewControllerC", "MKPolylineRenderer"]
+- !private ["So16UIViewControllerC", "NSArray"]
+- !private ["So16UIViewControllerC", "NSDictionary"]
+- !private ["So16UIViewControllerC", "NSURL"]
+- !private ["So16UIViewControllerC", "NSURLConnection"]
+- !private ["So16UIViewControllerC", "Pin"]
+- !private ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "URL"]
+- !private ["So16UIViewControllerC", "URLRequest"]
+- !private ["So16UIViewControllerC", "URLResponse"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "draw"]
+- !private ["So16UIViewControllerC", "fatalError"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "mapView"]
+- ["So16UIViewControllerC", "mapViewDidFailLoadingMap"]
+- ["So16UIViewControllerC", "mapViewDidFinishLoadingMap"]
+- ["So16UIViewControllerC", "mapViewDidFinishRenderingMap"]
+- ["So16UIViewControllerC", "mapViewDidStopLocatingUser"]
+- ["So16UIViewControllerC", "mapViewWillStartLoadingMap"]
+- ["So16UIViewControllerC", "mapViewWillStartLocatingUser"]
+- ["So16UIViewControllerC", "mapViewWillStartRenderingMap"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "add"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addAnnotation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "centerCoordinate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "region"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "orange"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateRegion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateSpan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKPolyline"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKPolylineRenderer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURLConnection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Pin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAnnotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centerCoordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "draw"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineWidth"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidFailLoadingMap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidFinishLoadingMap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidFinishRenderingMap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewDidStopLocatingUser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewWillStartLoadingMap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewWillStartLocatingUser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapViewWillStartRenderingMap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "region"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendSynchronousRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "strokeColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "orange"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- !private "SC22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "So17JSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "So12MKAnnotationP"
+- !private "SC18MKCoordinateRegionV"
+- !private "SC16MKCoordinateSpanV"
+- !private "So9MKMapViewC"
+- "So17MKMapViewDelegateP"
+- !private "So12MKMultiPointC"
+- !private "So9MKOverlayP"
+- !private "So21MKOverlayPathRendererC"
+- !private "So17MKOverlayRendererC"
+- !private "So10MKPolylineC"
+- !private "So18MKPolylineRendererC"
+- !private "So7MKShapeC"
+- "5Shopp5MapVCC"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So7NSArrayC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- "So26NSExtensionRequestHandlingP"
+- !private "So17NSFastEnumerationP"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So5NSURLC"
+- !private "So15NSURLConnectionC"
+- !private "Sq"
+- !private "5Shopp3PinC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation10URLRequestV"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Modules/ESPullToRefresh.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Headers/FirebaseFunctions-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSource.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Headers/FIRHTTPSCallable.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTransaction.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRTimestamp.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Headers/FIRError.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Headers/FIRFunctions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Headers/FirebaseFunctions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b472506702491179eb32d96ad2546622"

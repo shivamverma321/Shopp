@@ -60,7 +60,7 @@ class ItemsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         noItemsLabel.isHidden = true
         noItemsDescriptionLabel.isHidden = true
         noItemsAddItemBtn.isHidden = true
-        //add target to noItemsAddItemBtn to new item VC
+        noItemsAddItemBtn.addTarget(self, action: #selector(ItemsVC.segueToProducts(sender:)), for: .touchUpInside)
         
         setUpSearchBar()
         setUpFadeView()
@@ -113,7 +113,7 @@ class ItemsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
             
             self.items = self.items.filter({ (item) -> Bool in
                 for removedItem in removedItems{
-                    if item.itemID == removedItem.itemID { return false }
+                    if item.databaseID == removedItem.databaseID { return false }
                 }
                 return true
             })
@@ -126,7 +126,7 @@ class ItemsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
             
             self.items = self.items.filter({ (item) -> Bool in
                 for modifiedItem in modifiedItems{
-                    if item.itemID == modifiedItem.itemID { return false }
+                    if item.databaseID == modifiedItem.databaseID { return false }
                 }
                 return true
             })
@@ -145,7 +145,9 @@ class ItemsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         addItemBtn.isHidden = false
         fadeView.isHidden = false
         
+        print(items.count)
         if items.count == 0 && !searchInProgress{
+            print("not workiing")
             noItemsLabel.isHidden = false
             noItemsDescriptionLabel.isHidden = false
             noItemsAddItemBtn.isHidden = false
@@ -191,15 +193,17 @@ class ItemsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
         addItemBtn.layer.masksToBounds = true
         addItemBtn.layer.cornerRadius = width/8.0
         
+        view.addSubview(addItemBtn)
+        
         if let tabBarHeight = self.tabBarController?.tabBar.frame.size.height{
             addItemBtn.frame = CGRect(x: view.frame.midX-addItemBtn.frame.size.width/2.0, y: view.frame.maxY-tabBarHeight-addItemBtn.frame.size.height-20.0, width: width, height: height)
-            //add target to segue to add item VC
+            addItemBtn.addTarget(self, action: #selector(ItemsVC.segueToProducts(sender:)), for: .touchUpInside)
         }
     }
     
     private func setUpSearchBar(){
         searchBar.change(textFont: UIFont(name: "Avenir", size: 14))
-        searchBar.placeholder = "Search items"
+        searchBar.placeholder = "Search your items"
     }
     
     private func setUpRefresh(){
@@ -314,12 +318,12 @@ class ItemsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
             
             var removeID = ""
             if searchInProgress{
-                removeID = filteredItems[indexPath.row].itemID
+                removeID = filteredItems[indexPath.row].databaseID
             }else{
-                removeID = items[indexPath.row].itemID
+                removeID = items[indexPath.row].databaseID
             }
 
-            ItemSystem.system.deleteItem(withItemID: removeID) { (error) in
+            ItemSystem.system.deleteItem(withDatabaseID: removeID) { (error) in
                 if error != nil{
                     self.issueAlert(ofType: .requestFailed)
                 }
@@ -327,7 +331,15 @@ class ItemsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIS
             
         }
     }
-
+    
+    @objc private func segueToProducts(sender: Any?){
+        performSegue(withIdentifier: NameFile.Segues.toProductVC, sender: sender)
+    }
+    
+    @IBAction func unwindToItems(segue: UIStoryboardSegue) {
+        print("unwinding")
+    }
+    
     
 }
 

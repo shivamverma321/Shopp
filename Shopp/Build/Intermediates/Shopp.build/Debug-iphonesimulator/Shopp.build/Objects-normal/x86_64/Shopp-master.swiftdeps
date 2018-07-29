@@ -1,13 +1,15 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "9cad002cfe95b2b2fb10d69298172aab"
-build_time: [1532827093, 417030000]
+build_time: [1532843260, 1413000]
 inputs:
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Item.swift": [1532819001, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/ProductVC.swift": [1532843246, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/Item.swift": [1532836018, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/Extensions.swift": [1532821269, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemCell.swift": [1532817323, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemsVC.swift": [1532827089, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Routes/Pin.swift": [1532832795, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/ItemsVC.swift": [1532841817, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppDelegate.swift": [1532825749, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Routes/MapVC.swift": [1532832924, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AsyncImageView.swift": [1532816989, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/NameFile.swift": [1532818954, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemSystem.swift": [1532819251, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/NameFile.swift": [1532841883, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/ItemSystem.swift": [1532841641, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppStorage.swift": [1532817851, 0]

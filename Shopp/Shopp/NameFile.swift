@@ -11,8 +11,14 @@ import UIKit
 
 struct NameFile {
     
+    struct Segues {
+        static let toProductVC = "SegueToProductVC"
+        static let unwindToItems = "UnwindSegueToItems"
+    }
+    
     struct Cells {
         static let item = "ItemCell"
+        static let product = "ProductCell"
     }
     
     struct Firebase {
@@ -26,8 +32,14 @@ struct NameFile {
             static let price = "Price"
             static let imageURL = "ImageURL"
         }
-        struct ImageStorage {
-            static let itemImages = "itemImages"
+        struct ProductDB {
+            static let products = "Products"
+            // product <document> - randomID
+            static let type = "Type"
+            static let name = "Name"
+            static let description = "Description"
+            static let price = "Price"
+            static let imageURL = "ImageURL"
         }
     }
     
