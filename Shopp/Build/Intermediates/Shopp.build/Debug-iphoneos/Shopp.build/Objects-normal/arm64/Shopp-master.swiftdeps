@@ -1,8 +1,8 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "ef7d0f2df61257ba26671b5ffadbabba"
-build_time: [1532890677, 965411000]
+build_time: [1532892769, 262026000]
 inputs:
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/AR/RecognitionVC.swift": [1532890676, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/AR/RecognitionVC.swift": [1532892765, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/ProductVC.swift": [1532845372, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/Item.swift": [1532852122, 0]
   "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/Extensions.swift": [1532845372, 0]

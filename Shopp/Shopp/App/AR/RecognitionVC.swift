@@ -18,7 +18,7 @@ class RecognitionVC: UIViewController, UINavigationControllerDelegate, CLLocatio
     
     var sceneLocationView = SceneLocationView()
     
-    let annotationNode = LocationAnnotationNode(location: CLLocation(coordinate: CLLocationCoordinate2D(latitude: 37.401600, longitude:  -121.977484), altitude: 30), image: UIImage(named: "Arrow")! )
+    let annotationNode = LocationAnnotationNode(location: CLLocation(coordinate: CLLocationCoordinate2D(latitude: 37.401600, longitude:  -121.977484), altitude: 30), image: UIImage(named: "Arrow")!)
     
     var model: Inceptionv3!
     
@@ -64,13 +64,13 @@ extension RecognitionVC: UIImagePickerControllerDelegate {
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        SVProgressHUD.show()
         
         picker.dismiss(animated: true)
         guard let image = info["UIImagePickerControllerOriginalImage"] as? UIImage else {
             return
         }
-        
-        SVProgressHUD.show()
+    
         UIGraphicsBeginImageContextWithOptions(CGSize(width: 299, height: 299), true, 2.0)
         image.draw(in: CGRect(x: 0, y: 0, width: 299, height: 299))
         let newImage = UIGraphicsGetImageFromCurrentImageContext()!
