@@ -1,0 +1,237 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7UIImageC", ""]
+- ["So7UIImageC", "yelpBurstLogoRed"]
+- ["So7UIImageC", "yelpBurstLogoWhite"]
+- ["So7UIImageC", "yelpLogo"]
+- ["So7UIImageC", "yelpLogoOutline"]
+- ["So7UIImageC", "yelpStars"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Bundle"
+- "CDImage"
+- !private "CDYelpFusionKitBundleIdentifier"
+- "CDYelpStars"
+- "CDYelpStarsSize"
+- "String"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So6BundleC", "init"]
+- !private ["15CDYelpFusionKit0A5StarsO", "deinit"]
+- !private ["15CDYelpFusionKit0A5StarsO", "rawValue"]
+- !private ["15CDYelpFusionKit0A9StarsSizeO", "deinit"]
+- !private ["15CDYelpFusionKit0A9StarsSizeO", "rawValue"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CDImage"]
+- !private ["s7CVarArgP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["s7CVarArgP", "cdImage"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CDImage"]
+- !private ["s28CustomDebugStringConvertibleP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "cdImage"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CDImage"]
+- !private ["s23CustomStringConvertibleP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["s23CustomStringConvertibleP", "cdImage"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "CDImage"]
+- !private ["s9EquatableP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["s9EquatableP", "cdImage"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "CDImage"]
+- !private ["s8HashableP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["s8HashableP", "cdImage"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "CDImage"]
+- !private ["So8NSCodingP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["So8NSCodingP", "cdImage"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So21NSItemProviderReadingP", "Bundle"]
+- !private ["So21NSItemProviderReadingP", "CDImage"]
+- !private ["So21NSItemProviderReadingP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["So21NSItemProviderReadingP", "cdImage"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "Bundle"]
+- !private ["So21NSItemProviderWritingP", "CDImage"]
+- !private ["So21NSItemProviderWritingP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["So21NSItemProviderWritingP", "cdImage"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "CDImage"]
+- !private ["So8NSObjectC", "CDYelpFusionKitBundleIdentifier"]
+- ["So8NSObjectC", "CDYelpStars"]
+- ["So8NSObjectC", "CDYelpStarsSize"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "cdImage"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "yelpBurstLogoRed"]
+- ["So8NSObjectC", "yelpBurstLogoWhite"]
+- ["So8NSObjectC", "yelpLogo"]
+- ["So8NSObjectC", "yelpLogoOutline"]
+- ["So8NSObjectC", "yelpStars"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "CDImage"]
+- !private ["So16NSObjectProtocolP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["So16NSObjectProtocolP", "cdImage"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "Bundle"]
+- !private ["So14NSSecureCodingP", "CDImage"]
+- !private ["So14NSSecureCodingP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["So14NSSecureCodingP", "cdImage"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "Bundle"]
+- !private ["So29UIAccessibilityIdentificationP", "CDImage"]
+- !private ["So29UIAccessibilityIdentificationP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["So29UIAccessibilityIdentificationP", "cdImage"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "Bundle"]
+- ["So7UIImageC", "CDImage"]
+- !private ["So7UIImageC", "CDYelpFusionKitBundleIdentifier"]
+- ["So7UIImageC", "CDYelpStars"]
+- ["So7UIImageC", "CDYelpStarsSize"]
+- ["So7UIImageC", "String"]
+- !private ["So7UIImageC", "cdImage"]
+- !private ["So7UIImageC", "init"]
+- ["So7UIImageC", "yelpBurstLogoRed"]
+- ["So7UIImageC", "yelpBurstLogoWhite"]
+- ["So7UIImageC", "yelpLogo"]
+- ["So7UIImageC", "yelpLogoOutline"]
+- ["So7UIImageC", "yelpStars"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "Bundle"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CDImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "cdImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "Bundle"]
+- !private ["s26_ExpressibleByImageLiteralP", "CDImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["s26_ExpressibleByImageLiteralP", "cdImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CDImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CDYelpFusionKitBundleIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cdImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So6BundleC"
+- !private "15CDYelpFusionKit0A5StarsO"
+- !private "15CDYelpFusionKit0A9StarsSizeO"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/CDYelpFusionKit/CDYelpFusionKit-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/CDYelpFusionKit.build/unextended-module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7dff82bc347de4d92b683f500961390f"

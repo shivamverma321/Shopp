@@ -105,7 +105,7 @@ class Item{
     
     init() {
         self.databaseID = ""
-        self.type = .none
+        self.type = .grocery
         self.name = ""
         self.description = ""
         self.price = 0.00
@@ -118,5 +118,4 @@ enum ItemType{
     case grocery
     case clothing
     case pharmacy
-    case none
 }

@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImmutableMappable"
+provides-nominal:
+- "12ObjectMapper17ImmutableMappableP"
+provides-member:
+- ["12ObjectMapper17ImmutableMappableP", ""]
+- ["12ObjectMapper3MapC", ""]
+- ["12ObjectMapper0B0C", ""]
+- ["12ObjectMapper17ImmutableMappableP", "mapping"]
+- ["12ObjectMapper17ImmutableMappableP", "init"]
+- ["12ObjectMapper17ImmutableMappableP", "init"]
+- ["12ObjectMapper17ImmutableMappableP", "init"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper3MapC", "value"]
+- ["12ObjectMapper0B0C", "map"]
+- ["12ObjectMapper0B0C", "map"]
+- ["12ObjectMapper0B0C", "map"]
+- ["12ObjectMapper0B0C", "mapArray"]
+- ["12ObjectMapper0B0C", "mapArray"]
+- ["12ObjectMapper0B0C", "mapArray"]
+- ["12ObjectMapper0B0C", "mapDictionary"]
+- ["12ObjectMapper0B0C", "mapDictionary"]
+- ["12ObjectMapper0B0C", "mapDictionary"]
+- ["12ObjectMapper0B0C", "mapDictionaryOfArrays"]
+- ["12ObjectMapper0B0C", "mapDictionaryOfArrays"]
+- ["12ObjectMapper0B0C", "mapArrayOfArrays"]
+- ["12ObjectMapper0B0C", "mapOrFail"]
+- ["12ObjectMapper0B0C", "mapOrFail"]
+- ["12ObjectMapper0B0C", "mapOrFail"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "BaseMappable"
+- "Bool"
+- "CastingPrecedence"
+- !private "EnumTransform"
+- "ImmutableMappable"
+- "Map"
+- "MapContext"
+- !private "MapError"
+- "Mapper"
+- "RawRepresentable"
+- "StaticString"
+- "String"
+- "StringLiteralType"
+- "TransformType"
+- "UInt"
+- "UnicodeScalarType"
+depends-member:
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "map"]
+- ["12ObjectMapper12BaseMappableP", "Map"]
+- ["12ObjectMapper12BaseMappableP", "MapContext"]
+- !private ["12ObjectMapper12BaseMappableP", "Mapper"]
+- ["12ObjectMapper12BaseMappableP", "String"]
+- ["12ObjectMapper12BaseMappableP", ""]
+- !private ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "mapping"]
+- !private ["s23BidirectionalCollectionP", "compactMap"]
+- !private ["s23BidirectionalCollectionP", "contains"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "filterMap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "compactMap"]
+- !private ["s10CollectionP", "contains"]
+- !private ["s10CollectionP", "filterMap"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "contains"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "filterMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "filterMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "filterMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "compactMap"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "filterMap"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "filterMap"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "compactMap"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "filterMap"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["12ObjectMapper13EnumTransformC", "deinit"]
+- !private ["12ObjectMapper13EnumTransformC", "init"]
+- !private ["s9EquatableP", "compactMap"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "filterMap"]
+- !private ["s9EquatableP", "fromJSON"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "filterMap"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "contains"]
+- !private ["s8HashableP", "fromJSON"]
+- !private ["s8HashableP", "init"]
+- ["12ObjectMapper17ImmutableMappableP", "Map"]
+- ["12ObjectMapper17ImmutableMappableP", "MapContext"]
+- !private ["12ObjectMapper17ImmutableMappableP", "Mapper"]
+- ["12ObjectMapper17ImmutableMappableP", "String"]
+- ["12ObjectMapper17ImmutableMappableP", "init"]
+- ["12ObjectMapper17ImmutableMappableP", "mapping"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["12ObjectMapper3MapC", "BaseMappable"]
+- ["12ObjectMapper3MapC", "Bool"]
+- !private ["12ObjectMapper3MapC", "EnumTransform"]
+- !private ["12ObjectMapper3MapC", "MapError"]
+- !private ["12ObjectMapper3MapC", "Mapper"]
+- ["12ObjectMapper3MapC", "RawRepresentable"]
+- ["12ObjectMapper3MapC", "StaticString"]
+- ["12ObjectMapper3MapC", "String"]
+- ["12ObjectMapper3MapC", "TransformType"]
+- ["12ObjectMapper3MapC", "UInt"]
+- !private ["12ObjectMapper3MapC", "context"]
+- !private ["12ObjectMapper3MapC", "currentValue"]
+- !private ["12ObjectMapper3MapC", "init"]
+- !private ["12ObjectMapper3MapC", "subscript"]
+- ["12ObjectMapper3MapC", "value"]
+- !private ["12ObjectMapper8MapErrorV", "deinit"]
+- !private ["12ObjectMapper8MapErrorV", "init"]
+- ["12ObjectMapper0B0C", "ImmutableMappable"]
+- !private ["12ObjectMapper0B0C", "Map"]
+- !private ["12ObjectMapper0B0C", "MapError"]
+- !private ["12ObjectMapper0B0C", "Mapper"]
+- ["12ObjectMapper0B0C", "N"]
+- ["12ObjectMapper0B0C", "String"]
+- !private ["12ObjectMapper0B0C", "context"]
+- !private ["12ObjectMapper0B0C", "init"]
+- ["12ObjectMapper0B0C", "map"]
+- ["12ObjectMapper0B0C", "mapArray"]
+- ["12ObjectMapper0B0C", "mapArrayOfArrays"]
+- ["12ObjectMapper0B0C", "mapDictionary"]
+- ["12ObjectMapper0B0C", "mapDictionaryOfArrays"]
+- ["12ObjectMapper0B0C", "mapOrFail"]
+- !private ["12ObjectMapper0B0C", "parseJSONString"]
+- !private ["12ObjectMapper0B0C", "parseJSONStringIntoDictionary"]
+- !private ["12ObjectMapper0B0C", "shouldIncludeNilValues"]
+- !private ["12ObjectMapper11MappingTypeO", "fromJSON"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "compactMap"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So16NSObjectProtocolP", "contains"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So8NSStringC", "contains"]
+- !private ["s22RandomAccessCollectionP", "compactMap"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "compactMap"]
+- !private ["s26RangeReplaceableCollectionP", "contains"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s8SequenceP", "compactMap"]
+- !private ["s8SequenceP", "contains"]
+- !private ["s8SequenceP", "filterMap"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "contains"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["12ObjectMapper13TransformTypeP", "Object"]
+- !private ["12ObjectMapper13TransformTypeP", "init"]
+- !private ["12ObjectMapper13TransformTypeP", "transformFromJSON"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "contains"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "contains"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "filterMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "contains"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "12ObjectMapper12BaseMappableP"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- !private "12ObjectMapper13EnumTransformC"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- "12ObjectMapper17ImmutableMappableP"
+- !private "s25LosslessStringConvertibleP"
+- "12ObjectMapper3MapC"
+- !private "12ObjectMapper8MapErrorV"
+- "12ObjectMapper0B0C"
+- !private "12ObjectMapper11MappingTypeO"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "12ObjectMapper13TransformTypeP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/ObjectMapper.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b637c2c4c7ca922e47c25f31692d8435"

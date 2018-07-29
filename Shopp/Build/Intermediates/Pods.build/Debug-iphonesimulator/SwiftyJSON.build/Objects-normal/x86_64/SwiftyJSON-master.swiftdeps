@@ -1,5 +1,5 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "56eb2a595d8fff793389f955da59ee12"
-build_time: [1532843775, 90096000]
+build_time: [1532856757, 543396000]
 inputs:
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1532845371, 0]

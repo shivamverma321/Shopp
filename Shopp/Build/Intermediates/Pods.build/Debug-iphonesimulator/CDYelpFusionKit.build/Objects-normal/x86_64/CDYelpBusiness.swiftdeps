@@ -1,0 +1,218 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CDYelpBusiness"
+provides-nominal:
+- "15CDYelpFusionKit0A8BusinessC"
+provides-member:
+- ["15CDYelpFusionKit0A8BusinessC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<-"
+- "Bool"
+- "CDYelpBusiness"
+- "CDYelpCategory"
+- "CDYelpCoordinates"
+- "CDYelpHour"
+- "CDYelpLocation"
+- "Double"
+- "Int"
+- "Map"
+- "Mappable"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- !private "URLTransform"
+depends-member:
+- !private ["12ObjectMapper12BaseMappableP", "URLTransform"]
+- ["12ObjectMapper12BaseMappableP", ""]
+- !private ["12ObjectMapper12BaseMappableP", "categories"]
+- !private ["12ObjectMapper12BaseMappableP", "coordinates"]
+- !private ["12ObjectMapper12BaseMappableP", "displayPhone"]
+- !private ["12ObjectMapper12BaseMappableP", "distance"]
+- !private ["12ObjectMapper12BaseMappableP", "hours"]
+- !private ["12ObjectMapper12BaseMappableP", "id"]
+- !private ["12ObjectMapper12BaseMappableP", "imageUrl"]
+- ["12ObjectMapper12BaseMappableP", "init"]
+- !private ["12ObjectMapper12BaseMappableP", "isClosed"]
+- !private ["12ObjectMapper12BaseMappableP", "location"]
+- ["12ObjectMapper12BaseMappableP", "mapping"]
+- !private ["12ObjectMapper12BaseMappableP", "name"]
+- !private ["12ObjectMapper12BaseMappableP", "phone"]
+- !private ["12ObjectMapper12BaseMappableP", "photos"]
+- !private ["12ObjectMapper12BaseMappableP", "price"]
+- !private ["12ObjectMapper12BaseMappableP", "rating"]
+- !private ["12ObjectMapper12BaseMappableP", "reviewCount"]
+- !private ["12ObjectMapper12BaseMappableP", "transactions"]
+- !private ["12ObjectMapper12BaseMappableP", "url"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["15CDYelpFusionKit0A8BusinessC", "Bool"]
+- ["15CDYelpFusionKit0A8BusinessC", "CDYelpCategory"]
+- ["15CDYelpFusionKit0A8BusinessC", "CDYelpCoordinates"]
+- ["15CDYelpFusionKit0A8BusinessC", "CDYelpHour"]
+- ["15CDYelpFusionKit0A8BusinessC", "CDYelpLocation"]
+- ["15CDYelpFusionKit0A8BusinessC", "Double"]
+- ["15CDYelpFusionKit0A8BusinessC", "Int"]
+- ["15CDYelpFusionKit0A8BusinessC", "Map"]
+- ["15CDYelpFusionKit0A8BusinessC", "String"]
+- ["15CDYelpFusionKit0A8BusinessC", "URL"]
+- !private ["15CDYelpFusionKit0A8BusinessC", "URLTransform"]
+- ["15CDYelpFusionKit0A8BusinessC", "categories"]
+- ["15CDYelpFusionKit0A8BusinessC", "coordinates"]
+- ["15CDYelpFusionKit0A8BusinessC", "deinit"]
+- ["15CDYelpFusionKit0A8BusinessC", "displayPhone"]
+- ["15CDYelpFusionKit0A8BusinessC", "distance"]
+- ["15CDYelpFusionKit0A8BusinessC", "hours"]
+- ["15CDYelpFusionKit0A8BusinessC", "id"]
+- ["15CDYelpFusionKit0A8BusinessC", "imageUrl"]
+- ["15CDYelpFusionKit0A8BusinessC", "init"]
+- ["15CDYelpFusionKit0A8BusinessC", "isClosed"]
+- ["15CDYelpFusionKit0A8BusinessC", "location"]
+- ["15CDYelpFusionKit0A8BusinessC", "mapping"]
+- ["15CDYelpFusionKit0A8BusinessC", "name"]
+- ["15CDYelpFusionKit0A8BusinessC", "phone"]
+- ["15CDYelpFusionKit0A8BusinessC", "photos"]
+- ["15CDYelpFusionKit0A8BusinessC", "price"]
+- ["15CDYelpFusionKit0A8BusinessC", "rating"]
+- ["15CDYelpFusionKit0A8BusinessC", "reviewCount"]
+- ["15CDYelpFusionKit0A8BusinessC", "transactions"]
+- ["15CDYelpFusionKit0A8BusinessC", "url"]
+- !private ["15CDYelpFusionKit0A8CategoryC", "deinit"]
+- !private ["15CDYelpFusionKit0A11CoordinatesC", "deinit"]
+- !private ["15CDYelpFusionKit0A4HourC", "deinit"]
+- !private ["15CDYelpFusionKit0A8LocationC", "deinit"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper3MapC", "subscript"]
+- !private ["12ObjectMapper8MappableP", "URLTransform"]
+- ["12ObjectMapper8MappableP", ""]
+- !private ["12ObjectMapper8MappableP", "categories"]
+- !private ["12ObjectMapper8MappableP", "coordinates"]
+- !private ["12ObjectMapper8MappableP", "displayPhone"]
+- !private ["12ObjectMapper8MappableP", "distance"]
+- !private ["12ObjectMapper8MappableP", "hours"]
+- !private ["12ObjectMapper8MappableP", "id"]
+- !private ["12ObjectMapper8MappableP", "imageUrl"]
+- ["12ObjectMapper8MappableP", "init"]
+- !private ["12ObjectMapper8MappableP", "isClosed"]
+- !private ["12ObjectMapper8MappableP", "location"]
+- ["12ObjectMapper8MappableP", "mapping"]
+- !private ["12ObjectMapper8MappableP", "name"]
+- !private ["12ObjectMapper8MappableP", "phone"]
+- !private ["12ObjectMapper8MappableP", "photos"]
+- !private ["12ObjectMapper8MappableP", "price"]
+- !private ["12ObjectMapper8MappableP", "rating"]
+- !private ["12ObjectMapper8MappableP", "reviewCount"]
+- !private ["12ObjectMapper8MappableP", "transactions"]
+- !private ["12ObjectMapper8MappableP", "url"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["12ObjectMapper13TransformTypeP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["12ObjectMapper12URLTransformC", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "12ObjectMapper12BaseMappableP"
+- !private "s23BidirectionalCollectionP"
+- "15CDYelpFusionKit0A8BusinessC"
+- !private "15CDYelpFusionKit0A8CategoryC"
+- !private "15CDYelpFusionKit0A11CoordinatesC"
+- !private "15CDYelpFusionKit0A4HourC"
+- !private "15CDYelpFusionKit0A8LocationC"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper3MapC"
+- "12ObjectMapper8MappableP"
+- !private "s10MirrorPathP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "12ObjectMapper13TransformTypeP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "12ObjectMapper12URLTransformC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/CDYelpFusionKit/CDYelpFusionKit-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/CDYelpFusionKit.build/unextended-module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "19e248573d81d16939b87862e38ea756"

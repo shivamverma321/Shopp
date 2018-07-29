@@ -1,0 +1,676 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CDYelpAPIClient"
+provides-nominal:
+- "15CDYelpFusionKit0A9APIClientC"
+provides-member:
+- ["15CDYelpFusionKit0A9APIClientC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "<="
+- !private "=="
+- !private "??"
+- "Alamofire"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CDYelpAPIClient"
+- "CDYelpAttributeFilter"
+- "CDYelpAutoCompleteResponse"
+- "CDYelpBusiness"
+- "CDYelpBusinessCategoryFilter"
+- "CDYelpBusinessMatchType"
+- "CDYelpBusinessSortType"
+- "CDYelpEvent"
+- "CDYelpEventCategoryFilter"
+- "CDYelpEventSortByType"
+- "CDYelpEventSortOnType"
+- "CDYelpEventsResponse"
+- "CDYelpLocale"
+- "CDYelpPriceTier"
+- "CDYelpReviewsResponse"
+- !private "CDYelpRouter"
+- "CDYelpSearchResponse"
+- "CDYelpTransactionType"
+- !private "DataResponse"
+- "Date"
+- "Double"
+- "Int"
+- "NSObject"
+- !private "Parameters"
+- "String"
+- "StringLiteralType"
+- !private "URLSessionConfiguration"
+- "Void"
+- !private "assert"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["Sa", "forEach"]
+- !private ["12ObjectMapper12BaseMappableP", "description"]
+- !private ["12ObjectMapper12BaseMappableP", "error"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["15CDYelpFusionKit0A9APIClientC", "Alamofire"]
+- ["15CDYelpFusionKit0A9APIClientC", "Bool"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpAttributeFilter"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpAutoCompleteResponse"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpBusiness"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpBusinessCategoryFilter"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpBusinessMatchType"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpBusinessSortType"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpEvent"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpEventCategoryFilter"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpEventSortByType"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpEventSortOnType"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpEventsResponse"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpLocale"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpPriceTier"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpReviewsResponse"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "CDYelpRouter"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpSearchResponse"]
+- ["15CDYelpFusionKit0A9APIClientC", "CDYelpTransactionType"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "DataResponse"]
+- ["15CDYelpFusionKit0A9APIClientC", "Date"]
+- ["15CDYelpFusionKit0A9APIClientC", "Double"]
+- ["15CDYelpFusionKit0A9APIClientC", "Int"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "Parameters"]
+- ["15CDYelpFusionKit0A9APIClientC", "String"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "URLSessionConfiguration"]
+- ["15CDYelpFusionKit0A9APIClientC", "Void"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "apiKey"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "assert"]
+- ["15CDYelpFusionKit0A9APIClientC", "autocompleteBusinesses"]
+- ["15CDYelpFusionKit0A9APIClientC", "cancelAllPendingAPIRequests"]
+- ["15CDYelpFusionKit0A9APIClientC", "deinit"]
+- ["15CDYelpFusionKit0A9APIClientC", "fetchBusiness"]
+- ["15CDYelpFusionKit0A9APIClientC", "fetchEvent"]
+- ["15CDYelpFusionKit0A9APIClientC", "fetchFeaturedEvent"]
+- ["15CDYelpFusionKit0A9APIClientC", "fetchReviews"]
+- ["15CDYelpFusionKit0A9APIClientC", "init"]
+- ["15CDYelpFusionKit0A9APIClientC", "isAuthenticated"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "manager"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "manager.storage"]
+- !private ["15CDYelpFusionKit0A9APIClientC", "print"]
+- ["15CDYelpFusionKit0A9APIClientC", "searchBusinesses"]
+- ["15CDYelpFusionKit0A9APIClientC", "searchEvents"]
+- ["15CDYelpFusionKit0A9APIClientC", "searchTransactions"]
+- !private ["15CDYelpFusionKit0A20AutoCompleteResponseC", "deinit"]
+- !private ["15CDYelpFusionKit0A20AutoCompleteResponseC", "error"]
+- !private ["15CDYelpFusionKit0A8BusinessC", "deinit"]
+- !private ["15CDYelpFusionKit0A17BusinessMatchTypeO", "deinit"]
+- !private ["15CDYelpFusionKit0A17BusinessMatchTypeO", "rawValue"]
+- !private ["15CDYelpFusionKit0A5ErrorC", "description"]
+- !private ["15CDYelpFusionKit0A5EventC", "deinit"]
+- !private ["15CDYelpFusionKit0A14EventsResponseC", "deinit"]
+- !private ["15CDYelpFusionKit0A14EventsResponseC", "error"]
+- !private ["15CDYelpFusionKit0A15ReviewsResponseC", "deinit"]
+- !private ["15CDYelpFusionKit0A15ReviewsResponseC", "error"]
+- !private ["15CDYelpFusionKit0A6RouterO", "autocomplete"]
+- !private ["15CDYelpFusionKit0A6RouterO", "business"]
+- !private ["15CDYelpFusionKit0A6RouterO", "deinit"]
+- !private ["15CDYelpFusionKit0A6RouterO", "event"]
+- !private ["15CDYelpFusionKit0A6RouterO", "events"]
+- !private ["15CDYelpFusionKit0A6RouterO", "featuredEvent"]
+- !private ["15CDYelpFusionKit0A6RouterO", "matches"]
+- !private ["15CDYelpFusionKit0A6RouterO", "phone"]
+- !private ["15CDYelpFusionKit0A6RouterO", "reviews"]
+- !private ["15CDYelpFusionKit0A6RouterO", "search"]
+- !private ["15CDYelpFusionKit0A6RouterO", "transactions"]
+- !private ["15CDYelpFusionKit0A14SearchResponseC", "deinit"]
+- !private ["15CDYelpFusionKit0A14SearchResponseC", "error"]
+- !private ["15CDYelpFusionKit0A15TransactionTypeO", "deinit"]
+- !private ["15CDYelpFusionKit0A15TransactionTypeO", "rawValue"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "CDYelpRouter"]
+- !private ["s7CVarArgP", "Parameters"]
+- !private ["s7CVarArgP", "URLSessionConfiguration"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "apiKey"]
+- !private ["s7CVarArgP", "assert"]
+- !private ["s7CVarArgP", "autocompleteParameters"]
+- !private ["s7CVarArgP", "businessParameters"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "eventParameters"]
+- !private ["s7CVarArgP", "eventsParameters"]
+- !private ["s7CVarArgP", "featuredEvent"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "getTasksWithCompletionHandler"]
+- !private ["s7CVarArgP", "httpAdditionalHeaders"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAuthenticated"]
+- !private ["s7CVarArgP", "manager"]
+- !private ["s7CVarArgP", "matchesParameters"]
+- !private ["s7CVarArgP", "phoneParameters"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reviewsParameters"]
+- !private ["s7CVarArgP", "searchParameters"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "transactionsParameters"]
+- !private ["s10CollectionP", "autocompleteParameters"]
+- !private ["s10CollectionP", "businessParameters"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "eventParameters"]
+- !private ["s10CollectionP", "eventsParameters"]
+- !private ["s10CollectionP", "featuredEvent"]
+- !private ["s10CollectionP", "forEach"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "matchesParameters"]
+- !private ["s10CollectionP", "phoneParameters"]
+- !private ["s10CollectionP", "reviewsParameters"]
+- !private ["s10CollectionP", "searchParameters"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "transactionsParameters"]
+- !private ["s10ComparableP", "count"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "CDYelpRouter"]
+- !private ["s28CustomDebugStringConvertibleP", "Parameters"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSessionConfiguration"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "apiKey"]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "autocompleteParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "businessParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "eventParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "eventsParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "featuredEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "getTasksWithCompletionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "httpAdditionalHeaders"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAuthenticated"]
+- !private ["s28CustomDebugStringConvertibleP", "manager"]
+- !private ["s28CustomDebugStringConvertibleP", "matchesParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "phoneParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "responseObject"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "reviewsParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "searchParameters"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "transactionsParameters"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "count"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "autocompleteParameters"]
+- !private ["s17CustomReflectableP", "businessParameters"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "eventParameters"]
+- !private ["s17CustomReflectableP", "eventsParameters"]
+- !private ["s17CustomReflectableP", "featuredEvent"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "matchesParameters"]
+- !private ["s17CustomReflectableP", "phoneParameters"]
+- !private ["s17CustomReflectableP", "reviewsParameters"]
+- !private ["s17CustomReflectableP", "searchParameters"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "transactionsParameters"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "CDYelpRouter"]
+- !private ["s23CustomStringConvertibleP", "Parameters"]
+- !private ["s23CustomStringConvertibleP", "URLSessionConfiguration"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "apiKey"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "autocompleteParameters"]
+- !private ["s23CustomStringConvertibleP", "businessParameters"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "eventParameters"]
+- !private ["s23CustomStringConvertibleP", "eventsParameters"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "featuredEvent"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "getTasksWithCompletionHandler"]
+- !private ["s23CustomStringConvertibleP", "httpAdditionalHeaders"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAuthenticated"]
+- !private ["s23CustomStringConvertibleP", "manager"]
+- !private ["s23CustomStringConvertibleP", "matchesParameters"]
+- !private ["s23CustomStringConvertibleP", "phoneParameters"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "responseObject"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "reviewsParameters"]
+- !private ["s23CustomStringConvertibleP", "searchParameters"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "transactionsParameters"]
+- !private ["9Alamofire11DataRequestC", "responseObject"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "autocompleteParameters"]
+- !private ["s9DecodableP", "businessParameters"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "eventParameters"]
+- !private ["s9DecodableP", "eventsParameters"]
+- !private ["s9DecodableP", "featuredEvent"]
+- !private ["s9DecodableP", "forEach"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "matchesParameters"]
+- !private ["s9DecodableP", "phoneParameters"]
+- !private ["s9DecodableP", "reviewsParameters"]
+- !private ["s9DecodableP", "searchParameters"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "transactionsParameters"]
+- !private ["s10DictionaryV", "autocompleteParameters"]
+- !private ["s10DictionaryV", "businessParameters"]
+- !private ["s10DictionaryV", "eventParameters"]
+- !private ["s10DictionaryV", "eventsParameters"]
+- !private ["s10DictionaryV", "featuredEvent"]
+- !private ["s10DictionaryV", "matchesParameters"]
+- !private ["s10DictionaryV", "phoneParameters"]
+- !private ["s10DictionaryV", "reviewsParameters"]
+- !private ["s10DictionaryV", "searchParameters"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s10DictionaryV", "transactionsParameters"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "autocompleteParameters"]
+- !private ["s9EncodableP", "businessParameters"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "eventParameters"]
+- !private ["s9EncodableP", "eventsParameters"]
+- !private ["s9EncodableP", "featuredEvent"]
+- !private ["s9EncodableP", "forEach"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "matchesParameters"]
+- !private ["s9EncodableP", "phoneParameters"]
+- !private ["s9EncodableP", "reviewsParameters"]
+- !private ["s9EncodableP", "searchParameters"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "transactionsParameters"]
+- !private ["s9EquatableP", "Alamofire"]
+- !private ["s9EquatableP", "CDYelpRouter"]
+- !private ["s9EquatableP", "Parameters"]
+- !private ["s9EquatableP", "URLSessionConfiguration"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "apiKey"]
+- !private ["s9EquatableP", "assert"]
+- !private ["s9EquatableP", "autocompleteParameters"]
+- !private ["s9EquatableP", "businessParameters"]
+- !private ["s9EquatableP", "cancel"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "eventParameters"]
+- !private ["s9EquatableP", "eventsParameters"]
+- !private ["s9EquatableP", "featuredEvent"]
+- !private ["s9EquatableP", "forEach"]
+- !private ["s9EquatableP", "getTasksWithCompletionHandler"]
+- !private ["s9EquatableP", "httpAdditionalHeaders"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isAuthenticated"]
+- !private ["s9EquatableP", "manager"]
+- !private ["s9EquatableP", "matchesParameters"]
+- !private ["s9EquatableP", "phoneParameters"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "reviewsParameters"]
+- !private ["s9EquatableP", "searchParameters"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "transactionsParameters"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "autocompleteParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "businessParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "eventParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "eventsParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "featuredEvent"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "matchesParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "phoneParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "reviewsParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "searchParameters"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "transactionsParameters"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Alamofire"]
+- !private ["s8HashableP", "CDYelpRouter"]
+- !private ["s8HashableP", "Parameters"]
+- !private ["s8HashableP", "URLSessionConfiguration"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "apiKey"]
+- !private ["s8HashableP", "assert"]
+- !private ["s8HashableP", "cancel"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "getTasksWithCompletionHandler"]
+- !private ["s8HashableP", "httpAdditionalHeaders"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isAuthenticated"]
+- !private ["s8HashableP", "manager"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["12ObjectMapper8MappableP", "description"]
+- !private ["12ObjectMapper8MappableP", "error"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So9NSCopyingP", "cancel"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "httpAdditionalHeaders"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So16NSMutableCopyingP", "count"]
+- ["So8NSObjectC", "Alamofire"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CDYelpAttributeFilter"]
+- ["So8NSObjectC", "CDYelpAutoCompleteResponse"]
+- ["So8NSObjectC", "CDYelpBusiness"]
+- ["So8NSObjectC", "CDYelpBusinessCategoryFilter"]
+- ["So8NSObjectC", "CDYelpBusinessMatchType"]
+- ["So8NSObjectC", "CDYelpBusinessSortType"]
+- ["So8NSObjectC", "CDYelpEvent"]
+- ["So8NSObjectC", "CDYelpEventCategoryFilter"]
+- ["So8NSObjectC", "CDYelpEventSortByType"]
+- ["So8NSObjectC", "CDYelpEventSortOnType"]
+- ["So8NSObjectC", "CDYelpEventsResponse"]
+- ["So8NSObjectC", "CDYelpLocale"]
+- ["So8NSObjectC", "CDYelpPriceTier"]
+- ["So8NSObjectC", "CDYelpReviewsResponse"]
+- !private ["So8NSObjectC", "CDYelpRouter"]
+- ["So8NSObjectC", "CDYelpSearchResponse"]
+- ["So8NSObjectC", "CDYelpTransactionType"]
+- !private ["So8NSObjectC", "DataResponse"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Parameters"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URLSessionConfiguration"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "apiKey"]
+- !private ["So8NSObjectC", "assert"]
+- ["So8NSObjectC", "autocompleteBusinesses"]
+- !private ["So8NSObjectC", "cancel"]
+- ["So8NSObjectC", "cancelAllPendingAPIRequests"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "fetchBusiness"]
+- ["So8NSObjectC", "fetchEvent"]
+- ["So8NSObjectC", "fetchFeaturedEvent"]
+- ["So8NSObjectC", "fetchReviews"]
+- !private ["So8NSObjectC", "getTasksWithCompletionHandler"]
+- !private ["So8NSObjectC", "httpAdditionalHeaders"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isAuthenticated"]
+- ["So8NSObjectC", "manager"]
+- ["So8NSObjectC", "manager.storage"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "searchBusinesses"]
+- ["So8NSObjectC", "searchEvents"]
+- ["So8NSObjectC", "searchTransactions"]
+- !private ["So16NSObjectProtocolP", "Alamofire"]
+- !private ["So16NSObjectProtocolP", "CDYelpRouter"]
+- !private ["So16NSObjectProtocolP", "Parameters"]
+- !private ["So16NSObjectProtocolP", "URLSessionConfiguration"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "apiKey"]
+- !private ["So16NSObjectProtocolP", "assert"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "count"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "getTasksWithCompletionHandler"]
+- !private ["So16NSObjectProtocolP", "httpAdditionalHeaders"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isAuthenticated"]
+- !private ["So16NSObjectProtocolP", "manager"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So8NSStringC", "count"]
+- !private ["So17ProgressReportingP", "cancel"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["9Alamofire7RequestC", "responseObject"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- !private ["s8SequenceP", "autocompleteParameters"]
+- !private ["s8SequenceP", "businessParameters"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "eventParameters"]
+- !private ["s8SequenceP", "eventsParameters"]
+- !private ["s8SequenceP", "featuredEvent"]
+- !private ["s8SequenceP", "forEach"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "matchesParameters"]
+- !private ["s8SequenceP", "phoneParameters"]
+- !private ["s8SequenceP", "reviewsParameters"]
+- !private ["s8SequenceP", "searchParameters"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "transactionsParameters"]
+- !private ["9Alamofire14SessionManagerC", "defaultHTTPHeaders"]
+- !private ["9Alamofire14SessionManagerC", "init"]
+- !private ["9Alamofire14SessionManagerC", "request"]
+- !private ["9Alamofire14SessionManagerC", "session"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "count"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "count"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "count"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire21URLRequestConvertibleP", "autocomplete"]
+- !private ["9Alamofire21URLRequestConvertibleP", "business"]
+- !private ["9Alamofire21URLRequestConvertibleP", "event"]
+- !private ["9Alamofire21URLRequestConvertibleP", "events"]
+- !private ["9Alamofire21URLRequestConvertibleP", "featuredEvent"]
+- !private ["9Alamofire21URLRequestConvertibleP", "matches"]
+- !private ["9Alamofire21URLRequestConvertibleP", "phone"]
+- !private ["9Alamofire21URLRequestConvertibleP", "reviews"]
+- !private ["9Alamofire21URLRequestConvertibleP", "search"]
+- !private ["9Alamofire21URLRequestConvertibleP", "transactions"]
+- !private ["So10URLSessionC", "getTasksWithCompletionHandler"]
+- !private ["So23URLSessionConfigurationC", "default"]
+- !private ["So23URLSessionConfigurationC", "httpAdditionalHeaders"]
+- !private ["So18URLSessionDataTaskC", "cancel"]
+- !private ["So22URLSessionDownloadTaskC", "cancel"]
+- !private ["So14URLSessionTaskC", "cancel"]
+- !private ["So20URLSessionUploadTaskC", "cancel"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "count"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "count"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CDYelpRouter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Parameters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "apiKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getTasksWithCompletionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "httpAdditionalHeaders"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAuthenticated"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "manager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "autocompleteParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "businessParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "eventParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "eventsParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "featuredEvent"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "matchesParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "phoneParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "reviewsParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "searchParameters"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "transactionsParameters"]
+- !private ["s16_SwiftStringViewP", "count"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "12ObjectMapper12BaseMappableP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "15CDYelpFusionKit0A9APIClientC"
+- !private "15CDYelpFusionKit0A20AutoCompleteResponseC"
+- !private "15CDYelpFusionKit0A8BusinessC"
+- !private "15CDYelpFusionKit0A17BusinessMatchTypeO"
+- !private "15CDYelpFusionKit0A5ErrorC"
+- !private "15CDYelpFusionKit0A5EventC"
+- !private "15CDYelpFusionKit0A14EventsResponseC"
+- !private "15CDYelpFusionKit0A15ReviewsResponseC"
+- !private "15CDYelpFusionKit0A6RouterO"
+- !private "15CDYelpFusionKit0A14SearchResponseC"
+- !private "15CDYelpFusionKit0A15TransactionTypeO"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper8MappableP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So17ProgressReportingP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- !private "s8SequenceP"
+- !private "9Alamofire14SessionManagerC"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "9Alamofire21URLRequestConvertibleP"
+- !private "So10URLSessionC"
+- !private "So23URLSessionConfigurationC"
+- !private "So18URLSessionDataTaskC"
+- !private "So22URLSessionDownloadTaskC"
+- !private "So14URLSessionTaskC"
+- !private "So20URLSessionUploadTaskC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/CDYelpFusionKit/CDYelpFusionKit-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/AlamofireObjectMapper/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/CDYelpFusionKit.build/unextended-module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "973efa6a8eb870a15f7ce7a0c5402ca5"

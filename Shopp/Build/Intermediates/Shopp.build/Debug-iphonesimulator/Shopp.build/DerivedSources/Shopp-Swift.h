@@ -167,8 +167,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import Foundation;
 @import MapKit;
-@import ObjectiveC;
 @import CoreLocation;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -283,12 +283,18 @@ SWIFT_CLASS("_TtC5Shopp7ItemsVC")
 @class MKMapView;
 @protocol MKOverlay;
 @class MKOverlayRenderer;
+@class CLLocationManager;
+@class CLLocation;
 
 SWIFT_CLASS("_TtC5Shopp5MapVC")
-@interface MapVC : UIViewController <MKMapViewDelegate>
+@interface MapVC : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate>
 @property (nonatomic, weak) IBOutlet MKMapView * _Null_unspecified mapView;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
 - (MKOverlayRenderer * _Nonnull)mapView:(MKMapView * _Nonnull)mapView rendererForOverlay:(id <MKOverlay> _Nonnull)overlay SWIFT_WARN_UNUSED_RESULT;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

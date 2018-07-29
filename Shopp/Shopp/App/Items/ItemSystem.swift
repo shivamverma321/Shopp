@@ -38,7 +38,7 @@ class ItemSystem {
                     let databaseID = documentChange.document.documentID
                     
                     let typeText = data[NameFile.Firebase.ItemDB.type] as! String
-                    var type: ItemType = .none
+                    var type: ItemType = .grocery
                     if typeText == "Grocery"{
                         type = .grocery
                     }else if typeText == "Clothing"{
@@ -84,7 +84,7 @@ class ItemSystem {
                     let databaseID = documentChange.document.documentID
                     
                     let typeText = data[NameFile.Firebase.ItemDB.type] as! String
-                    var type: ItemType = .none
+                    var type: ItemType = .grocery
                     if typeText == "Grocery"{
                         type = .grocery
                     }else if typeText == "Clothing"{
@@ -119,8 +119,6 @@ class ItemSystem {
             textType = "Clothing"
         case .pharmacy:
             textType = "Pharmacy"
-        default:
-            textType = "None"
         }
         items.document().setData([
             NameFile.Firebase.ItemDB.user: AppStorage.User.userID,
