@@ -1,0 +1,305 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Localizable"
+- "PrivateDataAccessLevel"
+- "PrivateDataRequestAccessResult"
+provides-nominal:
+- "14HyperTrackCore11LocalizableP"
+- "14HyperTrackCore22PrivateDataAccessLevelO"
+- "14HyperTrackCore30PrivateDataRequestAccessResultV"
+provides-member:
+- ["14HyperTrackCore11LocalizableP", ""]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", ""]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Localizable"
+- "NSError"
+- !private "NSLocalizedString"
+- "PrivateDataAccessLevel"
+- "PrivateDataRequestAccessResult"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "code"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "localizedDescription"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "localizedDescription"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SQ", "NSLocalizedString"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "code"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "localizedDescription"]
+- ["SQ", "localizedValue"]
+- ["SQ", "rawValue"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "NSLocalizedString"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "code"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "localizedDescription"]
+- ["SH", "localizedValue"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["14HyperTrackCore11LocalizableP", "NSLocalizedString"]
+- ["14HyperTrackCore11LocalizableP", "RawValue"]
+- ["14HyperTrackCore11LocalizableP", "String"]
+- ["14HyperTrackCore11LocalizableP", ""]
+- ["14HyperTrackCore11LocalizableP", "_Default_RawValue"]
+- !private ["14HyperTrackCore11LocalizableP", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore11LocalizableP", "accessLevel"]
+- !private ["14HyperTrackCore11LocalizableP", "error"]
+- !private ["14HyperTrackCore11LocalizableP", "errorMessageKey"]
+- ["14HyperTrackCore11LocalizableP", "hash"]
+- ["14HyperTrackCore11LocalizableP", "hashValue"]
+- ["14HyperTrackCore11LocalizableP", "init"]
+- ["14HyperTrackCore11LocalizableP", "localizedValue"]
+- ["14HyperTrackCore11LocalizableP", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "code"]
+- !private ["So8NSCodingP", "localizedDescription"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So9NSCopyingP", "localizedDescription"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So7NSErrorC", "localizedDescription"]
+- !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectC", "localizedDescription"]
+- !private ["So8NSObjectP", "code"]
+- !private ["So8NSObjectP", "localizedDescription"]
+- !private ["So14NSSecureCodingP", "code"]
+- !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["14HyperTrackCore22PrivateDataAccessLevelO", "NSLocalizedString"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "RawValue"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "String"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "_Default_RawValue"]
+- !private ["14HyperTrackCore22PrivateDataAccessLevelO", "_findStringSwitchCase"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "deinit"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "denied"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "granted"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "grantedAlways"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "grantedWhenInUse"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "hash"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "hashValue"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "init"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "localizedValue"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "rawValue"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "restricted"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "unavailable"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "undetermined"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "NSError"]
+- !private ["14HyperTrackCore30PrivateDataRequestAccessResultV", "NSLocalizedString"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "PrivateDataAccessLevel"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "String"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "accessLevel"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "deinit"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "error"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "errorMessageKey"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "init"]
+- ["14HyperTrackCore30PrivateDataRequestAccessResultV", "localizedValue"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "NSLocalizedString"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "localizedValue"]
+- ["SY", "rawValue"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "14HyperTrackCore11LocalizableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "14HyperTrackCore22PrivateDataAccessLevelO"
+- "14HyperTrackCore30PrivateDataRequestAccessResultV"
+- "Sm"
+- "SY"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6ad326dda1d991c11b4d5d9e7deed1cb"

@@ -1,0 +1,188 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HeartbeatRepeatingTimer"
+provides-nominal:
+- "14HyperTrackCore23HeartbeatRepeatingTimerC"
+provides-member:
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- "AssignmentPrecedence"
+- !private "DispatchSource"
+- "DispatchSourceTimer"
+- !private "FloatLiteralType"
+- "HeartbeatRepeatingTimer"
+- !private "IntegerLiteralType"
+- "TimeInterval"
+- "Void"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "makeTimerSource"]
+- !private ["SL", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "makeTimerSource"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "makeTimerSource"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["So18OS_dispatch_objectC", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceC", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_vnodeP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_recvP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_sendP", "makeTimerSource"]
+- !private ["So33OS_dispatch_source_memorypressureP", "makeTimerSource"]
+- !private ["So23OS_dispatch_source_procP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "resume"]
+- !private ["So18OS_dispatch_sourceP", "schedule"]
+- !private ["So18OS_dispatch_sourceP", "setEventHandler"]
+- !private ["So18OS_dispatch_sourceP", "suspend"]
+- !private ["So23OS_dispatch_source_readP", "makeTimerSource"]
+- !private ["So25OS_dispatch_source_signalP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "resume"]
+- !private ["So24OS_dispatch_source_timerP", "schedule"]
+- !private ["So24OS_dispatch_source_timerP", "setEventHandler"]
+- !private ["So24OS_dispatch_source_timerP", "suspend"]
+- !private ["So27OS_dispatch_source_data_addP", "makeTimerSource"]
+- !private ["So26OS_dispatch_source_data_orP", "makeTimerSource"]
+- !private ["So31OS_dispatch_source_data_replaceP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_writeP", "makeTimerSource"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "makeTimerSource"]
+- !private ["SQ", "now"]
+- !private ["SQ", "resumed"]
+- ["SQ", "suspended"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "makeTimerSource"]
+- !private ["SH", "resumed"]
+- ["SH", "suspended"]
+- !private ["s6HasherV", "combine"]
+- !private ["14HyperTrackCore23HeartbeatRepeatingTimerC", "DispatchSource"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "DispatchSourceTimer"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "State"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "TimeInterval"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "Void"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "eventHandler"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "init"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "reset"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "resume"]
+- !private ["14HyperTrackCore23HeartbeatRepeatingTimerC", "state"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "suspend"]
+- ["14HyperTrackCore23HeartbeatRepeatingTimerC", "timeInterval"]
+- !private ["14HyperTrackCore23HeartbeatRepeatingTimerC", "timer"]
+- !private ["14HyperTrackCore23HeartbeatRepeatingTimerC", "timer.storage"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSObjectC", "makeTimerSource"]
+- !private ["So8NSObjectP", "makeTimerSource"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "schedule"]
+- !private ["So8NSObjectP", "setEventHandler"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So9OS_objectC", "makeTimerSource"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeTimerSource"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So18OS_dispatch_sourceC"
+- !private "So24OS_dispatch_source_vnodeP"
+- !private "So28OS_dispatch_source_mach_recvP"
+- !private "So28OS_dispatch_source_mach_sendP"
+- !private "So33OS_dispatch_source_memorypressureP"
+- !private "So23OS_dispatch_source_procP"
+- !private "So18OS_dispatch_sourceP"
+- !private "So23OS_dispatch_source_readP"
+- !private "So25OS_dispatch_source_signalP"
+- !private "So24OS_dispatch_source_timerP"
+- !private "So27OS_dispatch_source_data_addP"
+- !private "So26OS_dispatch_source_data_orP"
+- !private "So31OS_dispatch_source_data_replaceP"
+- !private "So24OS_dispatch_source_writeP"
+- !private "8Dispatch0A4TimeV"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "14HyperTrackCore23HeartbeatRepeatingTimerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "77df0cbbb9734424655adea2f1c848bb"

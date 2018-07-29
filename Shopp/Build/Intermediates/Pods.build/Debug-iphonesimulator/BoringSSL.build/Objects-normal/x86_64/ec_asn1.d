@@ -21,4 +21,5 @@ dependencies: \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/ec_extra/../fipsmodule/ec/internal.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/ec_extra/../fipsmodule/ec/../bn/internal.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/ec_extra/../fipsmodule/ec/../bn/../../internal.h \
-  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/ec_extra/../bytestring/internal.h
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/ec_extra/../bytestring/internal.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/ec_extra/../internal.h

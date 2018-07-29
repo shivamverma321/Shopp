@@ -1,0 +1,1935 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbstractNetworkConfig"
+- "AbstractDataStoreConfig"
+- "AbstractDispatchConfig"
+- "AbstractTransmissionConfig"
+- "AbstractLocationConfig"
+- "AbstractCollectionConfig"
+- "AbstractActivityConfig"
+- "AbstractServicesConfig"
+- "HeartbeatServiceConfig"
+- "AbstractConfig"
+- "AbstractConfigManager"
+- "ConfigManager"
+- "Config"
+provides-nominal:
+- "14HyperTrackCore21AbstractNetworkConfigP"
+- "14HyperTrackCore23AbstractDataStoreConfigP"
+- "14HyperTrackCore22AbstractDispatchConfigP"
+- "14HyperTrackCore26AbstractTransmissionConfigP"
+- "14HyperTrackCore22AbstractLocationConfigP"
+- "14HyperTrackCore24AbstractCollectionConfigP"
+- "14HyperTrackCore22AbstractActivityConfigP"
+- "14HyperTrackCore22AbstractServicesConfigP"
+- "14HyperTrackCore22HeartbeatServiceConfigP"
+- "14HyperTrackCore14AbstractConfigP"
+- "14HyperTrackCore21AbstractConfigManagerP"
+- "14HyperTrackCore13ConfigManagerC"
+- "14HyperTrackCore6ConfigC"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV"
+- "14HyperTrackCore6ConfigC8DispatchV0E4TypeO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- "14HyperTrackCore6ConfigC8LocationV14PermissionTypeO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ActivityV"
+- "14HyperTrackCore6ConfigC8ServicesV"
+- "14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+provides-member:
+- ["14HyperTrackCore21AbstractNetworkConfigP", ""]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", ""]
+- ["14HyperTrackCore22AbstractDispatchConfigP", ""]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", ""]
+- ["14HyperTrackCore22AbstractLocationConfigP", ""]
+- ["14HyperTrackCore24AbstractCollectionConfigP", ""]
+- ["14HyperTrackCore22AbstractActivityConfigP", ""]
+- ["14HyperTrackCore22AbstractServicesConfigP", ""]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", ""]
+- ["14HyperTrackCore14AbstractConfigP", ""]
+- ["14HyperTrackCore21AbstractConfigManagerP", ""]
+- ["14HyperTrackCore13ConfigManagerC", ""]
+- ["14HyperTrackCore6ConfigC", ""]
+- ["14HyperTrackCore6ConfigC4KeysO", ""]
+- ["14HyperTrackCore6ConfigC7NetworkV", ""]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", ""]
+- ["14HyperTrackCore6ConfigC9DataStoreV", ""]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", ""]
+- ["14HyperTrackCore6ConfigC8DispatchV", ""]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", ""]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", ""]
+- ["14HyperTrackCore6ConfigC12TransmissionV", ""]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", ""]
+- ["14HyperTrackCore6ConfigC8LocationV", ""]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", ""]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", ""]
+- ["14HyperTrackCore6ConfigC8ActivityV", ""]
+- ["14HyperTrackCore6ConfigC8ServicesV", ""]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", ""]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", ""]
+- ["14HyperTrackCore6ConfigC10CollectionV", ""]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", ""]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", ""]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", ""]
+- ["14HyperTrackCore6ConfigC", "Network"]
+- ["14HyperTrackCore6ConfigC", "DataStore"]
+- ["14HyperTrackCore6ConfigC", "Dispatch"]
+- ["14HyperTrackCore6ConfigC", "Transmission"]
+- ["14HyperTrackCore6ConfigC", "Location"]
+- ["14HyperTrackCore6ConfigC", "Activity"]
+- ["14HyperTrackCore6ConfigC", "Services"]
+- ["14HyperTrackCore6ConfigC", "Collection"]
+- ["14HyperTrackCore6ConfigC", "HeartbeatService"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AbstractActivityConfig"
+- "AbstractCollectionConfig"
+- "AbstractConfig"
+- "AbstractConfigManager"
+- "AbstractDataStoreConfig"
+- "AbstractDispatchConfig"
+- "AbstractFileStorage"
+- "AbstractLocationConfig"
+- "AbstractLogger"
+- "AbstractNetworkConfig"
+- "AbstractServicesConfig"
+- "AbstractTransmissionConfig"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "Codable"
+- "CodingKey"
+- "Config"
+- "ConfigManager"
+- !private "Constant"
+- "CustomStringConvertible"
+- "Decoder"
+- "Double"
+- "Encoder"
+- "FloatLiteralType"
+- "HeartbeatServiceConfig"
+- "Int"
+- "IntegerLiteralType"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "TimeInterval"
+- "UInt"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["14HyperTrackCore22AbstractActivityConfigP", "Activity"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "Bool"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "Collection"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "Config"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "Constant"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "DataStore"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "Dispatch"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "Double"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "Int"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "Keys"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "Location"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "Network"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "Services"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "String"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "TimeInterval"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "Transmission"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "UInt"]
+- ["14HyperTrackCore22AbstractActivityConfigP", ""]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "activity"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "collection"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "dataStore"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "dispatch"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "encode"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "heartbeat"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "init"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "location"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "network"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "services"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "transmission"]
+- !private ["14HyperTrackCore22AbstractActivityConfigP", "update"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Activity"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "Bool"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Collection"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Config"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "Constant"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "DataStore"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Dispatch"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "Double"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "Int"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "Keys"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Location"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Network"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Services"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "String"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "TimeInterval"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Transmission"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "UInt"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", ""]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "activity"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "collection"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "dataStore"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "dispatch"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "encode"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "heartbeat"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "init"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "location"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "network"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "services"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "transmission"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "update"]
+- ["14HyperTrackCore14AbstractConfigP", "Activity"]
+- !private ["14HyperTrackCore14AbstractConfigP", "Bool"]
+- ["14HyperTrackCore14AbstractConfigP", "Collection"]
+- ["14HyperTrackCore14AbstractConfigP", "Config"]
+- !private ["14HyperTrackCore14AbstractConfigP", "Constant"]
+- ["14HyperTrackCore14AbstractConfigP", "DataStore"]
+- ["14HyperTrackCore14AbstractConfigP", "Dispatch"]
+- !private ["14HyperTrackCore14AbstractConfigP", "Double"]
+- ["14HyperTrackCore14AbstractConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore14AbstractConfigP", "Int"]
+- !private ["14HyperTrackCore14AbstractConfigP", "Keys"]
+- ["14HyperTrackCore14AbstractConfigP", "Location"]
+- ["14HyperTrackCore14AbstractConfigP", "Network"]
+- ["14HyperTrackCore14AbstractConfigP", "Services"]
+- !private ["14HyperTrackCore14AbstractConfigP", "String"]
+- !private ["14HyperTrackCore14AbstractConfigP", "TimeInterval"]
+- ["14HyperTrackCore14AbstractConfigP", "Transmission"]
+- !private ["14HyperTrackCore14AbstractConfigP", "UInt"]
+- ["14HyperTrackCore14AbstractConfigP", ""]
+- !private ["14HyperTrackCore14AbstractConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore14AbstractConfigP", "activity"]
+- ["14HyperTrackCore14AbstractConfigP", "collection"]
+- ["14HyperTrackCore14AbstractConfigP", "dataStore"]
+- ["14HyperTrackCore14AbstractConfigP", "dispatch"]
+- ["14HyperTrackCore14AbstractConfigP", "encode"]
+- ["14HyperTrackCore14AbstractConfigP", "heartbeat"]
+- ["14HyperTrackCore14AbstractConfigP", "init"]
+- ["14HyperTrackCore14AbstractConfigP", "location"]
+- ["14HyperTrackCore14AbstractConfigP", "network"]
+- ["14HyperTrackCore14AbstractConfigP", "services"]
+- ["14HyperTrackCore14AbstractConfigP", "transmission"]
+- !private ["14HyperTrackCore14AbstractConfigP", "update"]
+- ["14HyperTrackCore21AbstractConfigManagerP", "Config"]
+- !private ["14HyperTrackCore21AbstractConfigManagerP", "Constant"]
+- ["14HyperTrackCore21AbstractConfigManagerP", "String"]
+- ["14HyperTrackCore21AbstractConfigManagerP", ""]
+- ["14HyperTrackCore21AbstractConfigManagerP", "config"]
+- !private ["14HyperTrackCore21AbstractConfigManagerP", "fileName"]
+- !private ["14HyperTrackCore21AbstractConfigManagerP", "init"]
+- !private ["14HyperTrackCore21AbstractConfigManagerP", "logger"]
+- ["14HyperTrackCore21AbstractConfigManagerP", "save"]
+- !private ["14HyperTrackCore21AbstractConfigManagerP", "storage"]
+- ["14HyperTrackCore21AbstractConfigManagerP", "updateConfig"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Activity"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "Bool"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Collection"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Config"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "Constant"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "DataStore"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Dispatch"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "Double"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "Int"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "Keys"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Location"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Network"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Services"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "String"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "TimeInterval"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Transmission"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "UInt"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", ""]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "activity"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "collection"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "dataStore"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "dispatch"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "encode"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "heartbeat"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "init"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "location"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "network"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "services"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "transmission"]
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "update"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Activity"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "Bool"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Collection"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Config"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "Constant"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "DataStore"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Dispatch"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "Double"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "Int"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "Keys"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Location"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Network"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Services"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "String"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "TimeInterval"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Transmission"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "UInt"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", ""]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "activity"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "collection"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "dataStore"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "dispatch"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "encode"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "heartbeat"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "init"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "location"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "network"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "services"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "transmission"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "update"]
+- !private ["14HyperTrackCore19AbstractFileStorageP", "retrieve"]
+- !private ["14HyperTrackCore19AbstractFileStorageP", "store"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Activity"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "Bool"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Collection"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Config"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "Constant"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "DataStore"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Dispatch"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "Double"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "Int"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "Keys"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Location"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Network"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Services"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "String"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "TimeInterval"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Transmission"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "UInt"]
+- ["14HyperTrackCore22AbstractLocationConfigP", ""]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "activity"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "collection"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "dataStore"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "dispatch"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "encode"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "heartbeat"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "init"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "location"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "network"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "services"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "transmission"]
+- !private ["14HyperTrackCore22AbstractLocationConfigP", "update"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "logError"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Activity"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "Bool"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Collection"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Config"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "Constant"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "DataStore"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Dispatch"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "Double"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "Int"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "Keys"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Location"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Network"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Services"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "String"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "TimeInterval"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Transmission"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "UInt"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", ""]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "activity"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "collection"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "dataStore"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "dispatch"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "encode"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "heartbeat"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "init"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "location"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "network"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "services"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "transmission"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "update"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Activity"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "Bool"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Collection"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Config"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "Constant"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "DataStore"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Dispatch"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "Double"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "Int"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "Keys"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Location"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Network"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Services"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "String"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "TimeInterval"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Transmission"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "UInt"]
+- ["14HyperTrackCore22AbstractServicesConfigP", ""]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "activity"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "collection"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "dataStore"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "dispatch"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "encode"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "heartbeat"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "init"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "location"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "network"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "services"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "transmission"]
+- !private ["14HyperTrackCore22AbstractServicesConfigP", "update"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Activity"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "Bool"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Collection"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Config"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "Constant"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "DataStore"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Dispatch"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "Double"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "Int"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "Keys"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Location"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Network"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Services"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "String"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "TimeInterval"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Transmission"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "UInt"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", ""]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "activity"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "collection"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "dataStore"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "dispatch"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "encode"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "heartbeat"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "init"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "location"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "network"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "services"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "transmission"]
+- !private ["14HyperTrackCore26AbstractTransmissionConfigP", "update"]
+- ["14HyperTrackCore6ConfigC8ActivityV", "Decoder"]
+- ["14HyperTrackCore6ConfigC8ActivityV", "Encoder"]
+- ["14HyperTrackCore6ConfigC8ActivityV", "deinit"]
+- ["14HyperTrackCore6ConfigC8ActivityV", "encode"]
+- ["14HyperTrackCore6ConfigC8ActivityV", "init"]
+- !private ["Sa", "compactMap"]
+- !private ["s13ArrayProtocolP", "compactMap"]
+- !private ["SK", "compactMap"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "Activity"]
+- !private ["s7CVarArgP", "Bool"]
+- ["s7CVarArgP", "Collection"]
+- ["s7CVarArgP", "Config"]
+- !private ["s7CVarArgP", "Constant"]
+- ["s7CVarArgP", "DataStore"]
+- ["s7CVarArgP", "Dispatch"]
+- !private ["s7CVarArgP", "Double"]
+- ["s7CVarArgP", "HeartbeatService"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "Keys"]
+- ["s7CVarArgP", "Location"]
+- ["s7CVarArgP", "Network"]
+- ["s7CVarArgP", "Services"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "TimeInterval"]
+- ["s7CVarArgP", "Transmission"]
+- !private ["s7CVarArgP", "UInt"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_findStringSwitchCase"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "activity"]
+- ["s7CVarArgP", "collection"]
+- !private ["s7CVarArgP", "compactMap"]
+- ["s7CVarArgP", "dataStore"]
+- ["s7CVarArgP", "dispatch"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "heartbeat"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "location"]
+- ["s7CVarArgP", "network"]
+- ["s7CVarArgP", "services"]
+- ["s7CVarArgP", "transmission"]
+- !private ["s7CVarArgP", "update"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- !private ["s9CodingKeyP", "activity"]
+- !private ["s9CodingKeyP", "backgroundLocationUpdates"]
+- !private ["s9CodingKeyP", "batchSize"]
+- !private ["s9CodingKeyP", "collection"]
+- !private ["s9CodingKeyP", "dataStore"]
+- !private ["s9CodingKeyP", "dataStoreSuitName"]
+- !private ["s9CodingKeyP", "debounce"]
+- ["s9CodingKeyP", "debugDescription"]
+- !private ["s9CodingKeyP", "deferredLocationUpdatesDistance"]
+- !private ["s9CodingKeyP", "deferredLocationUpdatesTimeout"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "desiredAccuracy"]
+- !private ["s9CodingKeyP", "dispatch"]
+- !private ["s9CodingKeyP", "distanceFilter"]
+- !private ["s9CodingKeyP", "frequency"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "heartbeat"]
+- !private ["s9CodingKeyP", "host"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "isFiltering"]
+- !private ["s9CodingKeyP", "location"]
+- !private ["s9CodingKeyP", "network"]
+- !private ["s9CodingKeyP", "onlySignificantLocationUpdates"]
+- !private ["s9CodingKeyP", "pausesLocationUpdatesAutomatically"]
+- !private ["s9CodingKeyP", "permissionType"]
+- !private ["s9CodingKeyP", "pingInterval"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "retryCount"]
+- !private ["s9CodingKeyP", "services"]
+- !private ["s9CodingKeyP", "showsBackgroundLocationIndicator"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "throttle"]
+- !private ["s9CodingKeyP", "timeoutInterval"]
+- !private ["s9CodingKeyP", "toPing"]
+- !private ["s9CodingKeyP", "tolerance"]
+- !private ["s9CodingKeyP", "transmission"]
+- !private ["s9CodingKeyP", "type"]
+- !private ["s9CodingKeyP", "types"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "Bool"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "CodingKey"]
+- !private ["14HyperTrackCore6ConfigC10CollectionV", "Constant"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "Decoder"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "Encoder"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "Keys"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "String"]
+- !private ["14HyperTrackCore6ConfigC10CollectionV", "_findStringSwitchCase"]
+- !private ["Sl", "compactMap"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "deinit"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "encode"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "init"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["14HyperTrackCore6ConfigC10CollectionV", "isFiltering"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO10CollectionO", "isFiltering"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["14HyperTrackCore6ConfigC", "Activity"]
+- ["14HyperTrackCore6ConfigC", "Bool"]
+- ["14HyperTrackCore6ConfigC", "Codable"]
+- ["14HyperTrackCore6ConfigC", "CodingKey"]
+- ["14HyperTrackCore6ConfigC", "Collection"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Collection"]
+- ["14HyperTrackCore6ConfigC", "Config"]
+- !private ["14HyperTrackCore6ConfigC", "Constant"]
+- ["14HyperTrackCore6ConfigC", "CustomStringConvertible"]
+- ["14HyperTrackCore6ConfigC", "DataStore"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "DataStore"]
+- ["14HyperTrackCore6ConfigC", "Decoder"]
+- ["14HyperTrackCore6ConfigC", "Dispatch"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Dispatch"]
+- ["14HyperTrackCore6ConfigC", "Double"]
+- ["14HyperTrackCore6ConfigC", "Encoder"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Heartbeat"]
+- ["14HyperTrackCore6ConfigC", "HeartbeatService"]
+- ["14HyperTrackCore6ConfigC", "Int"]
+- ["14HyperTrackCore6ConfigC", "Keys"]
+- ["14HyperTrackCore6ConfigC", "Location"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Location"]
+- ["14HyperTrackCore6ConfigC", "Network"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Network"]
+- ["14HyperTrackCore6ConfigC", "Services"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Services"]
+- ["14HyperTrackCore6ConfigC", "String"]
+- ["14HyperTrackCore6ConfigC", "TimeInterval"]
+- ["14HyperTrackCore6ConfigC", "Transmission"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Transmission"]
+- ["14HyperTrackCore6ConfigC", "UInt"]
+- !private ["14HyperTrackCore6ConfigC", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC", "activity"]
+- ["14HyperTrackCore6ConfigC", "collection"]
+- ["14HyperTrackCore6ConfigC", "dataStore"]
+- ["14HyperTrackCore6ConfigC", "default"]
+- ["14HyperTrackCore6ConfigC", "deinit"]
+- ["14HyperTrackCore6ConfigC", "dispatch"]
+- ["14HyperTrackCore6ConfigC", "encode"]
+- ["14HyperTrackCore6ConfigC", "heartbeat"]
+- ["14HyperTrackCore6ConfigC", "init"]
+- ["14HyperTrackCore6ConfigC", "location"]
+- ["14HyperTrackCore6ConfigC", "network"]
+- ["14HyperTrackCore6ConfigC", "services"]
+- ["14HyperTrackCore6ConfigC", "transmission"]
+- ["14HyperTrackCore6ConfigC", "update"]
+- ["14HyperTrackCore13ConfigManagerC", "AbstractFileStorage"]
+- ["14HyperTrackCore13ConfigManagerC", "AbstractLogger"]
+- ["14HyperTrackCore13ConfigManagerC", "Config"]
+- !private ["14HyperTrackCore13ConfigManagerC", "Constant"]
+- ["14HyperTrackCore13ConfigManagerC", "String"]
+- ["14HyperTrackCore13ConfigManagerC", "config"]
+- ["14HyperTrackCore13ConfigManagerC", "deinit"]
+- ["14HyperTrackCore13ConfigManagerC", "fileName"]
+- ["14HyperTrackCore13ConfigManagerC", "init"]
+- !private ["14HyperTrackCore13ConfigManagerC", "logger"]
+- ["14HyperTrackCore13ConfigManagerC", "save"]
+- !private ["14HyperTrackCore13ConfigManagerC", "storage"]
+- ["14HyperTrackCore13ConfigManagerC", "updateConfig"]
+- !private ["14HyperTrackCore8ConstantO", "Config"]
+- !private ["14HyperTrackCore8ConstantO", "Context"]
+- !private ["14HyperTrackCore8ConstantO", "namespace"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "activity"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "config"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "health"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "location"]
+- ["s28CustomDebugStringConvertibleP", "Activity"]
+- !private ["s28CustomDebugStringConvertibleP", "Bool"]
+- ["s28CustomDebugStringConvertibleP", "Collection"]
+- ["s28CustomDebugStringConvertibleP", "Config"]
+- !private ["s28CustomDebugStringConvertibleP", "Constant"]
+- ["s28CustomDebugStringConvertibleP", "DataStore"]
+- ["s28CustomDebugStringConvertibleP", "Dispatch"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- ["s28CustomDebugStringConvertibleP", "HeartbeatService"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "Keys"]
+- ["s28CustomDebugStringConvertibleP", "Location"]
+- ["s28CustomDebugStringConvertibleP", "Network"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", "Services"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- ["s28CustomDebugStringConvertibleP", "Transmission"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "activity"]
+- !private ["s28CustomDebugStringConvertibleP", "always"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundLocationUpdates"]
+- !private ["s28CustomDebugStringConvertibleP", "batchSize"]
+- ["s28CustomDebugStringConvertibleP", "collection"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- ["s28CustomDebugStringConvertibleP", "dataStore"]
+- !private ["s28CustomDebugStringConvertibleP", "dataStoreSuitName"]
+- !private ["s28CustomDebugStringConvertibleP", "debounce"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "deferredLocationUpdatesDistance"]
+- !private ["s28CustomDebugStringConvertibleP", "deferredLocationUpdatesTimeout"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "desiredAccuracy"]
+- ["s28CustomDebugStringConvertibleP", "dispatch"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceFilter"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- !private ["s28CustomDebugStringConvertibleP", "frequency"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "heartbeat"]
+- !private ["s28CustomDebugStringConvertibleP", "host"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isFiltering"]
+- ["s28CustomDebugStringConvertibleP", "location"]
+- ["s28CustomDebugStringConvertibleP", "network"]
+- !private ["s28CustomDebugStringConvertibleP", "onlySignificantLocationUpdates"]
+- !private ["s28CustomDebugStringConvertibleP", "pausesLocationUpdatesAutomatically"]
+- !private ["s28CustomDebugStringConvertibleP", "permissionType"]
+- !private ["s28CustomDebugStringConvertibleP", "pingInterval"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "retryCount"]
+- ["s28CustomDebugStringConvertibleP", "services"]
+- !private ["s28CustomDebugStringConvertibleP", "showsBackgroundLocationIndicator"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "throttle"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "toPing"]
+- !private ["s28CustomDebugStringConvertibleP", "tolerance"]
+- ["s28CustomDebugStringConvertibleP", "transmission"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "types"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "always"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Activity"]
+- !private ["s23CustomStringConvertibleP", "Bool"]
+- ["s23CustomStringConvertibleP", "Collection"]
+- ["s23CustomStringConvertibleP", "Config"]
+- !private ["s23CustomStringConvertibleP", "Constant"]
+- ["s23CustomStringConvertibleP", "DataStore"]
+- ["s23CustomStringConvertibleP", "Dispatch"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- ["s23CustomStringConvertibleP", "HeartbeatService"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "Keys"]
+- ["s23CustomStringConvertibleP", "Location"]
+- ["s23CustomStringConvertibleP", "Network"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", "Services"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- ["s23CustomStringConvertibleP", "Transmission"]
+- !private ["s23CustomStringConvertibleP", "UInt"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "activity"]
+- !private ["s23CustomStringConvertibleP", "backgroundLocationUpdates"]
+- !private ["s23CustomStringConvertibleP", "batchSize"]
+- ["s23CustomStringConvertibleP", "collection"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- ["s23CustomStringConvertibleP", "dataStore"]
+- !private ["s23CustomStringConvertibleP", "dataStoreSuitName"]
+- !private ["s23CustomStringConvertibleP", "debounce"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "deferredLocationUpdatesDistance"]
+- !private ["s23CustomStringConvertibleP", "deferredLocationUpdatesTimeout"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "desiredAccuracy"]
+- ["s23CustomStringConvertibleP", "dispatch"]
+- !private ["s23CustomStringConvertibleP", "distanceFilter"]
+- ["s23CustomStringConvertibleP", "encode"]
+- !private ["s23CustomStringConvertibleP", "frequency"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "health"]
+- ["s23CustomStringConvertibleP", "heartbeat"]
+- !private ["s23CustomStringConvertibleP", "host"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isFiltering"]
+- ["s23CustomStringConvertibleP", "location"]
+- ["s23CustomStringConvertibleP", "network"]
+- !private ["s23CustomStringConvertibleP", "onlySignificantLocationUpdates"]
+- !private ["s23CustomStringConvertibleP", "pausesLocationUpdatesAutomatically"]
+- !private ["s23CustomStringConvertibleP", "permissionType"]
+- !private ["s23CustomStringConvertibleP", "pingInterval"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "retryCount"]
+- ["s23CustomStringConvertibleP", "services"]
+- !private ["s23CustomStringConvertibleP", "showsBackgroundLocationIndicator"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "throttle"]
+- !private ["s23CustomStringConvertibleP", "timeoutInterval"]
+- !private ["s23CustomStringConvertibleP", "toPing"]
+- !private ["s23CustomStringConvertibleP", "tolerance"]
+- ["s23CustomStringConvertibleP", "transmission"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "types"]
+- !private ["s23CustomStringConvertibleP", "update"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "CodingKey"]
+- !private ["14HyperTrackCore6ConfigC9DataStoreV", "Constant"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "Decoder"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "Encoder"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "Keys"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "String"]
+- !private ["14HyperTrackCore6ConfigC9DataStoreV", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "dataStoreSuitName"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO9DataStoreO", "dataStoreSuitName"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "deinit"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "encode"]
+- ["14HyperTrackCore6ConfigC9DataStoreV", "init"]
+- ["Se", "Activity"]
+- !private ["Se", "Bool"]
+- ["Se", "Collection"]
+- ["Se", "Config"]
+- !private ["Se", "Constant"]
+- ["Se", "DataStore"]
+- ["Se", "Dispatch"]
+- !private ["Se", "DispatchType"]
+- !private ["Se", "Double"]
+- ["Se", "HeartbeatService"]
+- !private ["Se", "Int"]
+- !private ["Se", "Keys"]
+- ["Se", "Location"]
+- ["Se", "Network"]
+- !private ["Se", "PermissionType"]
+- ["Se", "RawValue"]
+- !private ["Se", "ServiceType"]
+- ["Se", "Services"]
+- !private ["Se", "String"]
+- !private ["Se", "TimeInterval"]
+- ["Se", "Transmission"]
+- !private ["Se", "UInt"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "activity"]
+- !private ["Se", "always"]
+- !private ["Se", "backgroundLocationUpdates"]
+- !private ["Se", "batchSize"]
+- ["Se", "collection"]
+- !private ["Se", "compactMap"]
+- ["Se", "dataStore"]
+- !private ["Se", "dataStoreSuitName"]
+- !private ["Se", "debounce"]
+- !private ["Se", "deferredLocationUpdatesDistance"]
+- !private ["Se", "deferredLocationUpdatesTimeout"]
+- ["Se", "description"]
+- !private ["Se", "desiredAccuracy"]
+- ["Se", "dispatch"]
+- !private ["Se", "distanceFilter"]
+- ["Se", "encode"]
+- !private ["Se", "frequency"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "health"]
+- ["Se", "heartbeat"]
+- !private ["Se", "host"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "isFiltering"]
+- ["Se", "location"]
+- ["Se", "network"]
+- !private ["Se", "onlySignificantLocationUpdates"]
+- !private ["Se", "pausesLocationUpdatesAutomatically"]
+- !private ["Se", "permissionType"]
+- !private ["Se", "pingInterval"]
+- ["Se", "rawValue"]
+- !private ["Se", "retryCount"]
+- ["Se", "services"]
+- !private ["Se", "showsBackgroundLocationIndicator"]
+- !private ["Se", "throttle"]
+- !private ["Se", "timeoutInterval"]
+- !private ["Se", "timer"]
+- !private ["Se", "toPing"]
+- !private ["Se", "tolerance"]
+- ["Se", "transmission"]
+- !private ["Se", "type"]
+- !private ["Se", "types"]
+- !private ["Se", "update"]
+- !private ["s7DecoderP", "container"]
+- !private ["14HyperTrackCore11FileStorageC9DirectoryO", "documents"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "Codable"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "CodingKey"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV", "Constant"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "Decoder"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "DispatchType"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "Double"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "Encoder"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "Int"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "Keys"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "String"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "debounce"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "debounce"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "deinit"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "encode"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "frequency"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "frequency"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "init"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "throttle"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "throttle"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "tolerance"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "tolerance"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "type"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "RawValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "deinit"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "encode"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "hash"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "hashValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "init"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "manual"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "rawValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "timer"]
+- ["SE", "Activity"]
+- !private ["SE", "Bool"]
+- ["SE", "Collection"]
+- ["SE", "Config"]
+- !private ["SE", "Constant"]
+- ["SE", "DataStore"]
+- ["SE", "Dispatch"]
+- !private ["SE", "DispatchType"]
+- !private ["SE", "Double"]
+- ["SE", "HeartbeatService"]
+- !private ["SE", "Int"]
+- !private ["SE", "Keys"]
+- ["SE", "Location"]
+- ["SE", "Network"]
+- !private ["SE", "PermissionType"]
+- ["SE", "RawValue"]
+- !private ["SE", "ServiceType"]
+- ["SE", "Services"]
+- !private ["SE", "String"]
+- !private ["SE", "TimeInterval"]
+- ["SE", "Transmission"]
+- !private ["SE", "UInt"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "activity"]
+- !private ["SE", "always"]
+- !private ["SE", "backgroundLocationUpdates"]
+- !private ["SE", "batchSize"]
+- ["SE", "collection"]
+- !private ["SE", "compactMap"]
+- ["SE", "dataStore"]
+- !private ["SE", "dataStoreSuitName"]
+- !private ["SE", "debounce"]
+- !private ["SE", "deferredLocationUpdatesDistance"]
+- !private ["SE", "deferredLocationUpdatesTimeout"]
+- ["SE", "description"]
+- !private ["SE", "desiredAccuracy"]
+- ["SE", "dispatch"]
+- !private ["SE", "distanceFilter"]
+- ["SE", "encode"]
+- !private ["SE", "frequency"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- ["SE", "health"]
+- ["SE", "heartbeat"]
+- !private ["SE", "host"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "isFiltering"]
+- ["SE", "location"]
+- ["SE", "network"]
+- !private ["SE", "onlySignificantLocationUpdates"]
+- !private ["SE", "pausesLocationUpdatesAutomatically"]
+- !private ["SE", "permissionType"]
+- !private ["SE", "pingInterval"]
+- ["SE", "rawValue"]
+- !private ["SE", "retryCount"]
+- ["SE", "services"]
+- !private ["SE", "showsBackgroundLocationIndicator"]
+- !private ["SE", "throttle"]
+- !private ["SE", "timeoutInterval"]
+- !private ["SE", "timer"]
+- !private ["SE", "toPing"]
+- !private ["SE", "tolerance"]
+- ["SE", "transmission"]
+- !private ["SE", "type"]
+- !private ["SE", "types"]
+- !private ["SE", "update"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "Activity"]
+- !private ["SQ", "Bool"]
+- ["SQ", "Collection"]
+- ["SQ", "Config"]
+- !private ["SQ", "Constant"]
+- ["SQ", "DataStore"]
+- ["SQ", "Dispatch"]
+- !private ["SQ", "Double"]
+- ["SQ", "HeartbeatService"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "Keys"]
+- ["SQ", "Location"]
+- ["SQ", "Network"]
+- ["SQ", "RawValue"]
+- ["SQ", "Services"]
+- !private ["SQ", "String"]
+- !private ["SQ", "TimeInterval"]
+- ["SQ", "Transmission"]
+- !private ["SQ", "UInt"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "activity"]
+- !private ["SQ", "always"]
+- !private ["SQ", "backgroundLocationUpdates"]
+- !private ["SQ", "batchSize"]
+- ["SQ", "collection"]
+- !private ["SQ", "compactMap"]
+- ["SQ", "dataStore"]
+- !private ["SQ", "dataStoreSuitName"]
+- !private ["SQ", "debounce"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "deferredLocationUpdatesDistance"]
+- !private ["SQ", "deferredLocationUpdatesTimeout"]
+- ["SQ", "description"]
+- !private ["SQ", "desiredAccuracy"]
+- ["SQ", "dispatch"]
+- !private ["SQ", "distanceFilter"]
+- !private ["SQ", "documents"]
+- ["SQ", "encode"]
+- !private ["SQ", "frequency"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "health"]
+- ["SQ", "heartbeat"]
+- !private ["SQ", "host"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isFiltering"]
+- ["SQ", "location"]
+- ["SQ", "network"]
+- !private ["SQ", "onlySignificantLocationUpdates"]
+- !private ["SQ", "pausesLocationUpdatesAutomatically"]
+- !private ["SQ", "permissionType"]
+- !private ["SQ", "pingInterval"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "retryCount"]
+- ["SQ", "services"]
+- !private ["SQ", "showsBackgroundLocationIndicator"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "throttle"]
+- !private ["SQ", "timeoutInterval"]
+- !private ["SQ", "timer"]
+- !private ["SQ", "toPing"]
+- !private ["SQ", "tolerance"]
+- ["SQ", "transmission"]
+- !private ["SQ", "type"]
+- !private ["SQ", "types"]
+- !private ["SQ", "update"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "always"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "Activity"]
+- !private ["SH", "Bool"]
+- ["SH", "Collection"]
+- ["SH", "Config"]
+- !private ["SH", "Constant"]
+- ["SH", "DataStore"]
+- ["SH", "Dispatch"]
+- !private ["SH", "Double"]
+- ["SH", "HeartbeatService"]
+- !private ["SH", "Int"]
+- !private ["SH", "Keys"]
+- ["SH", "Location"]
+- ["SH", "Network"]
+- ["SH", "RawValue"]
+- ["SH", "Services"]
+- !private ["SH", "String"]
+- !private ["SH", "TimeInterval"]
+- ["SH", "Transmission"]
+- !private ["SH", "UInt"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "activity"]
+- !private ["SH", "always"]
+- !private ["SH", "backgroundLocationUpdates"]
+- !private ["SH", "batchSize"]
+- ["SH", "collection"]
+- !private ["SH", "compactMap"]
+- ["SH", "dataStore"]
+- !private ["SH", "dataStoreSuitName"]
+- !private ["SH", "debounce"]
+- ["SH", "debugDescription"]
+- !private ["SH", "deferredLocationUpdatesDistance"]
+- !private ["SH", "deferredLocationUpdatesTimeout"]
+- ["SH", "description"]
+- !private ["SH", "desiredAccuracy"]
+- ["SH", "dispatch"]
+- !private ["SH", "distanceFilter"]
+- !private ["SH", "documents"]
+- ["SH", "encode"]
+- !private ["SH", "frequency"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "health"]
+- ["SH", "heartbeat"]
+- !private ["SH", "host"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isFiltering"]
+- ["SH", "location"]
+- ["SH", "network"]
+- !private ["SH", "onlySignificantLocationUpdates"]
+- !private ["SH", "pausesLocationUpdatesAutomatically"]
+- !private ["SH", "permissionType"]
+- !private ["SH", "pingInterval"]
+- ["SH", "rawValue"]
+- !private ["SH", "retryCount"]
+- ["SH", "services"]
+- !private ["SH", "showsBackgroundLocationIndicator"]
+- ["SH", "stringValue"]
+- !private ["SH", "throttle"]
+- !private ["SH", "timeoutInterval"]
+- !private ["SH", "timer"]
+- !private ["SH", "toPing"]
+- !private ["SH", "tolerance"]
+- ["SH", "transmission"]
+- !private ["SH", "type"]
+- !private ["SH", "types"]
+- !private ["SH", "update"]
+- !private ["s6HasherV", "combine"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "pingInterval"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "toPing"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "Bool"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "CodingKey"]
+- !private ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "Constant"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "Decoder"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "Encoder"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "Keys"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "String"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "TimeInterval"]
+- !private ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "deinit"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "encode"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "init"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "pingInterval"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV", "toPing"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Activity"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "Bool"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Collection"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Config"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "Constant"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "DataStore"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Dispatch"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "Double"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "HeartbeatService"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "Int"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "Keys"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Location"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Network"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Services"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "String"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "TimeInterval"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Transmission"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "UInt"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", ""]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "_findStringSwitchCase"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "activity"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "collection"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "dataStore"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "dispatch"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "encode"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "heartbeat"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "init"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "location"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "network"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "services"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "transmission"]
+- !private ["14HyperTrackCore22HeartbeatServiceConfigP", "update"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "RawValue"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "_Default_RawValue"]
+- !private ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore6ConfigC4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore6ConfigC8LocationV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC4KeysO", "activity"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "backgroundLocationUpdates"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "batchSize"]
+- ["14HyperTrackCore6ConfigC4KeysO", "collection"]
+- ["14HyperTrackCore6ConfigC4KeysO", "dataStore"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "dataStoreSuitName"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "debounce"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "debugDescription"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "deferredLocationUpdatesDistance"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "deferredLocationUpdatesTimeout"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "deinit"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "description"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "desiredAccuracy"]
+- ["14HyperTrackCore6ConfigC4KeysO", "dispatch"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "distanceFilter"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "frequency"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "hash"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "hashValue"]
+- ["14HyperTrackCore6ConfigC4KeysO", "heartbeat"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "host"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC8LocationV4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "init"]
+- !private ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "init"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "intValue"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "isFiltering"]
+- ["14HyperTrackCore6ConfigC4KeysO", "location"]
+- ["14HyperTrackCore6ConfigC4KeysO", "network"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "onlySignificantLocationUpdates"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "pausesLocationUpdatesAutomatically"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "permissionType"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "pingInterval"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "rawValue"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "retryCount"]
+- ["14HyperTrackCore6ConfigC4KeysO", "services"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "showsBackgroundLocationIndicator"]
+- ["14HyperTrackCore6ConfigC10CollectionV4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC12TransmissionV4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC8LocationV4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC9DataStoreV4KeysO", "stringValue"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "throttle"]
+- ["14HyperTrackCore6ConfigC7NetworkV4KeysO", "timeoutInterval"]
+- ["14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO", "toPing"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "tolerance"]
+- ["14HyperTrackCore6ConfigC4KeysO", "transmission"]
+- ["14HyperTrackCore6ConfigC8DispatchV4KeysO", "type"]
+- ["14HyperTrackCore6ConfigC8ServicesV4KeysO", "types"]
+- ["14HyperTrackCore6ConfigC8LocationV", "Bool"]
+- ["14HyperTrackCore6ConfigC8LocationV", "Codable"]
+- ["14HyperTrackCore6ConfigC8LocationV", "CodingKey"]
+- !private ["14HyperTrackCore6ConfigC8LocationV", "Constant"]
+- ["14HyperTrackCore6ConfigC8LocationV", "Decoder"]
+- ["14HyperTrackCore6ConfigC8LocationV", "Double"]
+- ["14HyperTrackCore6ConfigC8LocationV", "Encoder"]
+- ["14HyperTrackCore6ConfigC8LocationV", "Int"]
+- ["14HyperTrackCore6ConfigC8LocationV", "Keys"]
+- ["14HyperTrackCore6ConfigC8LocationV", "PermissionType"]
+- ["14HyperTrackCore6ConfigC8LocationV", "String"]
+- !private ["14HyperTrackCore6ConfigC8LocationV", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC8LocationV", "backgroundLocationUpdates"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "backgroundLocationUpdates"]
+- ["14HyperTrackCore6ConfigC8LocationV", "deferredLocationUpdatesDistance"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "deferredLocationUpdatesDistance"]
+- ["14HyperTrackCore6ConfigC8LocationV", "deferredLocationUpdatesTimeout"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "deferredLocationUpdatesTimeout"]
+- ["14HyperTrackCore6ConfigC8LocationV", "deinit"]
+- ["14HyperTrackCore6ConfigC8LocationV", "desiredAccuracy"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "desiredAccuracy"]
+- ["14HyperTrackCore6ConfigC8LocationV", "distanceFilter"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "distanceFilter"]
+- ["14HyperTrackCore6ConfigC8LocationV", "encode"]
+- ["14HyperTrackCore6ConfigC8LocationV", "init"]
+- ["14HyperTrackCore6ConfigC8LocationV", "onlySignificantLocationUpdates"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "onlySignificantLocationUpdates"]
+- ["14HyperTrackCore6ConfigC8LocationV", "pausesLocationUpdatesAutomatically"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "pausesLocationUpdatesAutomatically"]
+- ["14HyperTrackCore6ConfigC8LocationV", "permissionType"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "permissionType"]
+- ["14HyperTrackCore6ConfigC8LocationV", "showsBackgroundLocationIndicator"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "showsBackgroundLocationIndicator"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "compactMap"]
+- ["So8NSObjectC", "Activity"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Codable"]
+- ["So8NSObjectC", "CodingKey"]
+- ["So8NSObjectC", "Collection"]
+- ["So8NSObjectC", "Config"]
+- !private ["So8NSObjectC", "Constant"]
+- ["So8NSObjectC", "CustomStringConvertible"]
+- ["So8NSObjectC", "DataStore"]
+- ["So8NSObjectC", "Decoder"]
+- ["So8NSObjectC", "Dispatch"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Encoder"]
+- ["So8NSObjectC", "HeartbeatService"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Keys"]
+- ["So8NSObjectC", "Location"]
+- ["So8NSObjectC", "Network"]
+- ["So8NSObjectC", "Services"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Transmission"]
+- ["So8NSObjectC", "UInt"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "_findStringSwitchCase"]
+- ["So8NSObjectC", "activity"]
+- ["So8NSObjectC", "collection"]
+- ["So8NSObjectC", "dataStore"]
+- ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "dispatch"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "heartbeat"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "location"]
+- ["So8NSObjectC", "network"]
+- ["So8NSObjectC", "services"]
+- ["So8NSObjectC", "transmission"]
+- ["So8NSObjectC", "update"]
+- ["So8NSObjectP", "Activity"]
+- !private ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "Collection"]
+- ["So8NSObjectP", "Config"]
+- !private ["So8NSObjectP", "Constant"]
+- ["So8NSObjectP", "DataStore"]
+- ["So8NSObjectP", "Dispatch"]
+- !private ["So8NSObjectP", "Double"]
+- ["So8NSObjectP", "HeartbeatService"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "Keys"]
+- ["So8NSObjectP", "Location"]
+- ["So8NSObjectP", "Network"]
+- ["So8NSObjectP", "Services"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "TimeInterval"]
+- ["So8NSObjectP", "Transmission"]
+- !private ["So8NSObjectP", "UInt"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_findStringSwitchCase"]
+- ["So8NSObjectP", "activity"]
+- ["So8NSObjectP", "collection"]
+- ["So8NSObjectP", "dataStore"]
+- ["So8NSObjectP", "dispatch"]
+- ["So8NSObjectP", "encode"]
+- ["So8NSObjectP", "heartbeat"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "location"]
+- ["So8NSObjectP", "network"]
+- ["So8NSObjectP", "services"]
+- ["So8NSObjectP", "transmission"]
+- !private ["So8NSObjectP", "update"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "CodingKey"]
+- !private ["14HyperTrackCore6ConfigC7NetworkV", "Constant"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "Decoder"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "Double"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "Encoder"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "Int"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "Keys"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "String"]
+- !private ["14HyperTrackCore6ConfigC7NetworkV", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "deinit"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "encode"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "host"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "host"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "init"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "retryCount"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "retryCount"]
+- ["14HyperTrackCore6ConfigC7NetworkV", "timeoutInterval"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "timeoutInterval"]
+- !private ["Sq", "always"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "RawValue"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "always"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "deinit"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "encode"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "hash"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "hashValue"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "init"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "rawValue"]
+- ["14HyperTrackCore6ConfigC8LocationV14PermissionTypeO", "whenInUse"]
+- !private ["Sk", "compactMap"]
+- !private ["Sm", "compactMap"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "Constant"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "activity"]
+- !private ["SY", "always"]
+- !private ["SY", "backgroundLocationUpdates"]
+- !private ["SY", "batchSize"]
+- !private ["SY", "collection"]
+- !private ["SY", "dataStore"]
+- !private ["SY", "dataStoreSuitName"]
+- !private ["SY", "debounce"]
+- ["SY", "debugDescription"]
+- !private ["SY", "deferredLocationUpdatesDistance"]
+- !private ["SY", "deferredLocationUpdatesTimeout"]
+- ["SY", "description"]
+- !private ["SY", "desiredAccuracy"]
+- !private ["SY", "dispatch"]
+- !private ["SY", "distanceFilter"]
+- ["SY", "encode"]
+- !private ["SY", "frequency"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "health"]
+- !private ["SY", "heartbeat"]
+- !private ["SY", "host"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "isFiltering"]
+- ["SY", "location"]
+- !private ["SY", "network"]
+- !private ["SY", "onlySignificantLocationUpdates"]
+- !private ["SY", "pausesLocationUpdatesAutomatically"]
+- !private ["SY", "permissionType"]
+- !private ["SY", "pingInterval"]
+- ["SY", "rawValue"]
+- !private ["SY", "retryCount"]
+- !private ["SY", "services"]
+- !private ["SY", "showsBackgroundLocationIndicator"]
+- ["SY", "stringValue"]
+- !private ["SY", "throttle"]
+- !private ["SY", "timeoutInterval"]
+- !private ["SY", "timer"]
+- !private ["SY", "toPing"]
+- !private ["SY", "tolerance"]
+- !private ["SY", "transmission"]
+- !private ["SY", "type"]
+- !private ["SY", "types"]
+- !private ["ST", "compactMap"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "Constant"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "Int"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "RawValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "String"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "_Default_RawValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "activity"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "context"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "deinit"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "description"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "encode"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "hash"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "hashValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "health"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "init"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "location"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "rawValue"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "Codable"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "CodingKey"]
+- !private ["14HyperTrackCore6ConfigC8ServicesV", "Constant"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "CustomStringConvertible"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "Decoder"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "Encoder"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "Int"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "Keys"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "ServiceType"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "String"]
+- !private ["14HyperTrackCore6ConfigC8ServicesV", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "deinit"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "encode"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "init"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "types"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8ServicesO", "types"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "CodingKey"]
+- !private ["14HyperTrackCore6ConfigC12TransmissionV", "Constant"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "Decoder"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "Encoder"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "Keys"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "String"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "UInt"]
+- !private ["14HyperTrackCore6ConfigC12TransmissionV", "_findStringSwitchCase"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "batchSize"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO12TransmissionO", "batchSize"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "deinit"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "encode"]
+- ["14HyperTrackCore6ConfigC12TransmissionV", "init"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Activity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bool"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Collection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Config"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constant"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DataStore"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Dispatch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "HeartbeatService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Keys"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Location"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Network"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Services"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeInterval"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Transmission"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_findStringSwitchCase"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "activity"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "collection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dataStore"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dispatch"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "heartbeat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "network"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "services"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "transmission"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "always"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14HyperTrackCore22AbstractActivityConfigP"
+- "14HyperTrackCore24AbstractCollectionConfigP"
+- "14HyperTrackCore14AbstractConfigP"
+- "14HyperTrackCore21AbstractConfigManagerP"
+- "14HyperTrackCore23AbstractDataStoreConfigP"
+- "14HyperTrackCore22AbstractDispatchConfigP"
+- !private "14HyperTrackCore19AbstractFileStorageP"
+- "14HyperTrackCore22AbstractLocationConfigP"
+- !private "14HyperTrackCore14AbstractLoggerP"
+- "14HyperTrackCore21AbstractNetworkConfigP"
+- "14HyperTrackCore22AbstractServicesConfigP"
+- "14HyperTrackCore26AbstractTransmissionConfigP"
+- "14HyperTrackCore6ConfigC8ActivityV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "14HyperTrackCore6ConfigC10CollectionV"
+- !private "Sl"
+- "14HyperTrackCore6ConfigC10CollectionV"
+- "Sl"
+- "14HyperTrackCore6ConfigC10CollectionV"
+- !private "14HyperTrackCore8ConstantO6ConfigO10CollectionO"
+- "SL"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore6ConfigC"
+- "14HyperTrackCore13ConfigManagerC"
+- !private "14HyperTrackCore8ConstantO"
+- !private "14HyperTrackCore8ConstantO7ContextO"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "14HyperTrackCore6ConfigC9DataStoreV"
+- !private "14HyperTrackCore8ConstantO6ConfigO9DataStoreO"
+- "14HyperTrackCore6ConfigC9DataStoreV"
+- "Se"
+- !private "s7DecoderP"
+- !private "14HyperTrackCore11FileStorageC9DirectoryO"
+- "14HyperTrackCore6ConfigC8DispatchV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore6ConfigC8DispatchV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore6ConfigC8DispatchV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore6ConfigC8DispatchV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore6ConfigC8DispatchV"
+- "14HyperTrackCore6ConfigC8DispatchV0E4TypeO"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "14HyperTrackCore8ConstantO6ConfigO9HeartbeatO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV"
+- "14HyperTrackCore22HeartbeatServiceConfigP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- !private "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- !private "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- !private "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- !private "14HyperTrackCore6ConfigC4KeysO"
+- !private "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- !private "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- !private "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- !private "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- !private "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- !private "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- !private "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- !private "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- !private "14HyperTrackCore6ConfigC4KeysO"
+- !private "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- !private "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- !private "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- !private "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- !private "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC10CollectionV4KeysO"
+- "14HyperTrackCore6ConfigC12TransmissionV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC9DataStoreV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC7NetworkV4KeysO"
+- "14HyperTrackCore6ConfigC16HeartbeatServiceV4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC4KeysO"
+- "14HyperTrackCore6ConfigC8DispatchV4KeysO"
+- "14HyperTrackCore6ConfigC8ServicesV4KeysO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore6ConfigC8LocationV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "14HyperTrackCore6ConfigC7NetworkV"
+- !private "14HyperTrackCore8ConstantO6ConfigO7NetworkO"
+- "14HyperTrackCore6ConfigC7NetworkV"
+- !private "14HyperTrackCore8ConstantO6ConfigO7NetworkO"
+- "14HyperTrackCore6ConfigC7NetworkV"
+- !private "14HyperTrackCore8ConstantO6ConfigO7NetworkO"
+- !private "Sq"
+- "14HyperTrackCore6ConfigC8LocationV14PermissionTypeO"
+- !private "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- "14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO"
+- "14HyperTrackCore6ConfigC8ServicesV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8ServicesO"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "14HyperTrackCore6ConfigC12TransmissionV"
+- !private "14HyperTrackCore8ConstantO6ConfigO12TransmissionO"
+- "14HyperTrackCore6ConfigC12TransmissionV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "26c253c207dae05aac287a617344245c"

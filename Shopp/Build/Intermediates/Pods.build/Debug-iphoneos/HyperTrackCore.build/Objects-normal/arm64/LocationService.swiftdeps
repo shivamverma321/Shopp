@@ -1,0 +1,359 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbstractLocationService"
+- "AbstractLocationManager"
+- "LocationService"
+provides-nominal:
+- "14HyperTrackCore23AbstractLocationServiceP"
+- "14HyperTrackCore23AbstractLocationManagerP"
+- "14HyperTrackCore15LocationServiceC"
+provides-member:
+- ["14HyperTrackCore23AbstractLocationServiceP", ""]
+- ["14HyperTrackCore23AbstractLocationManagerP", ""]
+- ["14HyperTrackCore15LocationServiceC", ""]
+provides-dynamic-lookup:
+- "handleActivityChange"
+- "locationUpdates"
+- "updateConfig"
+depends-top-level:
+- "AbstractAppState"
+- "AbstractCollectionPipeline"
+- "AbstractEventBus"
+- "AbstractLocationConfig"
+- "AbstractLocationManager"
+- "AbstractLocationService"
+- "AbstractLocationUpdate"
+- "AbstractLogger"
+- "AbstractService"
+- "ActivityServiceData"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CLLocation"
+- "CastingPrecedence"
+- !private "Constant"
+- "LocationService"
+- "LocationServiceData"
+- "LocationUpdateDelegate"
+- !private "NSOrderedSet"
+- "Notification"
+- "ServiceError"
+- "Void"
+depends-member:
+- !private ["14HyperTrackCore26AbstractCollectionPipelineP", "sendEvents"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "addObserver"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "AbstractLocationConfig"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "ActivityServiceData"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "Bool"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "LocationUpdateDelegate"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "Void"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "handleActivityChange"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "isAuthorized"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "isServiceRunning"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "requestPermissions"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "startService"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "stopService"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "updateConfig"]
+- ["14HyperTrackCore23AbstractLocationManagerP", "updatesDelegate"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "Array"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "Bool"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "Constant"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "LocationServiceData"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "NSOrderedSet"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "Void"]
+- ["14HyperTrackCore23AbstractLocationServiceP", ""]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "appState"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "collectionProtocol"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "config"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "eventBus"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "handleActivityChange"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "isAuthorized"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "isServiceRunning"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "locationManager"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "locationUpdates"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "locationUpdatesDelegate"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "logger"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "mapLocationsToLocationServiceData"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "requestPermissions"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "startService"]
+- ["14HyperTrackCore23AbstractLocationServiceP", "stopService"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "updateConfig"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "Array"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "Bool"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "Constant"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "LocationServiceData"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "NSOrderedSet"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "Void"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", ""]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "appState"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "collectionProtocol"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "config"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "eventBus"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "handleActivityChange"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "isAuthorized"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "isServiceRunning"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "locationManager"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "locationUpdates"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "locationUpdatesDelegate"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "logger"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "mapLocationsToLocationServiceData"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "requestPermissions"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "startService"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "stopService"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "updateConfig"]
+- !private ["14HyperTrackCore15AbstractServiceP", "Array"]
+- ["14HyperTrackCore15AbstractServiceP", "Bool"]
+- !private ["14HyperTrackCore15AbstractServiceP", "Constant"]
+- !private ["14HyperTrackCore15AbstractServiceP", "LocationServiceData"]
+- !private ["14HyperTrackCore15AbstractServiceP", "NSOrderedSet"]
+- ["14HyperTrackCore15AbstractServiceP", "Void"]
+- ["14HyperTrackCore15AbstractServiceP", ""]
+- !private ["14HyperTrackCore15AbstractServiceP", "appState"]
+- ["14HyperTrackCore15AbstractServiceP", "collectionProtocol"]
+- !private ["14HyperTrackCore15AbstractServiceP", "config"]
+- ["14HyperTrackCore15AbstractServiceP", "eventBus"]
+- !private ["14HyperTrackCore15AbstractServiceP", "handleActivityChange"]
+- ["14HyperTrackCore15AbstractServiceP", "isAuthorized"]
+- ["14HyperTrackCore15AbstractServiceP", "isServiceRunning"]
+- !private ["14HyperTrackCore15AbstractServiceP", "locationManager"]
+- ["14HyperTrackCore15AbstractServiceP", "locationUpdates"]
+- !private ["14HyperTrackCore15AbstractServiceP", "locationUpdatesDelegate"]
+- !private ["14HyperTrackCore15AbstractServiceP", "logger"]
+- !private ["14HyperTrackCore15AbstractServiceP", "mapLocationsToLocationServiceData"]
+- ["14HyperTrackCore15AbstractServiceP", "requestPermissions"]
+- ["14HyperTrackCore15AbstractServiceP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore15AbstractServiceP", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore15AbstractServiceP", "startService"]
+- ["14HyperTrackCore15AbstractServiceP", "stopService"]
+- !private ["14HyperTrackCore15AbstractServiceP", "updateConfig"]
+- ["14HyperTrackCore19AbstractServiceDataP", "ActivityType"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "getData"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO", "ActivityChangedEvent"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO", "name"]
+- ["14HyperTrackCore19ActivityServiceDataV", "ActivityType"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO6ConfigO", "ConfigChangedEvent"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO6ConfigO0F12ChangedEventO", "name"]
+- !private ["14HyperTrackCore8ConstantO", "Notification"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["Se", "getData"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "getData"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["SH", "userInfo"]
+- ["14HyperTrackCore15LocationServiceC", "AbstractAppState"]
+- ["14HyperTrackCore15LocationServiceC", "AbstractCollectionPipeline"]
+- ["14HyperTrackCore15LocationServiceC", "AbstractEventBus"]
+- ["14HyperTrackCore15LocationServiceC", "AbstractLocationConfig"]
+- ["14HyperTrackCore15LocationServiceC", "AbstractLocationManager"]
+- ["14HyperTrackCore15LocationServiceC", "AbstractLogger"]
+- !private ["14HyperTrackCore15LocationServiceC", "ActivityServiceData"]
+- !private ["14HyperTrackCore15LocationServiceC", "Array"]
+- ["14HyperTrackCore15LocationServiceC", "Bool"]
+- ["14HyperTrackCore15LocationServiceC", "CLLocation"]
+- !private ["14HyperTrackCore15LocationServiceC", "Constant"]
+- ["14HyperTrackCore15LocationServiceC", "LocationServiceData"]
+- ["14HyperTrackCore15LocationServiceC", "LocationUpdateDelegate"]
+- !private ["14HyperTrackCore15LocationServiceC", "NSOrderedSet"]
+- ["14HyperTrackCore15LocationServiceC", "Notification"]
+- ["14HyperTrackCore15LocationServiceC", "ServiceError"]
+- ["14HyperTrackCore15LocationServiceC", "Void"]
+- !private ["14HyperTrackCore15LocationServiceC", "appState"]
+- ["14HyperTrackCore15LocationServiceC", "collectionProtocol"]
+- !private ["14HyperTrackCore15LocationServiceC", "config"]
+- ["14HyperTrackCore15LocationServiceC", "deinit"]
+- ["14HyperTrackCore15LocationServiceC", "eventBus"]
+- ["14HyperTrackCore15LocationServiceC", "handleActivityChange"]
+- ["14HyperTrackCore15LocationServiceC", "init"]
+- ["14HyperTrackCore15LocationServiceC", "isAuthorized"]
+- ["14HyperTrackCore15LocationServiceC", "isServiceRunning"]
+- !private ["14HyperTrackCore15LocationServiceC", "locationManager"]
+- ["14HyperTrackCore15LocationServiceC", "locationUpdates"]
+- !private ["14HyperTrackCore15LocationServiceC", "locationUpdatesDelegate"]
+- !private ["14HyperTrackCore15LocationServiceC", "logger"]
+- ["14HyperTrackCore15LocationServiceC", "mapLocationsToLocationServiceData"]
+- ["14HyperTrackCore15LocationServiceC", "requestPermissions"]
+- ["14HyperTrackCore15LocationServiceC", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore15LocationServiceC", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore15LocationServiceC", "startService"]
+- ["14HyperTrackCore15LocationServiceC", "stopService"]
+- ["14HyperTrackCore15LocationServiceC", "updateConfig"]
+- !private ["14HyperTrackCore19LocationServiceDataV", "deinit"]
+- !private ["14HyperTrackCore19LocationServiceDataV", "getData"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "Array"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "Constant"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "LocationServiceData"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "NSOrderedSet"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", ""]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "appState"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "collectionProtocol"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "config"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "eventBus"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "handleActivityChange"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "isAuthorized"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "isServiceRunning"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "locationManager"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "locationUpdates"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "locationUpdatesDelegate"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "logger"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "mapLocationsToLocationServiceData"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "requestPermissions"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "startService"]
+- ["14HyperTrackCore22LocationUpdateDelegateP", "stopService"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "updateConfig"]
+- !private ["SM", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So12NSOrderedSetC", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Activity"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Config"]
+- !private ["10Foundation12NotificationV", "userInfo"]
+- !private ["Sk", "init"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "userInfo"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "userInfo"]
+depends-nominal:
+- !private "14HyperTrackCore26AbstractCollectionPipelineP"
+- !private "14HyperTrackCore16AbstractEventBusP"
+- "14HyperTrackCore23AbstractLocationManagerP"
+- "14HyperTrackCore23AbstractLocationServiceP"
+- "14HyperTrackCore22AbstractLocationUpdateP"
+- "14HyperTrackCore15AbstractServiceP"
+- "14HyperTrackCore19AbstractServiceDataP"
+- !private "14HyperTrackCore8ConstantO12NotificationO8ActivityO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO"
+- "14HyperTrackCore19ActivityServiceDataV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "14HyperTrackCore8ConstantO12NotificationO6ConfigO"
+- !private "14HyperTrackCore8ConstantO12NotificationO6ConfigO0F12ChangedEventO"
+- !private "14HyperTrackCore8ConstantO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "SH"
+- "14HyperTrackCore15LocationServiceC"
+- !private "14HyperTrackCore19LocationServiceDataV"
+- "14HyperTrackCore22LocationUpdateDelegateP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So12NSOrderedSetC"
+- !private "So14NSSecureCodingP"
+- !private "14HyperTrackCore8ConstantO12NotificationO"
+- !private "10Foundation12NotificationV"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s24_DestructorSafeContainerP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a316b92bc87fd4ed2d85b47e9886b73b"

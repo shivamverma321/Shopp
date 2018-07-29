@@ -41,6 +41,13 @@ struct NameFile {
             static let price = "Price"
             static let imageURL = "ImageURL"
         }
+        struct BusinessDB{
+            static let businesses = "Businesses"
+            // business <document> - randomID
+            static let location = "Location"
+            static let type = "Type"
+            static let name = "Name"
+        }
     }
     
 }

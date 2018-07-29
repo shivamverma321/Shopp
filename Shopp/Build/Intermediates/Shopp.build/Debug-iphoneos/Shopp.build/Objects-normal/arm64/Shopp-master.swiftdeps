@@ -1,11 +1,16 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "7c5b4827ea2d6191b358ac8b4c203d45"
-build_time: [1532815584, 975979000]
+options: "a2407e2e7cb8d8077a4c62acade43fbd"
+build_time: [1532885478, 389131000]
 inputs:
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Item.swift": [1532815093, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/Extensions.swift": [1532815329, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemCell.swift": [1532815544, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemsVC.swift": [1532814574, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppDelegate.swift": [1532813107, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/NameFile.swift": [1532815503, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemSystem.swift": [9223372036, 854775807]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/ProductVC.swift": [1532845372, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/Item.swift": [1532852122, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/Extensions.swift": [1532845372, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Items/ItemsVC.swift": [1532845372, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppDelegate.swift": [1532873257, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Routes/MapVC.swift": [1532885226, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AsyncImageView.swift": [1532845372, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/BusinessSystem.swift": [1532884091, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/NameFile.swift": [1532884063, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Routes/Business.swift": [1532882106, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemSystem.swift": [1532852244, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppStorage.swift": [1532845372, 0]

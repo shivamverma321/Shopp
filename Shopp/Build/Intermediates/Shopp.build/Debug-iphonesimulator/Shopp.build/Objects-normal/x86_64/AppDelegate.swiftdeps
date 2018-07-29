@@ -24,9 +24,10 @@ depends-top-level:
 - "CastingPrecedence"
 - !private "FirebaseApp"
 - !private "Firestore"
+- "FloatLiteralType"
+- "IntegerLiteralType"
 - !private "NSError"
 - "NSPersistentContainer"
-- "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
@@ -68,9 +69,10 @@ depends-member:
 - ["5Shopp11AppDelegateC", "saveContext"]
 - ["5Shopp11AppDelegateC", "window"]
 - !private ["5Shopp10AppStorageV", "User"]
-- !private ["So4AuthC", "auth"]
-- !private ["So4AuthC", "signIn"]
-- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "signIn"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "rootViewController"]
 - !private ["s7CVarArgP", "AppStorage"]
@@ -100,6 +102,7 @@ depends-member:
 - !private ["s7CVarArgP", "firestore"]
 - !private ["s7CVarArgP", "hasChanges"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "instantiateInitialViewController"]
 - !private ["s7CVarArgP", "loadPersistentStores"]
 - !private ["s7CVarArgP", "persistentContainer"]
@@ -112,8 +115,10 @@ depends-member:
 - !private ["s7CVarArgP", "userInfo"]
 - !private ["s7CVarArgP", "viewContext"]
 - ["s7CVarArgP", "window"]
-- !private ["s10CollectionP", "init"]
-- !private ["s10ComparableP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "AppStorage"]
 - !private ["s28CustomDebugStringConvertibleP", "Auth"]
 - !private ["s28CustomDebugStringConvertibleP", "FirebaseApp"]
@@ -140,6 +145,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "firestore"]
 - !private ["s28CustomDebugStringConvertibleP", "hasChanges"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "instantiateInitialViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "loadPersistentStores"]
 - !private ["s28CustomDebugStringConvertibleP", "persistentContainer"]
@@ -154,8 +160,11 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "window"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "instantiateInitialViewController"]
 - !private ["s23CustomStringConvertibleP", "AppStorage"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
 - !private ["s23CustomStringConvertibleP", "FirebaseApp"]
@@ -183,6 +192,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "firestore"]
 - !private ["s23CustomStringConvertibleP", "hasChanges"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "instantiateInitialViewController"]
 - !private ["s23CustomStringConvertibleP", "loadPersistentStores"]
 - !private ["s23CustomStringConvertibleP", "persistentContainer"]
@@ -195,99 +205,111 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "userInfo"]
 - !private ["s23CustomStringConvertibleP", "viewContext"]
 - ["s23CustomStringConvertibleP", "window"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EquatableP", "AppStorage"]
-- !private ["s9EquatableP", "Auth"]
-- !private ["s9EquatableP", "FirebaseApp"]
-- !private ["s9EquatableP", "Firestore"]
-- !private ["s9EquatableP", "NSPersistentContainer"]
-- !private ["s9EquatableP", "UIStoryboard"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- ["s9EquatableP", "application"]
-- ["s9EquatableP", "applicationDidBecomeActive"]
-- ["s9EquatableP", "applicationDidEnterBackground"]
-- ["s9EquatableP", "applicationDidFinishLaunching"]
-- ["s9EquatableP", "applicationDidReceiveMemoryWarning"]
-- ["s9EquatableP", "applicationProtectedDataDidBecomeAvailable"]
-- ["s9EquatableP", "applicationProtectedDataWillBecomeUnavailable"]
-- ["s9EquatableP", "applicationShouldRequestHealthAuthorization"]
-- ["s9EquatableP", "applicationSignificantTimeChange"]
-- ["s9EquatableP", "applicationWillEnterForeground"]
-- ["s9EquatableP", "applicationWillResignActive"]
-- ["s9EquatableP", "applicationWillTerminate"]
-- !private ["s9EquatableP", "areTimestampsInSnapshotsEnabled"]
-- !private ["s9EquatableP", "auth"]
-- !private ["s9EquatableP", "configure"]
-- !private ["s9EquatableP", "fatalError"]
-- !private ["s9EquatableP", "firestore"]
-- !private ["s9EquatableP", "hasChanges"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "instantiateInitialViewController"]
-- !private ["s9EquatableP", "loadPersistentStores"]
-- !private ["s9EquatableP", "persistentContainer"]
-- !private ["s9EquatableP", "print"]
-- !private ["s9EquatableP", "rootViewController"]
-- !private ["s9EquatableP", "save"]
-- !private ["s9EquatableP", "saveContext"]
-- !private ["s9EquatableP", "settings"]
-- !private ["s9EquatableP", "signIn"]
-- !private ["s9EquatableP", "userInfo"]
-- !private ["s9EquatableP", "viewContext"]
-- ["s9EquatableP", "window"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "instantiateInitialViewController"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "instantiateInitialViewController"]
+- !private ["SQ", "AppStorage"]
+- !private ["SQ", "Auth"]
+- !private ["SQ", "FirebaseApp"]
+- !private ["SQ", "Firestore"]
+- !private ["SQ", "NSPersistentContainer"]
+- !private ["SQ", "UIStoryboard"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "application"]
+- ["SQ", "applicationDidBecomeActive"]
+- ["SQ", "applicationDidEnterBackground"]
+- ["SQ", "applicationDidFinishLaunching"]
+- ["SQ", "applicationDidReceiveMemoryWarning"]
+- ["SQ", "applicationProtectedDataDidBecomeAvailable"]
+- ["SQ", "applicationProtectedDataWillBecomeUnavailable"]
+- ["SQ", "applicationShouldRequestHealthAuthorization"]
+- ["SQ", "applicationSignificantTimeChange"]
+- ["SQ", "applicationWillEnterForeground"]
+- ["SQ", "applicationWillResignActive"]
+- ["SQ", "applicationWillTerminate"]
+- !private ["SQ", "areTimestampsInSnapshotsEnabled"]
+- !private ["SQ", "auth"]
+- !private ["SQ", "configure"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "firestore"]
+- !private ["SQ", "hasChanges"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateInitialViewController"]
+- !private ["SQ", "loadPersistentStores"]
+- !private ["SQ", "persistentContainer"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "save"]
+- !private ["SQ", "saveContext"]
+- !private ["SQ", "settings"]
+- !private ["SQ", "signIn"]
+- !private ["SQ", "userInfo"]
+- !private ["SQ", "viewContext"]
+- ["SQ", "window"]
 - !private ["s5ErrorP", "userInfo"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "instantiateInitialViewController"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["So11FirebaseAppC", "configure"]
-- !private ["So9FirestoreC", "firestore"]
-- !private ["So9FirestoreC", "settings"]
-- !private ["So17FirestoreSettingsC", "areTimestampsInSnapshotsEnabled"]
-- !private ["s8HashableP", "AppStorage"]
-- !private ["s8HashableP", "Auth"]
-- !private ["s8HashableP", "FirebaseApp"]
-- !private ["s8HashableP", "Firestore"]
-- !private ["s8HashableP", "NSPersistentContainer"]
-- !private ["s8HashableP", "UIStoryboard"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- ["s8HashableP", "application"]
-- ["s8HashableP", "applicationDidBecomeActive"]
-- ["s8HashableP", "applicationDidEnterBackground"]
-- ["s8HashableP", "applicationDidFinishLaunching"]
-- ["s8HashableP", "applicationDidReceiveMemoryWarning"]
-- ["s8HashableP", "applicationProtectedDataDidBecomeAvailable"]
-- ["s8HashableP", "applicationProtectedDataWillBecomeUnavailable"]
-- ["s8HashableP", "applicationShouldRequestHealthAuthorization"]
-- ["s8HashableP", "applicationSignificantTimeChange"]
-- ["s8HashableP", "applicationWillEnterForeground"]
-- ["s8HashableP", "applicationWillResignActive"]
-- ["s8HashableP", "applicationWillTerminate"]
-- !private ["s8HashableP", "areTimestampsInSnapshotsEnabled"]
-- !private ["s8HashableP", "auth"]
-- !private ["s8HashableP", "configure"]
-- !private ["s8HashableP", "fatalError"]
-- !private ["s8HashableP", "firestore"]
-- !private ["s8HashableP", "hasChanges"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "instantiateInitialViewController"]
-- !private ["s8HashableP", "loadPersistentStores"]
-- !private ["s8HashableP", "persistentContainer"]
-- !private ["s8HashableP", "print"]
-- !private ["s8HashableP", "rootViewController"]
-- !private ["s8HashableP", "save"]
-- !private ["s8HashableP", "saveContext"]
-- !private ["s8HashableP", "settings"]
-- !private ["s8HashableP", "signIn"]
-- !private ["s8HashableP", "userInfo"]
-- !private ["s8HashableP", "viewContext"]
-- ["s8HashableP", "window"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So6FIRAppC", "configure"]
+- !private ["So12FIRFirestoreC", "firestore"]
+- !private ["So12FIRFirestoreC", "settings"]
+- !private ["So20FIRFirestoreSettingsC", "areTimestampsInSnapshotsEnabled"]
+- !private ["SH", "AppStorage"]
+- !private ["SH", "Auth"]
+- !private ["SH", "FirebaseApp"]
+- !private ["SH", "Firestore"]
+- !private ["SH", "NSPersistentContainer"]
+- !private ["SH", "UIStoryboard"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "application"]
+- ["SH", "applicationDidBecomeActive"]
+- ["SH", "applicationDidEnterBackground"]
+- ["SH", "applicationDidFinishLaunching"]
+- ["SH", "applicationDidReceiveMemoryWarning"]
+- ["SH", "applicationProtectedDataDidBecomeAvailable"]
+- ["SH", "applicationProtectedDataWillBecomeUnavailable"]
+- ["SH", "applicationShouldRequestHealthAuthorization"]
+- ["SH", "applicationSignificantTimeChange"]
+- ["SH", "applicationWillEnterForeground"]
+- ["SH", "applicationWillResignActive"]
+- ["SH", "applicationWillTerminate"]
+- !private ["SH", "areTimestampsInSnapshotsEnabled"]
+- !private ["SH", "auth"]
+- !private ["SH", "configure"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "firestore"]
+- !private ["SH", "hasChanges"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateInitialViewController"]
+- !private ["SH", "loadPersistentStores"]
+- !private ["SH", "persistentContainer"]
+- !private ["SH", "print"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "save"]
+- !private ["SH", "saveContext"]
+- !private ["SH", "settings"]
+- !private ["SH", "signIn"]
+- !private ["SH", "userInfo"]
+- !private ["SH", "viewContext"]
+- ["SH", "window"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "hasChanges"]
 - !private ["So8NSCodingP", "rootViewController"]
@@ -330,6 +352,7 @@ depends-member:
 - !private ["So8NSObjectC", "firestore"]
 - !private ["So8NSObjectC", "hasChanges"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "instantiateInitialViewController"]
 - !private ["So8NSObjectC", "loadPersistentStores"]
 - ["So8NSObjectC", "persistentContainer"]
@@ -343,54 +366,63 @@ depends-member:
 - !private ["So8NSObjectC", "userInfo"]
 - !private ["So8NSObjectC", "viewContext"]
 - ["So8NSObjectC", "window"]
-- !private ["So16NSObjectProtocolP", "AppStorage"]
-- !private ["So16NSObjectProtocolP", "Auth"]
-- !private ["So16NSObjectProtocolP", "FirebaseApp"]
-- !private ["So16NSObjectProtocolP", "Firestore"]
-- !private ["So16NSObjectProtocolP", "NSPersistentContainer"]
-- !private ["So16NSObjectProtocolP", "UIStoryboard"]
-- ["So16NSObjectProtocolP", ""]
-- ["So16NSObjectProtocolP", "application"]
-- ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
-- ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
-- ["So16NSObjectProtocolP", "applicationDidFinishLaunching"]
-- ["So16NSObjectProtocolP", "applicationDidReceiveMemoryWarning"]
-- ["So16NSObjectProtocolP", "applicationProtectedDataDidBecomeAvailable"]
-- ["So16NSObjectProtocolP", "applicationProtectedDataWillBecomeUnavailable"]
-- ["So16NSObjectProtocolP", "applicationShouldRequestHealthAuthorization"]
-- ["So16NSObjectProtocolP", "applicationSignificantTimeChange"]
-- ["So16NSObjectProtocolP", "applicationWillEnterForeground"]
-- ["So16NSObjectProtocolP", "applicationWillResignActive"]
-- ["So16NSObjectProtocolP", "applicationWillTerminate"]
-- !private ["So16NSObjectProtocolP", "areTimestampsInSnapshotsEnabled"]
-- !private ["So16NSObjectProtocolP", "auth"]
-- !private ["So16NSObjectProtocolP", "configure"]
-- !private ["So16NSObjectProtocolP", "fatalError"]
-- !private ["So16NSObjectProtocolP", "firestore"]
-- !private ["So16NSObjectProtocolP", "hasChanges"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "instantiateInitialViewController"]
-- !private ["So16NSObjectProtocolP", "loadPersistentStores"]
-- !private ["So16NSObjectProtocolP", "persistentContainer"]
-- !private ["So16NSObjectProtocolP", "print"]
-- !private ["So16NSObjectProtocolP", "rootViewController"]
-- !private ["So16NSObjectProtocolP", "save"]
-- !private ["So16NSObjectProtocolP", "saveContext"]
-- !private ["So16NSObjectProtocolP", "settings"]
-- !private ["So16NSObjectProtocolP", "signIn"]
-- !private ["So16NSObjectProtocolP", "userInfo"]
-- !private ["So16NSObjectProtocolP", "viewContext"]
-- ["So16NSObjectProtocolP", "window"]
+- !private ["So8NSObjectP", "AppStorage"]
+- !private ["So8NSObjectP", "Auth"]
+- !private ["So8NSObjectP", "FirebaseApp"]
+- !private ["So8NSObjectP", "Firestore"]
+- !private ["So8NSObjectP", "NSPersistentContainer"]
+- !private ["So8NSObjectP", "UIStoryboard"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "application"]
+- ["So8NSObjectP", "applicationDidBecomeActive"]
+- ["So8NSObjectP", "applicationDidEnterBackground"]
+- ["So8NSObjectP", "applicationDidFinishLaunching"]
+- ["So8NSObjectP", "applicationDidReceiveMemoryWarning"]
+- ["So8NSObjectP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So8NSObjectP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So8NSObjectP", "applicationShouldRequestHealthAuthorization"]
+- ["So8NSObjectP", "applicationSignificantTimeChange"]
+- ["So8NSObjectP", "applicationWillEnterForeground"]
+- ["So8NSObjectP", "applicationWillResignActive"]
+- ["So8NSObjectP", "applicationWillTerminate"]
+- !private ["So8NSObjectP", "areTimestampsInSnapshotsEnabled"]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "configure"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "firestore"]
+- !private ["So8NSObjectP", "hasChanges"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateInitialViewController"]
+- !private ["So8NSObjectP", "loadPersistentStores"]
+- !private ["So8NSObjectP", "persistentContainer"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "save"]
+- !private ["So8NSObjectP", "saveContext"]
+- !private ["So8NSObjectP", "settings"]
+- !private ["So8NSObjectP", "signIn"]
+- !private ["So8NSObjectP", "userInfo"]
+- !private ["So8NSObjectP", "viewContext"]
+- ["So8NSObjectP", "window"]
 - !private ["So21NSPersistentContainerC", "init"]
 - !private ["So21NSPersistentContainerC", "loadPersistentStores"]
 - !private ["So21NSPersistentContainerC", "viewContext"]
 - !private ["So14NSSecureCodingP", "userInfo"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s8SequenceP", "init"]
+- !private ["Sq", "instantiateInitialViewController"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
 - !private ["s12StaticStringV", "init"]
 - !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
 - !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
 - !private ["So12UIAppearanceP", "rootViewController"]
@@ -423,6 +455,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "rootViewController"]
 - !private ["So18UIFocusEnvironmentP", "rootViewController"]
 - !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "AppStorage"]
 - !private ["So30UIPasteConfigurationSupportingP", "Auth"]
 - !private ["So30UIPasteConfigurationSupportingP", "FirebaseApp"]
@@ -443,6 +476,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
 - !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
@@ -475,6 +509,7 @@ depends-member:
 - ["So11UIResponderC", "applicationWillTerminate"]
 - !private ["So11UIResponderC", "fatalError"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "persistentContainer"]
 - ["So11UIResponderC", "persistentContainer.storage"]
 - !private ["So11UIResponderC", "print"]
@@ -502,6 +537,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "fatalError"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "persistentContainer"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
@@ -510,6 +546,33 @@ depends-member:
 - !private ["So12UIStoryboardC", "init"]
 - !private ["So12UIStoryboardC", "instantiateInitialViewController"]
 - !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "AppStorage"]
+- !private ["So23UIUserActivityRestoringP", "Auth"]
+- !private ["So23UIUserActivityRestoringP", "FirebaseApp"]
+- !private ["So23UIUserActivityRestoringP", "Firestore"]
+- !private ["So23UIUserActivityRestoringP", "NSPersistentContainer"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "application"]
+- ["So23UIUserActivityRestoringP", "applicationDidBecomeActive"]
+- ["So23UIUserActivityRestoringP", "applicationDidEnterBackground"]
+- ["So23UIUserActivityRestoringP", "applicationDidFinishLaunching"]
+- ["So23UIUserActivityRestoringP", "applicationDidReceiveMemoryWarning"]
+- ["So23UIUserActivityRestoringP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So23UIUserActivityRestoringP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So23UIUserActivityRestoringP", "applicationShouldRequestHealthAuthorization"]
+- ["So23UIUserActivityRestoringP", "applicationSignificantTimeChange"]
+- ["So23UIUserActivityRestoringP", "applicationWillEnterForeground"]
+- ["So23UIUserActivityRestoringP", "applicationWillResignActive"]
+- ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "persistentContainer"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "saveContext"]
+- ["So23UIUserActivityRestoringP", "window"]
 - !private ["So6UIViewC", "rootViewController"]
 - !private ["So8UIWindowC", "rootViewController"]
 - !private ["5Shopp10AppStorageV4UserV", "email"]
@@ -517,9 +580,14 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AppStorage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
@@ -547,6 +615,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "firestore"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "hasChanges"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateInitialViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "loadPersistentStores"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentContainer"]
@@ -561,33 +630,37 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "instantiateInitialViewController"]
+- !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "5Shopp11AppDelegateC"
 - !private "5Shopp10AppStorageV"
-- !private "So4AuthC"
-- !private "s23BidirectionalCollectionP"
+- !private "So7FIRAuthC"
+- !private "SK"
 - !private "Sb"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
+- !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
 - !private "s5ErrorP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "So11FirebaseAppC"
-- !private "So9FirestoreC"
-- !private "So17FirestoreSettingsC"
-- "s8HashableP"
+- !private "So6FIRAppC"
+- !private "So12FIRFirestoreC"
+- !private "So20FIRFirestoreSettingsC"
+- "SH"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "So8NSCodingP"
@@ -596,14 +669,15 @@ depends-nominal:
 - !private "So9NSLockingP"
 - !private "So22NSManagedObjectContextC"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - !private "So21NSPersistentContainerC"
 - !private "So14NSSecureCodingP"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s8SequenceP"
+- !private "Sq"
+- !private "Sm"
+- !private "ST"
 - !private "s12StaticStringV"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
@@ -614,11 +688,13 @@ depends-nominal:
 - !private "So13UIDynamicItemP"
 - !private "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - !private "So12UIStoryboardC"
 - !private "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
 - !private "So6UIViewC"
 - !private "So8UIWindowC"
 - !private "5Shopp10AppStorageV4UserV"
@@ -634,23 +710,23 @@ depends-nominal:
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Modules/ESPullToRefresh.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
@@ -745,17 +821,18 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "81a02c391fff7f05b0561a25dd96e613"

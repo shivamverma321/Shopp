@@ -1,0 +1,748 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationServiceData"
+- "LocationData"
+provides-nominal:
+- "14HyperTrackCore19LocationServiceDataV"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+provides-member:
+- ["14HyperTrackCore19LocationServiceDataV", ""]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", ""]
+- ["14HyperTrackCore12LocationDataV", ""]
+- ["14HyperTrackCore12LocationDataV4KeysO", ""]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", ""]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- "=="
+- "AbstractServiceData"
+- !private "Array"
+- "AssignmentPrecedence"
+- "CLLocation"
+- "CLLocationCoordinate2D"
+- "Codable"
+- "CodingKey"
+- "Date"
+- "Decoder"
+- "Double"
+- "Encoder"
+- "EventType"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "JSONEncoder"
+- "LocationData"
+- "LocationServiceData"
+- "String"
+- "StringLiteralType"
+- !private "UUID"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["14HyperTrackCore19AbstractServiceDataP", "Date"]
+- ["14HyperTrackCore19AbstractServiceDataP", "EventType"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "JSONEncoder"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "Keys"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "LocationData"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "LocationServiceData"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "String"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "UUID"]
+- ["14HyperTrackCore19AbstractServiceDataP", ""]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "data"]
+- ["14HyperTrackCore19AbstractServiceDataP", "encode"]
+- ["14HyperTrackCore19AbstractServiceDataP", "getId"]
+- ["14HyperTrackCore19AbstractServiceDataP", "getJSONdata"]
+- ["14HyperTrackCore19AbstractServiceDataP", "getRecordedAt"]
+- ["14HyperTrackCore19AbstractServiceDataP", "getType"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "id"]
+- ["14HyperTrackCore19AbstractServiceDataP", "init"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "recordedAt"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "type"]
+- !private ["Sa", "append"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "enumerated"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "enumerated"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So10CLLocationC", "altitude"]
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["So10CLLocationC", "getBearing"]
+- !private ["So10CLLocationC", "speed"]
+- !private ["So10CLLocationC", "timestamp"]
+- !private ["So22CLLocationCoordinate2DV", "latitude"]
+- !private ["So22CLLocationCoordinate2DV", "longitude"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "altitude"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "getBearing"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "speed"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timestamp"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- !private ["s9CodingKeyP", "altitude"]
+- !private ["s9CodingKeyP", "bearing"]
+- !private ["s9CodingKeyP", "coordinates"]
+- !private ["s9CodingKeyP", "data"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "id"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "location"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "recordedAt"]
+- !private ["s9CodingKeyP", "speed"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "timestamp"]
+- !private ["s9CodingKeyP", "type"]
+- !private ["Sl", "append"]
+- !private ["Sl", "enumerated"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "altitude"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bearing"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinates"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "getBearing"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "recordedAt"]
+- !private ["s28CustomDebugStringConvertibleP", "speed"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timestamp"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "altitude"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bearing"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "coordinates"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "getBearing"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "recordedAt"]
+- !private ["s23CustomStringConvertibleP", "speed"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timestamp"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["Se", "Date"]
+- !private ["Se", "Double"]
+- ["Se", "EventType"]
+- !private ["Se", "GeoJson"]
+- !private ["Se", "JSONEncoder"]
+- !private ["Se", "Keys"]
+- !private ["Se", "LocationData"]
+- !private ["Se", "LocationServiceData"]
+- !private ["Se", "String"]
+- !private ["Se", "UUID"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "altitude"]
+- !private ["Se", "append"]
+- !private ["Se", "bearing"]
+- !private ["Se", "coordinates"]
+- !private ["Se", "data"]
+- ["Se", "encode"]
+- !private ["Se", "enumerated"]
+- ["Se", "getId"]
+- ["Se", "getJSONdata"]
+- ["Se", "getRecordedAt"]
+- ["Se", "getType"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "location"]
+- !private ["Se", "recordedAt"]
+- !private ["Se", "speed"]
+- !private ["Se", "subscript"]
+- !private ["Se", "timestamp"]
+- !private ["Se", "type"]
+- !private ["Se", "uuidString"]
+- !private ["s7DecoderP", "container"]
+- !private ["SE", "Date"]
+- !private ["SE", "Double"]
+- ["SE", "EventType"]
+- !private ["SE", "GeoJson"]
+- !private ["SE", "JSONEncoder"]
+- !private ["SE", "Keys"]
+- !private ["SE", "LocationData"]
+- !private ["SE", "LocationServiceData"]
+- !private ["SE", "String"]
+- !private ["SE", "UUID"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "altitude"]
+- !private ["SE", "append"]
+- !private ["SE", "bearing"]
+- !private ["SE", "coordinates"]
+- !private ["SE", "data"]
+- ["SE", "encode"]
+- !private ["SE", "enumerated"]
+- ["SE", "getId"]
+- ["SE", "getJSONdata"]
+- ["SE", "getRecordedAt"]
+- ["SE", "getType"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "location"]
+- !private ["SE", "recordedAt"]
+- !private ["SE", "speed"]
+- !private ["SE", "subscript"]
+- !private ["SE", "timestamp"]
+- !private ["SE", "type"]
+- !private ["SE", "uuidString"]
+- !private ["s7EncoderP", "container"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["s18EnumeratedSequenceV", "forEach"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "altitude"]
+- !private ["SQ", "append"]
+- !private ["SQ", "bearing"]
+- !private ["SQ", "coordinate"]
+- !private ["SQ", "coordinates"]
+- !private ["SQ", "data"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "getBearing"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "location"]
+- ["SQ", "locationChange"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "recordedAt"]
+- !private ["SQ", "speed"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "timestamp"]
+- !private ["SQ", "type"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "uuidString"]
+- ["14HyperTrackCore9EventTypeO", "deinit"]
+- ["14HyperTrackCore9EventTypeO", "locationChange"]
+- ["14HyperTrackCore9EventTypeO", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "timestamp"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "CLLocationCoordinate2D"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "CodingKey"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "Decoder"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "Double"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "Encoder"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "Keys"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "String"]
+- !private ["14HyperTrackCore12LocationDataV7GeoJsonV", "_findStringSwitchCase"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "coordinates"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "deinit"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "encode"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "init"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV", "type"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "altitude"]
+- !private ["SH", "append"]
+- !private ["SH", "bearing"]
+- !private ["SH", "coordinate"]
+- !private ["SH", "coordinates"]
+- !private ["SH", "data"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "getBearing"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "id"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "location"]
+- ["SH", "locationChange"]
+- ["SH", "rawValue"]
+- !private ["SH", "recordedAt"]
+- !private ["SH", "speed"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "timestamp"]
+- !private ["SH", "type"]
+- !private ["SH", "utf8"]
+- !private ["SH", "uuidString"]
+- !private ["s6HasherV", "combine"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "hyperTrackEncoder"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "RawValue"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "RawValue"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "RawValue"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "_Default_RawValue"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "_Default_RawValue"]
+- !private ["14HyperTrackCore12LocationDataV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "_findStringSwitchCase"]
+- !private ["14HyperTrackCore19LocationServiceDataV4KeysO", "_findStringSwitchCase"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "altitude"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "bearing"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "coordinates"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "data"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "debugDescription"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "debugDescription"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "debugDescription"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "deinit"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "deinit"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "deinit"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "description"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "description"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "description"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "deviceID"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "hash"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "hash"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "hash"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "hashValue"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "hashValue"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "hashValue"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "id"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "init"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "init"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "init"]
+- !private ["14HyperTrackCore12LocationDataV4KeysO", "init"]
+- !private ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "init"]
+- !private ["14HyperTrackCore19LocationServiceDataV4KeysO", "init"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "intValue"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "intValue"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "intValue"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "location"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "rawValue"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "rawValue"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "rawValue"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "recordedAt"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "speed"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "stringValue"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "stringValue"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "stringValue"]
+- ["14HyperTrackCore12LocationDataV4KeysO", "timestamp"]
+- ["14HyperTrackCore12LocationDataV7GeoJsonV4KeysO", "type"]
+- ["14HyperTrackCore19LocationServiceDataV4KeysO", "type"]
+- ["14HyperTrackCore12LocationDataV", "CLLocation"]
+- ["14HyperTrackCore12LocationDataV", "CLLocationCoordinate2D"]
+- ["14HyperTrackCore12LocationDataV", "Codable"]
+- ["14HyperTrackCore12LocationDataV", "CodingKey"]
+- ["14HyperTrackCore12LocationDataV", "Date"]
+- ["14HyperTrackCore12LocationDataV", "Decoder"]
+- ["14HyperTrackCore12LocationDataV", "Double"]
+- ["14HyperTrackCore12LocationDataV", "Encoder"]
+- ["14HyperTrackCore12LocationDataV", "GeoJson"]
+- ["14HyperTrackCore12LocationDataV", "Keys"]
+- ["14HyperTrackCore12LocationDataV", "String"]
+- !private ["14HyperTrackCore12LocationDataV", "_findStringSwitchCase"]
+- ["14HyperTrackCore12LocationDataV", "altitude"]
+- ["14HyperTrackCore12LocationDataV", "bearing"]
+- ["14HyperTrackCore12LocationDataV", "deinit"]
+- ["14HyperTrackCore12LocationDataV", "encode"]
+- ["14HyperTrackCore12LocationDataV", "init"]
+- ["14HyperTrackCore12LocationDataV", "location"]
+- ["14HyperTrackCore12LocationDataV", "speed"]
+- ["14HyperTrackCore12LocationDataV", "timestamp"]
+- ["14HyperTrackCore19LocationServiceDataV", "CLLocation"]
+- ["14HyperTrackCore19LocationServiceDataV", "CodingKey"]
+- ["14HyperTrackCore19LocationServiceDataV", "Date"]
+- ["14HyperTrackCore19LocationServiceDataV", "Decoder"]
+- ["14HyperTrackCore19LocationServiceDataV", "Encoder"]
+- ["14HyperTrackCore19LocationServiceDataV", "EventType"]
+- !private ["14HyperTrackCore19LocationServiceDataV", "JSONEncoder"]
+- ["14HyperTrackCore19LocationServiceDataV", "Keys"]
+- ["14HyperTrackCore19LocationServiceDataV", "LocationData"]
+- ["14HyperTrackCore19LocationServiceDataV", "LocationServiceData"]
+- ["14HyperTrackCore19LocationServiceDataV", "String"]
+- !private ["14HyperTrackCore19LocationServiceDataV", "UUID"]
+- !private ["14HyperTrackCore19LocationServiceDataV", "_findStringSwitchCase"]
+- ["14HyperTrackCore19LocationServiceDataV", "data"]
+- ["14HyperTrackCore19LocationServiceDataV", "deinit"]
+- ["14HyperTrackCore19LocationServiceDataV", "encode"]
+- ["14HyperTrackCore19LocationServiceDataV", "getData"]
+- ["14HyperTrackCore19LocationServiceDataV", "getId"]
+- ["14HyperTrackCore19LocationServiceDataV", "getJSONdata"]
+- ["14HyperTrackCore19LocationServiceDataV", "getRecordedAt"]
+- ["14HyperTrackCore19LocationServiceDataV", "getType"]
+- ["14HyperTrackCore19LocationServiceDataV", "id"]
+- ["14HyperTrackCore19LocationServiceDataV", "init"]
+- ["14HyperTrackCore19LocationServiceDataV", "recordedAt"]
+- ["14HyperTrackCore19LocationServiceDataV", "type"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "altitude"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "getBearing"]
+- !private ["So8NSCodingP", "speed"]
+- !private ["So8NSCodingP", "timestamp"]
+- !private ["So9NSCopyingP", "altitude"]
+- !private ["So9NSCopyingP", "coordinate"]
+- !private ["So9NSCopyingP", "getBearing"]
+- !private ["So9NSCopyingP", "speed"]
+- !private ["So9NSCopyingP", "timestamp"]
+- !private ["So8NSObjectC", "altitude"]
+- !private ["So8NSObjectC", "coordinate"]
+- !private ["So8NSObjectC", "getBearing"]
+- !private ["So8NSObjectC", "speed"]
+- !private ["So8NSObjectC", "timestamp"]
+- !private ["So8NSObjectP", "altitude"]
+- !private ["So8NSObjectP", "coordinate"]
+- !private ["So8NSObjectP", "getBearing"]
+- !private ["So8NSObjectP", "speed"]
+- !private ["So8NSObjectP", "timestamp"]
+- !private ["So14NSSecureCodingP", "altitude"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["So14NSSecureCodingP", "getBearing"]
+- !private ["So14NSSecureCodingP", "speed"]
+- !private ["So14NSSecureCodingP", "timestamp"]
+- !private ["Sq", "timestamp"]
+- !private ["Sk", "append"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "enumerated"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- !private ["SY", "altitude"]
+- !private ["SY", "bearing"]
+- !private ["SY", "coordinates"]
+- !private ["SY", "data"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "id"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "location"]
+- ["SY", "locationChange"]
+- ["SY", "rawValue"]
+- !private ["SY", "recordedAt"]
+- !private ["SY", "speed"]
+- ["SY", "stringValue"]
+- !private ["SY", "timestamp"]
+- !private ["SY", "type"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["ST", "append"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "altitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getBearing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "speed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timestamp"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timestamp"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14HyperTrackCore19AbstractServiceDataP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- !private "So10CLLocationC"
+- !private "So22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- !private "SS10FoundationE8EncodingV"
+- !private "s18EnumeratedSequenceV"
+- "SQ"
+- "14HyperTrackCore9EventTypeO"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "14HyperTrackCore12LocationDataV7GeoJsonV"
+- "SH"
+- !private "s6HasherV"
+- !private "10Foundation11JSONEncoderC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- !private "14HyperTrackCore12LocationDataV4KeysO"
+- !private "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- !private "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- !private "14HyperTrackCore12LocationDataV4KeysO"
+- !private "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- !private "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV4KeysO"
+- "14HyperTrackCore12LocationDataV7GeoJsonV4KeysO"
+- "14HyperTrackCore19LocationServiceDataV4KeysO"
+- "14HyperTrackCore12LocationDataV"
+- "14HyperTrackCore19LocationServiceDataV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "Sk"
+- "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation4UUIDV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "11de0e4a12da863e8ca8913b08fbb181"

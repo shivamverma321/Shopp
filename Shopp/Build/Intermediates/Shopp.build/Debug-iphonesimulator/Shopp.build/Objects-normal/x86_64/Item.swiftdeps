@@ -29,6 +29,8 @@ depends-top-level:
 - "AsyncImageView"
 - !private "BooleanLiteralType"
 - "Double"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "Item"
 - "ItemCell"
 - "ItemType"
@@ -41,8 +43,9 @@ depends-top-level:
 depends-member:
 - !private ["5Shopp14AsyncImageViewC", "layer"]
 - !private ["5Shopp14AsyncImageViewC", "setFirebaseURL"]
-- !private ["s23BidirectionalCollectionP", "init"]
-- !private ["s19BinaryFloatingPointP", "dollarCurrency"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "dollarCurrency"]
 - !private ["So7CALayerC", "cornerRadius"]
 - !private ["So7CALayerC", "masksToBounds"]
 - ["So15CALayerDelegateP", "Item"]
@@ -51,6 +54,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "awakeFromNib"]
 - !private ["So15CALayerDelegateP", "descriptionLabel"]
 - !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "item"]
 - !private ["So15CALayerDelegateP", "itemImageView"]
@@ -64,7 +68,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So13CAMediaTimingP", "cornerRadius"]
 - !private ["So13CAMediaTimingP", "masksToBounds"]
-- !private ["SC6CGRectV", "width"]
+- !private ["So6CGRectV", "width"]
 - ["s7CVarArgP", "Item"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "addBtn"]
@@ -73,6 +77,7 @@ depends-member:
 - !private ["s7CVarArgP", "descriptionLabel"]
 - !private ["s7CVarArgP", "dollarCurrency"]
 - !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "item"]
 - !private ["s7CVarArgP", "itemImageView"]
@@ -85,9 +90,11 @@ depends-member:
 - !private ["s7CVarArgP", "reloadData"]
 - !private ["s7CVarArgP", "setFirebaseURL"]
 - !private ["s7CVarArgP", "text"]
-- !private ["s10CollectionP", "init"]
-- !private ["s10ComparableP", "dollarCurrency"]
-- !private ["s10ComparableP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "dollarCurrency"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
 - ["s28CustomDebugStringConvertibleP", "Item"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addBtn"]
@@ -96,6 +103,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "descriptionLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "dollarCurrency"]
 - !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "item"]
 - !private ["s28CustomDebugStringConvertibleP", "itemImageView"]
@@ -111,9 +119,15 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "width"]
 - !private ["s29CustomPlaygroundQuickLookableP", "dollarCurrency"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "width"]
 - !private ["s17CustomReflectableP", "dollarCurrency"]
+- !private ["s17CustomReflectableP", "frame"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "layer"]
+- !private ["s17CustomReflectableP", "setFirebaseURL"]
+- !private ["s17CustomReflectableP", "text"]
 - !private ["s17CustomReflectableP", "width"]
 - ["s23CustomStringConvertibleP", "Item"]
 - ["s23CustomStringConvertibleP", ""]
@@ -123,6 +137,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "descriptionLabel"]
 - !private ["s23CustomStringConvertibleP", "dollarCurrency"]
 - !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "item"]
 - !private ["s23CustomStringConvertibleP", "itemImageView"]
@@ -135,64 +150,86 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "reloadData"]
 - !private ["s23CustomStringConvertibleP", "setFirebaseURL"]
 - !private ["s23CustomStringConvertibleP", "text"]
-- !private ["s9DecodableP", "dollarCurrency"]
-- !private ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "width"]
+- !private ["Se", "dollarCurrency"]
+- !private ["Se", "frame"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "layer"]
+- !private ["Se", "setFirebaseURL"]
+- !private ["Se", "text"]
+- !private ["Se", "width"]
 - !private ["Sd", "dollarCurrency"]
-- !private ["s9EncodableP", "dollarCurrency"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "width"]
-- ["s9EquatableP", "Item"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "addBtn"]
-- !private ["s9EquatableP", "awakeFromNib"]
-- !private ["s9EquatableP", "cornerRadius"]
-- !private ["s9EquatableP", "descriptionLabel"]
-- !private ["s9EquatableP", "dollarCurrency"]
-- !private ["s9EquatableP", "frame"]
-- !private ["s9EquatableP", "grocery"]
-- ["s9EquatableP", "hashValue"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "item"]
-- !private ["s9EquatableP", "itemImageView"]
-- !private ["s9EquatableP", "layer"]
-- !private ["s9EquatableP", "masksToBounds"]
-- !private ["s9EquatableP", "nameLabel"]
-- !private ["s9EquatableP", "priceLabel"]
-- !private ["s9EquatableP", "product"]
-- !private ["s9EquatableP", "productImageView"]
-- !private ["s9EquatableP", "reloadData"]
-- !private ["s9EquatableP", "setFirebaseURL"]
-- !private ["s9EquatableP", "text"]
-- !private ["s9EquatableP", "width"]
+- !private ["SE", "dollarCurrency"]
+- !private ["SE", "frame"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "layer"]
+- !private ["SE", "setFirebaseURL"]
+- !private ["SE", "text"]
+- !private ["SE", "width"]
+- ["SQ", "Item"]
+- ["SQ", ""]
+- !private ["SQ", "addBtn"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "descriptionLabel"]
+- !private ["SQ", "dollarCurrency"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "grocery"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "item"]
+- !private ["SQ", "itemImageView"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "masksToBounds"]
+- !private ["SQ", "nameLabel"]
+- !private ["SQ", "priceLabel"]
+- !private ["SQ", "product"]
+- !private ["SQ", "productImageView"]
+- !private ["SQ", "reloadData"]
+- !private ["SQ", "setFirebaseURL"]
+- !private ["SQ", "text"]
+- !private ["SQ", "width"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "dollarCurrency"]
 - !private ["s27ExpressibleByIntegerLiteralP", "dollarCurrency"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["s23ExpressibleByNilLiteralP", "layer"]
+- !private ["s23ExpressibleByNilLiteralP", "setFirebaseURL"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s13FloatingPointP", "dollarCurrency"]
-- ["s8HashableP", "Item"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "addBtn"]
-- !private ["s8HashableP", "awakeFromNib"]
-- !private ["s8HashableP", "cornerRadius"]
-- !private ["s8HashableP", "descriptionLabel"]
-- !private ["s8HashableP", "dollarCurrency"]
-- !private ["s8HashableP", "frame"]
-- !private ["s8HashableP", "grocery"]
-- ["s8HashableP", "hashValue"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "item"]
-- !private ["s8HashableP", "itemImageView"]
-- !private ["s8HashableP", "layer"]
-- !private ["s8HashableP", "masksToBounds"]
-- !private ["s8HashableP", "nameLabel"]
-- !private ["s8HashableP", "priceLabel"]
-- !private ["s8HashableP", "product"]
-- !private ["s8HashableP", "productImageView"]
-- !private ["s8HashableP", "reloadData"]
-- !private ["s8HashableP", "setFirebaseURL"]
-- !private ["s8HashableP", "text"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "dollarCurrency"]
+- ["SH", "Item"]
+- ["SH", ""]
+- !private ["SH", "addBtn"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "descriptionLabel"]
+- !private ["SH", "dollarCurrency"]
+- !private ["SH", "frame"]
+- !private ["SH", "grocery"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "item"]
+- !private ["SH", "itemImageView"]
+- !private ["SH", "layer"]
+- !private ["SH", "masksToBounds"]
+- !private ["SH", "nameLabel"]
+- !private ["SH", "priceLabel"]
+- !private ["SH", "product"]
+- !private ["SH", "productImageView"]
+- !private ["SH", "reloadData"]
+- !private ["SH", "setFirebaseURL"]
+- !private ["SH", "text"]
+- !private ["s6HasherV", "combine"]
 - ["5Shopp4ItemC", "Double"]
 - ["5Shopp4ItemC", "ItemType"]
 - ["5Shopp4ItemC", "String"]
@@ -208,7 +245,6 @@ depends-member:
 - ["5Shopp8ItemCellC", "Item"]
 - ["5Shopp8ItemCellC", "UILabel"]
 - ["5Shopp8ItemCellC", "awakeFromNib"]
-- ["5Shopp8ItemCellC", "deinit"]
 - ["5Shopp8ItemCellC", "descriptionLabel"]
 - ["5Shopp8ItemCellC", "init"]
 - ["5Shopp8ItemCellC", "item"]
@@ -220,10 +256,13 @@ depends-member:
 - ["5Shopp8ItemTypeO", "clothing"]
 - ["5Shopp8ItemTypeO", "deinit"]
 - ["5Shopp8ItemTypeO", "grocery"]
+- ["5Shopp8ItemTypeO", "hash"]
 - ["5Shopp8ItemTypeO", "hashValue"]
 - ["5Shopp8ItemTypeO", "pharmacy"]
 - !private ["s25LosslessStringConvertibleP", "dollarCurrency"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - ["So8NSCodingP", "Item"]
 - ["So8NSCodingP", ""]
@@ -232,6 +271,7 @@ depends-member:
 - !private ["So8NSCodingP", "cornerRadius"]
 - !private ["So8NSCodingP", "descriptionLabel"]
 - !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "item"]
 - !private ["So8NSCodingP", "itemImageView"]
@@ -254,6 +294,7 @@ depends-member:
 - ["So8NSObjectC", "descriptionLabel"]
 - !private ["So8NSObjectC", "frame"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "item"]
 - ["So8NSObjectC", "itemImageView"]
 - !private ["So8NSObjectC", "layer"]
@@ -265,28 +306,33 @@ depends-member:
 - ["So8NSObjectC", "reloadData"]
 - !private ["So8NSObjectC", "setFirebaseURL"]
 - !private ["So8NSObjectC", "text"]
-- ["So16NSObjectProtocolP", "Item"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "addBtn"]
-- !private ["So16NSObjectProtocolP", "awakeFromNib"]
-- !private ["So16NSObjectProtocolP", "cornerRadius"]
-- !private ["So16NSObjectProtocolP", "descriptionLabel"]
-- !private ["So16NSObjectProtocolP", "frame"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "item"]
-- !private ["So16NSObjectProtocolP", "itemImageView"]
-- !private ["So16NSObjectProtocolP", "layer"]
-- !private ["So16NSObjectProtocolP", "masksToBounds"]
-- !private ["So16NSObjectProtocolP", "nameLabel"]
-- !private ["So16NSObjectProtocolP", "priceLabel"]
-- !private ["So16NSObjectProtocolP", "product"]
-- !private ["So16NSObjectProtocolP", "productImageView"]
-- !private ["So16NSObjectProtocolP", "reloadData"]
-- !private ["So16NSObjectProtocolP", "setFirebaseURL"]
-- !private ["So16NSObjectProtocolP", "text"]
+- ["So8NSObjectP", "Item"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addBtn"]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "descriptionLabel"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "item"]
+- !private ["So8NSObjectP", "itemImageView"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "masksToBounds"]
+- !private ["So8NSObjectP", "nameLabel"]
+- !private ["So8NSObjectP", "priceLabel"]
+- !private ["So8NSObjectP", "product"]
+- !private ["So8NSObjectP", "productImageView"]
+- !private ["So8NSObjectP", "reloadData"]
+- !private ["So8NSObjectP", "setFirebaseURL"]
+- !private ["So8NSObjectP", "text"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
 - !private ["So14NSSecureCodingP", "masksToBounds"]
-- !private ["s7NumericP", "dollarCurrency"]
+- !private ["Sj", "dollarCurrency"]
+- !private ["Sq", "frame"]
+- !private ["Sq", "layer"]
+- !private ["Sq", "setFirebaseURL"]
+- !private ["Sq", "text"]
 - ["5Shopp11ProductCellC", "AsyncImageView"]
 - ["5Shopp11ProductCellC", "Item"]
 - ["5Shopp11ProductCellC", "UIButton"]
@@ -301,13 +347,19 @@ depends-member:
 - ["5Shopp11ProductCellC", "product"]
 - ["5Shopp11ProductCellC", "productImageView"]
 - !private ["5Shopp11ProductCellC", "reloadData"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s8SequenceP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
 - !private ["s13SignedNumericP", "dollarCurrency"]
-- !private ["s10StrideableP", "dollarCurrency"]
+- !private ["Sx", "dollarCurrency"]
 - !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
 - !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
@@ -318,6 +370,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
 - !private ["So29UIAccessibilityIdentificationP", "descriptionLabel"]
 - !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "item"]
 - !private ["So29UIAccessibilityIdentificationP", "itemImageView"]
@@ -336,6 +389,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "descriptionLabel"]
 - !private ["So12UIAppearanceP", "frame"]
 - !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "item"]
 - !private ["So12UIAppearanceP", "itemImageView"]
 - !private ["So12UIAppearanceP", "layer"]
@@ -352,6 +406,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "awakeFromNib"]
 - !private ["So21UIAppearanceContainerP", "descriptionLabel"]
 - !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "item"]
 - !private ["So21UIAppearanceContainerP", "itemImageView"]
@@ -375,6 +430,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "descriptionLabel"]
 - !private ["So17UICoordinateSpaceP", "frame"]
 - !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "item"]
 - !private ["So17UICoordinateSpaceP", "itemImageView"]
 - !private ["So17UICoordinateSpaceP", "layer"]
@@ -391,6 +447,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "awakeFromNib"]
 - !private ["So13UIDynamicItemP", "descriptionLabel"]
 - !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "item"]
 - !private ["So13UIDynamicItemP", "itemImageView"]
@@ -409,6 +466,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "descriptionLabel"]
 - !private ["So18UIFocusEnvironmentP", "frame"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "item"]
 - !private ["So18UIFocusEnvironmentP", "itemImageView"]
 - !private ["So18UIFocusEnvironmentP", "layer"]
@@ -426,6 +484,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "descriptionLabel"]
 - !private ["So11UIFocusItemP", "frame"]
 - !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "item"]
 - !private ["So11UIFocusItemP", "itemImageView"]
 - !private ["So11UIFocusItemP", "layer"]
@@ -436,11 +495,30 @@ depends-member:
 - !private ["So11UIFocusItemP", "reloadData"]
 - !private ["So11UIFocusItemP", "setFirebaseURL"]
 - !private ["So11UIFocusItemP", "text"]
+- ["So20UIFocusItemContainerP", "Item"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addBtn"]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "descriptionLabel"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "item"]
+- !private ["So20UIFocusItemContainerP", "itemImageView"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "nameLabel"]
+- !private ["So20UIFocusItemContainerP", "priceLabel"]
+- !private ["So20UIFocusItemContainerP", "product"]
+- !private ["So20UIFocusItemContainerP", "productImageView"]
+- !private ["So20UIFocusItemContainerP", "reloadData"]
+- !private ["So20UIFocusItemContainerP", "setFirebaseURL"]
+- !private ["So20UIFocusItemContainerP", "text"]
 - ["So27UIGestureRecognizerDelegateP", "Item"]
 - ["So27UIGestureRecognizerDelegateP", ""]
 - !private ["So27UIGestureRecognizerDelegateP", "addBtn"]
 - !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
 - !private ["So27UIGestureRecognizerDelegateP", "descriptionLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
 - !private ["So27UIGestureRecognizerDelegateP", "init"]
 - !private ["So27UIGestureRecognizerDelegateP", "item"]
 - !private ["So27UIGestureRecognizerDelegateP", "itemImageView"]
@@ -458,6 +536,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
 - !private ["So30UIPasteConfigurationSupportingP", "descriptionLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "item"]
 - !private ["So30UIPasteConfigurationSupportingP", "itemImageView"]
@@ -478,6 +557,7 @@ depends-member:
 - ["So11UIResponderC", "descriptionLabel"]
 - !private ["So11UIResponderC", "frame"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "item"]
 - ["So11UIResponderC", "itemImageView"]
 - !private ["So11UIResponderC", "layer"]
@@ -494,6 +574,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
 - !private ["So30UIResponderStandardEditActionsP", "descriptionLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "item"]
 - !private ["So30UIResponderStandardEditActionsP", "itemImageView"]
@@ -516,6 +597,7 @@ depends-member:
 - ["So15UITableViewCellC", "awakeFromNib"]
 - ["So15UITableViewCellC", "descriptionLabel"]
 - ["So15UITableViewCellC", "init"]
+- !private ["So15UITableViewCellC", "init"]
 - ["So15UITableViewCellC", "item"]
 - ["So15UITableViewCellC", "itemImageView"]
 - ["So15UITableViewCellC", "nameLabel"]
@@ -530,6 +612,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "descriptionLabel"]
 - !private ["So18UITraitEnvironmentP", "frame"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "item"]
 - !private ["So18UITraitEnvironmentP", "itemImageView"]
 - !private ["So18UITraitEnvironmentP", "layer"]
@@ -540,6 +623,24 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "reloadData"]
 - !private ["So18UITraitEnvironmentP", "setFirebaseURL"]
 - !private ["So18UITraitEnvironmentP", "text"]
+- ["So23UIUserActivityRestoringP", "Item"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addBtn"]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "descriptionLabel"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "item"]
+- !private ["So23UIUserActivityRestoringP", "itemImageView"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "nameLabel"]
+- !private ["So23UIUserActivityRestoringP", "priceLabel"]
+- !private ["So23UIUserActivityRestoringP", "product"]
+- !private ["So23UIUserActivityRestoringP", "productImageView"]
+- !private ["So23UIUserActivityRestoringP", "reloadData"]
+- !private ["So23UIUserActivityRestoringP", "setFirebaseURL"]
+- !private ["So23UIUserActivityRestoringP", "text"]
 - ["So6UIViewC", "AsyncImageView"]
 - ["So6UIViewC", "Item"]
 - ["So6UIViewC", "UIButton"]
@@ -549,6 +650,7 @@ depends-member:
 - ["So6UIViewC", "descriptionLabel"]
 - !private ["So6UIViewC", "frame"]
 - ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
 - ["So6UIViewC", "item"]
 - ["So6UIViewC", "itemImageView"]
 - !private ["So6UIViewC", "layer"]
@@ -568,6 +670,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "descriptionLabel"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "item"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "itemImageView"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
@@ -579,11 +682,16 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setFirebaseURL"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "dollarCurrency"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "dollarCurrency"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Item"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -592,6 +700,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "item"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "itemImageView"]
@@ -605,35 +714,43 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setFirebaseURL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["s21_ObjectiveCBridgeableP", "dollarCurrency"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "layer"]
+- !private ["s21_ObjectiveCBridgeableP", "setFirebaseURL"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
 - !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "5Shopp14AsyncImageViewC"
-- !private "s23BidirectionalCollectionP"
-- !private "s19BinaryFloatingPointP"
+- !private "SK"
+- !private "SB"
 - !private "So7CALayerC"
 - "So15CALayerDelegateP"
 - !private "So13CAMediaTimingP"
-- !private "SC6CGRectV"
+- !private "So6CGRectV"
 - "s7CVarArgP"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
+- !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
+- !private "Se"
 - !private "Sd"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "SE"
+- "SQ"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "s13FloatingPointP"
-- "s8HashableP"
+- !private "SF"
+- "SH"
+- !private "s6HasherV"
 - "5Shopp4ItemC"
 - "5Shopp8ItemCellC"
 - "5Shopp8ItemTypeO"
@@ -641,16 +758,17 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - "So8NSCodingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- !private "s7NumericP"
+- !private "Sj"
+- !private "Sq"
 - "5Shopp11ProductCellC"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s8SequenceP"
+- !private "Sm"
+- !private "ST"
 - !private "s13SignedNumericP"
-- !private "s10StrideableP"
+- !private "Sx"
 - !private "SS"
-- !private "s14StringProtocolP"
+- !private "Sy"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
@@ -664,6 +782,7 @@ depends-nominal:
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
 - "So27UIGestureRecognizerDelegateP"
 - !private "So11UIImageViewC"
 - !private "So7UILabelC"
@@ -673,6 +792,7 @@ depends-nominal:
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So15UITableViewCellC"
 - "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
 - "So6UIViewC"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
@@ -689,23 +809,23 @@ depends-nominal:
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Modules/ESPullToRefresh.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
@@ -800,17 +920,18 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "4711975846e8d6df699aa8d8c17a1d03"

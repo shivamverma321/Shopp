@@ -1,0 +1,692 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbstractLogger"
+- "LogLevel"
+- "LoggerWrapper"
+- "LumberJackLogger"
+- "LogFormatter"
+provides-nominal:
+- "14HyperTrackCore14AbstractLoggerP"
+- "14HyperTrackCore8LogLevelO"
+- "14HyperTrackCore13LoggerWrapperC"
+- "14HyperTrackCore16LumberJackLoggerC"
+- "14HyperTrackCore12LogFormatterC"
+provides-member:
+- ["14HyperTrackCore14AbstractLoggerP", ""]
+- ["14HyperTrackCore8LogLevelO", ""]
+- ["14HyperTrackCore13LoggerWrapperC", ""]
+- ["14HyperTrackCore16LumberJackLoggerC", ""]
+- ["14HyperTrackCore12LogFormatterC", ""]
+- ["So10DDLogLevelV", ""]
+- ["14HyperTrackCore14AbstractLoggerP", "logDebug"]
+- ["14HyperTrackCore14AbstractLoggerP", "logInfo"]
+- ["14HyperTrackCore14AbstractLoggerP", "logWarning"]
+- ["14HyperTrackCore14AbstractLoggerP", "logError"]
+- ["14HyperTrackCore14AbstractLoggerP", "log"]
+- ["So10DDLogLevelV", "description"]
+provides-dynamic-lookup:
+- "format"
+depends-top-level:
+- !private "*"
+- "=="
+- !private "??"
+- "AbstractLogger"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "DDFileLogger"
+- !private "DDLog"
+- !private "DDLogDebug"
+- !private "DDLogError"
+- "DDLogFormatter"
+- !private "DDLogInfo"
+- "DDLogLevel"
+- "DDLogMessage"
+- !private "DDLogWarn"
+- "Data"
+- !private "DateFormatter"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "LogFormatter"
+- "LogLevel"
+- "LoggerWrapper"
+- "LumberJackLogger"
+- "NSObject"
+- "StaticString"
+- "String"
+- "StringLiteralType"
+- !private "TimeInterval"
+- "UInt"
+- !private "URL"
+- !private "~="
+depends-member:
+- !private ["14HyperTrackCore14AbstractLoggerP", "DDFileLogger"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "DDLog"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "DDLogDebug"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "DDLogError"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "DDLogInfo"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "DDLogWarn"]
+- ["14HyperTrackCore14AbstractLoggerP", "Data"]
+- ["14HyperTrackCore14AbstractLoggerP", "Int"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "LogFormatter"]
+- ["14HyperTrackCore14AbstractLoggerP", "LogLevel"]
+- ["14HyperTrackCore14AbstractLoggerP", "StaticString"]
+- ["14HyperTrackCore14AbstractLoggerP", "String"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "TimeInterval"]
+- ["14HyperTrackCore14AbstractLoggerP", "UInt"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "URL"]
+- ["14HyperTrackCore14AbstractLoggerP", ""]
+- !private ["14HyperTrackCore14AbstractLoggerP", "init"]
+- ["14HyperTrackCore14AbstractLoggerP", "log"]
+- ["14HyperTrackCore14AbstractLoggerP", "logDebug"]
+- ["14HyperTrackCore14AbstractLoggerP", "logError"]
+- ["14HyperTrackCore14AbstractLoggerP", "logInfo"]
+- ["14HyperTrackCore14AbstractLoggerP", "logWarning"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "logger"]
+- ["14HyperTrackCore14AbstractLoggerP", "retrieveLogs"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "joined"]
+- !private ["s13ArrayProtocolP", "compactMap"]
+- !private ["s13ArrayProtocolP", "joined"]
+- !private ["SK", "compactMap"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "DateFormatter"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "compactMap"]
+- ["s7CVarArgP", "didAdd"]
+- ["s7CVarArgP", "didAddToLogger"]
+- !private ["s7CVarArgP", "fileName"]
+- ["s7CVarArgP", "format"]
+- ["s7CVarArgP", "formatLogMessage"]
+- !private ["s7CVarArgP", "function"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "iso8601Full"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "level"]
+- !private ["s7CVarArgP", "line"]
+- !private ["s7CVarArgP", "logFileManager"]
+- !private ["s7CVarArgP", "logFormatter"]
+- !private ["s7CVarArgP", "message"]
+- !private ["s7CVarArgP", "rollingFrequency"]
+- !private ["s7CVarArgP", "separator"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "timestamp"]
+- ["s7CVarArgP", "willRemove"]
+- ["s7CVarArgP", "willRemoveFromLogger"]
+- !private ["Sl", "compactMap"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "joined"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- ["s28CustomDebugStringConvertibleP", "didAdd"]
+- ["s28CustomDebugStringConvertibleP", "didAddToLogger"]
+- !private ["s28CustomDebugStringConvertibleP", "fileName"]
+- ["s28CustomDebugStringConvertibleP", "format"]
+- ["s28CustomDebugStringConvertibleP", "formatLogMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "function"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "iso8601Full"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "level"]
+- !private ["s28CustomDebugStringConvertibleP", "line"]
+- !private ["s28CustomDebugStringConvertibleP", "logFileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "logFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumNumberOfLogFiles"]
+- !private ["s28CustomDebugStringConvertibleP", "message"]
+- !private ["s28CustomDebugStringConvertibleP", "rollingFrequency"]
+- !private ["s28CustomDebugStringConvertibleP", "separator"]
+- !private ["s28CustomDebugStringConvertibleP", "sortedLogFilePaths"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- ["s28CustomDebugStringConvertibleP", "willRemove"]
+- ["s28CustomDebugStringConvertibleP", "willRemoveFromLogger"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "maximumNumberOfLogFiles"]
+- !private ["s17CustomReflectableP", "sortedLogFilePaths"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- ["s23CustomStringConvertibleP", "didAdd"]
+- ["s23CustomStringConvertibleP", "didAddToLogger"]
+- !private ["s23CustomStringConvertibleP", "fileName"]
+- ["s23CustomStringConvertibleP", "format"]
+- ["s23CustomStringConvertibleP", "formatLogMessage"]
+- !private ["s23CustomStringConvertibleP", "function"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "iso8601Full"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "level"]
+- !private ["s23CustomStringConvertibleP", "line"]
+- !private ["s23CustomStringConvertibleP", "logFileManager"]
+- !private ["s23CustomStringConvertibleP", "logFormatter"]
+- !private ["s23CustomStringConvertibleP", "message"]
+- !private ["s23CustomStringConvertibleP", "rollingFrequency"]
+- !private ["s23CustomStringConvertibleP", "separator"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "timestamp"]
+- ["s23CustomStringConvertibleP", "willRemove"]
+- ["s23CustomStringConvertibleP", "willRemoveFromLogger"]
+- !private ["So16DDAbstractLoggerC", "init"]
+- !private ["So16DDAbstractLoggerC", "logFileManager"]
+- !private ["So16DDAbstractLoggerC", "logFormatter"]
+- !private ["So16DDAbstractLoggerC", "rollingFrequency"]
+- !private ["So12DDFileLoggerC", "init"]
+- !private ["So12DDFileLoggerC", "logFileManager"]
+- !private ["So12DDFileLoggerC", "logFormatter"]
+- !private ["So12DDFileLoggerC", "rollingFrequency"]
+- !private ["So5DDLogC", "add"]
+- !private ["So16DDLogFileManagerP", "maximumNumberOfLogFiles"]
+- !private ["So16DDLogFileManagerP", "sortedLogFilePaths"]
+- !private ["So14DDLogFormatterP", "DateFormatter"]
+- ["So14DDLogFormatterP", ""]
+- ["So14DDLogFormatterP", "didAdd"]
+- ["So14DDLogFormatterP", "didAddToLogger"]
+- ["So14DDLogFormatterP", "format"]
+- ["So14DDLogFormatterP", "formatLogMessage"]
+- !private ["So14DDLogFormatterP", "init"]
+- !private ["So14DDLogFormatterP", "separator"]
+- ["So14DDLogFormatterP", "willRemove"]
+- ["So14DDLogFormatterP", "willRemoveFromLogger"]
+- ["So10DDLogLevelV", "String"]
+- ["So10DDLogLevelV", "all"]
+- ["So10DDLogLevelV", "debug"]
+- ["So10DDLogLevelV", "description"]
+- ["So10DDLogLevelV", "error"]
+- ["So10DDLogLevelV", "info"]
+- ["So10DDLogLevelV", "off"]
+- ["So10DDLogLevelV", "verbose"]
+- ["So10DDLogLevelV", "warning"]
+- !private ["So12DDLogMessageC", "fileName"]
+- !private ["So12DDLogMessageC", "function"]
+- !private ["So12DDLogMessageC", "level"]
+- !private ["So12DDLogMessageC", "line"]
+- !private ["So12DDLogMessageC", "message"]
+- !private ["So12DDLogMessageC", "timestamp"]
+- !private ["So8DDLoggerP", "init"]
+- !private ["So8DDLoggerP", "logFileManager"]
+- !private ["So8DDLoggerP", "logFormatter"]
+- !private ["So8DDLoggerP", "rollingFrequency"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["So15NSDateFormatterC", "iso8601Full"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "compactMap"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "maximumNumberOfLogFiles"]
+- !private ["Se", "sortedLogFilePaths"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "compactMap"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "maximumNumberOfLogFiles"]
+- !private ["SE", "sortedLogFilePaths"]
+- !private ["SQ", "DateFormatter"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "add"]
+- ["SQ", "all"]
+- !private ["SQ", "compactMap"]
+- ["SQ", "debug"]
+- !private ["SQ", "description"]
+- ["SQ", "didAdd"]
+- ["SQ", "didAddToLogger"]
+- ["SQ", "error"]
+- !private ["SQ", "fileName"]
+- ["SQ", "format"]
+- ["SQ", "formatLogMessage"]
+- !private ["SQ", "function"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "info"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "iso8601Full"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "level"]
+- !private ["SQ", "line"]
+- !private ["SQ", "logFileManager"]
+- !private ["SQ", "logFormatter"]
+- !private ["SQ", "maximumNumberOfLogFiles"]
+- !private ["SQ", "message"]
+- ["SQ", "off"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "rollingFrequency"]
+- !private ["SQ", "separator"]
+- !private ["SQ", "sortedLogFilePaths"]
+- !private ["SQ", "string"]
+- !private ["SQ", "timestamp"]
+- ["SQ", "verbose"]
+- ["SQ", "warning"]
+- ["SQ", "willRemove"]
+- ["SQ", "willRemoveFromLogger"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "maximumNumberOfLogFiles"]
+- !private ["s23ExpressibleByNilLiteralP", "sortedLogFilePaths"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "init"]
+- !private ["So11NSFormatterC", "iso8601Full"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "DateFormatter"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "add"]
+- ["SH", "all"]
+- !private ["SH", "compactMap"]
+- ["SH", "debug"]
+- !private ["SH", "description"]
+- ["SH", "didAdd"]
+- ["SH", "didAddToLogger"]
+- ["SH", "error"]
+- !private ["SH", "fileName"]
+- ["SH", "format"]
+- ["SH", "formatLogMessage"]
+- !private ["SH", "function"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "info"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "iso8601Full"]
+- !private ["SH", "joined"]
+- !private ["SH", "level"]
+- !private ["SH", "line"]
+- !private ["SH", "logFileManager"]
+- !private ["SH", "logFormatter"]
+- !private ["SH", "maximumNumberOfLogFiles"]
+- !private ["SH", "message"]
+- ["SH", "off"]
+- ["SH", "rawValue"]
+- !private ["SH", "rollingFrequency"]
+- !private ["SH", "separator"]
+- !private ["SH", "sortedLogFilePaths"]
+- !private ["SH", "string"]
+- !private ["SH", "timestamp"]
+- ["SH", "verbose"]
+- ["SH", "warning"]
+- ["SH", "willRemove"]
+- ["SH", "willRemoveFromLogger"]
+- !private ["s6HasherV", "combine"]
+- ["14HyperTrackCore12LogFormatterC", "DDLogMessage"]
+- !private ["14HyperTrackCore12LogFormatterC", "DateFormatter"]
+- ["14HyperTrackCore12LogFormatterC", "String"]
+- ["14HyperTrackCore12LogFormatterC", "deinit"]
+- ["14HyperTrackCore12LogFormatterC", "didAdd"]
+- ["14HyperTrackCore12LogFormatterC", "didAddToLogger"]
+- ["14HyperTrackCore12LogFormatterC", "format"]
+- ["14HyperTrackCore12LogFormatterC", "formatLogMessage"]
+- ["14HyperTrackCore12LogFormatterC", "init"]
+- ["14HyperTrackCore12LogFormatterC", "separator"]
+- ["14HyperTrackCore12LogFormatterC", "willRemove"]
+- ["14HyperTrackCore12LogFormatterC", "willRemoveFromLogger"]
+- ["14HyperTrackCore8LogLevelO", "RawValue"]
+- ["14HyperTrackCore8LogLevelO", "_Default_RawValue"]
+- ["14HyperTrackCore8LogLevelO", "debug"]
+- ["14HyperTrackCore8LogLevelO", "deinit"]
+- ["14HyperTrackCore8LogLevelO", "error"]
+- ["14HyperTrackCore8LogLevelO", "hash"]
+- ["14HyperTrackCore8LogLevelO", "hashValue"]
+- ["14HyperTrackCore8LogLevelO", "info"]
+- ["14HyperTrackCore8LogLevelO", "init"]
+- ["14HyperTrackCore8LogLevelO", "rawValue"]
+- ["14HyperTrackCore8LogLevelO", "warning"]
+- ["14HyperTrackCore13LoggerWrapperC", "LumberJackLogger"]
+- ["14HyperTrackCore13LoggerWrapperC", "init"]
+- ["14HyperTrackCore13LoggerWrapperC", "lumberJack"]
+- !private ["14HyperTrackCore13LoggerWrapperC", "lumberJack.storage"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["14HyperTrackCore16LumberJackLoggerC", "DDFileLogger"]
+- !private ["14HyperTrackCore16LumberJackLoggerC", "DDLog"]
+- !private ["14HyperTrackCore16LumberJackLoggerC", "DDLogDebug"]
+- !private ["14HyperTrackCore16LumberJackLoggerC", "DDLogError"]
+- !private ["14HyperTrackCore16LumberJackLoggerC", "DDLogInfo"]
+- !private ["14HyperTrackCore16LumberJackLoggerC", "DDLogWarn"]
+- ["14HyperTrackCore16LumberJackLoggerC", "Data"]
+- ["14HyperTrackCore16LumberJackLoggerC", "Int"]
+- !private ["14HyperTrackCore16LumberJackLoggerC", "LogFormatter"]
+- ["14HyperTrackCore16LumberJackLoggerC", "LogLevel"]
+- ["14HyperTrackCore16LumberJackLoggerC", "StaticString"]
+- ["14HyperTrackCore16LumberJackLoggerC", "String"]
+- !private ["14HyperTrackCore16LumberJackLoggerC", "TimeInterval"]
+- ["14HyperTrackCore16LumberJackLoggerC", "UInt"]
+- !private ["14HyperTrackCore16LumberJackLoggerC", "URL"]
+- ["14HyperTrackCore16LumberJackLoggerC", "deinit"]
+- ["14HyperTrackCore16LumberJackLoggerC", "init"]
+- ["14HyperTrackCore16LumberJackLoggerC", "log"]
+- ["14HyperTrackCore16LumberJackLoggerC", "logDebug"]
+- ["14HyperTrackCore16LumberJackLoggerC", "logError"]
+- ["14HyperTrackCore16LumberJackLoggerC", "logInfo"]
+- ["14HyperTrackCore16LumberJackLoggerC", "logWarning"]
+- ["14HyperTrackCore16LumberJackLoggerC", "logger"]
+- ["14HyperTrackCore16LumberJackLoggerC", "retrieveLogs"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "init"]
+- !private ["SM", "joined"]
+- !private ["So8NSCodingP", "iso8601Full"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "fileName"]
+- !private ["So9NSCopyingP", "function"]
+- !private ["So9NSCopyingP", "iso8601Full"]
+- !private ["So9NSCopyingP", "level"]
+- !private ["So9NSCopyingP", "line"]
+- !private ["So9NSCopyingP", "message"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timestamp"]
+- ["So8NSObjectC", "DDLogMessage"]
+- !private ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "add"]
+- ["So8NSObjectC", "didAdd"]
+- ["So8NSObjectC", "didAddToLogger"]
+- !private ["So8NSObjectC", "fileName"]
+- ["So8NSObjectC", "format"]
+- ["So8NSObjectC", "formatLogMessage"]
+- !private ["So8NSObjectC", "function"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "iso8601Full"]
+- !private ["So8NSObjectC", "level"]
+- !private ["So8NSObjectC", "line"]
+- !private ["So8NSObjectC", "logFileManager"]
+- !private ["So8NSObjectC", "logFormatter"]
+- !private ["So8NSObjectC", "message"]
+- !private ["So8NSObjectC", "rollingFrequency"]
+- ["So8NSObjectC", "separator"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "timestamp"]
+- ["So8NSObjectC", "willRemove"]
+- ["So8NSObjectC", "willRemoveFromLogger"]
+- !private ["So8NSObjectP", "DateFormatter"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "add"]
+- ["So8NSObjectP", "didAdd"]
+- ["So8NSObjectP", "didAddToLogger"]
+- !private ["So8NSObjectP", "fileName"]
+- ["So8NSObjectP", "format"]
+- ["So8NSObjectP", "formatLogMessage"]
+- !private ["So8NSObjectP", "function"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "iso8601Full"]
+- !private ["So8NSObjectP", "level"]
+- !private ["So8NSObjectP", "line"]
+- !private ["So8NSObjectP", "logFileManager"]
+- !private ["So8NSObjectP", "logFormatter"]
+- !private ["So8NSObjectP", "maximumNumberOfLogFiles"]
+- !private ["So8NSObjectP", "message"]
+- !private ["So8NSObjectP", "rollingFrequency"]
+- !private ["So8NSObjectP", "separator"]
+- !private ["So8NSObjectP", "sortedLogFilePaths"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "timestamp"]
+- ["So8NSObjectP", "willRemove"]
+- ["So8NSObjectP", "willRemoveFromLogger"]
+- !private ["Sj", "init"]
+- !private ["Sq", "maximumNumberOfLogFiles"]
+- !private ["Sq", "sortedLogFilePaths"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sm", "compactMap"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "joined"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "all"]
+- ["SY", "debug"]
+- !private ["SY", "description"]
+- ["SY", "error"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "info"]
+- ["SY", "init"]
+- ["SY", "off"]
+- ["SY", "rawValue"]
+- ["SY", "verbose"]
+- ["SY", "warning"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "compactMap"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "didAdd"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "didAddToLogger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "format"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "formatLogMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "function"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "iso8601Full"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "level"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "line"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logFileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rollingFrequency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "separator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timestamp"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "willRemove"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "willRemoveFromLogger"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "maximumNumberOfLogFiles"]
+- !private ["s21_ObjectiveCBridgeableP", "sortedLogFilePaths"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14HyperTrackCore14AbstractLoggerP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "SB"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "So16DDAbstractLoggerC"
+- !private "So12DDFileLoggerC"
+- !private "So5DDLogC"
+- !private "So16DDLogFileManagerP"
+- "So14DDLogFormatterP"
+- "So10DDLogLevelV"
+- !private "So12DDLogMessageC"
+- !private "So8DDLoggerP"
+- !private "10Foundation4DataV"
+- !private "So15NSDateFormatterC"
+- "Se"
+- !private "Sd"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- !private "So11NSFormatterC"
+- "SH"
+- !private "s6HasherV"
+- "14HyperTrackCore12LogFormatterC"
+- "14HyperTrackCore8LogLevelO"
+- "14HyperTrackCore13LoggerWrapperC"
+- "s25LosslessStringConvertibleP"
+- "14HyperTrackCore16LumberJackLoggerC"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0dbe1ad941ada3667dc5e99c0a0bb0ee"

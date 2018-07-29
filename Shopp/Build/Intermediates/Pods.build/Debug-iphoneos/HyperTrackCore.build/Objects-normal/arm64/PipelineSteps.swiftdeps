@@ -1,0 +1,1356 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PipelineLogging"
+- "AbstractPipelineStep"
+- "TransmissionDatabaseStepInput"
+- "TransmissionNetworkStepInput"
+- "Transmission"
+- "ReAuthorizeStepInput"
+- "Initialization"
+- "Pipeline"
+- "AbstractReachabilityManager"
+- "ReachabilityManager"
+- "TransmissionReadDatabaseStep"
+- "TransmissionEventMapper"
+- "TransmissionOfflineEventMapper"
+- "TransmissionNetworkStep"
+- "TransmissionWriteDatabaseStep"
+- "LocationPermissionStep"
+- "ActivityPermissionStep"
+- "CollectionWriteDataBaseEntity"
+- "CollectionMappingEntity"
+- "CheckAccountStatusStep"
+- "CheckAuthorizationTokenStep"
+- "ReAuthorizeStep"
+- "InitDeviceRegistrationEntity"
+provides-nominal:
+- "14HyperTrackCore15PipelineLoggingP"
+- "14HyperTrackCore20AbstractPipelineStepC"
+- "14HyperTrackCore29TransmissionDatabaseStepInputP"
+- "14HyperTrackCore28TransmissionNetworkStepInputP"
+- "14HyperTrackCore12TransmissionO"
+- "14HyperTrackCore12TransmissionO5InputO"
+- "14HyperTrackCore12TransmissionO5InputO8DatabaseV"
+- "14HyperTrackCore12TransmissionO5InputO7NetworkV"
+- "14HyperTrackCore20ReAuthorizeStepInputP"
+- "14HyperTrackCore14InitializationO"
+- "14HyperTrackCore14InitializationO5InputO"
+- "14HyperTrackCore14InitializationO5InputO11ReAuthorizeV"
+- "14HyperTrackCore8PipelineO"
+- "14HyperTrackCore8PipelineO10CollectionO"
+- "14HyperTrackCore8PipelineO10CollectionO5InputO"
+- "14HyperTrackCore8PipelineO10CollectionO5InputO13DatabaseWriteV"
+- "14HyperTrackCore8PipelineO12TransmissionO"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO12ReadDatabaseV"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO6MapperV"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO13WriteDatabaseV"
+- "14HyperTrackCore8PipelineO5StateO"
+- "14HyperTrackCore27AbstractReachabilityManagerP"
+- "14HyperTrackCore19ReachabilityManagerC"
+- "14HyperTrackCore28TransmissionReadDatabaseStepC"
+- "14HyperTrackCore23TransmissionEventMapperC"
+- "14HyperTrackCore30TransmissionOfflineEventMapperC"
+- "14HyperTrackCore23TransmissionNetworkStepC"
+- "14HyperTrackCore29TransmissionWriteDatabaseStepC"
+- "14HyperTrackCore22LocationPermissionStepC"
+- "14HyperTrackCore22ActivityPermissionStepC"
+- "14HyperTrackCore29CollectionWriteDataBaseEntityC"
+- "14HyperTrackCore23CollectionMappingEntityC"
+- "14HyperTrackCore22CheckAccountStatusStepC"
+- "14HyperTrackCore27CheckAuthorizationTokenStepC"
+- "14HyperTrackCore15ReAuthorizeStepC"
+- "14HyperTrackCore28InitDeviceRegistrationEntityC"
+provides-member:
+- ["14HyperTrackCore15PipelineLoggingP", ""]
+- ["14HyperTrackCore20AbstractPipelineStepC", ""]
+- ["14HyperTrackCore29TransmissionDatabaseStepInputP", ""]
+- ["14HyperTrackCore28TransmissionNetworkStepInputP", ""]
+- ["14HyperTrackCore12TransmissionO", ""]
+- ["14HyperTrackCore12TransmissionO5InputO", ""]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", ""]
+- ["14HyperTrackCore12TransmissionO5InputO7NetworkV", ""]
+- ["14HyperTrackCore20ReAuthorizeStepInputP", ""]
+- ["14HyperTrackCore14InitializationO", ""]
+- ["14HyperTrackCore14InitializationO5InputO", ""]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", ""]
+- ["14HyperTrackCore8PipelineO", ""]
+- ["14HyperTrackCore8PipelineO10CollectionO", ""]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO", ""]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO13DatabaseWriteV", ""]
+- ["14HyperTrackCore8PipelineO12TransmissionO", ""]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", ""]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO12ReadDatabaseV", ""]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO6MapperV", ""]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV", ""]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO13WriteDatabaseV", ""]
+- ["14HyperTrackCore8PipelineO5StateO", ""]
+- ["14HyperTrackCore27AbstractReachabilityManagerP", ""]
+- ["14HyperTrackCore19ReachabilityManagerC", ""]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", ""]
+- ["14HyperTrackCore23TransmissionEventMapperC", ""]
+- ["14HyperTrackCore30TransmissionOfflineEventMapperC", ""]
+- ["14HyperTrackCore23TransmissionNetworkStepC", ""]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", ""]
+- ["14HyperTrackCore22LocationPermissionStepC", ""]
+- ["14HyperTrackCore22ActivityPermissionStepC", ""]
+- ["14HyperTrackCore29CollectionWriteDataBaseEntityC", ""]
+- ["14HyperTrackCore23CollectionMappingEntityC", ""]
+- ["14HyperTrackCore22CheckAccountStatusStepC", ""]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", ""]
+- ["14HyperTrackCore15ReAuthorizeStepC", ""]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", ""]
+- ["s5ErrorP", ""]
+- ["14HyperTrackCore15PipelineLoggingP", "log"]
+- ["14HyperTrackCore15PipelineLoggingP", "setState"]
+- ["s5ErrorP", "coreErrorDescription"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private ">"
+- !private "??"
+- "AbstractAPIClient"
+- "AbstractAppState"
+- "AbstractCollectionConfig"
+- "AbstractEventBus"
+- !private "AbstractLocationService"
+- "AbstractNetworkConfig"
+- "AbstractPipelineStep"
+- "AbstractReachabilityManager"
+- "AbstractServiceData"
+- "AbstractServiceManager"
+- "AbstractTransmissionConfig"
+- "AccountAndDeviceDetailsProvider"
+- "ActivityPermissionStep"
+- "AnyObject"
+- !private "ApiRouter"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "AuthToken"
+- "AuthTokenProvider"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "CheckAccountStatusStep"
+- "CheckAuthorizationTokenStep"
+- "CollectionMappingEntity"
+- "CollectionWriteDataBaseEntity"
+- "Constant"
+- !private "CoreError"
+- !private "Date"
+- !private "DateFormatter"
+- !private "Dictionary"
+- "Error"
+- !private "ErrorType"
+- "Event"
+- !private "EventType"
+- "EventsFMDBDatabaseManager"
+- "FloatLiteralType"
+- "InitDeviceRegistrationEntity"
+- "Initialization"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "JSONSerialization"
+- "LocationPermissionStep"
+- "Payload"
+- "Pipeline"
+- "PipelineLogging"
+- !private "PrivateDataAccessProvider"
+- !private "Provider"
+- "ReAuthorizeStep"
+- "ReAuthorizeStepInput"
+- "Reachability"
+- "ReachabilityManager"
+- "Response"
+- "StaticString"
+- "String"
+- "StringLiteralType"
+- "Task"
+- !private "TaskCompletionSource"
+- "Transmission"
+- "TransmissionDatabaseStepInput"
+- "TransmissionEventMapper"
+- "TransmissionNetworkStep"
+- "TransmissionNetworkStepInput"
+- "TransmissionOfflineEventMapper"
+- "TransmissionReadDatabaseStep"
+- "TransmissionWriteDatabaseStep"
+- "UInt"
+- !private "UUID"
+- "Void"
+depends-member:
+- !private ["14HyperTrackCore11APIEndpointP", "deviceRegister"]
+- !private ["14HyperTrackCore11APIEndpointP", "getToken"]
+- !private ["14HyperTrackCore11APIEndpointP", "sendEvent"]
+- !private ["14HyperTrackCore17AbstractAPIClientP", "makeRequest"]
+- !private ["14HyperTrackCore16AbstractAppStateP", "getAccountId"]
+- !private ["14HyperTrackCore16AbstractAppStateP", "getDeviceData"]
+- !private ["14HyperTrackCore24AbstractCollectionConfigP", "collection"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "delete"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "fetch"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "insert"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "post"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "requestPermissions"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "getService"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "requestPermissions"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "logDebug"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "logError"]
+- !private ["14HyperTrackCore21AbstractNetworkConfigP", "network"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AbstractAPIClient"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AbstractAppState"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AbstractCollectionConfig"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AbstractEventBus"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "AbstractLocationService"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AbstractNetworkConfig"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AbstractServiceData"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AbstractServiceManager"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AbstractTransmissionConfig"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AccountAndDeviceDetailsProvider"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "ApiRouter"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "AuthToken"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "AuthTokenProvider"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Bool"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Constant"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "CoreError"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "Date"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "DateFormatter"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "ErrorType"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Event"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "EventType"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Input"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Int"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "JSONDecoder"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "JSONSerialization"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Output"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "Payload"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Pipeline"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "PrivateDataAccessProvider"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "ReAuthorizeStep"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "ReAuthorizeStepInput"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Reachability"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "ReachabilityEvent"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Response"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "String"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Task"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "TaskCompletionSource"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "TransmissionDatabaseStepInput"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "TransmissionNetworkStepInput"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "UInt"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "UUID"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "Void"]
+- ["14HyperTrackCore20AbstractPipelineStepC", ""]
+- ["14HyperTrackCore20AbstractPipelineStepC", "apiClient"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "appState"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "batchSize"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "config"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "context"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "database"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "deinit"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "detailsProvider"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "eventBus"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "execute"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "host"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "init"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "init"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "isFiltering"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "isReachable"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "reachability"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "reauthStep"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "serviceManager"]
+- !private ["14HyperTrackCore20AbstractPipelineStepC", "setState"]
+- ["14HyperTrackCore20AbstractPipelineStepC", "tokenProvider"]
+- ["14HyperTrackCore27AbstractReachabilityManagerP", "Bool"]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "Constant"]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "CoreError"]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "Reachability"]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "ReachabilityEvent"]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "TaskCompletionSource"]
+- ["14HyperTrackCore27AbstractReachabilityManagerP", ""]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "config"]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "eventBus"]
+- ["14HyperTrackCore27AbstractReachabilityManagerP", "isReachable"]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "reachability"]
+- !private ["14HyperTrackCore27AbstractReachabilityManagerP", "setState"]
+- !private ["14HyperTrackCore15AbstractServiceP", "requestPermissions"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "getId"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "getJSONdata"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "getRecordedAt"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "getType"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "getService"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "getService"]
+- ["14HyperTrackCore22ActivityPermissionStepC", "AbstractServiceManager"]
+- ["14HyperTrackCore22ActivityPermissionStepC", "Bool"]
+- !private ["14HyperTrackCore22ActivityPermissionStepC", "CoreError"]
+- !private ["14HyperTrackCore22ActivityPermissionStepC", "PrivateDataAccessProvider"]
+- ["14HyperTrackCore22ActivityPermissionStepC", "Task"]
+- !private ["14HyperTrackCore22ActivityPermissionStepC", "TaskCompletionSource"]
+- ["14HyperTrackCore22ActivityPermissionStepC", "Void"]
+- !private ["14HyperTrackCore22ActivityPermissionStepC", "deinit"]
+- ["14HyperTrackCore22ActivityPermissionStepC", "execute"]
+- ["14HyperTrackCore22ActivityPermissionStepC", "init"]
+- !private ["14HyperTrackCore22ActivityPermissionStepC", "serviceManager"]
+- !private ["14HyperTrackCore22ActivityPermissionStepC", "setState"]
+- !private ["14HyperTrackCore9ApiRouterO", "deinit"]
+- !private ["14HyperTrackCore9ApiRouterO", "deviceRegister"]
+- !private ["14HyperTrackCore9ApiRouterO", "getToken"]
+- !private ["14HyperTrackCore9ApiRouterO", "sendEvent"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "count"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "compactMap"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["14HyperTrackCore9AuthTokenV", "deinit"]
+- !private ["14HyperTrackCore9AuthTokenV", "token"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "authToken"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "status"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "getService"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "displayErrorMessage"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "iso8601Full"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "reachableBlock"]
+- !private ["s7CVarArgP", "startNotifier"]
+- !private ["s7CVarArgP", "stopNotifier"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unreachableBlock"]
+- ["14HyperTrackCore22CheckAccountStatusStepC", "AuthTokenProvider"]
+- ["14HyperTrackCore22CheckAccountStatusStepC", "Bool"]
+- ["14HyperTrackCore22CheckAccountStatusStepC", "Task"]
+- ["14HyperTrackCore22CheckAccountStatusStepC", "Void"]
+- ["14HyperTrackCore22CheckAccountStatusStepC", "execute"]
+- ["14HyperTrackCore22CheckAccountStatusStepC", "init"]
+- !private ["14HyperTrackCore22CheckAccountStatusStepC", "tokenProvider"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "Bool"]
+- !private ["14HyperTrackCore27CheckAuthorizationTokenStepC", "CoreError"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "ReAuthorizeStep"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "ReAuthorizeStepInput"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "Task"]
+- !private ["14HyperTrackCore27CheckAuthorizationTokenStepC", "TaskCompletionSource"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "Void"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "deinit"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "execute"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "init"]
+- ["14HyperTrackCore27CheckAuthorizationTokenStepC", "reauthStep"]
+- !private ["14HyperTrackCore27CheckAuthorizationTokenStepC", "setState"]
+- ["14HyperTrackCore8PipelineO10CollectionO", "Event"]
+- ["14HyperTrackCore8PipelineO10CollectionO", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore8PipelineO10CollectionO", "Input"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["14HyperTrackCore6ConfigC10CollectionV", "isFiltering"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO10CollectionO", "isFiltering"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- ["14HyperTrackCore23CollectionMappingEntityC", "AbstractServiceData"]
+- !private ["14HyperTrackCore23CollectionMappingEntityC", "CoreError"]
+- !private ["14HyperTrackCore23CollectionMappingEntityC", "DateFormatter"]
+- ["14HyperTrackCore23CollectionMappingEntityC", "Event"]
+- ["14HyperTrackCore23CollectionMappingEntityC", "Task"]
+- !private ["14HyperTrackCore23CollectionMappingEntityC", "TaskCompletionSource"]
+- !private ["14HyperTrackCore23CollectionMappingEntityC", "deinit"]
+- ["14HyperTrackCore23CollectionMappingEntityC", "execute"]
+- ["14HyperTrackCore23CollectionMappingEntityC", "init"]
+- !private ["14HyperTrackCore23CollectionMappingEntityC", "setState"]
+- ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "AbstractCollectionConfig"]
+- ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "Bool"]
+- !private ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "Constant"]
+- !private ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "CoreError"]
+- ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "Pipeline"]
+- ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "Task"]
+- !private ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "TaskCompletionSource"]
+- !private ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "config"]
+- !private ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "deinit"]
+- ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "execute"]
+- ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "init"]
+- !private ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "isFiltering"]
+- !private ["14HyperTrackCore29CollectionWriteDataBaseEntityC", "setState"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Collection"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Network"]
+- !private ["14HyperTrackCore8ConstantO", "Config"]
+- !private ["14HyperTrackCore8ConstantO", "Context"]
+- ["14HyperTrackCore8ConstantO", "Notification"]
+- !private ["14HyperTrackCore8ConstantO", "ServerKeys"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "pipelineStep"]
+- !private ["14HyperTrackCore0C5ErrorC", "deinit"]
+- !private ["14HyperTrackCore0C5ErrorC", "displayErrorMessage"]
+- !private ["14HyperTrackCore0C5ErrorC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "continueWith"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "displayErrorMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "iso8601Full"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "reachableBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "startNotifier"]
+- !private ["s28CustomDebugStringConvertibleP", "stopNotifier"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unreachableBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "ReadingOptions"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "activity"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "continueWith"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "displayErrorMessage"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "iso8601Full"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reachableBlock"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "startNotifier"]
+- !private ["s23CustomStringConvertibleP", "stopNotifier"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unreachableBlock"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["14HyperTrackCore14DataBaseResultO", "failure"]
+- !private ["14HyperTrackCore14DataBaseResultO", "success"]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", "AbstractTransmissionConfig"]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", "UInt"]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", "batchSize"]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", "config"]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", "database"]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", "deinit"]
+- ["14HyperTrackCore12TransmissionO5InputO8DatabaseV", "init"]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO13DatabaseWriteV", "Event"]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO13DatabaseWriteV", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO13DatabaseWriteV", "database"]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO13DatabaseWriteV", "events"]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO13DatabaseWriteV", "init"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So15NSDateFormatterC", "iso8601Full"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "active"]
+- !private ["Se", "activity"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "count"]
+- !private ["Se", "host"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isFiltering"]
+- !private ["Se", "location"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["Se", "token"]
+- !private ["Se", "uuidString"]
+- !private ["14HyperTrackCore18DeviceDataProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore18DeviceDataProtocolP", "getDeviceData"]
+- !private ["14HyperTrackCore10DeviceInfoC", "deinit"]
+- !private ["14HyperTrackCore10DeviceInfoC", "jsonDict"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "active"]
+- !private ["SE", "activity"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "count"]
+- !private ["SE", "host"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isFiltering"]
+- !private ["SE", "location"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SE", "token"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", "ReadingOptions"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "active"]
+- !private ["SQ", "activity"]
+- !private ["SQ", "activityPermissionsDenied"]
+- !private ["SQ", "allowFragments"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "count"]
+- !private ["SQ", "databaseReadFailed"]
+- !private ["SQ", "databaseWriteFailed"]
+- !private ["SQ", "deviceIdBlank"]
+- !private ["SQ", "deviceReconnected"]
+- !private ["SQ", "displayErrorMessage"]
+- !private ["SQ", "forbidden"]
+- !private ["SQ", "granted"]
+- !private ["SQ", "grantedAlways"]
+- !private ["SQ", "grantedWhenInUse"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "iso8601Full"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "location"]
+- !private ["SQ", "locationPermissionsDenied"]
+- !private ["SQ", "map"]
+- !private ["SQ", "networkDisconnected"]
+- !private ["SQ", "parsingError"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "reachableBlock"]
+- !private ["SQ", "sensorToDataMappingFailed"]
+- !private ["SQ", "startNotifier"]
+- !private ["SQ", "stopNotifier"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unknown"]
+- !private ["SQ", "unknownService"]
+- !private ["SQ", "unreachableBlock"]
+- !private ["SQ", "uuidString"]
+- !private ["s5ErrorP", "CoreError"]
+- ["s5ErrorP", "String"]
+- ["s5ErrorP", "coreErrorDescription"]
+- !private ["s5ErrorP", "displayErrorMessage"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["14HyperTrackCore9ErrorTypeO", "activityPermissionsDenied"]
+- !private ["14HyperTrackCore9ErrorTypeO", "databaseReadFailed"]
+- !private ["14HyperTrackCore9ErrorTypeO", "databaseWriteFailed"]
+- !private ["14HyperTrackCore9ErrorTypeO", "deviceIdBlank"]
+- !private ["14HyperTrackCore9ErrorTypeO", "forbidden"]
+- !private ["14HyperTrackCore9ErrorTypeO", "locationPermissionsDenied"]
+- !private ["14HyperTrackCore9ErrorTypeO", "networkDisconnected"]
+- !private ["14HyperTrackCore9ErrorTypeO", "parsingError"]
+- !private ["14HyperTrackCore9ErrorTypeO", "sensorToDataMappingFailed"]
+- !private ["14HyperTrackCore9ErrorTypeO", "unknown"]
+- !private ["14HyperTrackCore9ErrorTypeO", "unknownService"]
+- !private ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "data"]
+- !private ["14HyperTrackCore5EventV", "deinit"]
+- !private ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "deviceId"]
+- !private ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "events"]
+- !private ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "id"]
+- !private ["14HyperTrackCore5EventV", "init"]
+- !private ["14HyperTrackCore5EventV", "jsonDict"]
+- !private ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "recordedAt"]
+- !private ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "type"]
+- !private ["14HyperTrackCore9EventTypeO", "deinit"]
+- !private ["14HyperTrackCore9EventTypeO", "deviceReconnected"]
+- !private ["14HyperTrackCore9EventTypeO", "rawValue"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "deinit"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "delete"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "fetch"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So11NSFormatterC", "iso8601Full"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["14HyperTrackCore20GetAccountIdProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore20GetAccountIdProtocolP", "getDeviceData"]
+- !private ["14HyperTrackCore20GetAccountIdProtocolP", "getDeviceId"]
+- !private ["14HyperTrackCore20GetAccountIdProtocolP", "setAccountId"]
+- !private ["14HyperTrackCore19GetDeviceIdProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore19GetDeviceIdProtocolP", "getDeviceData"]
+- !private ["14HyperTrackCore19GetDeviceIdProtocolP", "getDeviceId"]
+- !private ["14HyperTrackCore19GetDeviceIdProtocolP", "setAccountId"]
+- !private ["14HyperTrackCore25GetPublishableKeyProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore25GetPublishableKeyProtocolP", "getDeviceData"]
+- !private ["14HyperTrackCore25GetPublishableKeyProtocolP", "getDeviceId"]
+- !private ["14HyperTrackCore25GetPublishableKeyProtocolP", "setAccountId"]
+- !private ["SH", "ReadingOptions"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "active"]
+- !private ["SH", "activity"]
+- !private ["SH", "activityPermissionsDenied"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "count"]
+- !private ["SH", "databaseReadFailed"]
+- !private ["SH", "databaseWriteFailed"]
+- !private ["SH", "deviceIdBlank"]
+- !private ["SH", "deviceReconnected"]
+- !private ["SH", "displayErrorMessage"]
+- !private ["SH", "forbidden"]
+- !private ["SH", "granted"]
+- !private ["SH", "grantedAlways"]
+- !private ["SH", "grantedWhenInUse"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "iso8601Full"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "location"]
+- !private ["SH", "locationPermissionsDenied"]
+- !private ["SH", "map"]
+- !private ["SH", "networkDisconnected"]
+- !private ["SH", "parsingError"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "reachableBlock"]
+- !private ["SH", "sensorToDataMappingFailed"]
+- !private ["SH", "startNotifier"]
+- !private ["SH", "stopNotifier"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unknown"]
+- !private ["SH", "unknownService"]
+- !private ["SH", "unreachableBlock"]
+- !private ["SH", "uuidString"]
+- !private ["14HyperTrackCore21HeartbeatInfoProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore21HeartbeatInfoProtocolP", "getDeviceData"]
+- !private ["14HyperTrackCore21HeartbeatPingProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore21HeartbeatPingProtocolP", "getDeviceData"]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", "AbstractAPIClient"]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", "AbstractAppState"]
+- !private ["14HyperTrackCore28InitDeviceRegistrationEntityC", "ApiRouter"]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", "Bool"]
+- !private ["14HyperTrackCore28InitDeviceRegistrationEntityC", "CoreError"]
+- !private ["14HyperTrackCore28InitDeviceRegistrationEntityC", "Payload"]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", "Response"]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", "Task"]
+- !private ["14HyperTrackCore28InitDeviceRegistrationEntityC", "TaskCompletionSource"]
+- !private ["14HyperTrackCore28InitDeviceRegistrationEntityC", "Void"]
+- !private ["14HyperTrackCore28InitDeviceRegistrationEntityC", "apiClient"]
+- !private ["14HyperTrackCore28InitDeviceRegistrationEntityC", "appState"]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", "deinit"]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", "execute"]
+- ["14HyperTrackCore28InitDeviceRegistrationEntityC", "init"]
+- !private ["14HyperTrackCore28InitDeviceRegistrationEntityC", "setState"]
+- ["14HyperTrackCore14InitializationO", "AbstractAPIClient"]
+- ["14HyperTrackCore14InitializationO", "AccountAndDeviceDetailsProvider"]
+- ["14HyperTrackCore14InitializationO", "AuthTokenProvider"]
+- ["14HyperTrackCore14InitializationO", "Input"]
+- ["14HyperTrackCore14InitializationO", "ReAuthorizeStepInput"]
+- ["14HyperTrackCore12TransmissionO5InputO", "AbstractAPIClient"]
+- ["14HyperTrackCore14InitializationO5InputO", "AbstractAPIClient"]
+- ["14HyperTrackCore12TransmissionO5InputO", "AbstractNetworkConfig"]
+- ["14HyperTrackCore12TransmissionO5InputO", "AbstractTransmissionConfig"]
+- ["14HyperTrackCore14InitializationO5InputO", "AccountAndDeviceDetailsProvider"]
+- ["14HyperTrackCore14InitializationO5InputO", "AuthTokenProvider"]
+- ["14HyperTrackCore12TransmissionO5InputO", "Database"]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO", "DatabaseWrite"]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO", "Event"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", "Event"]
+- ["14HyperTrackCore12TransmissionO5InputO", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore8PipelineO10CollectionO5InputO", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", "Mapper"]
+- ["14HyperTrackCore12TransmissionO5InputO", "Network"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", "Network"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", "Payload"]
+- ["14HyperTrackCore14InitializationO5InputO", "ReAuthorize"]
+- ["14HyperTrackCore14InitializationO5InputO", "ReAuthorizeStepInput"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", "ReadDatabase"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", "Response"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", "String"]
+- ["14HyperTrackCore12TransmissionO5InputO", "TransmissionDatabaseStepInput"]
+- ["14HyperTrackCore12TransmissionO5InputO", "TransmissionNetworkStepInput"]
+- ["14HyperTrackCore12TransmissionO5InputO", "UInt"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO", "WriteDatabase"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "hyperTrackDecoder"]
+- !private ["14HyperTrackCore16JSONDictProtocolP", "init"]
+- !private ["14HyperTrackCore16JSONDictProtocolP", "jsonDict"]
+- ["14HyperTrackCore10JSONResultO", "failure"]
+- ["14HyperTrackCore10JSONResultO", "success"]
+- !private ["So19NSJSONSerializationC", "ReadingOptions"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["14HyperTrackCore11LocalizableP", "accessLevel"]
+- !private ["14HyperTrackCore11LocalizableP", "error"]
+- !private ["14HyperTrackCore11LocalizableP", "granted"]
+- !private ["14HyperTrackCore11LocalizableP", "grantedAlways"]
+- !private ["14HyperTrackCore11LocalizableP", "grantedWhenInUse"]
+- !private ["14HyperTrackCore22LocationPermissionStepC", "AbstractLocationService"]
+- ["14HyperTrackCore22LocationPermissionStepC", "AbstractServiceManager"]
+- ["14HyperTrackCore22LocationPermissionStepC", "Bool"]
+- !private ["14HyperTrackCore22LocationPermissionStepC", "CoreError"]
+- ["14HyperTrackCore22LocationPermissionStepC", "Task"]
+- !private ["14HyperTrackCore22LocationPermissionStepC", "TaskCompletionSource"]
+- ["14HyperTrackCore22LocationPermissionStepC", "Void"]
+- ["14HyperTrackCore22LocationPermissionStepC", "deinit"]
+- ["14HyperTrackCore22LocationPermissionStepC", "execute"]
+- ["14HyperTrackCore22LocationPermissionStepC", "init"]
+- !private ["14HyperTrackCore22LocationPermissionStepC", "serviceManager"]
+- !private ["14HyperTrackCore22LocationPermissionStepC", "setState"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO6MapperV", "Event"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO6MapperV", "String"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO6MapperV", "deviceId"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO6MapperV", "events"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO6MapperV", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "count"]
+- !private ["SM", "map"]
+- !private ["So8NSCodingP", "iso8601Full"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "iso8601Full"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "ReadingOptions"]
+- !private ["So8NSObjectC", "displayErrorMessage"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "iso8601Full"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "reachableBlock"]
+- !private ["So8NSObjectC", "startNotifier"]
+- !private ["So8NSObjectC", "stopNotifier"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "unreachableBlock"]
+- !private ["So8NSObjectP", "ReadingOptions"]
+- !private ["So8NSObjectP", "displayErrorMessage"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "iso8601Full"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "reachableBlock"]
+- !private ["So8NSObjectP", "startNotifier"]
+- !private ["So8NSObjectP", "stopNotifier"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "unreachableBlock"]
+- ["14HyperTrackCore12TransmissionO5InputO7NetworkV", "AbstractAPIClient"]
+- ["14HyperTrackCore12TransmissionO5InputO7NetworkV", "AbstractNetworkConfig"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV", "Event"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV", "Payload"]
+- ["14HyperTrackCore8ConstantO12NotificationO7NetworkO", "ReachabilityEvent"]
+- ["14HyperTrackCore12TransmissionO5InputO7NetworkV", "apiClient"]
+- ["14HyperTrackCore12TransmissionO5InputO7NetworkV", "config"]
+- ["14HyperTrackCore12TransmissionO5InputO7NetworkV", "deinit"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV", "events"]
+- !private ["14HyperTrackCore6ConfigC7NetworkV", "host"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "host"]
+- ["14HyperTrackCore12TransmissionO5InputO7NetworkV", "init"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV", "init"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV", "payload"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Network"]
+- !private ["s9OptionSetP", "allowFragments"]
+- !private ["Sq", "subscript"]
+- ["14HyperTrackCore8PipelineO", "Collection"]
+- ["14HyperTrackCore8PipelineO", "Error"]
+- ["14HyperTrackCore8PipelineO", "Event"]
+- ["14HyperTrackCore8PipelineO", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore8PipelineO", "Payload"]
+- ["14HyperTrackCore8PipelineO", "Response"]
+- ["14HyperTrackCore8PipelineO", "State"]
+- ["14HyperTrackCore8PipelineO", "String"]
+- ["14HyperTrackCore8PipelineO", "Transmission"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "ApiRouter"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "AuthToken"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "Constant"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "CoreError"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "Date"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "DateFormatter"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "ErrorType"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "Event"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "EventType"]
+- ["14HyperTrackCore15PipelineLoggingP", "Int"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "JSONDecoder"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "JSONSerialization"]
+- ["14HyperTrackCore15PipelineLoggingP", "Pipeline"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "Provider"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "ReAuthorizeStep"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "Reachability"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "ReachabilityEvent"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "Self"]
+- ["14HyperTrackCore15PipelineLoggingP", "StaticString"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "String"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "Task"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "TaskCompletionSource"]
+- ["14HyperTrackCore15PipelineLoggingP", "UInt"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "UUID"]
+- ["14HyperTrackCore15PipelineLoggingP", ""]
+- ["14HyperTrackCore15PipelineLoggingP", "apiClient"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "appState"]
+- ["14HyperTrackCore15PipelineLoggingP", "batchSize"]
+- ["14HyperTrackCore15PipelineLoggingP", "config"]
+- ["14HyperTrackCore15PipelineLoggingP", "context"]
+- ["14HyperTrackCore15PipelineLoggingP", "database"]
+- ["14HyperTrackCore15PipelineLoggingP", "detailsProvider"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "eventBus"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "execute"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "init"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "init"]
+- ["14HyperTrackCore15PipelineLoggingP", "isReachable"]
+- ["14HyperTrackCore15PipelineLoggingP", "log"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "reachability"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "reauthStep"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "serviceManager"]
+- ["14HyperTrackCore15PipelineLoggingP", "setState"]
+- ["14HyperTrackCore15PipelineLoggingP", "tokenProvider"]
+- !private ["14HyperTrackCore22PrivateDataAccessLevelO", "granted"]
+- !private ["14HyperTrackCore22PrivateDataAccessLevelO", "grantedAlways"]
+- !private ["14HyperTrackCore22PrivateDataAccessLevelO", "grantedWhenInUse"]
+- !private ["14HyperTrackCore32PrivateDataAccessRequestProviderP", "requestAccess"]
+- !private ["14HyperTrackCore31PrivateDataAccessStatusProviderP", "requestAccess"]
+- !private ["14HyperTrackCore30PrivateDataRequestAccessResultV", "accessLevel"]
+- !private ["14HyperTrackCore30PrivateDataRequestAccessResultV", "error"]
+- !private ["14HyperTrackCore8ProviderC", "logger"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "count"]
+- !private ["Sk", "map"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["SY", "active"]
+- !private ["SY", "activity"]
+- !private ["SY", "activityPermissionsDenied"]
+- !private ["SY", "allowFragments"]
+- !private ["SY", "databaseReadFailed"]
+- !private ["SY", "databaseWriteFailed"]
+- !private ["SY", "deviceIdBlank"]
+- !private ["SY", "deviceReconnected"]
+- !private ["SY", "forbidden"]
+- !private ["SY", "granted"]
+- !private ["SY", "grantedAlways"]
+- !private ["SY", "grantedWhenInUse"]
+- !private ["SY", "location"]
+- !private ["SY", "locationPermissionsDenied"]
+- !private ["SY", "networkDisconnected"]
+- !private ["SY", "parsingError"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "sensorToDataMappingFailed"]
+- !private ["SY", "unknown"]
+- !private ["SY", "unknownService"]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", "AbstractAPIClient"]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", "AccountAndDeviceDetailsProvider"]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", "AuthTokenProvider"]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", "apiClient"]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", "deinit"]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", "detailsProvider"]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", "init"]
+- ["14HyperTrackCore14InitializationO5InputO11ReAuthorizeV", "tokenProvider"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "AbstractAPIClient"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "AccountAndDeviceDetailsProvider"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "ApiRouter"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "AuthToken"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "AuthTokenProvider"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "CoreError"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "ErrorType"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "JSONDecoder"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "JSONSerialization"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "ReAuthorizeStepInput"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "Response"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "String"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "Task"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "TaskCompletionSource"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "Void"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "apiClient"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "deinit"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "detailsProvider"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "execute"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "init"]
+- !private ["14HyperTrackCore15ReAuthorizeStepC", "setState"]
+- ["14HyperTrackCore15ReAuthorizeStepC", "tokenProvider"]
+- ["14HyperTrackCore20ReAuthorizeStepInputP", "AbstractAPIClient"]
+- ["14HyperTrackCore20ReAuthorizeStepInputP", "AccountAndDeviceDetailsProvider"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "ApiRouter"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "AuthToken"]
+- ["14HyperTrackCore20ReAuthorizeStepInputP", "AuthTokenProvider"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "CoreError"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "ErrorType"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "JSONDecoder"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "JSONSerialization"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "TaskCompletionSource"]
+- ["14HyperTrackCore20ReAuthorizeStepInputP", ""]
+- ["14HyperTrackCore20ReAuthorizeStepInputP", "apiClient"]
+- ["14HyperTrackCore20ReAuthorizeStepInputP", "detailsProvider"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "execute"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "init"]
+- !private ["14HyperTrackCore20ReAuthorizeStepInputP", "setState"]
+- ["14HyperTrackCore20ReAuthorizeStepInputP", "tokenProvider"]
+- !private ["So12ReachabilityC", "init"]
+- !private ["So12ReachabilityC", "reachableBlock"]
+- !private ["So12ReachabilityC", "startNotifier"]
+- !private ["So12ReachabilityC", "stopNotifier"]
+- !private ["So12ReachabilityC", "unreachableBlock"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO", "name"]
+- ["14HyperTrackCore19ReachabilityManagerC", "AbstractEventBus"]
+- ["14HyperTrackCore19ReachabilityManagerC", "AbstractNetworkConfig"]
+- ["14HyperTrackCore19ReachabilityManagerC", "Bool"]
+- ["14HyperTrackCore19ReachabilityManagerC", "Constant"]
+- !private ["14HyperTrackCore19ReachabilityManagerC", "CoreError"]
+- ["14HyperTrackCore19ReachabilityManagerC", "Reachability"]
+- ["14HyperTrackCore19ReachabilityManagerC", "ReachabilityEvent"]
+- ["14HyperTrackCore19ReachabilityManagerC", "String"]
+- ["14HyperTrackCore19ReachabilityManagerC", "Task"]
+- !private ["14HyperTrackCore19ReachabilityManagerC", "TaskCompletionSource"]
+- ["14HyperTrackCore19ReachabilityManagerC", "Void"]
+- !private ["14HyperTrackCore19ReachabilityManagerC", "config"]
+- ["14HyperTrackCore19ReachabilityManagerC", "deinit"]
+- !private ["14HyperTrackCore19ReachabilityManagerC", "eventBus"]
+- ["14HyperTrackCore19ReachabilityManagerC", "execute"]
+- !private ["14HyperTrackCore19ReachabilityManagerC", "host"]
+- ["14HyperTrackCore19ReachabilityManagerC", "init"]
+- ["14HyperTrackCore19ReachabilityManagerC", "isReachable"]
+- !private ["14HyperTrackCore19ReachabilityManagerC", "reachability"]
+- !private ["14HyperTrackCore19ReachabilityManagerC", "setState"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO12ReadDatabaseV", "String"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO12ReadDatabaseV", "deviceId"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO12ReadDatabaseV", "init"]
+- !private ["So20NSJSONReadingOptionsV", "allowFragments"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["14HyperTrackCore8ResponseC", "data"]
+- !private ["14HyperTrackCore8ResponseC", "error"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["14HyperTrackCore8ConstantO10ServerKeysO", "Event"]
+- !private ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "activity"]
+- !private ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "location"]
+- !private ["14HyperTrackCore19SessionInfoProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore19SessionInfoProtocolP", "getDeviceData"]
+- !private ["14HyperTrackCore20SetAccountIdProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore20SetAccountIdProtocolP", "getDeviceData"]
+- !private ["14HyperTrackCore20SetAccountIdProtocolP", "getDeviceId"]
+- !private ["14HyperTrackCore20SetAccountIdProtocolP", "setAccountId"]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- !private ["14HyperTrackCore19SetDeviceIdProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore19SetDeviceIdProtocolP", "getDeviceData"]
+- !private ["14HyperTrackCore25SetPublishableKeyProtocolP", "getAccountId"]
+- !private ["14HyperTrackCore25SetPublishableKeyProtocolP", "getDeviceData"]
+- ["14HyperTrackCore8PipelineO5StateO", "Error"]
+- ["14HyperTrackCore8PipelineO5StateO", "executing"]
+- ["14HyperTrackCore8PipelineO5StateO", "failure"]
+- ["14HyperTrackCore8PipelineO5StateO", "success"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["14HyperTrackCore11AuthManagerC6StatusO", "active"]
+- !private ["14HyperTrackCore11AuthManagerC6StatusO", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["14HyperTrackCore4TaskC", "continueWith"]
+- !private ["14HyperTrackCore4TaskC", "error"]
+- !private ["14HyperTrackCore4TaskC", "init"]
+- !private ["14HyperTrackCore4TaskC", "result"]
+- !private ["14HyperTrackCore20TaskCompletionSourceC", "init"]
+- !private ["14HyperTrackCore20TaskCompletionSourceC", "set"]
+- !private ["14HyperTrackCore20TaskCompletionSourceC", "task"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["14HyperTrackCore12TransmissionO", "AbstractAPIClient"]
+- ["14HyperTrackCore12TransmissionO", "AbstractNetworkConfig"]
+- ["14HyperTrackCore12TransmissionO", "AbstractTransmissionConfig"]
+- ["14HyperTrackCore8PipelineO12TransmissionO", "Event"]
+- ["14HyperTrackCore12TransmissionO", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore12TransmissionO", "Input"]
+- ["14HyperTrackCore8PipelineO12TransmissionO", "Input"]
+- ["14HyperTrackCore8PipelineO12TransmissionO", "Payload"]
+- ["14HyperTrackCore8PipelineO12TransmissionO", "Response"]
+- ["14HyperTrackCore8PipelineO12TransmissionO", "String"]
+- ["14HyperTrackCore12TransmissionO", "TransmissionDatabaseStepInput"]
+- ["14HyperTrackCore12TransmissionO", "TransmissionNetworkStepInput"]
+- ["14HyperTrackCore12TransmissionO", "UInt"]
+- ["14HyperTrackCore29TransmissionDatabaseStepInputP", "AbstractTransmissionConfig"]
+- !private ["14HyperTrackCore29TransmissionDatabaseStepInputP", "CoreError"]
+- ["14HyperTrackCore29TransmissionDatabaseStepInputP", "EventsFMDBDatabaseManager"]
+- !private ["14HyperTrackCore29TransmissionDatabaseStepInputP", "Pipeline"]
+- !private ["14HyperTrackCore29TransmissionDatabaseStepInputP", "TaskCompletionSource"]
+- ["14HyperTrackCore29TransmissionDatabaseStepInputP", "UInt"]
+- ["14HyperTrackCore29TransmissionDatabaseStepInputP", ""]
+- ["14HyperTrackCore29TransmissionDatabaseStepInputP", "batchSize"]
+- ["14HyperTrackCore29TransmissionDatabaseStepInputP", "config"]
+- ["14HyperTrackCore29TransmissionDatabaseStepInputP", "database"]
+- !private ["14HyperTrackCore29TransmissionDatabaseStepInputP", "setState"]
+- !private ["14HyperTrackCore23TransmissionEventMapperC", "Constant"]
+- !private ["14HyperTrackCore23TransmissionEventMapperC", "Payload"]
+- ["14HyperTrackCore23TransmissionEventMapperC", "Pipeline"]
+- ["14HyperTrackCore23TransmissionEventMapperC", "Task"]
+- !private ["14HyperTrackCore23TransmissionEventMapperC", "TaskCompletionSource"]
+- !private ["14HyperTrackCore23TransmissionEventMapperC", "deinit"]
+- ["14HyperTrackCore23TransmissionEventMapperC", "execute"]
+- ["14HyperTrackCore23TransmissionEventMapperC", "init"]
+- !private ["14HyperTrackCore23TransmissionEventMapperC", "setState"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "AbstractAPIClient"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "AbstractNetworkConfig"]
+- !private ["14HyperTrackCore23TransmissionNetworkStepC", "ApiRouter"]
+- !private ["14HyperTrackCore23TransmissionNetworkStepC", "CoreError"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "Pipeline"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "Task"]
+- !private ["14HyperTrackCore23TransmissionNetworkStepC", "TaskCompletionSource"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "TransmissionNetworkStepInput"]
+- !private ["14HyperTrackCore23TransmissionNetworkStepC", "Void"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "apiClient"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "config"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "deinit"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "execute"]
+- ["14HyperTrackCore23TransmissionNetworkStepC", "init"]
+- !private ["14HyperTrackCore23TransmissionNetworkStepC", "setState"]
+- ["14HyperTrackCore28TransmissionNetworkStepInputP", "AbstractAPIClient"]
+- ["14HyperTrackCore28TransmissionNetworkStepInputP", "AbstractNetworkConfig"]
+- !private ["14HyperTrackCore28TransmissionNetworkStepInputP", "ApiRouter"]
+- !private ["14HyperTrackCore28TransmissionNetworkStepInputP", "CoreError"]
+- !private ["14HyperTrackCore28TransmissionNetworkStepInputP", "Pipeline"]
+- !private ["14HyperTrackCore28TransmissionNetworkStepInputP", "TaskCompletionSource"]
+- ["14HyperTrackCore28TransmissionNetworkStepInputP", ""]
+- ["14HyperTrackCore28TransmissionNetworkStepInputP", "apiClient"]
+- ["14HyperTrackCore28TransmissionNetworkStepInputP", "config"]
+- !private ["14HyperTrackCore28TransmissionNetworkStepInputP", "setState"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "Constant"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "Date"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "DateFormatter"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "EventType"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "Payload"]
+- ["14HyperTrackCore30TransmissionOfflineEventMapperC", "Pipeline"]
+- ["14HyperTrackCore30TransmissionOfflineEventMapperC", "Task"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "TaskCompletionSource"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "UUID"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "deinit"]
+- ["14HyperTrackCore30TransmissionOfflineEventMapperC", "execute"]
+- ["14HyperTrackCore30TransmissionOfflineEventMapperC", "init"]
+- !private ["14HyperTrackCore30TransmissionOfflineEventMapperC", "setState"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "AbstractTransmissionConfig"]
+- !private ["14HyperTrackCore28TransmissionReadDatabaseStepC", "CoreError"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "Pipeline"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "Task"]
+- !private ["14HyperTrackCore28TransmissionReadDatabaseStepC", "TaskCompletionSource"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "TransmissionDatabaseStepInput"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "UInt"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "batchSize"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "config"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "database"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "deinit"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "execute"]
+- ["14HyperTrackCore28TransmissionReadDatabaseStepC", "init"]
+- !private ["14HyperTrackCore28TransmissionReadDatabaseStepC", "setState"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "AbstractTransmissionConfig"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "Bool"]
+- !private ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "CoreError"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "EventsFMDBDatabaseManager"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "Pipeline"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "Task"]
+- !private ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "TaskCompletionSource"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "TransmissionDatabaseStepInput"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "UInt"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "batchSize"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "config"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "database"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "deinit"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "execute"]
+- ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "init"]
+- !private ["14HyperTrackCore29TransmissionWriteDatabaseStepC", "setState"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO13WriteDatabaseV", "Event"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO13WriteDatabaseV", "Response"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO13WriteDatabaseV", "events"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO13WriteDatabaseV", "init"]
+- ["14HyperTrackCore8PipelineO12TransmissionO5InputO13WriteDatabaseV", "response"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "displayErrorMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "iso8601Full"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reachableBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startNotifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopNotifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unreachableBlock"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "14HyperTrackCore11APIEndpointP"
+- !private "14HyperTrackCore17AbstractAPIClientP"
+- !private "14HyperTrackCore16AbstractAppStateP"
+- !private "14HyperTrackCore24AbstractCollectionConfigP"
+- !private "14HyperTrackCore24AbstractDatabaseProtocolP"
+- !private "14HyperTrackCore16AbstractEventBusP"
+- !private "14HyperTrackCore23AbstractLocationServiceP"
+- !private "14HyperTrackCore22AbstractLocationUpdateP"
+- !private "14HyperTrackCore14AbstractLoggerP"
+- !private "14HyperTrackCore21AbstractNetworkConfigP"
+- "14HyperTrackCore20AbstractPipelineStepC"
+- "14HyperTrackCore27AbstractReachabilityManagerP"
+- !private "14HyperTrackCore15AbstractServiceP"
+- !private "14HyperTrackCore19AbstractServiceDataP"
+- !private "14HyperTrackCore22AbstractServiceManagerP"
+- !private "14HyperTrackCore23AbstractServiceProtocolP"
+- "14HyperTrackCore22ActivityPermissionStepC"
+- !private "14HyperTrackCore9ApiRouterO"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "14HyperTrackCore9AuthTokenV"
+- !private "14HyperTrackCore17AuthTokenProviderP"
+- !private "14HyperTrackCore18BaseServiceManagerP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "14HyperTrackCore22CheckAccountStatusStepC"
+- "14HyperTrackCore27CheckAuthorizationTokenStepC"
+- "14HyperTrackCore8PipelineO10CollectionO"
+- !private "Sl"
+- !private "14HyperTrackCore6ConfigC10CollectionV"
+- !private "14HyperTrackCore8ConstantO6ConfigO10CollectionO"
+- !private "Sl"
+- "14HyperTrackCore23CollectionMappingEntityC"
+- "14HyperTrackCore29CollectionWriteDataBaseEntityC"
+- !private "SL"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore8ConstantO"
+- !private "14HyperTrackCore8ConstantO7ContextO"
+- !private "14HyperTrackCore0C5ErrorC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "14HyperTrackCore14DataBaseResultO"
+- "14HyperTrackCore12TransmissionO5InputO8DatabaseV"
+- "14HyperTrackCore8PipelineO10CollectionO5InputO13DatabaseWriteV"
+- !private "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "14HyperTrackCore18DeviceDataProtocolP"
+- !private "14HyperTrackCore10DeviceInfoC"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "14HyperTrackCore9ErrorTypeO"
+- !private "14HyperTrackCore8ConstantO10ServerKeysO5EventO"
+- !private "14HyperTrackCore5EventV"
+- !private "14HyperTrackCore8ConstantO10ServerKeysO5EventO"
+- !private "14HyperTrackCore5EventV"
+- !private "14HyperTrackCore8ConstantO10ServerKeysO5EventO"
+- !private "14HyperTrackCore9EventTypeO"
+- !private "14HyperTrackCore25EventsFMDBDatabaseManagerC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11NSFormatterC"
+- !private "14HyperTrackCore20GetAccountIdProtocolP"
+- !private "14HyperTrackCore19GetDeviceIdProtocolP"
+- !private "14HyperTrackCore25GetPublishableKeyProtocolP"
+- !private "SH"
+- !private "14HyperTrackCore21HeartbeatInfoProtocolP"
+- !private "14HyperTrackCore21HeartbeatPingProtocolP"
+- "14HyperTrackCore28InitDeviceRegistrationEntityC"
+- "14HyperTrackCore14InitializationO"
+- "14HyperTrackCore12TransmissionO5InputO"
+- "14HyperTrackCore14InitializationO5InputO"
+- "14HyperTrackCore12TransmissionO5InputO"
+- "14HyperTrackCore14InitializationO5InputO"
+- "14HyperTrackCore12TransmissionO5InputO"
+- "14HyperTrackCore8PipelineO10CollectionO5InputO"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO"
+- "14HyperTrackCore12TransmissionO5InputO"
+- "14HyperTrackCore8PipelineO10CollectionO5InputO"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO"
+- "14HyperTrackCore12TransmissionO5InputO"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO"
+- "14HyperTrackCore14InitializationO5InputO"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO"
+- "14HyperTrackCore12TransmissionO5InputO"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO"
+- !private "10Foundation11JSONDecoderC"
+- !private "14HyperTrackCore16JSONDictProtocolP"
+- "14HyperTrackCore10JSONResultO"
+- !private "So19NSJSONSerializationC"
+- !private "14HyperTrackCore11LocalizableP"
+- "14HyperTrackCore22LocationPermissionStepC"
+- !private "s25LosslessStringConvertibleP"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO6MapperV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "14HyperTrackCore12TransmissionO5InputO7NetworkV"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV"
+- "14HyperTrackCore8ConstantO12NotificationO7NetworkO"
+- "14HyperTrackCore12TransmissionO5InputO7NetworkV"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV"
+- !private "14HyperTrackCore6ConfigC7NetworkV"
+- !private "14HyperTrackCore8ConstantO6ConfigO7NetworkO"
+- "14HyperTrackCore12TransmissionO5InputO7NetworkV"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO7NetworkV"
+- "14HyperTrackCore8ConstantO12NotificationO"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "14HyperTrackCore8PipelineO"
+- "14HyperTrackCore15PipelineLoggingP"
+- !private "14HyperTrackCore22PrivateDataAccessLevelO"
+- !private "14HyperTrackCore32PrivateDataAccessRequestProviderP"
+- !private "14HyperTrackCore31PrivateDataAccessStatusProviderP"
+- !private "14HyperTrackCore30PrivateDataRequestAccessResultV"
+- !private "14HyperTrackCore8ProviderC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "14HyperTrackCore14InitializationO5InputO11ReAuthorizeV"
+- "14HyperTrackCore15ReAuthorizeStepC"
+- "14HyperTrackCore20ReAuthorizeStepInputP"
+- !private "So12ReachabilityC"
+- !private "14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO"
+- "14HyperTrackCore19ReachabilityManagerC"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO12ReadDatabaseV"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "14HyperTrackCore8ResponseC"
+- !private "ST"
+- !private "14HyperTrackCore8ConstantO10ServerKeysO"
+- !private "14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO"
+- !private "14HyperTrackCore19SessionInfoProtocolP"
+- !private "14HyperTrackCore20SetAccountIdProtocolP"
+- !private "s10SetAlgebraP"
+- !private "14HyperTrackCore19SetDeviceIdProtocolP"
+- !private "14HyperTrackCore25SetPublishableKeyProtocolP"
+- "14HyperTrackCore8PipelineO5StateO"
+- !private "s12StaticStringV"
+- !private "14HyperTrackCore11AuthManagerC6StatusO"
+- !private "SS"
+- !private "Sy"
+- !private "14HyperTrackCore4TaskC"
+- !private "14HyperTrackCore20TaskCompletionSourceC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "14HyperTrackCore12TransmissionO"
+- "14HyperTrackCore8PipelineO12TransmissionO"
+- "14HyperTrackCore12TransmissionO"
+- "14HyperTrackCore8PipelineO12TransmissionO"
+- "14HyperTrackCore12TransmissionO"
+- "14HyperTrackCore29TransmissionDatabaseStepInputP"
+- "14HyperTrackCore23TransmissionEventMapperC"
+- "14HyperTrackCore23TransmissionNetworkStepC"
+- "14HyperTrackCore28TransmissionNetworkStepInputP"
+- "14HyperTrackCore30TransmissionOfflineEventMapperC"
+- "14HyperTrackCore28TransmissionReadDatabaseStepC"
+- "14HyperTrackCore29TransmissionWriteDatabaseStepC"
+- !private "10Foundation4UUIDV"
+- "14HyperTrackCore8PipelineO12TransmissionO5InputO13WriteDatabaseV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "104acdeaf7e92fefaf2c29d46fc457a6"

@@ -1,0 +1,472 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbstractFileStorage"
+- "FileStorage"
+provides-nominal:
+- "14HyperTrackCore19AbstractFileStorageP"
+- "14HyperTrackCore11FileStorageC"
+- "14HyperTrackCore11FileStorageC9DirectoryO"
+provides-member:
+- ["14HyperTrackCore19AbstractFileStorageP", ""]
+- ["14HyperTrackCore11FileStorageC", ""]
+- ["14HyperTrackCore11FileStorageC9DirectoryO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- "AbstractFileStorage"
+- "AbstractLogger"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Constant"
+- "Decodable"
+- "Encodable"
+- !private "FileManager"
+- "FileStorage"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- !private "PropertyListDecoder"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["14HyperTrackCore19AbstractFileStorageP", "Constant"]
+- ["14HyperTrackCore19AbstractFileStorageP", "Decodable"]
+- ["14HyperTrackCore19AbstractFileStorageP", "Directory"]
+- ["14HyperTrackCore19AbstractFileStorageP", "Encodable"]
+- !private ["14HyperTrackCore19AbstractFileStorageP", "FileManager"]
+- ["14HyperTrackCore19AbstractFileStorageP", "FileStorage"]
+- !private ["14HyperTrackCore19AbstractFileStorageP", "JSONDecoder"]
+- !private ["14HyperTrackCore19AbstractFileStorageP", "JSONEncoder"]
+- !private ["14HyperTrackCore19AbstractFileStorageP", "PropertyListDecoder"]
+- ["14HyperTrackCore19AbstractFileStorageP", "String"]
+- ["14HyperTrackCore19AbstractFileStorageP", ""]
+- ["14HyperTrackCore19AbstractFileStorageP", "clear"]
+- !private ["14HyperTrackCore19AbstractFileStorageP", "getURL"]
+- !private ["14HyperTrackCore19AbstractFileStorageP", "logger"]
+- ["14HyperTrackCore19AbstractFileStorageP", "remove"]
+- ["14HyperTrackCore19AbstractFileStorageP", "retrieve"]
+- ["14HyperTrackCore19AbstractFileStorageP", "store"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "logError"]
+- !private ["Sa", "first"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["SK", "contains"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "SearchPathDirectory"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "contents"]
+- !private ["s7CVarArgP", "contentsOfDirectory"]
+- !private ["s7CVarArgP", "createFile"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "contains"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["14HyperTrackCore8ConstantO", "Context"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "config"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "fileStorage"]
+- !private ["s28CustomDebugStringConvertibleP", "SearchPathDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "contents"]
+- !private ["s28CustomDebugStringConvertibleP", "contentsOfDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "createFile"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "SearchPathDirectory"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "contents"]
+- !private ["s23CustomStringConvertibleP", "contentsOfDirectory"]
+- !private ["s23CustomStringConvertibleP", "createFile"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "contains"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "path"]
+- ["14HyperTrackCore11FileStorageC9DirectoryO", "__derived_enum_equals"]
+- ["14HyperTrackCore11FileStorageC9DirectoryO", "caches"]
+- ["14HyperTrackCore11FileStorageC9DirectoryO", "deinit"]
+- ["14HyperTrackCore11FileStorageC9DirectoryO", "documents"]
+- ["14HyperTrackCore11FileStorageC9DirectoryO", "hash"]
+- ["14HyperTrackCore11FileStorageC9DirectoryO", "hashValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "contains"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SQ", "SearchPathDirectory"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "appendingPathComponent"]
+- ["SQ", "caches"]
+- !private ["SQ", "cachesDirectory"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "contents"]
+- !private ["SQ", "contentsOfDirectory"]
+- !private ["SQ", "createFile"]
+- !private ["SQ", "default"]
+- !private ["SQ", "documentDirectory"]
+- ["SQ", "documents"]
+- !private ["SQ", "fileExists"]
+- !private ["SQ", "first"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "path"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "urls"]
+- !private ["SQ", "userDomainMask"]
+- !private ["s5ErrorP", "coreErrorDescription"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So13NSFileManagerC", "SearchPathDirectory"]
+- !private ["So13NSFileManagerC", "contents"]
+- !private ["So13NSFileManagerC", "contentsOfDirectory"]
+- !private ["So13NSFileManagerC", "createFile"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- !private ["So13NSFileManagerC", "urls"]
+- ["14HyperTrackCore11FileStorageC", "AbstractLogger"]
+- ["14HyperTrackCore11FileStorageC", "Bool"]
+- !private ["14HyperTrackCore11FileStorageC", "Constant"]
+- ["14HyperTrackCore11FileStorageC", "Decodable"]
+- ["14HyperTrackCore11FileStorageC", "Directory"]
+- ["14HyperTrackCore11FileStorageC", "Encodable"]
+- !private ["14HyperTrackCore11FileStorageC", "FileManager"]
+- !private ["14HyperTrackCore11FileStorageC", "JSONDecoder"]
+- !private ["14HyperTrackCore11FileStorageC", "JSONEncoder"]
+- !private ["14HyperTrackCore11FileStorageC", "PropertyListDecoder"]
+- ["14HyperTrackCore11FileStorageC", "String"]
+- ["14HyperTrackCore11FileStorageC", "URL"]
+- ["14HyperTrackCore11FileStorageC", "clear"]
+- ["14HyperTrackCore11FileStorageC", "deinit"]
+- !private ["14HyperTrackCore11FileStorageC", "fileExists"]
+- !private ["14HyperTrackCore11FileStorageC", "getURL"]
+- ["14HyperTrackCore11FileStorageC", "init"]
+- !private ["14HyperTrackCore11FileStorageC", "logger"]
+- ["14HyperTrackCore11FileStorageC", "remove"]
+- ["14HyperTrackCore11FileStorageC", "retrieve"]
+- ["14HyperTrackCore11FileStorageC", "store"]
+- !private ["SH", "SearchPathDirectory"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "appendingPathComponent"]
+- ["SH", "caches"]
+- !private ["SH", "cachesDirectory"]
+- !private ["SH", "contains"]
+- !private ["SH", "contents"]
+- !private ["SH", "contentsOfDirectory"]
+- !private ["SH", "createFile"]
+- !private ["SH", "default"]
+- !private ["SH", "documentDirectory"]
+- ["SH", "documents"]
+- !private ["SH", "fileExists"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "path"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "urls"]
+- !private ["s6HasherV", "combine"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "hyperTrackDecoder"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "hyperTrackEncoder"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "first"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So8NSObjectC", "SearchPathDirectory"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "contents"]
+- !private ["So8NSObjectC", "contentsOfDirectory"]
+- !private ["So8NSObjectC", "createFile"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So8NSObjectC", "urls"]
+- !private ["So8NSObjectP", "SearchPathDirectory"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "contents"]
+- !private ["So8NSObjectP", "contentsOfDirectory"]
+- !private ["So8NSObjectP", "createFile"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "urls"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So8NSStringC", "contains"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["10Foundation19PropertyListDecoderC", "decode"]
+- !private ["10Foundation19PropertyListDecoderC", "init"]
+- !private ["Sk", "first"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "cachesDirectory"]
+- !private ["SY", "documentDirectory"]
+- !private ["SY", "userDomainMask"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["So21NSSearchPathDirectoryV", "cachesDirectory"]
+- !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "contains"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "contains"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s33_ExpressibleByStringInterpolationP", "contains"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SearchPathDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentsOfDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s16_SwiftStringViewP", "contains"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14HyperTrackCore19AbstractFileStorageP"
+- !private "14HyperTrackCore14AbstractLoggerP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "14HyperTrackCore8ConstantO"
+- !private "14HyperTrackCore8ConstantO7ContextO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "14HyperTrackCore11FileStorageC9DirectoryO"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- "14HyperTrackCore11FileStorageC"
+- "SH"
+- !private "s6HasherV"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "10Foundation19PropertyListDecoderC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "01df560e7e2dfd80c5aaf0450a459819"

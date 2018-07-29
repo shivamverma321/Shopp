@@ -1,0 +1,573 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Repeater"
+- "=="
+- "=="
+provides-nominal:
+- "14HyperTrackCore8RepeaterC"
+- "14HyperTrackCore8RepeaterC5StateO"
+- "14HyperTrackCore8RepeaterC8IntervalO"
+- "14HyperTrackCore8RepeaterC4ModeO"
+provides-member:
+- ["14HyperTrackCore8RepeaterC", ""]
+- ["14HyperTrackCore8RepeaterC5StateO", ""]
+- ["14HyperTrackCore8RepeaterC8IntervalO", ""]
+- ["14HyperTrackCore8RepeaterC4ModeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-="
+- "=="
+- !private "==="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CustomStringConvertible"
+- "DispatchQueue"
+- !private "DispatchSource"
+- "DispatchSourceTimer"
+- !private "DispatchTime"
+- "DispatchTimeInterval"
+- "Double"
+- "Equatable"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "NSUUID"
+- "Repeater"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt64"
+- "Void"
+- !private "||"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["Sz", "addingReportingOverflow"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addingReportingOverflow"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "makeTimerSource"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "uuidString"]
+- !private ["s7CVarArgP", "values"]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "values"]
+- !private ["SL", "addingReportingOverflow"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeTimerSource"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingReportingOverflow"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addingReportingOverflow"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "values"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addingReportingOverflow"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "executing"]
+- ["s23CustomStringConvertibleP", "finished"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isFinished"]
+- !private ["s23CustomStringConvertibleP", "isRunning"]
+- !private ["s23CustomStringConvertibleP", "makeTimerSource"]
+- ["s23CustomStringConvertibleP", "paused"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- ["s23CustomStringConvertibleP", "running"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "addingReportingOverflow"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "subscript"]
+- !private ["Se", "values"]
+- ["SD", "init"]
+- !private ["SD", "removeAll"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- !private ["SD", "values"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "makeTimerSource"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- !private ["So18OS_dispatch_sourceC", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_vnodeP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_recvP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_sendP", "makeTimerSource"]
+- !private ["So33OS_dispatch_source_memorypressureP", "makeTimerSource"]
+- !private ["So23OS_dispatch_source_procP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "cancel"]
+- !private ["So18OS_dispatch_sourceP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "resume"]
+- !private ["So18OS_dispatch_sourceP", "schedule"]
+- !private ["So18OS_dispatch_sourceP", "setEventHandler"]
+- !private ["So18OS_dispatch_sourceP", "suspend"]
+- !private ["So23OS_dispatch_source_readP", "makeTimerSource"]
+- !private ["So25OS_dispatch_source_signalP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "cancel"]
+- !private ["So24OS_dispatch_source_timerP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "resume"]
+- !private ["So24OS_dispatch_source_timerP", "schedule"]
+- !private ["So24OS_dispatch_source_timerP", "setEventHandler"]
+- !private ["So24OS_dispatch_source_timerP", "suspend"]
+- !private ["So27OS_dispatch_source_data_addP", "makeTimerSource"]
+- !private ["So26OS_dispatch_source_data_orP", "makeTimerSource"]
+- !private ["So31OS_dispatch_source_data_replaceP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_writeP", "makeTimerSource"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["8Dispatch0A12TimeIntervalO", "microseconds"]
+- !private ["8Dispatch0A12TimeIntervalO", "milliseconds"]
+- !private ["8Dispatch0A12TimeIntervalO", "nanoseconds"]
+- !private ["8Dispatch0A12TimeIntervalO", "seconds"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "addingReportingOverflow"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "subscript"]
+- !private ["SE", "values"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "DispatchSource"]
+- !private ["SQ", "DispatchTime"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "NSUUID"]
+- ["SQ", "Observer"]
+- ["SQ", "ObserverToken"]
+- !private ["SQ", "Repeater"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addingReportingOverflow"]
+- !private ["SQ", "configureTimer"]
+- ["SQ", "description"]
+- !private ["SQ", "destroyTimer"]
+- ["SQ", "executing"]
+- ["SQ", "finished"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "interval"]
+- !private ["SQ", "isFinished"]
+- !private ["SQ", "isRunning"]
+- !private ["SQ", "makeTimerSource"]
+- !private ["SQ", "microseconds"]
+- !private ["SQ", "milliseconds"]
+- !private ["SQ", "mode"]
+- !private ["SQ", "nanoseconds"]
+- !private ["SQ", "nextObserverID"]
+- !private ["SQ", "now"]
+- !private ["SQ", "observe"]
+- !private ["SQ", "observers"]
+- !private ["SQ", "onStateChanged"]
+- !private ["SQ", "pause"]
+- ["SQ", "paused"]
+- !private ["SQ", "queue"]
+- !private ["SQ", "remainingIterations"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "reset"]
+- ["SQ", "running"]
+- !private ["SQ", "seconds"]
+- !private ["SQ", "setPause"]
+- !private ["SQ", "start"]
+- !private ["SQ", "state"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "timeFired"]
+- !private ["SQ", "timer"]
+- !private ["SQ", "tolerance"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "values"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeAll"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "addingReportingOverflow"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "addingReportingOverflow"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addingReportingOverflow"]
+- ["SH", "description"]
+- ["SH", "executing"]
+- ["SH", "finished"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isFinished"]
+- !private ["SH", "isRunning"]
+- !private ["SH", "makeTimerSource"]
+- ["SH", "paused"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeValue"]
+- ["SH", "running"]
+- !private ["SH", "subscript"]
+- !private ["SH", "uuidString"]
+- !private ["SH", "values"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "DispatchTimeInterval"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "Double"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "Int"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "days"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "hours"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "microseconds"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "milliseconds"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "minutes"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "nanoseconds"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "seconds"]
+- ["14HyperTrackCore8RepeaterC8IntervalO", "value"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "addingReportingOverflow"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["14HyperTrackCore8RepeaterC4ModeO", "Bool"]
+- ["14HyperTrackCore8RepeaterC4ModeO", "Int"]
+- ["14HyperTrackCore8RepeaterC4ModeO", "countIterations"]
+- ["14HyperTrackCore8RepeaterC4ModeO", "finite"]
+- ["14HyperTrackCore8RepeaterC4ModeO", "infinite"]
+- ["14HyperTrackCore8RepeaterC4ModeO", "isInfinite"]
+- ["14HyperTrackCore8RepeaterC4ModeO", "isRepeating"]
+- ["14HyperTrackCore8RepeaterC4ModeO", "once"]
+- !private ["SM", "forEach"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "uuidString"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "uuidString"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "makeTimerSource"]
+- !private ["So8NSObjectC", "uuidString"]
+- !private ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "makeTimerSource"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "schedule"]
+- !private ["So8NSObjectP", "setEventHandler"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "uuidString"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "uuidString"]
+- !private ["So6NSUUIDC", "init"]
+- !private ["So6NSUUIDC", "uuidString"]
+- !private ["Sj", "addingReportingOverflow"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "makeTimerSource"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["14HyperTrackCore8RepeaterC", "=="]
+- ["14HyperTrackCore8RepeaterC", "Bool"]
+- ["14HyperTrackCore8RepeaterC", "CustomStringConvertible"]
+- ["14HyperTrackCore8RepeaterC", "DispatchQueue"]
+- !private ["14HyperTrackCore8RepeaterC", "DispatchSource"]
+- ["14HyperTrackCore8RepeaterC", "DispatchSourceTimer"]
+- !private ["14HyperTrackCore8RepeaterC", "DispatchTime"]
+- ["14HyperTrackCore8RepeaterC", "DispatchTimeInterval"]
+- ["14HyperTrackCore8RepeaterC", "Double"]
+- ["14HyperTrackCore8RepeaterC", "Equatable"]
+- ["14HyperTrackCore8RepeaterC", "Int"]
+- ["14HyperTrackCore8RepeaterC", "Interval"]
+- ["14HyperTrackCore8RepeaterC", "Mode"]
+- !private ["14HyperTrackCore8RepeaterC", "NSUUID"]
+- ["14HyperTrackCore8RepeaterC", "Observer"]
+- ["14HyperTrackCore8RepeaterC", "ObserverToken"]
+- ["14HyperTrackCore8RepeaterC", "Repeater"]
+- ["14HyperTrackCore8RepeaterC", "State"]
+- ["14HyperTrackCore8RepeaterC", "String"]
+- ["14HyperTrackCore8RepeaterC", "UInt64"]
+- ["14HyperTrackCore8RepeaterC", "Void"]
+- !private ["14HyperTrackCore8RepeaterC", "configureTimer"]
+- ["14HyperTrackCore8RepeaterC", "deinit"]
+- !private ["14HyperTrackCore8RepeaterC", "destroyTimer"]
+- ["14HyperTrackCore8RepeaterC", "every"]
+- ["14HyperTrackCore8RepeaterC", "fire"]
+- ["14HyperTrackCore8RepeaterC", "init"]
+- !private ["14HyperTrackCore8RepeaterC", "interval"]
+- ["14HyperTrackCore8RepeaterC", "mode"]
+- !private ["14HyperTrackCore8RepeaterC", "nextObserverID"]
+- ["14HyperTrackCore8RepeaterC", "observe"]
+- !private ["14HyperTrackCore8RepeaterC", "observers"]
+- ["14HyperTrackCore8RepeaterC", "onStateChanged"]
+- ["14HyperTrackCore8RepeaterC", "once"]
+- ["14HyperTrackCore8RepeaterC", "pause"]
+- !private ["14HyperTrackCore8RepeaterC", "queue"]
+- ["14HyperTrackCore8RepeaterC", "remainingIterations"]
+- ["14HyperTrackCore8RepeaterC", "remove"]
+- ["14HyperTrackCore8RepeaterC", "removeAllObservers"]
+- ["14HyperTrackCore8RepeaterC", "reset"]
+- !private ["14HyperTrackCore8RepeaterC", "setPause"]
+- ["14HyperTrackCore8RepeaterC", "start"]
+- ["14HyperTrackCore8RepeaterC", "state"]
+- !private ["14HyperTrackCore8RepeaterC", "timeFired"]
+- !private ["14HyperTrackCore8RepeaterC", "timer"]
+- !private ["14HyperTrackCore8RepeaterC", "tolerance"]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "subscript"]
+- !private ["ST", "values"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["14HyperTrackCore8RepeaterC5StateO", "=="]
+- ["14HyperTrackCore8RepeaterC5StateO", "Bool"]
+- ["14HyperTrackCore8RepeaterC5StateO", "State"]
+- ["14HyperTrackCore8RepeaterC5StateO", "String"]
+- ["14HyperTrackCore8RepeaterC5StateO", "deinit"]
+- ["14HyperTrackCore8RepeaterC5StateO", "description"]
+- ["14HyperTrackCore8RepeaterC5StateO", "executing"]
+- ["14HyperTrackCore8RepeaterC5StateO", "finished"]
+- ["14HyperTrackCore8RepeaterC5StateO", "hash"]
+- ["14HyperTrackCore8RepeaterC5StateO", "hashValue"]
+- ["14HyperTrackCore8RepeaterC5StateO", "isExecuting"]
+- ["14HyperTrackCore8RepeaterC5StateO", "isFinished"]
+- ["14HyperTrackCore8RepeaterC5StateO", "isRunning"]
+- ["14HyperTrackCore8RepeaterC5StateO", "paused"]
+- ["14HyperTrackCore8RepeaterC5StateO", "running"]
+- !private ["Sx", "addingReportingOverflow"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt64V", "addingReportingOverflow"]
+- !private ["SU", "addingReportingOverflow"]
+- !private ["SD6ValuesV", "forEach"]
+- !private ["s18_BitwiseOperationsP", "addingReportingOverflow"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "addingReportingOverflow"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "addingReportingOverflow"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uuidString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeTimerSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uuidString"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addingReportingOverflow"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "values"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "So18OS_dispatch_sourceC"
+- !private "So24OS_dispatch_source_vnodeP"
+- !private "So28OS_dispatch_source_mach_recvP"
+- !private "So28OS_dispatch_source_mach_sendP"
+- !private "So33OS_dispatch_source_memorypressureP"
+- !private "So23OS_dispatch_source_procP"
+- !private "So18OS_dispatch_sourceP"
+- !private "So23OS_dispatch_source_readP"
+- !private "So25OS_dispatch_source_signalP"
+- !private "So24OS_dispatch_source_timerP"
+- !private "So27OS_dispatch_source_data_addP"
+- !private "So26OS_dispatch_source_data_orP"
+- !private "So31OS_dispatch_source_data_replaceP"
+- !private "So24OS_dispatch_source_writeP"
+- !private "8Dispatch0A4TimeV"
+- !private "8Dispatch0A12TimeIntervalO"
+- !private "Sd"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- "14HyperTrackCore8RepeaterC8IntervalO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "14HyperTrackCore8RepeaterC4ModeO"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So6NSUUIDC"
+- !private "Sj"
+- !private "So9OS_objectC"
+- !private "Sm"
+- "14HyperTrackCore8RepeaterC"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "14HyperTrackCore8RepeaterC5StateO"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt64V"
+- !private "SU"
+- !private "SD6ValuesV"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "32266f10ebce8971766e38936b9a08e5"

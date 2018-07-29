@@ -11,21 +11,22 @@ import UIKit
 import CoreLocation
 import MapKit
 import SVProgressHUD
+import Firebase
 
 class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
     
-    private var currentLocation = CLLocation()
+    private var currentLocation = GeoPoint(latitude: 0, longitude: 0)
     private var types = Set<String>()
-    private var stores = [MKMapItem]()
-    private var storeLocations = [CLLocation]()
+    private var businesses = [Business]()
+    private var businessLocations = [GeoPoint]()
+    private var opaque = false
     
     @IBOutlet weak var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         mapView.delegate = self
         mapView.showsUserLocation = true
     }
@@ -43,9 +44,10 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
+        SVProgressHUD.dismiss()
         types.removeAll()
-        stores.removeAll()
-        storeLocations.removeAll()
+        businesses.removeAll()
+        businessLocations.removeAll()
     }
     
     private func observeItems(){
@@ -67,57 +69,48 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
                 }
             }
             ItemSystem.system.removeItemObservers()
-            self.fetchStores()
+            self.fetchBusinesses()
         }
     }
     
-    private func fetchStores(){
-        let placesAPI = GooglePlaces()
-        let myGroup = DispatchGroup()
-        for type in self.types{
-            myGroup.enter()
-            placesAPI.search(location: currentLocation.coordinate, radius: 20, query: type) { (mapItems, errorDescription) in
-                guard let mapItem = mapItems?[0] else{
-                    self.issueAlert(ofType: .dataRetrievalFailed)
-                    return
-                }
-                
-                self.stores.append(mapItem)
-                myGroup.leave()
+    private func fetchBusinesses(){
+        BusinessSystem.system.addBusinessObserver(forEventType: .added, location: currentLocation) { (addedBusinesses, error) in
+            guard let addedBusinesses = addedBusinesses, error == nil else{
+                self.issueAlert(ofType: .dataRetrievalFailed)
+                return
             }
-        }
-        myGroup.notify(queue: .main) {
-            self.convertStoresToLocations()
+            
+            self.businesses = addedBusinesses
+            BusinessSystem.system.removeBusinessObservers()
+            self.convertBusinessesToLocations()
         }
     }
     
-    private func convertStoresToLocations(){
-        for store in stores{
-            storeLocations.append(CLLocation(latitude: store.placemark.coordinate.latitude, longitude: store.placemark.coordinate.longitude))
+    private func convertBusinessesToLocations(){
+        for business in businesses{
+            businessLocations.append(business.location)
             
             let annotation = MKPointAnnotation()
-            annotation.coordinate = store.placemark.coordinate
-            annotation.title = store.placemark.name
-            annotation.subtitle = store.phoneNumber
+            annotation.coordinate = CLLocationCoordinate2D(latitude: business.location.latitude, longitude: business.location.longitude)
+            annotation.title = business.name
             mapView.addAnnotation(annotation)
         }
-        storeLocations.append(currentLocation)
-        storeLocations.insert(currentLocation, at: 0)
+        businessLocations.append(currentLocation)
+        businessLocations.insert(currentLocation, at: 0)
         drawRoutes()
     }
     
     private func drawRoutes(){
-        for index in 0..<storeLocations.count-1{
-            let start = storeLocations[index]
-            let end = storeLocations[index + 1]
-            let line = draw(start: start.coordinate, end: end.coordinate)
-            mapView.add(line)
+        for index in 0..<businessLocations.count-1{
+            let start = businessLocations[index]
+            let end = businessLocations[index + 1]
+            draw(start: CLLocationCoordinate2D(latitude: start.latitude, longitude: start.longitude), end: CLLocationCoordinate2D(latitude: end.latitude, longitude: end.longitude))
         }
         SVProgressHUD.dismiss()
     }
     
-    private func draw( start: CLLocationCoordinate2D, end: CLLocationCoordinate2D) -> MKPolyline{
-        var points = [start]
+    
+    private func draw( start: CLLocationCoordinate2D, end: CLLocationCoordinate2D){
         let s = "https://api.coord.co/v1/routing/route?origin_latitude=" + String(start.latitude) + "&origin_longitude=" + String(start.longitude) + "&destination_latitude=" + String(end.latitude) + "&destination_longitude=" + String(end.longitude) + "&access_key=EEC7nTIyYHOJUHCC1tHjrPUTGVgoyUsksMj-KMl-OHc"
         let request = URLRequest(url: NSURL(string: s)! as URL)
         
@@ -132,29 +125,45 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
             let geometry = legs["legs"] as! NSArray
             for g in geometry{
                 let geo = g as! NSDictionary
-                let n = geo["geometry"] as! NSDictionary
-                let loop = n["coordinates"] as! NSArray
-                for coord in loop{
-                    let coordinates = coord as! NSArray
-                    let s : CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: coordinates[1] as! CLLocationDegrees, longitude: coordinates[0] as! CLLocationDegrees)
-                    points.append(s)
-                }
+                let line = drawLeg(geo: geo)
+                mapView.add(line)
             }
-            points.append(end)
-            return MKPolyline(coordinates: points, count: points.count)
         }
         catch{}
         
-        
-        return MKPolyline(coordinates: points, count: 2)
+    }
+    private func drawLeg(geo: NSDictionary) -> MKPolyline{
+        var points = [CLLocationCoordinate2D]()
+        let op = geo["mode"] as! String
+        let n = geo["geometry"] as! NSDictionary
+        let loop = n["coordinates"] as! NSArray
+        for coord in loop{
+            let coordinates = coord as! NSArray
+            let s : CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: coordinates[1] as! CLLocationDegrees, longitude: coordinates[0] as! CLLocationDegrees)
+            points.append(s)
+        }
+        if op != "walk"{
+            opaque = true
+        } else{
+            opaque = false
+        }
+        return MKPolyline(coordinates: points, count: points.count)
     }
     
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if let polyline = overlay as? MKPolyline {
-            let testlineRenderer = MKPolylineRenderer(polyline: polyline)
-            testlineRenderer.strokeColor = UIColor.orange
-            testlineRenderer.lineWidth = 3
-            return testlineRenderer
+            if opaque{
+                let testlineRenderer = MKPolylineRenderer(polyline: polyline)
+                testlineRenderer.strokeColor = UIColor.red
+                testlineRenderer.lineWidth = 3
+                return testlineRenderer
+            } else {
+                let testlineRenderer = MKPolylineRenderer(polyline: polyline)
+                testlineRenderer.strokeColor = UIColor.orange
+                testlineRenderer.lineWidth = 3
+                return testlineRenderer
+            }
+            
         }
         fatalError("TODO: Handle error")
     }
@@ -168,7 +177,7 @@ class MapVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
         
         SVProgressHUD.show()
         
-        self.currentLocation = currentLocation
+        self.currentLocation = GeoPoint(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)
         
         mapView.centerCoordinate = currentLocation.coordinate
         mapView.region = MKCoordinateRegion(center: currentLocation.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.0015, longitudeDelta: 0.0015))

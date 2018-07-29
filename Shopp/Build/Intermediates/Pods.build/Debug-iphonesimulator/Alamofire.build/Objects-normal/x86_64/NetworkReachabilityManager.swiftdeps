@@ -23,6 +23,8 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "DispatchQueue"
 - "Equatable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - !private "MemoryLayout"
 - "NetworkReachabilityManager"
 - "SCNetworkReachability"
@@ -43,18 +45,19 @@ depends-top-level:
 - !private "withUnsafePointer"
 - !private "||"
 depends-member:
-- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sz", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "async"]
 - !private ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "withMemoryRebound"]
-- !private ["s10ComparableP", "init"]
-- !private ["s10ComparableP", "withMemoryRebound"]
+- !private ["SL", "init"]
+- !private ["SL", "withMemoryRebound"]
 - ["9Alamofire26NetworkReachabilityManagerC14ConnectionTypeO", "__derived_enum_equals"]
 - ["9Alamofire26NetworkReachabilityManagerC14ConnectionTypeO", "deinit"]
 - ["9Alamofire26NetworkReachabilityManagerC14ConnectionTypeO", "ethernetOrWiFi"]
+- ["9Alamofire26NetworkReachabilityManagerC14ConnectionTypeO", "hash"]
 - ["9Alamofire26NetworkReachabilityManagerC14ConnectionTypeO", "hashValue"]
 - ["9Alamofire26NetworkReachabilityManagerC14ConnectionTypeO", "wwan"]
 - !private ["s28CustomDebugStringConvertibleP", "async"]
@@ -70,32 +73,33 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "async"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "main"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "init"]
-- !private ["So14DispatchObjectC", "async"]
-- ["So14DispatchObjectC", "main"]
-- !private ["So13DispatchQueueC", "async"]
-- ["So13DispatchQueueC", "main"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "init"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "async"]
-- !private ["s9EquatableP", "connectionOnDemand"]
-- !private ["s9EquatableP", "connectionOnTraffic"]
-- !private ["s9EquatableP", "connectionRequired"]
-- !private ["s9EquatableP", "contains"]
-- !private ["s9EquatableP", "ethernetOrWiFi"]
-- ["s9EquatableP", "hashValue"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "interventionRequired"]
-- !private ["s9EquatableP", "isWWAN"]
-- ["s9EquatableP", "main"]
-- ["s9EquatableP", "notReachable"]
-- ["s9EquatableP", "reachable"]
-- ["s9EquatableP", "unknown"]
-- !private ["s9EquatableP", "withMemoryRebound"]
-- !private ["s9EquatableP", "wwan"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "async"]
+- !private ["SQ", "connectionOnDemand"]
+- !private ["SQ", "connectionOnTraffic"]
+- !private ["SQ", "connectionRequired"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "ethernetOrWiFi"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "interventionRequired"]
+- !private ["SQ", "isWWAN"]
+- ["SQ", "main"]
+- ["SQ", "notReachable"]
+- ["SQ", "reachable"]
+- ["SQ", "unknown"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["SQ", "wwan"]
 - !private ["s25ExpressibleByArrayLiteralP", "connectionOnDemand"]
 - !private ["s25ExpressibleByArrayLiteralP", "connectionOnTraffic"]
 - !private ["s25ExpressibleByArrayLiteralP", "connectionRequired"]
@@ -107,22 +111,24 @@ depends-member:
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s17FixedWidthIntegerP", "init"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "async"]
-- !private ["s8HashableP", "ethernetOrWiFi"]
-- ["s8HashableP", "hashValue"]
-- !private ["s8HashableP", "init"]
-- ["s8HashableP", "main"]
-- !private ["s8HashableP", "withMemoryRebound"]
-- !private ["s8HashableP", "wwan"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "async"]
+- !private ["SH", "ethernetOrWiFi"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- ["SH", "main"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["SH", "wwan"]
+- !private ["s6HasherV", "combine"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s12MemoryLayoutO", "size"]
 - !private ["So8NSObjectC", "async"]
 - ["So8NSObjectC", "main"]
-- !private ["So16NSObjectProtocolP", "async"]
-- ["So16NSObjectProtocolP", "main"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "main"]
 - !private ["9Alamofire26NetworkReachabilityManagerC", "AF_INET"]
 - ["9Alamofire26NetworkReachabilityManagerC", "Bool"]
 - ["9Alamofire26NetworkReachabilityManagerC", "ConnectionType"]
@@ -168,7 +174,7 @@ depends-member:
 - ["9Alamofire26NetworkReachabilityManagerC0bC6StatusO", "notReachable"]
 - ["9Alamofire26NetworkReachabilityManagerC0bC6StatusO", "reachable"]
 - ["9Alamofire26NetworkReachabilityManagerC0bC6StatusO", "unknown"]
-- !private ["s7NumericP", "init"]
+- !private ["Sj", "init"]
 - !private ["So9OS_objectC", "async"]
 - ["So9OS_objectC", "main"]
 - !private ["s9OptionSetP", "connectionOnDemand"]
@@ -179,24 +185,24 @@ depends-member:
 - !private ["s9OptionSetP", "interventionRequired"]
 - !private ["s9OptionSetP", "isWWAN"]
 - !private ["s9OptionSetP", "reachable"]
-- !private ["s16RawRepresentableP", "connectionOnDemand"]
-- !private ["s16RawRepresentableP", "connectionOnTraffic"]
-- !private ["s16RawRepresentableP", "connectionRequired"]
-- !private ["s16RawRepresentableP", "contains"]
-- !private ["s16RawRepresentableP", "init"]
-- !private ["s16RawRepresentableP", "interventionRequired"]
-- !private ["s16RawRepresentableP", "isWWAN"]
-- !private ["s16RawRepresentableP", "reachable"]
-- !private ["SC28SCNetworkReachabilityContextV", "info"]
-- !private ["SC28SCNetworkReachabilityContextV", "init"]
-- !private ["SC26SCNetworkReachabilityFlagsV", "connectionOnDemand"]
-- !private ["SC26SCNetworkReachabilityFlagsV", "connectionOnTraffic"]
-- !private ["SC26SCNetworkReachabilityFlagsV", "connectionRequired"]
-- !private ["SC26SCNetworkReachabilityFlagsV", "contains"]
-- !private ["SC26SCNetworkReachabilityFlagsV", "init"]
-- !private ["SC26SCNetworkReachabilityFlagsV", "interventionRequired"]
-- !private ["SC26SCNetworkReachabilityFlagsV", "isWWAN"]
-- !private ["SC26SCNetworkReachabilityFlagsV", "reachable"]
+- !private ["SY", "connectionOnDemand"]
+- !private ["SY", "connectionOnTraffic"]
+- !private ["SY", "connectionRequired"]
+- !private ["SY", "contains"]
+- !private ["SY", "init"]
+- !private ["SY", "interventionRequired"]
+- !private ["SY", "isWWAN"]
+- !private ["SY", "reachable"]
+- !private ["So28SCNetworkReachabilityContexta", "info"]
+- !private ["So28SCNetworkReachabilityContexta", "init"]
+- !private ["So26SCNetworkReachabilityFlagsV", "connectionOnDemand"]
+- !private ["So26SCNetworkReachabilityFlagsV", "connectionOnTraffic"]
+- !private ["So26SCNetworkReachabilityFlagsV", "connectionRequired"]
+- !private ["So26SCNetworkReachabilityFlagsV", "contains"]
+- !private ["So26SCNetworkReachabilityFlagsV", "init"]
+- !private ["So26SCNetworkReachabilityFlagsV", "interventionRequired"]
+- !private ["So26SCNetworkReachabilityFlagsV", "isWWAN"]
+- !private ["So26SCNetworkReachabilityFlagsV", "reachable"]
 - !private ["s10SetAlgebraP", "connectionOnDemand"]
 - !private ["s10SetAlgebraP", "connectionOnTraffic"]
 - !private ["s10SetAlgebraP", "connectionRequired"]
@@ -205,15 +211,15 @@ depends-member:
 - !private ["s10SetAlgebraP", "interventionRequired"]
 - !private ["s10SetAlgebraP", "isWWAN"]
 - !private ["s10SetAlgebraP", "reachable"]
-- !private ["s10StrideableP", "init"]
-- !private ["s10StrideableP", "withMemoryRebound"]
+- !private ["Sx", "init"]
+- !private ["Sx", "withMemoryRebound"]
 - !private ["s5UInt8V", "init"]
 - !private ["s9UnmanagedV", "fromOpaque"]
 - !private ["s9UnmanagedV", "passUnretained"]
 - !private ["s9UnmanagedV", "takeUnretainedValue"]
 - !private ["s9UnmanagedV", "toOpaque"]
 - !private ["SP", "withMemoryRebound"]
-- !private ["s15UnsignedIntegerP", "init"]
+- !private ["SU", "init"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
@@ -223,47 +229,48 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s8_PointerP", "withMemoryRebound"]
 - !private ["s14_StringElementP", "init"]
-- !private ["SC11sockaddr_inV", "init"]
-- !private ["SC11sockaddr_inV", "sin_family"]
-- !private ["SC11sockaddr_inV", "sin_len"]
+- !private ["So11sockaddr_inV", "init"]
+- !private ["So11sockaddr_inV", "sin_family"]
+- !private ["So11sockaddr_inV", "sin_len"]
 depends-nominal:
-- !private "s13BinaryIntegerP"
+- !private "Sz"
 - !private "Sb"
 - "s7CVarArgP"
-- !private "s10ComparableP"
+- !private "SL"
 - "9Alamofire26NetworkReachabilityManagerC14ConnectionTypeO"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
-- "So14DispatchObjectC"
-- "So13DispatchQueueC"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s17FixedWidthIntegerP"
-- "s8HashableP"
+- "SH"
+- !private "s6HasherV"
 - !private "s25LosslessStringConvertibleP"
 - !private "s12MemoryLayoutO"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "9Alamofire26NetworkReachabilityManagerC"
 - "9Alamofire26NetworkReachabilityManagerC0bC6StatusO"
-- !private "s7NumericP"
+- !private "Sj"
 - "So9OS_objectC"
 - !private "s9OptionSetP"
-- !private "s16RawRepresentableP"
-- !private "SC28SCNetworkReachabilityContextV"
-- !private "SC26SCNetworkReachabilityFlagsV"
+- !private "SY"
+- !private "So28SCNetworkReachabilityContexta"
+- !private "So26SCNetworkReachabilityFlagsV"
 - !private "s10SetAlgebraP"
-- !private "s10StrideableP"
+- !private "Sx"
 - !private "s5UInt8V"
 - !private "s9UnmanagedV"
 - !private "SP"
-- !private "s15UnsignedIntegerP"
+- !private "SU"
 - !private "s18_BitwiseOperationsP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
@@ -271,32 +278,33 @@ depends-nominal:
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s8_PointerP"
 - !private "s14_StringElementP"
-- !private "SC11sockaddr_inV"
+- !private "So11sockaddr_inV"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "d8fe9ea6b8d20fac6787bece60913427"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3b43192ffd00efa7eb1ab3091c59b653"

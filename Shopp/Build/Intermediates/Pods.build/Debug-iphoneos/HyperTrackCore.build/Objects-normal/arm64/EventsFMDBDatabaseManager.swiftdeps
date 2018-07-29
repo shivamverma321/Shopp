@@ -1,0 +1,435 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EventsFMDBDatabaseManager"
+provides-nominal:
+- "14HyperTrackCore25EventsFMDBDatabaseManagerC"
+- "14HyperTrackCore25EventsFMDBDatabaseManagerC4InfoV"
+provides-member:
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", ""]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC4InfoV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "-"
+- !private "<="
+- !private "=="
+- !private "??"
+- "AbstractDatabaseProtocol"
+- "AssignmentPrecedence"
+- "AtomicValue"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DataBaseResult"
+- "Event"
+- !private "EventType"
+- "EventsFMDBDatabaseManager"
+- "FMDBManager"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "debugPrint"
+depends-member:
+- ["14HyperTrackCore24AbstractDatabaseProtocolP", "AtomicValue"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "DataBaseResult"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "EventType"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "Int"]
+- ["14HyperTrackCore24AbstractDatabaseProtocolP", "T"]
+- ["14HyperTrackCore24AbstractDatabaseProtocolP", ""]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "atomicRowCount"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "createTable"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "dbManager"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "debugPrint"]
+- ["14HyperTrackCore24AbstractDatabaseProtocolP", "delete"]
+- ["14HyperTrackCore24AbstractDatabaseProtocolP", "deleteAll"]
+- ["14HyperTrackCore24AbstractDatabaseProtocolP", "fetch"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "fieldData"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "fieldEventID"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "fieldId"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "fieldRecordedAt"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "fieldType"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "getRowCount"]
+- !private ["14HyperTrackCore24AbstractDatabaseProtocolP", "info"]
+- ["14HyperTrackCore24AbstractDatabaseProtocolP", "insert"]
+- ["14HyperTrackCore24AbstractDatabaseProtocolP", "rowCount"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "joined"]
+- !private ["s13ArrayProtocolP", "map"]
+- ["14HyperTrackCore11AtomicValueC", "init"]
+- !private ["14HyperTrackCore11AtomicValueC", "updateBy"]
+- !private ["14HyperTrackCore11AtomicValueC", "value"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "map"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "close"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "int"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "next"]
+- !private ["s7CVarArgP", "nextWithError"]
+- !private ["s7CVarArgP", "string"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "close"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "int"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "nextWithError"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "close"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "next"]
+- !private ["s23CustomStringConvertibleP", "nextWithError"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["14HyperTrackCore14DataBaseResultO", "failure"]
+- !private ["14HyperTrackCore14DataBaseResultO", "success"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "close"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "int"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["SQ", "next"]
+- !private ["SQ", "nextWithError"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "string"]
+- !private ["14HyperTrackCore5EventV", "data"]
+- !private ["14HyperTrackCore5EventV", "id"]
+- !private ["14HyperTrackCore5EventV", "init"]
+- !private ["14HyperTrackCore5EventV", "recordedAt"]
+- !private ["14HyperTrackCore5EventV", "type"]
+- !private ["14HyperTrackCore9EventTypeO", "deinit"]
+- !private ["14HyperTrackCore9EventTypeO", "init"]
+- !private ["14HyperTrackCore9EventTypeO", "rawValue"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "AtomicValue"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "Bool"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "DataBaseResult"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "Event"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "EventType"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "FMDBManager"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "Info"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "Int"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "String"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "T"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "UInt"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "Void"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "atomicRowCount"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "createTable"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "dbManager"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "debugPrint"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "deinit"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "delete"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "deleteAll"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "fetch"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "fieldData"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "fieldEventID"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "fieldId"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "fieldRecordedAt"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "fieldType"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "getRowCount"]
+- !private ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "info"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "init"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "insert"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC", "rowCount"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["14HyperTrackCore11FMDBManagerC", "execute"]
+- !private ["So11FMResultSetC", "close"]
+- !private ["So11FMResultSetC", "int"]
+- !private ["So11FMResultSetC", "next"]
+- !private ["So11FMResultSetC", "nextWithError"]
+- !private ["So11FMResultSetC", "string"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "close"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "int"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- !private ["SH", "next"]
+- !private ["SH", "nextWithError"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "string"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC4InfoV", "String"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC4InfoV", "init"]
+- ["14HyperTrackCore25EventsFMDBDatabaseManagerC4InfoV", "tableName"]
+- !private ["Si", "init"]
+- !private ["14HyperTrackCore16JSONDictProtocolP", "data"]
+- !private ["14HyperTrackCore16JSONDictProtocolP", "id"]
+- !private ["14HyperTrackCore16JSONDictProtocolP", "init"]
+- !private ["14HyperTrackCore16JSONDictProtocolP", "recordedAt"]
+- !private ["14HyperTrackCore16JSONDictProtocolP", "type"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["So8NSObjectC", "close"]
+- !private ["So8NSObjectC", "int"]
+- !private ["So8NSObjectC", "next"]
+- !private ["So8NSObjectC", "nextWithError"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "close"]
+- !private ["So8NSObjectP", "int"]
+- !private ["So8NSObjectP", "next"]
+- !private ["So8NSObjectP", "nextWithError"]
+- !private ["So8NSObjectP", "string"]
+- !private ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "map"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "close"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "next"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nextWithError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14HyperTrackCore24AbstractDatabaseProtocolP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "14HyperTrackCore11AtomicValueC"
+- "SK"
+- !private "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "14HyperTrackCore14DataBaseResultO"
+- "Se"
+- "SE"
+- "SQ"
+- !private "14HyperTrackCore5EventV"
+- !private "14HyperTrackCore9EventTypeO"
+- "14HyperTrackCore25EventsFMDBDatabaseManagerC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "14HyperTrackCore11FMDBManagerC"
+- !private "So11FMResultSetC"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- "14HyperTrackCore25EventsFMDBDatabaseManagerC4InfoV"
+- !private "Si"
+- !private "14HyperTrackCore16JSONDictProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "31708736e498db7a862afde4f0cd8b3c"

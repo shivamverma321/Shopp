@@ -1,0 +1,230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbstractEventBus"
+- "EventBusWrapper"
+- "NotificationCenterEventBus"
+provides-nominal:
+- "14HyperTrackCore16AbstractEventBusP"
+- "14HyperTrackCore15EventBusWrapperC"
+- "14HyperTrackCore26NotificationCenterEventBusC"
+provides-member:
+- ["14HyperTrackCore16AbstractEventBusP", ""]
+- ["14HyperTrackCore15EventBusWrapperC", ""]
+- ["14HyperTrackCore26NotificationCenterEventBusC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AbstractEventBus"
+- "AnyHashable"
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "DispatchQueue"
+- "EventBusWrapper"
+- !private "NSNotification"
+- "NotificationCenter"
+- "NotificationCenterEventBus"
+- "Selector"
+- "String"
+depends-member:
+- ["14HyperTrackCore16AbstractEventBusP", "AnyHashable"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "DispatchQueue"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "NSNotification"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "NotificationCenter"]
+- ["14HyperTrackCore16AbstractEventBusP", "Selector"]
+- ["14HyperTrackCore16AbstractEventBusP", "String"]
+- ["14HyperTrackCore16AbstractEventBusP", ""]
+- ["14HyperTrackCore16AbstractEventBusP", "addObserver"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "center"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "init"]
+- ["14HyperTrackCore16AbstractEventBusP", "post"]
+- ["14HyperTrackCore16AbstractEventBusP", "removeObserver"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "Name"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "async"]
+- !private ["SQ", "default"]
+- !private ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "post"]
+- !private ["SQ", "removeObserver"]
+- ["14HyperTrackCore15EventBusWrapperC", "AbstractEventBus"]
+- !private ["14HyperTrackCore15EventBusWrapperC", "NotificationCenterEventBus"]
+- ["14HyperTrackCore15EventBusWrapperC", "center"]
+- !private ["14HyperTrackCore15EventBusWrapperC", "center.storage"]
+- ["14HyperTrackCore15EventBusWrapperC", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "Name"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addObserver"]
+- !private ["SH", "async"]
+- !private ["SH", "default"]
+- !private ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "post"]
+- !private ["SH", "removeObserver"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "Name"]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So14NSNotificationC", "Name"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "removeObserver"]
+- !private ["So8NSObjectP", "Name"]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "removeObserver"]
+- !private ["So18NSNotificationNamea", "init"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["So20NSNotificationCenterC", "removeObserver"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "AnyHashable"]
+- !private ["14HyperTrackCore26NotificationCenterEventBusC", "DispatchQueue"]
+- !private ["14HyperTrackCore26NotificationCenterEventBusC", "NSNotification"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "NotificationCenter"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "Selector"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "String"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "addObserver"]
+- !private ["14HyperTrackCore26NotificationCenterEventBusC", "center"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "deinit"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "init"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "post"]
+- ["14HyperTrackCore26NotificationCenterEventBusC", "removeObserver"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["SY", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+depends-nominal:
+- "14HyperTrackCore16AbstractEventBusP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- "14HyperTrackCore15EventBusWrapperC"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSNotificationC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So18NSNotificationNamea"
+- !private "So20NSNotificationCenterC"
+- "14HyperTrackCore26NotificationCenterEventBusC"
+- !private "So9OS_objectC"
+- !private "SY"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "34ec118eea366a16ddeb41b576159bd9"

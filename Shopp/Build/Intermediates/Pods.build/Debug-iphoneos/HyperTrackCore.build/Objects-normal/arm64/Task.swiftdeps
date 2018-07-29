@@ -1,0 +1,634 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TaskState"
+- "TaskContinuationOptions"
+- "Task"
+provides-nominal:
+- "14HyperTrackCore9TaskStateO"
+- "14HyperTrackCore23TaskContinuationOptionsV"
+- "14HyperTrackCore4TaskC"
+provides-member:
+- ["14HyperTrackCore9TaskStateO", ""]
+- ["14HyperTrackCore23TaskContinuationOptionsV", ""]
+- ["14HyperTrackCore4TaskC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "<<"
+- "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CancelledError"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "DispatchQueue"
+- "Error"
+- "Executor"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NSCondition"
+- "OptionSet"
+- "String"
+- !private "StringLiteralType"
+- "Task"
+- "TaskContinuationOptions"
+- "TaskState"
+- !private "Thread"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "debugPrint"
+- !private "precondition"
+depends-member:
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["s13ArrayProtocolP", "append"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- ["So17OS_dispatch_queueC8DispatchE10AttributesV", "concurrent"]
+- !private ["SK", "append"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "removeAll"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "Attributes"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "broadcast"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMainThread"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["Sl", "append"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "Array"]
+- ["s28CustomDebugStringConvertibleP", "Attributes"]
+- ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "NSCondition"]
+- !private ["s28CustomDebugStringConvertibleP", "Task"]
+- !private ["s28CustomDebugStringConvertibleP", "TaskState"]
+- !private ["s28CustomDebugStringConvertibleP", "Thread"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_completedCondition"]
+- !private ["s28CustomDebugStringConvertibleP", "_continuations"]
+- !private ["s28CustomDebugStringConvertibleP", "_state"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "broadcast"]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "continueWithTask"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "emptyTask"]
+- !private ["s28CustomDebugStringConvertibleP", "execute"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMainThread"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "precondition"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "synchronizationQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "trySet"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- ["s23CustomStringConvertibleP", "Array"]
+- ["s23CustomStringConvertibleP", "Attributes"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "NSCondition"]
+- !private ["s23CustomStringConvertibleP", "Task"]
+- !private ["s23CustomStringConvertibleP", "TaskState"]
+- !private ["s23CustomStringConvertibleP", "Thread"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_completedCondition"]
+- !private ["s23CustomStringConvertibleP", "_continuations"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_state"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "broadcast"]
+- !private ["s23CustomStringConvertibleP", "completed"]
+- !private ["s23CustomStringConvertibleP", "continueWithTask"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "emptyTask"]
+- !private ["s23CustomStringConvertibleP", "execute"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMainThread"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["s23CustomStringConvertibleP", "synchronizationQueue"]
+- !private ["s23CustomStringConvertibleP", "trySet"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "removeAll"]
+- ["So18OS_dispatch_objectC", "Attributes"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- ["So17OS_dispatch_queueC", "Attributes"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "sync"]
+- !private ["8Dispatch0A13WorkItemFlagsV", "barrier"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "removeAll"]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "Attributes"]
+- ["SQ", "Element"]
+- ["SQ", "RawValue"]
+- ["SQ", "RunOnCancelled"]
+- ["SQ", "RunOnError"]
+- ["SQ", "RunOnSuccess"]
+- ["SQ", "TaskContinuationOptions"]
+- ["SQ", ""]
+- ["SQ", "_Default_ArrayLiteralElement"]
+- ["SQ", "_Default_Element"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "barrier"]
+- !private ["SQ", "broadcast"]
+- ["SQ", "concurrent"]
+- ["SQ", "contains"]
+- ["SQ", "formIntersection"]
+- ["SQ", "formSymmetricDifference"]
+- ["SQ", "formUnion"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "insert"]
+- ["SQ", "intersection"]
+- ["SQ", "isDisjoint"]
+- ["SQ", "isEmpty"]
+- !private ["SQ", "isMainThread"]
+- ["SQ", "isSubset"]
+- ["SQ", "isSuperset"]
+- !private ["SQ", "lock"]
+- ["SQ", "rawValue"]
+- ["SQ", "remove"]
+- !private ["SQ", "removeAll"]
+- ["SQ", "subtract"]
+- ["SQ", "subtracting"]
+- ["SQ", "symmetricDifference"]
+- !private ["SQ", "sync"]
+- ["SQ", "union"]
+- !private ["SQ", "unlock"]
+- ["SQ", "update"]
+- !private ["SQ", "wait"]
+- !private ["14HyperTrackCore8ExecutorO", "default"]
+- !private ["14HyperTrackCore8ExecutorO", "execute"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- ["s25ExpressibleByArrayLiteralP", "RunOnCancelled"]
+- ["s25ExpressibleByArrayLiteralP", "RunOnError"]
+- ["s25ExpressibleByArrayLiteralP", "RunOnSuccess"]
+- ["s25ExpressibleByArrayLiteralP", "TaskContinuationOptions"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "barrier"]
+- ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "Attributes"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "broadcast"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isMainThread"]
+- !private ["SH", "lock"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "sync"]
+- !private ["SH", "unlock"]
+- !private ["SH", "wait"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- ["SM", "init"]
+- !private ["SM", "removeAll"]
+- !private ["So11NSConditionC", "broadcast"]
+- !private ["So11NSConditionC", "init"]
+- !private ["So11NSConditionC", "lock"]
+- !private ["So11NSConditionC", "unlock"]
+- !private ["So11NSConditionC", "wait"]
+- !private ["So9NSLockingP", "broadcast"]
+- !private ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So9NSLockingP", "wait"]
+- ["So8NSObjectC", "Attributes"]
+- !private ["So8NSObjectC", "broadcast"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isMainThread"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectC", "wait"]
+- ["So8NSObjectP", "Attributes"]
+- !private ["So8NSObjectP", "broadcast"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isMainThread"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So8NSObjectP", "wait"]
+- ["So9OS_objectC", "Attributes"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "sync"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "RawValue"]
+- ["s9OptionSetP", "RunOnCancelled"]
+- ["s9OptionSetP", "RunOnError"]
+- ["s9OptionSetP", "RunOnSuccess"]
+- ["s9OptionSetP", "TaskContinuationOptions"]
+- ["s9OptionSetP", ""]
+- ["s9OptionSetP", "_Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "_Default_Element"]
+- ["s9OptionSetP", "_Default_RawValue"]
+- !private ["s9OptionSetP", "barrier"]
+- ["s9OptionSetP", "concurrent"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- !private ["Sk", "append"]
+- ["Sk", "init"]
+- !private ["Sk", "removeAll"]
+- !private ["Sm", "append"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "removeAll"]
+- ["SY", "ArrayLiteralElement"]
+- ["SY", "Element"]
+- ["SY", "RawValue"]
+- ["SY", "RunOnCancelled"]
+- ["SY", "RunOnError"]
+- ["SY", "RunOnSuccess"]
+- ["SY", "TaskContinuationOptions"]
+- ["SY", ""]
+- ["SY", "_Default_ArrayLiteralElement"]
+- ["SY", "_Default_Element"]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "barrier"]
+- ["SY", "concurrent"]
+- ["SY", "contains"]
+- ["SY", "formIntersection"]
+- ["SY", "formSymmetricDifference"]
+- ["SY", "formUnion"]
+- ["SY", "init"]
+- ["SY", "insert"]
+- ["SY", "intersection"]
+- ["SY", "isDisjoint"]
+- ["SY", "isEmpty"]
+- ["SY", "isSubset"]
+- ["SY", "isSuperset"]
+- ["SY", "rawValue"]
+- ["SY", "remove"]
+- ["SY", "subtract"]
+- ["SY", "subtracting"]
+- ["SY", "symmetricDifference"]
+- ["SY", "union"]
+- ["SY", "update"]
+- !private ["ST", "append"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "removeAll"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", "RawValue"]
+- ["s10SetAlgebraP", "RunOnCancelled"]
+- ["s10SetAlgebraP", "RunOnError"]
+- ["s10SetAlgebraP", "RunOnSuccess"]
+- ["s10SetAlgebraP", "TaskContinuationOptions"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "_Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "_Default_Element"]
+- ["s10SetAlgebraP", "_Default_RawValue"]
+- !private ["s10SetAlgebraP", "barrier"]
+- ["s10SetAlgebraP", "concurrent"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["14HyperTrackCore4TaskC", "Array"]
+- ["14HyperTrackCore4TaskC", "Bool"]
+- ["14HyperTrackCore4TaskC", "Continuation"]
+- ["14HyperTrackCore4TaskC", "DispatchQueue"]
+- ["14HyperTrackCore4TaskC", "Error"]
+- ["14HyperTrackCore4TaskC", "Executor"]
+- ["14HyperTrackCore4TaskC", "NSCondition"]
+- ["14HyperTrackCore4TaskC", "String"]
+- ["14HyperTrackCore4TaskC", "TResult"]
+- ["14HyperTrackCore4TaskC", "Task"]
+- ["14HyperTrackCore4TaskC", "TaskState"]
+- !private ["14HyperTrackCore4TaskC", "Thread"]
+- ["14HyperTrackCore4TaskC", "Void"]
+- !private ["14HyperTrackCore4TaskC", "_completedCondition"]
+- !private ["14HyperTrackCore4TaskC", "_continuations"]
+- !private ["14HyperTrackCore4TaskC", "_state"]
+- ["14HyperTrackCore4TaskC", "appendOrRunContinuation"]
+- ["14HyperTrackCore4TaskC", "cancelled"]
+- ["14HyperTrackCore4TaskC", "cancelledTask"]
+- ["14HyperTrackCore4TaskC", "completed"]
+- !private ["14HyperTrackCore4TaskC", "continueWithTask"]
+- ["14HyperTrackCore4TaskC", "debugDescription"]
+- !private ["14HyperTrackCore4TaskC", "debugPrint"]
+- ["14HyperTrackCore4TaskC", "deinit"]
+- ["14HyperTrackCore4TaskC", "description"]
+- ["14HyperTrackCore4TaskC", "emptyTask"]
+- ["14HyperTrackCore4TaskC", "error"]
+- ["14HyperTrackCore4TaskC", "execute"]
+- ["14HyperTrackCore4TaskC", "executeWithTask"]
+- ["14HyperTrackCore4TaskC", "faulted"]
+- ["14HyperTrackCore4TaskC", "init"]
+- !private ["14HyperTrackCore4TaskC", "init"]
+- !private ["14HyperTrackCore4TaskC", "precondition"]
+- ["14HyperTrackCore4TaskC", "result"]
+- ["14HyperTrackCore4TaskC", "state"]
+- !private ["14HyperTrackCore4TaskC", "synchronizationQueue"]
+- ["14HyperTrackCore4TaskC", "trySet"]
+- ["14HyperTrackCore4TaskC", "waitUntilCompleted"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "ArrayLiteralElement"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "Element"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "Int"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "RawValue"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "RunAlways"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "RunOnCancelled"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "RunOnError"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "RunOnSuccess"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "TaskContinuationOptions"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "_Default_ArrayLiteralElement"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "_Default_Element"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "_Default_RawValue"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "contains"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "deinit"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "formIntersection"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "formSymmetricDifference"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "formUnion"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "init"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "insert"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "intersection"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "isDisjoint"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "isEmpty"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "isSubset"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "isSuperset"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "rawValue"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "remove"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "subtract"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "subtracting"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "symmetricDifference"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "union"]
+- ["14HyperTrackCore23TaskContinuationOptionsV", "update"]
+- !private ["14HyperTrackCore9TaskStateO", "CancelledError"]
+- ["14HyperTrackCore9TaskStateO", "Error"]
+- ["14HyperTrackCore9TaskStateO", "TResult"]
+- ["14HyperTrackCore9TaskStateO", "TaskState"]
+- ["14HyperTrackCore9TaskStateO", "cancelled"]
+- ["14HyperTrackCore9TaskStateO", "error"]
+- ["14HyperTrackCore9TaskStateO", "fromClosure"]
+- ["14HyperTrackCore9TaskStateO", "pending"]
+- ["14HyperTrackCore9TaskStateO", "success"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So8NSThreadC", "isMainThread"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Attributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "broadcast"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMainThread"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- "So17OS_dispatch_queueC8DispatchE10AttributesV"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "8Dispatch0A13WorkItemFlagsV"
+- "SE"
+- "SQ"
+- !private "14HyperTrackCore8ExecutorO"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- !private "So11NSConditionC"
+- !private "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "s9OptionSetP"
+- "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "14HyperTrackCore4TaskC"
+- "14HyperTrackCore23TaskContinuationOptionsV"
+- "14HyperTrackCore9TaskStateO"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So8NSThreadC"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9ba1117d93b65df8f94db5bc80c57681"

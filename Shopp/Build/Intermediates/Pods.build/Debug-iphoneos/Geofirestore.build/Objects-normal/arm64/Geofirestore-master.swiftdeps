@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "33c506dfba45857e5705be8e0e427edc"
+build_time: [1532884862, 920166000]
+inputs:
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Geofirestore/Geofirestore/Classes/Geofirestore.swift": [1532880588, 0]

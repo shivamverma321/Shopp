@@ -18,7 +18,9 @@ depends-top-level:
 - !private "CATransaction"
 - "CGRect"
 - "CGSize"
+- "FloatLiteralType"
 - "IndexView"
+- "IntegerLiteralType"
 - "ItemLayout"
 - "NSCoder"
 - !private "UIColor"
@@ -27,9 +29,12 @@ depends-member:
 - !private ["Sa", "contains"]
 - !private ["Sa", "enumerated"]
 - !private ["Sa", "subscript"]
-- !private ["s23BidirectionalCollectionP", "contains"]
-- !private ["s23BidirectionalCollectionP", "enumerated"]
-- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s13ArrayProtocolP", "contains"]
+- !private ["s13ArrayProtocolP", "enumerated"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "contains"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "CATransaction"]
 - !private ["So15CALayerDelegateP", "CGSize"]
@@ -53,9 +58,9 @@ depends-member:
 - !private ["So15CALayerDelegateP", "removeItem"]
 - !private ["So15CALayerDelegateP", "setNeedsLayout"]
 - !private ["So13CATransactionC", "setCompletionBlock"]
-- !private ["SC6CGSizeV", "height"]
-- !private ["SC6CGSizeV", "init"]
-- !private ["SC6CGSizeV", "width"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "init"]
+- !private ["So6CGSizeV", "width"]
 - !private ["s7CVarArgP", "CATransaction"]
 - !private ["s7CVarArgP", "CGSize"]
 - !private ["s7CVarArgP", "UIColor"]
@@ -83,9 +88,9 @@ depends-member:
 - !private ["s7CVarArgP", "setCompletionBlock"]
 - !private ["s7CVarArgP", "setNeedsLayout"]
 - !private ["s7CVarArgP", "subscript"]
-- !private ["s10CollectionP", "contains"]
-- !private ["s10CollectionP", "enumerated"]
-- !private ["s10CollectionP", "subscript"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "CATransaction"]
 - !private ["s28CustomDebugStringConvertibleP", "CGSize"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
@@ -152,77 +157,80 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "setCompletionBlock"]
 - !private ["s23CustomStringConvertibleP", "setNeedsLayout"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "contains"]
-- !private ["s9DecodableP", "enumerated"]
-- !private ["s9DecodableP", "height"]
-- !private ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "subscript"]
-- !private ["s9DecodableP", "width"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "contains"]
-- !private ["s9EncodableP", "enumerated"]
-- !private ["s9EncodableP", "height"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "subscript"]
-- !private ["s9EncodableP", "width"]
-- !private ["s9EquatableP", "CATransaction"]
-- !private ["s9EquatableP", "CGSize"]
-- !private ["s9EquatableP", "UIColor"]
-- !private ["s9EquatableP", "UIView"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "addItem"]
-- !private ["s9EquatableP", "addSubview"]
-- !private ["s9EquatableP", "alpha"]
-- !private ["s9EquatableP", "backgroundColor"]
-- !private ["s9EquatableP", "clear"]
-- !private ["s9EquatableP", "commonInit"]
-- !private ["s9EquatableP", "contains"]
-- !private ["s9EquatableP", "enumerated"]
-- !private ["s9EquatableP", "frame"]
-- !private ["s9EquatableP", "height"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "intrinsicContentSize"]
-- !private ["s9EquatableP", "isUserInteractionEnabled"]
-- !private ["s9EquatableP", "items"]
-- !private ["s9EquatableP", "layout"]
-- !private ["s9EquatableP", "layoutSubviews"]
-- !private ["s9EquatableP", "performWithoutAnimation"]
-- !private ["s9EquatableP", "removeFromSuperview"]
-- !private ["s9EquatableP", "removeItem"]
-- !private ["s9EquatableP", "setCompletionBlock"]
-- !private ["s9EquatableP", "setNeedsLayout"]
-- !private ["s9EquatableP", "subscript"]
-- !private ["s9EquatableP", "width"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "contains"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "width"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "contains"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "width"]
+- !private ["SQ", "CATransaction"]
+- !private ["SQ", "CGSize"]
+- !private ["SQ", "UIColor"]
+- !private ["SQ", "UIView"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addItem"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "alpha"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "commonInit"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "intrinsicContentSize"]
+- !private ["SQ", "isUserInteractionEnabled"]
+- !private ["SQ", "items"]
+- !private ["SQ", "layout"]
+- !private ["SQ", "layoutSubviews"]
+- !private ["SQ", "performWithoutAnimation"]
+- !private ["SQ", "removeFromSuperview"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "setCompletionBlock"]
+- !private ["SQ", "setNeedsLayout"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "width"]
 - !private ["s25ExpressibleByArrayLiteralP", "contains"]
 - !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "CATransaction"]
-- !private ["s8HashableP", "CGSize"]
-- !private ["s8HashableP", "UIColor"]
-- !private ["s8HashableP", "UIView"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "addItem"]
-- !private ["s8HashableP", "addSubview"]
-- !private ["s8HashableP", "alpha"]
-- !private ["s8HashableP", "backgroundColor"]
-- !private ["s8HashableP", "clear"]
-- !private ["s8HashableP", "commonInit"]
-- !private ["s8HashableP", "frame"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "intrinsicContentSize"]
-- !private ["s8HashableP", "isUserInteractionEnabled"]
-- !private ["s8HashableP", "items"]
-- !private ["s8HashableP", "layout"]
-- !private ["s8HashableP", "layoutSubviews"]
-- !private ["s8HashableP", "performWithoutAnimation"]
-- !private ["s8HashableP", "removeFromSuperview"]
-- !private ["s8HashableP", "removeItem"]
-- !private ["s8HashableP", "setCompletionBlock"]
-- !private ["s8HashableP", "setNeedsLayout"]
+- !private ["SH", "CATransaction"]
+- !private ["SH", "CGSize"]
+- !private ["SH", "UIColor"]
+- !private ["SH", "UIView"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addItem"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "alpha"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "clear"]
+- !private ["SH", "commonInit"]
+- !private ["SH", "contains"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "intrinsicContentSize"]
+- !private ["SH", "isUserInteractionEnabled"]
+- !private ["SH", "items"]
+- !private ["SH", "layout"]
+- !private ["SH", "layoutSubviews"]
+- !private ["SH", "performWithoutAnimation"]
+- !private ["SH", "removeFromSuperview"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "setCompletionBlock"]
+- !private ["SH", "setNeedsLayout"]
+- !private ["SH", "subscript"]
 - !private ["16MYTableViewIndex0C4ItemP", "CATransaction"]
 - !private ["16MYTableViewIndex0C4ItemP", "CGSize"]
 - !private ["16MYTableViewIndex0C4ItemP", "UIColor"]
@@ -255,7 +263,6 @@ depends-member:
 - !private ["16MYTableViewIndex0cB0C", "addSubview"]
 - !private ["16MYTableViewIndex0cB0C", "backgroundColor"]
 - !private ["16MYTableViewIndex0cB0C", "commonInit"]
-- ["16MYTableViewIndex0cB0C", "deinit"]
 - ["16MYTableViewIndex0cB0C", "init"]
 - ["16MYTableViewIndex0cB0C", "intrinsicContentSize"]
 - !private ["16MYTableViewIndex0cB0C", "isUserInteractionEnabled"]
@@ -269,9 +276,9 @@ depends-member:
 - !private ["16MYTableViewIndex10ItemLayoutV", "frames"]
 - !private ["16MYTableViewIndex10ItemLayoutV", "size"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s17MutableCollectionP", "contains"]
-- !private ["s17MutableCollectionP", "enumerated"]
-- !private ["s17MutableCollectionP", "subscript"]
+- !private ["SM", "contains"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "subscript"]
 - !private ["So8NSCodingP", "CATransaction"]
 - !private ["So8NSCodingP", "CGSize"]
 - !private ["So8NSCodingP", "UIColor"]
@@ -324,39 +331,39 @@ depends-member:
 - !private ["So8NSObjectC", "setCompletionBlock"]
 - !private ["So8NSObjectC", "setNeedsLayout"]
 - ["So8NSObjectC", "sizeThatFits"]
-- !private ["So16NSObjectProtocolP", "CATransaction"]
-- !private ["So16NSObjectProtocolP", "CGSize"]
-- !private ["So16NSObjectProtocolP", "UIColor"]
-- !private ["So16NSObjectProtocolP", "UIView"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "addItem"]
-- !private ["So16NSObjectProtocolP", "addSubview"]
-- !private ["So16NSObjectProtocolP", "alpha"]
-- !private ["So16NSObjectProtocolP", "backgroundColor"]
-- !private ["So16NSObjectProtocolP", "clear"]
-- !private ["So16NSObjectProtocolP", "commonInit"]
-- !private ["So16NSObjectProtocolP", "frame"]
-- !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "intrinsicContentSize"]
-- !private ["So16NSObjectProtocolP", "isUserInteractionEnabled"]
-- !private ["So16NSObjectProtocolP", "items"]
-- !private ["So16NSObjectProtocolP", "layout"]
-- !private ["So16NSObjectProtocolP", "layoutSubviews"]
-- !private ["So16NSObjectProtocolP", "performWithoutAnimation"]
-- !private ["So16NSObjectProtocolP", "removeFromSuperview"]
-- !private ["So16NSObjectProtocolP", "removeItem"]
-- !private ["So16NSObjectProtocolP", "setCompletionBlock"]
-- !private ["So16NSObjectProtocolP", "setNeedsLayout"]
+- !private ["So8NSObjectP", "CATransaction"]
+- !private ["So8NSObjectP", "CGSize"]
+- !private ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "UIView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addItem"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "alpha"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "commonInit"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intrinsicContentSize"]
+- !private ["So8NSObjectP", "isUserInteractionEnabled"]
+- !private ["So8NSObjectP", "items"]
+- !private ["So8NSObjectP", "layout"]
+- !private ["So8NSObjectP", "layoutSubviews"]
+- !private ["So8NSObjectP", "performWithoutAnimation"]
+- !private ["So8NSObjectP", "removeFromSuperview"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "setCompletionBlock"]
+- !private ["So8NSObjectP", "setNeedsLayout"]
 - !private ["So14NSSecureCodingP", "clear"]
-- !private ["s22RandomAccessCollectionP", "contains"]
-- !private ["s22RandomAccessCollectionP", "enumerated"]
-- !private ["s22RandomAccessCollectionP", "subscript"]
-- !private ["s26RangeReplaceableCollectionP", "contains"]
-- !private ["s26RangeReplaceableCollectionP", "enumerated"]
-- !private ["s26RangeReplaceableCollectionP", "subscript"]
-- !private ["s8SequenceP", "contains"]
-- !private ["s8SequenceP", "enumerated"]
-- !private ["s8SequenceP", "subscript"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "contains"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "subscript"]
 - !private ["So29UIAccessibilityIdentificationP", "CATransaction"]
 - !private ["So29UIAccessibilityIdentificationP", "CGSize"]
 - !private ["So29UIAccessibilityIdentificationP", "UIColor"]
@@ -505,6 +512,27 @@ depends-member:
 - !private ["So11UIFocusItemP", "removeFromSuperview"]
 - !private ["So11UIFocusItemP", "removeItem"]
 - !private ["So11UIFocusItemP", "setNeedsLayout"]
+- !private ["So20UIFocusItemContainerP", "CATransaction"]
+- !private ["So20UIFocusItemContainerP", "CGSize"]
+- !private ["So20UIFocusItemContainerP", "UIColor"]
+- !private ["So20UIFocusItemContainerP", "UIView"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addItem"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "alpha"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "commonInit"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "intrinsicContentSize"]
+- !private ["So20UIFocusItemContainerP", "isUserInteractionEnabled"]
+- !private ["So20UIFocusItemContainerP", "items"]
+- !private ["So20UIFocusItemContainerP", "layout"]
+- !private ["So20UIFocusItemContainerP", "layoutSubviews"]
+- !private ["So20UIFocusItemContainerP", "performWithoutAnimation"]
+- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- !private ["So20UIFocusItemContainerP", "removeItem"]
+- !private ["So20UIFocusItemContainerP", "setNeedsLayout"]
 - !private ["So30UIPasteConfigurationSupportingP", "CATransaction"]
 - !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
@@ -593,6 +621,27 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
 - !private ["So18UITraitEnvironmentP", "removeItem"]
 - !private ["So18UITraitEnvironmentP", "setNeedsLayout"]
+- !private ["So23UIUserActivityRestoringP", "CATransaction"]
+- !private ["So23UIUserActivityRestoringP", "CGSize"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- !private ["So23UIUserActivityRestoringP", "UIView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addItem"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "alpha"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "commonInit"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "intrinsicContentSize"]
+- !private ["So23UIUserActivityRestoringP", "isUserInteractionEnabled"]
+- !private ["So23UIUserActivityRestoringP", "items"]
+- !private ["So23UIUserActivityRestoringP", "layout"]
+- !private ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- !private ["So23UIUserActivityRestoringP", "performWithoutAnimation"]
+- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- !private ["So23UIUserActivityRestoringP", "removeItem"]
+- !private ["So23UIUserActivityRestoringP", "setNeedsLayout"]
 - !private ["So6UIViewC", "CATransaction"]
 - ["So6UIViewC", "CGRect"]
 - ["So6UIViewC", "CGSize"]
@@ -620,9 +669,6 @@ depends-member:
 - ["So6UIViewC", "removeItem"]
 - !private ["So6UIViewC", "setNeedsLayout"]
 - ["So6UIViewC", "sizeThatFits"]
-- !private ["s14_ArrayProtocolP", "contains"]
-- !private ["s14_ArrayProtocolP", "enumerated"]
-- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CATransaction"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGSize"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
@@ -681,38 +727,39 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "width"]
 depends-nominal:
 - !private "Sa"
-- !private "s23BidirectionalCollectionP"
+- !private "s13ArrayProtocolP"
+- !private "SK"
 - !private "Sb"
 - "So15CALayerDelegateP"
 - !private "So13CATransactionC"
-- !private "SC6CGSizeV"
+- !private "So6CGSizeV"
 - "s7CVarArgP"
-- !private "s10CollectionP"
+- !private "Sl"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
-- !private "s9EncodableP"
-- "s9EquatableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
-- "s8HashableP"
+- "SH"
 - "16MYTableViewIndex0C4ItemP"
 - "16MYTableViewIndex0cB0C"
 - !private "16MYTableViewIndex10ItemLayoutV"
 - !private "s25LosslessStringConvertibleP"
-- !private "s17MutableCollectionP"
+- !private "SM"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - !private "So14NSSecureCodingP"
-- !private "s22RandomAccessCollectionP"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s8SequenceP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -721,12 +768,13 @@ depends-nominal:
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
 - "So6UIViewC"
-- !private "s14_ArrayProtocolP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -735,29 +783,30 @@ depends-nominal:
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/MYTableViewIndex/MYTableViewIndex-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/MYTableViewIndex.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "e0140a68bcd6e60ed3173f3c3f16b108"

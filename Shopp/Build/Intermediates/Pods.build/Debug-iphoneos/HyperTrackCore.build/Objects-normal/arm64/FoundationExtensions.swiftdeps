@@ -1,0 +1,478 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So15NSDateFormatterC", ""]
+- ["10Foundation11JSONDecoderC", ""]
+- ["10Foundation11JSONEncoderC", ""]
+- ["Sd", ""]
+- ["So10CLLocationC", ""]
+- ["So15NSDateFormatterC", "iso8601Full"]
+- ["10Foundation11JSONDecoderC", "hyperTrackDecoder"]
+- ["10Foundation11JSONEncoderC", "hyperTrackEncoder"]
+- ["Sd", "degrees"]
+- ["Sd", "radians"]
+- ["So10CLLocationC", "getBearing"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "-"
+- !private "/"
+- "AssignmentPrecedence"
+- "CLLocation"
+- "Calendar"
+- "DateFormatter"
+- "Double"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "JSONDecoder"
+- "JSONEncoder"
+- "Locale"
+- "StringLiteralType"
+- "TimeZone"
+- !private "atan2"
+- !private "cos"
+- !private "sin"
+depends-member:
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SB", "degrees"]
+- !private ["SB", "pi"]
+- !private ["SB", "radians"]
+- ["So10CLLocationC", "CLLocation"]
+- ["So10CLLocationC", "Double"]
+- !private ["So10CLLocationC", "atan2"]
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["So10CLLocationC", "cos"]
+- ["So10CLLocationC", "getBearing"]
+- !private ["So10CLLocationC", "sin"]
+- !private ["So22CLLocationCoordinate2DV", "latitude"]
+- !private ["So22CLLocationCoordinate2DV", "longitude"]
+- ["s7CVarArgP", "Calendar"]
+- ["s7CVarArgP", "DateFormatter"]
+- ["s7CVarArgP", "Locale"]
+- ["s7CVarArgP", "TimeZone"]
+- !private ["s7CVarArgP", "atan2"]
+- ["s7CVarArgP", "calendar"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "cos"]
+- ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "degrees"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "iso8601Full"]
+- ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "radians"]
+- !private ["s7CVarArgP", "sin"]
+- ["s7CVarArgP", "timeZone"]
+- ["10Foundation8CalendarV", "init"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["SL", "degrees"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "pi"]
+- !private ["SL", "radians"]
+- ["s28CustomDebugStringConvertibleP", "Calendar"]
+- ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- ["s28CustomDebugStringConvertibleP", "Locale"]
+- ["s28CustomDebugStringConvertibleP", "TimeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "atan2"]
+- ["s28CustomDebugStringConvertibleP", "calendar"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "cos"]
+- ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "degrees"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "iso8601Full"]
+- ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "radians"]
+- !private ["s28CustomDebugStringConvertibleP", "sin"]
+- ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s29CustomPlaygroundQuickLookableP", "degrees"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s29CustomPlaygroundQuickLookableP", "radians"]
+- !private ["s17CustomReflectableP", "degrees"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s17CustomReflectableP", "radians"]
+- ["s23CustomStringConvertibleP", "Calendar"]
+- ["s23CustomStringConvertibleP", "DateFormatter"]
+- ["s23CustomStringConvertibleP", "Locale"]
+- ["s23CustomStringConvertibleP", "TimeZone"]
+- !private ["s23CustomStringConvertibleP", "atan2"]
+- ["s23CustomStringConvertibleP", "calendar"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "cos"]
+- ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "degrees"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "iso8601Full"]
+- ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "radians"]
+- !private ["s23CustomStringConvertibleP", "sin"]
+- ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["10Foundation11JSONDecoderC20DateDecodingStrategyO", "formatted"]
+- !private ["10Foundation11JSONEncoderC20DateEncodingStrategyO", "formatted"]
+- ["So15NSDateFormatterC", "Calendar"]
+- ["So15NSDateFormatterC", "DateFormatter"]
+- ["So15NSDateFormatterC", "Locale"]
+- ["So15NSDateFormatterC", "TimeZone"]
+- ["So15NSDateFormatterC", "calendar"]
+- ["So15NSDateFormatterC", "dateFormat"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "iso8601Full"]
+- ["So15NSDateFormatterC", "locale"]
+- ["So15NSDateFormatterC", "timeZone"]
+- !private ["Se", "degrees"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "pi"]
+- !private ["Se", "radians"]
+- ["Sd", "Double"]
+- ["Sd", "degrees"]
+- !private ["Sd", "pi"]
+- ["Sd", "radians"]
+- !private ["SE", "degrees"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "pi"]
+- !private ["SE", "radians"]
+- ["SQ", "Calendar"]
+- ["SQ", "DateFormatter"]
+- ["SQ", "Locale"]
+- ["SQ", "TimeZone"]
+- !private ["SQ", "atan2"]
+- ["SQ", "calendar"]
+- !private ["SQ", "coordinate"]
+- !private ["SQ", "cos"]
+- ["SQ", "dateFormat"]
+- !private ["SQ", "degrees"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "iso8601"]
+- !private ["SQ", "iso8601Full"]
+- ["SQ", "locale"]
+- !private ["SQ", "pi"]
+- !private ["SQ", "radians"]
+- !private ["SQ", "sin"]
+- ["SQ", "timeZone"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "degrees"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s25ExpressibleByFloatLiteralP", "radians"]
+- !private ["s27ExpressibleByIntegerLiteralP", "degrees"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "radians"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "degrees"]
+- !private ["SF", "pi"]
+- !private ["SF", "radians"]
+- ["So11NSFormatterC", "Calendar"]
+- ["So11NSFormatterC", "DateFormatter"]
+- ["So11NSFormatterC", "Locale"]
+- ["So11NSFormatterC", "TimeZone"]
+- ["So11NSFormatterC", "calendar"]
+- ["So11NSFormatterC", "dateFormat"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "iso8601Full"]
+- ["So11NSFormatterC", "locale"]
+- ["So11NSFormatterC", "timeZone"]
+- ["SH", "Calendar"]
+- ["SH", "DateFormatter"]
+- ["SH", "Locale"]
+- ["SH", "TimeZone"]
+- !private ["SH", "atan2"]
+- ["SH", "calendar"]
+- !private ["SH", "coordinate"]
+- !private ["SH", "cos"]
+- ["SH", "dateFormat"]
+- !private ["SH", "degrees"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "iso8601"]
+- !private ["SH", "iso8601Full"]
+- ["SH", "locale"]
+- !private ["SH", "pi"]
+- !private ["SH", "radians"]
+- !private ["SH", "sin"]
+- ["SH", "timeZone"]
+- ["10Foundation8CalendarV10IdentifierO", "iso8601"]
+- !private ["10Foundation11JSONDecoderC", "DateFormatter"]
+- ["10Foundation11JSONDecoderC", "JSONDecoder"]
+- !private ["10Foundation11JSONDecoderC", "dateDecodingStrategy"]
+- ["10Foundation11JSONDecoderC", "hyperTrackDecoder"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "DateFormatter"]
+- ["10Foundation11JSONEncoderC", "JSONEncoder"]
+- !private ["10Foundation11JSONEncoderC", "dateEncodingStrategy"]
+- ["10Foundation11JSONEncoderC", "hyperTrackEncoder"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "degrees"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["s25LosslessStringConvertibleP", "radians"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "Calendar"]
+- ["So8NSCodingP", "DateFormatter"]
+- ["So8NSCodingP", "Locale"]
+- ["So8NSCodingP", "TimeZone"]
+- !private ["So8NSCodingP", "atan2"]
+- ["So8NSCodingP", "calendar"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "cos"]
+- ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "iso8601Full"]
+- ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "sin"]
+- ["So8NSCodingP", "timeZone"]
+- ["So9NSCopyingP", "Calendar"]
+- ["So9NSCopyingP", "DateFormatter"]
+- ["So9NSCopyingP", "Locale"]
+- ["So9NSCopyingP", "TimeZone"]
+- !private ["So9NSCopyingP", "atan2"]
+- ["So9NSCopyingP", "calendar"]
+- !private ["So9NSCopyingP", "coordinate"]
+- !private ["So9NSCopyingP", "cos"]
+- ["So9NSCopyingP", "dateFormat"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "iso8601Full"]
+- ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "sin"]
+- ["So9NSCopyingP", "timeZone"]
+- ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "Calendar"]
+- ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Locale"]
+- ["So8NSObjectC", "TimeZone"]
+- !private ["So8NSObjectC", "atan2"]
+- ["So8NSObjectC", "calendar"]
+- !private ["So8NSObjectC", "coordinate"]
+- !private ["So8NSObjectC", "cos"]
+- ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "getBearing"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "iso8601Full"]
+- ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "sin"]
+- ["So8NSObjectC", "timeZone"]
+- ["So8NSObjectP", "Calendar"]
+- ["So8NSObjectP", "DateFormatter"]
+- ["So8NSObjectP", "Locale"]
+- ["So8NSObjectP", "TimeZone"]
+- !private ["So8NSObjectP", "atan2"]
+- ["So8NSObjectP", "calendar"]
+- !private ["So8NSObjectP", "coordinate"]
+- !private ["So8NSObjectP", "cos"]
+- ["So8NSObjectP", "dateFormat"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "iso8601Full"]
+- ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "sin"]
+- ["So8NSObjectP", "timeZone"]
+- !private ["So14NSSecureCodingP", "atan2"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["So14NSSecureCodingP", "cos"]
+- !private ["So14NSSecureCodingP", "sin"]
+- !private ["Sj", "degrees"]
+- !private ["Sj", "pi"]
+- !private ["Sj", "radians"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s13SignedNumericP", "degrees"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s13SignedNumericP", "radians"]
+- !private ["Sx", "degrees"]
+- !private ["Sx", "pi"]
+- !private ["Sx", "radians"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10Foundation8TimeZoneV", "init"]
+- !private ["s15_CVarArgAlignedP", "degrees"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s15_CVarArgAlignedP", "radians"]
+- !private ["s22_CVarArgPassedAsDoubleP", "degrees"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "radians"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "degrees"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "radians"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "degrees"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "radians"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Calendar"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TimeZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "atan2"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "calendar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cos"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "iso8601Full"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sin"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- ["10Foundation14_MutableBoxingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "degrees"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "radians"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "SK"
+- !private "SB"
+- "So10CLLocationC"
+- !private "So22CLLocationCoordinate2DV"
+- "s7CVarArgP"
+- "10Foundation8CalendarV"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation11JSONDecoderC20DateDecodingStrategyO"
+- !private "10Foundation11JSONEncoderC20DateEncodingStrategyO"
+- "So15NSDateFormatterC"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "So11NSFormatterC"
+- "SH"
+- "10Foundation8CalendarV10IdentifierO"
+- "10Foundation11JSONDecoderC"
+- "10Foundation11JSONEncoderC"
+- "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10Foundation8TimeZoneV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation14_MutableBoxingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6c58d3eaf218b70866a5fb8e4e610179"

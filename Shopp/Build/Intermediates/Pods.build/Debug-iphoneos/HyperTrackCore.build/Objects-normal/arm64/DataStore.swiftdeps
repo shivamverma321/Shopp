@@ -1,0 +1,485 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbstractReadDataStore"
+- "AbstractWriteDataStore"
+- "AbstractReadWriteDataStore"
+- "ReadWriteDataStoreWrapper"
+- "SDKUserDefaults"
+provides-nominal:
+- "14HyperTrackCore21AbstractReadDataStoreP"
+- "14HyperTrackCore22AbstractWriteDataStoreP"
+- "14HyperTrackCore26AbstractReadWriteDataStoreP"
+- "14HyperTrackCore25ReadWriteDataStoreWrapperC"
+- "14HyperTrackCore15SDKUserDefaultsC"
+provides-member:
+- ["14HyperTrackCore21AbstractReadDataStoreP", ""]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", ""]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", ""]
+- ["14HyperTrackCore25ReadWriteDataStoreWrapperC", ""]
+- ["14HyperTrackCore15SDKUserDefaultsC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AbstractDataStoreConfig"
+- "AbstractLogger"
+- "AbstractReadDataStore"
+- "AbstractReadWriteDataStore"
+- "AbstractWriteDataStore"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Constant"
+- "Data"
+- "Double"
+- "Float"
+- "Int"
+- "ReadWriteDataStoreWrapper"
+- "SDKUserDefaults"
+- "String"
+- "URL"
+- "UserDefaults"
+depends-member:
+- !private ["14HyperTrackCore23AbstractDataStoreConfigP", "dataStore"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "logError"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "Bool"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "Constant"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "Data"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "Double"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "Float"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "Int"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "String"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "UserDefaults"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", ""]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "array"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "bool"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "config"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "data"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "defaults"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "deleteAllValues"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "dictionary"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "double"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "float"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "init"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "integer"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "logger"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "object"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "removeObject"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "set"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "string"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "stringArray"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "suiteName"]
+- ["14HyperTrackCore21AbstractReadDataStoreP", "synchronize"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "Constant"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "UserDefaults"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", ""]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "array"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "bool"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "config"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "data"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "defaults"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "deleteAllValues"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "dictionary"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "double"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "float"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "init"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "integer"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "logger"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "object"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "removeObject"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "set"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "string"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "stringArray"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "suiteName"]
+- ["14HyperTrackCore26AbstractReadWriteDataStoreP", "synchronize"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "Constant"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "String"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "UserDefaults"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", ""]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "array"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "bool"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "config"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "data"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "defaults"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "deleteAllValues"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "dictionary"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "double"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "float"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "init"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "integer"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "logger"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "object"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "removeObject"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "set"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "string"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "stringArray"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "suiteName"]
+- ["14HyperTrackCore22AbstractWriteDataStoreP", "synchronize"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "array"]
+- !private ["s7CVarArgP", "bool"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dictionary"]
+- !private ["s7CVarArgP", "double"]
+- !private ["s7CVarArgP", "float"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "integer"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "removeObject"]
+- !private ["s7CVarArgP", "removePersistentDomain"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "stringArray"]
+- !private ["s7CVarArgP", "synchronize"]
+- !private ["s7CVarArgP", "url"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "DataStore"]
+- !private ["14HyperTrackCore8ConstantO", "Config"]
+- !private ["14HyperTrackCore8ConstantO", "Context"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "dataStore"]
+- !private ["s28CustomDebugStringConvertibleP", "array"]
+- !private ["s28CustomDebugStringConvertibleP", "bool"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "double"]
+- !private ["s28CustomDebugStringConvertibleP", "float"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "integer"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "removePersistentDomain"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "stringArray"]
+- !private ["s28CustomDebugStringConvertibleP", "synchronize"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dictionary"]
+- !private ["s23CustomStringConvertibleP", "double"]
+- !private ["s23CustomStringConvertibleP", "float"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "integer"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "removeObject"]
+- !private ["s23CustomStringConvertibleP", "removePersistentDomain"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "stringArray"]
+- !private ["s23CustomStringConvertibleP", "synchronize"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["14HyperTrackCore6ConfigC9DataStoreV", "dataStoreSuitName"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO9DataStoreO", "dataStoreSuitName"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "dataStoreSuitName"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "dataStoreSuitName"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "array"]
+- !private ["SQ", "bool"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dictionary"]
+- !private ["SQ", "double"]
+- !private ["SQ", "float"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "integer"]
+- !private ["SQ", "object"]
+- !private ["SQ", "removeObject"]
+- !private ["SQ", "removePersistentDomain"]
+- !private ["SQ", "set"]
+- !private ["SQ", "string"]
+- !private ["SQ", "stringArray"]
+- !private ["SQ", "synchronize"]
+- !private ["SQ", "url"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "array"]
+- !private ["SH", "bool"]
+- !private ["SH", "data"]
+- !private ["SH", "dictionary"]
+- !private ["SH", "double"]
+- !private ["SH", "float"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "integer"]
+- !private ["SH", "object"]
+- !private ["SH", "removeObject"]
+- !private ["SH", "removePersistentDomain"]
+- !private ["SH", "set"]
+- !private ["SH", "string"]
+- !private ["SH", "stringArray"]
+- !private ["SH", "synchronize"]
+- !private ["SH", "url"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "array"]
+- !private ["So8NSObjectC", "bool"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dictionary"]
+- !private ["So8NSObjectC", "double"]
+- !private ["So8NSObjectC", "float"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "integer"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "removeObject"]
+- !private ["So8NSObjectC", "removePersistentDomain"]
+- !private ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringArray"]
+- !private ["So8NSObjectC", "synchronize"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectP", "array"]
+- !private ["So8NSObjectP", "bool"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dictionary"]
+- !private ["So8NSObjectP", "double"]
+- !private ["So8NSObjectP", "float"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "integer"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "removeObject"]
+- !private ["So8NSObjectP", "removePersistentDomain"]
+- !private ["So8NSObjectP", "set"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringArray"]
+- !private ["So8NSObjectP", "synchronize"]
+- !private ["So8NSObjectP", "url"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "AbstractDataStoreConfig"]
+- ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "AbstractLogger"]
+- ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "AbstractReadWriteDataStore"]
+- !private ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "SDKUserDefaults"]
+- !private ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "config"]
+- ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "defaults"]
+- !private ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "defaults.storage"]
+- ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "init"]
+- !private ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "logger"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "AbstractDataStoreConfig"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "AbstractLogger"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "Bool"]
+- !private ["14HyperTrackCore15SDKUserDefaultsC", "Constant"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "Data"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "Double"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "Float"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "Int"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "String"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "URL"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "UserDefaults"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "array"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "bool"]
+- !private ["14HyperTrackCore15SDKUserDefaultsC", "config"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "data"]
+- !private ["14HyperTrackCore15SDKUserDefaultsC", "defaults"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "deinit"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "deleteAllValues"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "dictionary"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "double"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "float"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "init"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "integer"]
+- !private ["14HyperTrackCore15SDKUserDefaultsC", "logger"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "object"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "removeObject"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "set"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "string"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "stringArray"]
+- !private ["14HyperTrackCore15SDKUserDefaultsC", "suiteName"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "synchronize"]
+- ["14HyperTrackCore15SDKUserDefaultsC", "url"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So14NSUserDefaultsC", "array"]
+- !private ["So14NSUserDefaultsC", "bool"]
+- !private ["So14NSUserDefaultsC", "data"]
+- !private ["So14NSUserDefaultsC", "dictionary"]
+- !private ["So14NSUserDefaultsC", "double"]
+- !private ["So14NSUserDefaultsC", "float"]
+- !private ["So14NSUserDefaultsC", "init"]
+- !private ["So14NSUserDefaultsC", "integer"]
+- !private ["So14NSUserDefaultsC", "object"]
+- !private ["So14NSUserDefaultsC", "removeObject"]
+- !private ["So14NSUserDefaultsC", "removePersistentDomain"]
+- !private ["So14NSUserDefaultsC", "set"]
+- !private ["So14NSUserDefaultsC", "string"]
+- !private ["So14NSUserDefaultsC", "stringArray"]
+- !private ["So14NSUserDefaultsC", "synchronize"]
+- !private ["So14NSUserDefaultsC", "url"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "array"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "integer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removePersistentDomain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stringArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "synchronize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "14HyperTrackCore23AbstractDataStoreConfigP"
+- !private "14HyperTrackCore14AbstractLoggerP"
+- "14HyperTrackCore21AbstractReadDataStoreP"
+- "14HyperTrackCore26AbstractReadWriteDataStoreP"
+- "14HyperTrackCore22AbstractWriteDataStoreP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- !private "14HyperTrackCore8ConstantO"
+- !private "14HyperTrackCore8ConstantO7ContextO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "14HyperTrackCore6ConfigC9DataStoreV"
+- !private "14HyperTrackCore8ConstantO6ConfigO9DataStoreO"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sm"
+- "14HyperTrackCore25ReadWriteDataStoreWrapperC"
+- "14HyperTrackCore15SDKUserDefaultsC"
+- !private "ST"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So14NSUserDefaultsC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5c965e15ed2f67522156bd98a1ec6730"

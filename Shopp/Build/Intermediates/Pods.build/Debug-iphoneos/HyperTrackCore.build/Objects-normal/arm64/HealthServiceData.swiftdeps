@@ -1,0 +1,656 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HealthKeyValue"
+- "HealthServiceData"
+- "HealthKeyValueProtocol"
+- "HealthType"
+- "HealthData"
+provides-nominal:
+- "14HyperTrackCore17HealthServiceDataV"
+- "14HyperTrackCore22HealthKeyValueProtocolP"
+- "14HyperTrackCore10HealthTypeO"
+- "14HyperTrackCore10HealthDataV"
+- "14HyperTrackCore10HealthDataV4KeysO"
+provides-member:
+- ["14HyperTrackCore17HealthServiceDataV", ""]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", ""]
+- ["14HyperTrackCore10HealthTypeO", ""]
+- ["14HyperTrackCore10HealthDataV", ""]
+- ["14HyperTrackCore10HealthDataV4KeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AbstractServiceData"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Codable"
+- "CodingKey"
+- !private "Constant"
+- "Date"
+- "Decoder"
+- "Encoder"
+- "EventType"
+- !private "FloatLiteralType"
+- "HealthData"
+- "HealthKeyValue"
+- "HealthKeyValueProtocol"
+- "HealthServiceData"
+- "HealthType"
+- !private "IntegerLiteralType"
+- !private "JSONEncoder"
+- "String"
+- "StringLiteralType"
+- !private "UUID"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["14HyperTrackCore19AbstractServiceDataP", "EventType"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "HealthData"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "JSONEncoder"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "String"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "UUID"]
+- ["14HyperTrackCore19AbstractServiceDataP", ""]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "data"]
+- ["14HyperTrackCore19AbstractServiceDataP", "getId"]
+- ["14HyperTrackCore19AbstractServiceDataP", "getJSONdata"]
+- ["14HyperTrackCore19AbstractServiceDataP", "getRecordedAt"]
+- ["14HyperTrackCore19AbstractServiceDataP", "getType"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "healthId"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "recordedDate"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "disabled"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "enabled"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "rawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "low"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "normal"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "rawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "charging"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "discharging"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "rawValue"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "value"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["14HyperTrackCore8ConstantO", "Health"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["Se", "Constant"]
+- !private ["Se", "Keys"]
+- ["Se", "RawValue"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "activityDisabled"]
+- ["Se", "activityEnabled"]
+- ["Se", "batteryCharging"]
+- ["Se", "batteryDischarging"]
+- ["Se", "batteryLow"]
+- ["Se", "batteryNormal"]
+- ["Se", "deviceSwitchedOn"]
+- ["Se", "encode"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "keyValue"]
+- ["Se", "locationDisabled"]
+- ["Se", "locationEnabled"]
+- ["Se", "locationPermissionDenied"]
+- ["Se", "locationPermissionGranted"]
+- ["Se", "rawValue"]
+- ["Se", "sdkKilled"]
+- ["Se", "sdkRestarted"]
+- ["Se", "trackingPaused"]
+- ["Se", "trackingResumed"]
+- !private ["Se", "uuidString"]
+- !private ["Se", "value"]
+- !private ["s7DecoderP", "container"]
+- !private ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "rawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "switchOn"]
+- !private ["SE", "Constant"]
+- !private ["SE", "Keys"]
+- ["SE", "RawValue"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "activityDisabled"]
+- ["SE", "activityEnabled"]
+- ["SE", "batteryCharging"]
+- ["SE", "batteryDischarging"]
+- ["SE", "batteryLow"]
+- ["SE", "batteryNormal"]
+- ["SE", "deviceSwitchedOn"]
+- ["SE", "encode"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "keyValue"]
+- ["SE", "locationDisabled"]
+- ["SE", "locationEnabled"]
+- ["SE", "locationPermissionDenied"]
+- ["SE", "locationPermissionGranted"]
+- ["SE", "rawValue"]
+- ["SE", "sdkKilled"]
+- ["SE", "sdkRestarted"]
+- ["SE", "trackingPaused"]
+- ["SE", "trackingResumed"]
+- !private ["SE", "uuidString"]
+- !private ["SE", "value"]
+- !private ["s7EncoderP", "container"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "Constant"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "activityDisabled"]
+- ["SQ", "activityEnabled"]
+- ["SQ", "batteryCharging"]
+- ["SQ", "batteryDischarging"]
+- ["SQ", "batteryLow"]
+- ["SQ", "batteryNormal"]
+- !private ["SQ", "charging"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "denied"]
+- ["SQ", "description"]
+- ["SQ", "deviceSwitchedOn"]
+- !private ["SQ", "disabled"]
+- !private ["SQ", "discharging"]
+- !private ["SQ", "enabled"]
+- ["SQ", "encode"]
+- !private ["SQ", "granted"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "healthChange"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "keyValue"]
+- !private ["SQ", "killed"]
+- ["SQ", "locationDisabled"]
+- ["SQ", "locationEnabled"]
+- ["SQ", "locationPermissionDenied"]
+- ["SQ", "locationPermissionGranted"]
+- !private ["SQ", "low"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "pause"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "restarted"]
+- !private ["SQ", "resume"]
+- ["SQ", "sdkKilled"]
+- ["SQ", "sdkRestarted"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "switchOn"]
+- ["SQ", "trackingPaused"]
+- ["SQ", "trackingResumed"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "value"]
+- !private ["14HyperTrackCore9EventTypeO", "healthChange"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Constant"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "activityDisabled"]
+- ["SH", "activityEnabled"]
+- ["SH", "batteryCharging"]
+- ["SH", "batteryDischarging"]
+- ["SH", "batteryLow"]
+- ["SH", "batteryNormal"]
+- !private ["SH", "charging"]
+- ["SH", "debugDescription"]
+- !private ["SH", "denied"]
+- ["SH", "description"]
+- ["SH", "deviceSwitchedOn"]
+- !private ["SH", "disabled"]
+- !private ["SH", "discharging"]
+- !private ["SH", "enabled"]
+- ["SH", "encode"]
+- !private ["SH", "granted"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "healthChange"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "keyValue"]
+- !private ["SH", "killed"]
+- ["SH", "locationDisabled"]
+- ["SH", "locationEnabled"]
+- ["SH", "locationPermissionDenied"]
+- ["SH", "locationPermissionGranted"]
+- !private ["SH", "low"]
+- !private ["SH", "normal"]
+- !private ["SH", "pause"]
+- ["SH", "rawValue"]
+- !private ["SH", "restarted"]
+- !private ["SH", "resume"]
+- ["SH", "sdkKilled"]
+- ["SH", "sdkRestarted"]
+- ["SH", "stringValue"]
+- !private ["SH", "switchOn"]
+- ["SH", "trackingPaused"]
+- ["SH", "trackingResumed"]
+- !private ["SH", "utf8"]
+- !private ["SH", "uuidString"]
+- !private ["SH", "value"]
+- !private ["s6HasherV", "combine"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "Activity"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "BatteryLevel"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "BatteryState"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "DeviceBoot"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "Key"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "LocationPermission"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "LocationService"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "SdkRunningState"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "Tracking"]
+- ["14HyperTrackCore10HealthDataV", "CodingKey"]
+- ["14HyperTrackCore10HealthDataV", "Decoder"]
+- ["14HyperTrackCore10HealthDataV", "Encoder"]
+- ["14HyperTrackCore10HealthDataV", "HealthType"]
+- ["14HyperTrackCore10HealthDataV", "Keys"]
+- ["14HyperTrackCore10HealthDataV", "String"]
+- !private ["14HyperTrackCore10HealthDataV", "_findStringSwitchCase"]
+- ["14HyperTrackCore10HealthDataV", "deinit"]
+- ["14HyperTrackCore10HealthDataV", "encode"]
+- ["14HyperTrackCore10HealthDataV", "init"]
+- ["14HyperTrackCore10HealthDataV", "value"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "Constant"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "HealthKeyValue"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "RawValue"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", ""]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "_Default_RawValue"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "_findStringSwitchCase"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "activityDisabled"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "activityEnabled"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "batteryCharging"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "batteryDischarging"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "batteryLow"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "batteryNormal"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "deviceSwitchedOn"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "encode"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "hash"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "hashValue"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "init"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "keyValue"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "locationDisabled"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "locationEnabled"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "locationPermissionDenied"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "locationPermissionGranted"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "rawValue"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "sdkKilled"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "sdkRestarted"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "trackingPaused"]
+- ["14HyperTrackCore22HealthKeyValueProtocolP", "trackingResumed"]
+- ["14HyperTrackCore17HealthServiceDataV", "Date"]
+- ["14HyperTrackCore17HealthServiceDataV", "EventType"]
+- ["14HyperTrackCore17HealthServiceDataV", "HealthData"]
+- ["14HyperTrackCore17HealthServiceDataV", "HealthType"]
+- !private ["14HyperTrackCore17HealthServiceDataV", "JSONEncoder"]
+- ["14HyperTrackCore17HealthServiceDataV", "String"]
+- !private ["14HyperTrackCore17HealthServiceDataV", "UUID"]
+- ["14HyperTrackCore17HealthServiceDataV", "data"]
+- ["14HyperTrackCore17HealthServiceDataV", "deinit"]
+- ["14HyperTrackCore17HealthServiceDataV", "getId"]
+- ["14HyperTrackCore17HealthServiceDataV", "getJSONdata"]
+- ["14HyperTrackCore17HealthServiceDataV", "getRecordedAt"]
+- ["14HyperTrackCore17HealthServiceDataV", "getType"]
+- ["14HyperTrackCore17HealthServiceDataV", "healthId"]
+- ["14HyperTrackCore17HealthServiceDataV", "init"]
+- ["14HyperTrackCore17HealthServiceDataV", "recordedDate"]
+- !private ["14HyperTrackCore10HealthTypeO", "Constant"]
+- ["14HyperTrackCore10HealthTypeO", "HealthKeyValue"]
+- ["14HyperTrackCore10HealthTypeO", "RawValue"]
+- ["14HyperTrackCore10HealthTypeO", "_Default_RawValue"]
+- !private ["14HyperTrackCore10HealthTypeO", "_findStringSwitchCase"]
+- ["14HyperTrackCore10HealthTypeO", "activityDisabled"]
+- ["14HyperTrackCore10HealthTypeO", "activityEnabled"]
+- ["14HyperTrackCore10HealthTypeO", "airplaneModeOff"]
+- ["14HyperTrackCore10HealthTypeO", "airplaneModeOn"]
+- ["14HyperTrackCore10HealthTypeO", "batteryCharging"]
+- ["14HyperTrackCore10HealthTypeO", "batteryDischarging"]
+- ["14HyperTrackCore10HealthTypeO", "batteryLow"]
+- ["14HyperTrackCore10HealthTypeO", "batteryNormal"]
+- ["14HyperTrackCore10HealthTypeO", "deinit"]
+- ["14HyperTrackCore10HealthTypeO", "deviceSwitchedOff"]
+- ["14HyperTrackCore10HealthTypeO", "deviceSwitchedOn"]
+- ["14HyperTrackCore10HealthTypeO", "encode"]
+- ["14HyperTrackCore10HealthTypeO", "gpsFound"]
+- ["14HyperTrackCore10HealthTypeO", "gpsLost"]
+- ["14HyperTrackCore10HealthTypeO", "hash"]
+- ["14HyperTrackCore10HealthTypeO", "hashValue"]
+- ["14HyperTrackCore10HealthTypeO", "init"]
+- ["14HyperTrackCore10HealthTypeO", "keyValue"]
+- ["14HyperTrackCore10HealthTypeO", "locationDisabled"]
+- ["14HyperTrackCore10HealthTypeO", "locationEnabled"]
+- ["14HyperTrackCore10HealthTypeO", "locationPermissionDenied"]
+- ["14HyperTrackCore10HealthTypeO", "locationPermissionGranted"]
+- ["14HyperTrackCore10HealthTypeO", "rawValue"]
+- ["14HyperTrackCore10HealthTypeO", "sdkKilled"]
+- ["14HyperTrackCore10HealthTypeO", "sdkRestarted"]
+- ["14HyperTrackCore10HealthTypeO", "trackingPaused"]
+- ["14HyperTrackCore10HealthTypeO", "trackingResumed"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "hyperTrackEncoder"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "activity"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "batteryLevel"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "batteryState"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "deviceBoot"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "location"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "sdkRunningState"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "tracking"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "RawValue"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "_Default_RawValue"]
+- !private ["14HyperTrackCore10HealthDataV4KeysO", "_findStringSwitchCase"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "debugDescription"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "deinit"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "description"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "hash"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "hashValue"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "init"]
+- !private ["14HyperTrackCore10HealthDataV4KeysO", "init"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "intValue"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "rawValue"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "stringValue"]
+- ["14HyperTrackCore10HealthDataV4KeysO", "value"]
+- !private ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "denied"]
+- !private ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "granted"]
+- !private ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "rawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "disabled"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "enabled"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "Constant"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "activityDisabled"]
+- ["SY", "activityEnabled"]
+- ["SY", "batteryCharging"]
+- ["SY", "batteryDischarging"]
+- ["SY", "batteryLow"]
+- ["SY", "batteryNormal"]
+- !private ["SY", "charging"]
+- ["SY", "debugDescription"]
+- !private ["SY", "denied"]
+- ["SY", "description"]
+- ["SY", "deviceSwitchedOn"]
+- !private ["SY", "disabled"]
+- !private ["SY", "discharging"]
+- !private ["SY", "enabled"]
+- ["SY", "encode"]
+- !private ["SY", "granted"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "healthChange"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "keyValue"]
+- !private ["SY", "killed"]
+- ["SY", "locationDisabled"]
+- ["SY", "locationEnabled"]
+- ["SY", "locationPermissionDenied"]
+- ["SY", "locationPermissionGranted"]
+- !private ["SY", "low"]
+- !private ["SY", "normal"]
+- !private ["SY", "pause"]
+- ["SY", "rawValue"]
+- !private ["SY", "restarted"]
+- !private ["SY", "resume"]
+- ["SY", "sdkKilled"]
+- ["SY", "sdkRestarted"]
+- ["SY", "stringValue"]
+- !private ["SY", "switchOn"]
+- ["SY", "trackingPaused"]
+- ["SY", "trackingResumed"]
+- !private ["SY", "utf8"]
+- !private ["SY", "value"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "killed"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "rawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "restarted"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "pause"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "rawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "resume"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14HyperTrackCore19AbstractServiceDataP"
+- !private "14HyperTrackCore8ConstantO6HealthO8ActivityO"
+- !private "14HyperTrackCore8ConstantO6HealthO12BatteryLevelO"
+- !private "14HyperTrackCore8ConstantO6HealthO12BatteryStateO"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- !private "14HyperTrackCore8ConstantO"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- !private "14HyperTrackCore8ConstantO6HealthO10DeviceBootO"
+- "SE"
+- !private "s7EncoderP"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "14HyperTrackCore9EventTypeO"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "14HyperTrackCore8ConstantO6HealthO"
+- "14HyperTrackCore10HealthDataV"
+- "14HyperTrackCore22HealthKeyValueProtocolP"
+- "14HyperTrackCore17HealthServiceDataV"
+- "14HyperTrackCore10HealthTypeO"
+- !private "10Foundation11JSONEncoderC"
+- !private "14HyperTrackCore8ConstantO6HealthO3KeyO"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "14HyperTrackCore10HealthDataV4KeysO"
+- !private "14HyperTrackCore8ConstantO6HealthO18LocationPermissionO"
+- !private "14HyperTrackCore8ConstantO6HealthO15LocationServiceO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "14HyperTrackCore8ConstantO6HealthO8TrackingO"
+- !private "10Foundation4UUIDV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "347724c96379c4edeaa4d8d42057a8f6"

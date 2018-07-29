@@ -1,0 +1,724 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HealthService"
+provides-nominal:
+- "14HyperTrackCore13HealthServiceC"
+provides-member:
+- ["14HyperTrackCore13HealthServiceC", ""]
+provides-dynamic-lookup:
+- "activityPermissionChanged"
+- "appTerminatedEvent"
+- "batteryLevelChanged"
+- "locationPermissionChanged"
+- "pauseTrackingEvent"
+- "resumeTrackingEvent"
+depends-top-level:
+- !private "!="
+- !private "-"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- "AbstractAppState"
+- "AbstractCollectionPipeline"
+- "AbstractEventBus"
+- "AbstractReadWriteDataStore"
+- "AbstractService"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Constant"
+- "Date"
+- "EventCollectionType"
+- "Float"
+- !private "FloatLiteralType"
+- "HealthKeyValue"
+- "HealthService"
+- !private "HealthServiceData"
+- "HealthType"
+- !private "IntegerLiteralType"
+- !private "NSNotification"
+- "Notification"
+- "PrivateDataAccessLevel"
+- !private "ProcessInfo"
+- "ServiceError"
+- "StringLiteralType"
+- !private "UIDevice"
+- "UIDeviceBatteryState"
+- !private "abs"
+depends-member:
+- !private ["14HyperTrackCore16AbstractAppStateP", "isPausedByUser"]
+- !private ["14HyperTrackCore16AbstractAppStateP", "isSessionLaunchedInOffline"]
+- !private ["14HyperTrackCore26AbstractCollectionPipelineP", "sendEvents"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "addObserver"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "removeObserver"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "object"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "set"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "string"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "object"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "set"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "string"]
+- !private ["14HyperTrackCore15AbstractServiceP", "Constant"]
+- !private ["14HyperTrackCore15AbstractServiceP", "Date"]
+- !private ["14HyperTrackCore15AbstractServiceP", "HealthServiceData"]
+- !private ["14HyperTrackCore15AbstractServiceP", "HealthType"]
+- !private ["14HyperTrackCore15AbstractServiceP", "NSNotification"]
+- !private ["14HyperTrackCore15AbstractServiceP", "Notification"]
+- !private ["14HyperTrackCore15AbstractServiceP", "PrivateDataAccessLevel"]
+- !private ["14HyperTrackCore15AbstractServiceP", "ProcessInfo"]
+- !private ["14HyperTrackCore15AbstractServiceP", "UIDevice"]
+- ["14HyperTrackCore15AbstractServiceP", ""]
+- !private ["14HyperTrackCore15AbstractServiceP", "abs"]
+- !private ["14HyperTrackCore15AbstractServiceP", "activityPermissionChanged"]
+- !private ["14HyperTrackCore15AbstractServiceP", "addObserverForActivity"]
+- !private ["14HyperTrackCore15AbstractServiceP", "addObserverForAppStates"]
+- !private ["14HyperTrackCore15AbstractServiceP", "addObserverForBattery"]
+- !private ["14HyperTrackCore15AbstractServiceP", "addObserverForLocation"]
+- !private ["14HyperTrackCore15AbstractServiceP", "addObserverForTracking"]
+- !private ["14HyperTrackCore15AbstractServiceP", "addObservers"]
+- !private ["14HyperTrackCore15AbstractServiceP", "appState"]
+- !private ["14HyperTrackCore15AbstractServiceP", "appTerminatedEvent"]
+- !private ["14HyperTrackCore15AbstractServiceP", "batteryLevel"]
+- !private ["14HyperTrackCore15AbstractServiceP", "batteryLevelChanged"]
+- !private ["14HyperTrackCore15AbstractServiceP", "bootTimestampKey"]
+- !private ["14HyperTrackCore15AbstractServiceP", "checkInDataStore"]
+- ["14HyperTrackCore15AbstractServiceP", "collectionProtocol"]
+- !private ["14HyperTrackCore15AbstractServiceP", "dataStore"]
+- ["14HyperTrackCore15AbstractServiceP", "eventBus"]
+- !private ["14HyperTrackCore15AbstractServiceP", "getTypeFromActivityPermission"]
+- !private ["14HyperTrackCore15AbstractServiceP", "getTypeFromBatteryLevel"]
+- !private ["14HyperTrackCore15AbstractServiceP", "getTypeFromLocationPermission"]
+- ["14HyperTrackCore15AbstractServiceP", "isAuthorized"]
+- ["14HyperTrackCore15AbstractServiceP", "isServiceRunning"]
+- !private ["14HyperTrackCore15AbstractServiceP", "locationPermissionChanged"]
+- !private ["14HyperTrackCore15AbstractServiceP", "pauseTrackingEvent"]
+- !private ["14HyperTrackCore15AbstractServiceP", "removeObservers"]
+- !private ["14HyperTrackCore15AbstractServiceP", "resumeTrackingEvent"]
+- !private ["14HyperTrackCore15AbstractServiceP", "sdkKilledTimestampKey"]
+- !private ["14HyperTrackCore15AbstractServiceP", "sendAppLauncedEvent"]
+- !private ["14HyperTrackCore15AbstractServiceP", "sendBatteryEvents"]
+- !private ["14HyperTrackCore15AbstractServiceP", "sendBatteryLevelEvent"]
+- !private ["14HyperTrackCore15AbstractServiceP", "sendBootUp"]
+- !private ["14HyperTrackCore15AbstractServiceP", "sendEvent"]
+- ["14HyperTrackCore15AbstractServiceP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore15AbstractServiceP", "startService"]
+- ["14HyperTrackCore15AbstractServiceP", "stopService"]
+- !private ["14HyperTrackCore19AbstractServiceDataP", "init"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "object"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "set"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "string"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO", "PermissionChangedEvent"]
+- ["So20UIDeviceBatteryStateV", "charging"]
+- ["So20UIDeviceBatteryStateV", "full"]
+- ["So20UIDeviceBatteryStateV", "unknown"]
+- ["So20UIDeviceBatteryStateV", "unplugged"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "batteryLevel"]
+- !private ["s7CVarArgP", "batteryState"]
+- !private ["s7CVarArgP", "current"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isBatteryMonitoringEnabled"]
+- !private ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "systemUptime"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "timeIntervalSince"]
+- !private ["14HyperTrackCore8ConstantO", "Health"]
+- !private ["14HyperTrackCore8ConstantO", "Notification"]
+- !private ["14HyperTrackCore8ConstantO", "lowBatteryValue"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "batteryLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "batteryState"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isBatteryMonitoringEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "systemUptime"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince"]
+- !private ["s17CustomReflectableP", "Name"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeIntervalSince"]
+- !private ["s17CustomReflectableP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "batteryLevel"]
+- !private ["s23CustomStringConvertibleP", "batteryState"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isBatteryMonitoringEnabled"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "systemUptime"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "activityDisabled"]
+- !private ["Se", "activityEnabled"]
+- !private ["Se", "batteryCharging"]
+- !private ["Se", "batteryDischarging"]
+- !private ["Se", "batteryLow"]
+- !private ["Se", "batteryNormal"]
+- !private ["Se", "deviceSwitchedOn"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "keyValue"]
+- !private ["Se", "locationDisabled"]
+- !private ["Se", "locationEnabled"]
+- !private ["Se", "locationPermissionDenied"]
+- !private ["Se", "locationPermissionGranted"]
+- !private ["Se", "sdkKilled"]
+- !private ["Se", "sdkRestarted"]
+- !private ["Se", "subscript"]
+- !private ["Se", "timeIntervalSince"]
+- !private ["Se", "trackingPaused"]
+- !private ["Se", "trackingResumed"]
+- !private ["14HyperTrackCore18DeviceDataProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore18DeviceDataProtocolP", "isSessionLaunchedInOffline"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "activityDisabled"]
+- !private ["SE", "activityEnabled"]
+- !private ["SE", "batteryCharging"]
+- !private ["SE", "batteryDischarging"]
+- !private ["SE", "batteryLow"]
+- !private ["SE", "batteryNormal"]
+- !private ["SE", "deviceSwitchedOn"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "keyValue"]
+- !private ["SE", "locationDisabled"]
+- !private ["SE", "locationEnabled"]
+- !private ["SE", "locationPermissionDenied"]
+- !private ["SE", "locationPermissionGranted"]
+- !private ["SE", "sdkKilled"]
+- !private ["SE", "sdkRestarted"]
+- !private ["SE", "subscript"]
+- !private ["SE", "timeIntervalSince"]
+- !private ["SE", "trackingPaused"]
+- !private ["SE", "trackingResumed"]
+- !private ["SQ", "Name"]
+- !private ["SQ", "UIApplicationWillTerminate"]
+- !private ["SQ", "UIDeviceBatteryLevelDidChange"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "activityDisabled"]
+- !private ["SQ", "activityEnabled"]
+- !private ["SQ", "batteryCharging"]
+- !private ["SQ", "batteryDischarging"]
+- !private ["SQ", "batteryLevel"]
+- !private ["SQ", "batteryLow"]
+- !private ["SQ", "batteryNormal"]
+- !private ["SQ", "batteryState"]
+- ["SQ", "charging"]
+- !private ["SQ", "current"]
+- ["SQ", "denied"]
+- !private ["SQ", "deviceSwitchedOn"]
+- !private ["SQ", "disabled"]
+- ["SQ", "full"]
+- ["SQ", "granted"]
+- ["SQ", "grantedAlways"]
+- ["SQ", "grantedWhenInUse"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isBatteryMonitoringEnabled"]
+- !private ["SQ", "keyValue"]
+- !private ["SQ", "locationDisabled"]
+- !private ["SQ", "locationEnabled"]
+- !private ["SQ", "locationPermissionDenied"]
+- !private ["SQ", "locationPermissionGranted"]
+- !private ["SQ", "offline"]
+- !private ["SQ", "processInfo"]
+- !private ["SQ", "rawValue"]
+- ["SQ", "restricted"]
+- !private ["SQ", "sdkKilled"]
+- !private ["SQ", "sdkRestarted"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "systemUptime"]
+- !private ["SQ", "timeIntervalSince"]
+- !private ["SQ", "trackingPaused"]
+- !private ["SQ", "trackingResumed"]
+- ["SQ", "undetermined"]
+- ["SQ", "unknown"]
+- ["SQ", "unplugged"]
+- !private ["SQ", "userInfo"]
+- !private ["14HyperTrackCore19EventCollectionTypeO", "offline"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["14HyperTrackCore20GetAccountIdProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore20GetAccountIdProtocolP", "isSessionLaunchedInOffline"]
+- !private ["14HyperTrackCore19GetDeviceIdProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore19GetDeviceIdProtocolP", "isSessionLaunchedInOffline"]
+- !private ["14HyperTrackCore25GetPublishableKeyProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore25GetPublishableKeyProtocolP", "isSessionLaunchedInOffline"]
+- !private ["SH", "Name"]
+- !private ["SH", "UIApplicationWillTerminate"]
+- !private ["SH", "UIDeviceBatteryLevelDidChange"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "activityDisabled"]
+- !private ["SH", "activityEnabled"]
+- !private ["SH", "batteryCharging"]
+- !private ["SH", "batteryDischarging"]
+- !private ["SH", "batteryLevel"]
+- !private ["SH", "batteryLow"]
+- !private ["SH", "batteryNormal"]
+- !private ["SH", "batteryState"]
+- ["SH", "charging"]
+- !private ["SH", "current"]
+- ["SH", "denied"]
+- !private ["SH", "deviceSwitchedOn"]
+- !private ["SH", "disabled"]
+- ["SH", "full"]
+- ["SH", "granted"]
+- ["SH", "grantedAlways"]
+- ["SH", "grantedWhenInUse"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isBatteryMonitoringEnabled"]
+- !private ["SH", "keyValue"]
+- !private ["SH", "locationDisabled"]
+- !private ["SH", "locationEnabled"]
+- !private ["SH", "locationPermissionDenied"]
+- !private ["SH", "locationPermissionGranted"]
+- !private ["SH", "offline"]
+- !private ["SH", "processInfo"]
+- !private ["SH", "rawValue"]
+- ["SH", "restricted"]
+- !private ["SH", "sdkKilled"]
+- !private ["SH", "sdkRestarted"]
+- !private ["SH", "subscript"]
+- !private ["SH", "systemUptime"]
+- !private ["SH", "timeIntervalSince"]
+- !private ["SH", "trackingPaused"]
+- !private ["SH", "trackingResumed"]
+- ["SH", "undetermined"]
+- ["SH", "unknown"]
+- ["SH", "unplugged"]
+- !private ["SH", "userInfo"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "Key"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "LocationService"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "activityDisabled"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "activityEnabled"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "batteryCharging"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "batteryDischarging"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "batteryLow"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "batteryNormal"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "deviceSwitchedOn"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "keyValue"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "locationDisabled"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "locationEnabled"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "locationPermissionDenied"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "locationPermissionGranted"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "sdkKilled"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "sdkRestarted"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "trackingPaused"]
+- !private ["14HyperTrackCore22HealthKeyValueProtocolP", "trackingResumed"]
+- ["14HyperTrackCore13HealthServiceC", "AbstractAppState"]
+- ["14HyperTrackCore13HealthServiceC", "AbstractCollectionPipeline"]
+- ["14HyperTrackCore13HealthServiceC", "AbstractEventBus"]
+- ["14HyperTrackCore13HealthServiceC", "AbstractReadWriteDataStore"]
+- ["14HyperTrackCore13HealthServiceC", "Bool"]
+- !private ["14HyperTrackCore13HealthServiceC", "Constant"]
+- ["14HyperTrackCore13HealthServiceC", "Date"]
+- ["14HyperTrackCore13HealthServiceC", "EventCollectionType"]
+- ["14HyperTrackCore13HealthServiceC", "Float"]
+- ["14HyperTrackCore13HealthServiceC", "HealthKeyValue"]
+- !private ["14HyperTrackCore13HealthServiceC", "HealthServiceData"]
+- ["14HyperTrackCore13HealthServiceC", "HealthType"]
+- !private ["14HyperTrackCore13HealthServiceC", "NSNotification"]
+- ["14HyperTrackCore13HealthServiceC", "Notification"]
+- ["14HyperTrackCore13HealthServiceC", "PrivateDataAccessLevel"]
+- !private ["14HyperTrackCore13HealthServiceC", "ProcessInfo"]
+- ["14HyperTrackCore13HealthServiceC", "ServiceError"]
+- !private ["14HyperTrackCore13HealthServiceC", "UIDevice"]
+- ["14HyperTrackCore13HealthServiceC", "UIDeviceBatteryState"]
+- !private ["14HyperTrackCore13HealthServiceC", "abs"]
+- !private ["14HyperTrackCore13HealthServiceC", "activityPermissionChanged"]
+- !private ["14HyperTrackCore13HealthServiceC", "addObserverForActivity"]
+- !private ["14HyperTrackCore13HealthServiceC", "addObserverForAppStates"]
+- !private ["14HyperTrackCore13HealthServiceC", "addObserverForBattery"]
+- !private ["14HyperTrackCore13HealthServiceC", "addObserverForLocation"]
+- !private ["14HyperTrackCore13HealthServiceC", "addObserverForTracking"]
+- !private ["14HyperTrackCore13HealthServiceC", "addObservers"]
+- !private ["14HyperTrackCore13HealthServiceC", "appState"]
+- !private ["14HyperTrackCore13HealthServiceC", "appTerminatedEvent"]
+- !private ["14HyperTrackCore13HealthServiceC", "batteryLevel"]
+- !private ["14HyperTrackCore13HealthServiceC", "batteryLevelChanged"]
+- !private ["14HyperTrackCore13HealthServiceC", "batteryState"]
+- !private ["14HyperTrackCore13HealthServiceC", "bootTimestampKey"]
+- !private ["14HyperTrackCore13HealthServiceC", "checkInDataStore"]
+- ["14HyperTrackCore13HealthServiceC", "collectionProtocol"]
+- !private ["14HyperTrackCore13HealthServiceC", "dataStore"]
+- ["14HyperTrackCore13HealthServiceC", "deinit"]
+- ["14HyperTrackCore13HealthServiceC", "eventBus"]
+- !private ["14HyperTrackCore13HealthServiceC", "getTypeFromActivityPermission"]
+- !private ["14HyperTrackCore13HealthServiceC", "getTypeFromBatteryLevel"]
+- !private ["14HyperTrackCore13HealthServiceC", "getTypeFromBatteryState"]
+- !private ["14HyperTrackCore13HealthServiceC", "getTypeFromLocationPermission"]
+- ["14HyperTrackCore13HealthServiceC", "init"]
+- ["14HyperTrackCore13HealthServiceC", "isAuthorized"]
+- ["14HyperTrackCore13HealthServiceC", "isServiceRunning"]
+- !private ["14HyperTrackCore13HealthServiceC", "locationPermissionChanged"]
+- !private ["14HyperTrackCore13HealthServiceC", "pauseTrackingEvent"]
+- !private ["14HyperTrackCore13HealthServiceC", "removeObservers"]
+- !private ["14HyperTrackCore13HealthServiceC", "resumeTrackingEvent"]
+- !private ["14HyperTrackCore13HealthServiceC", "sdkKilledTimestampKey"]
+- !private ["14HyperTrackCore13HealthServiceC", "sendAppLauncedEvent"]
+- !private ["14HyperTrackCore13HealthServiceC", "sendBatteryEvents"]
+- !private ["14HyperTrackCore13HealthServiceC", "sendBatteryLevelEvent"]
+- !private ["14HyperTrackCore13HealthServiceC", "sendBootUp"]
+- !private ["14HyperTrackCore13HealthServiceC", "sendDeviceSwithOnEvent"]
+- !private ["14HyperTrackCore13HealthServiceC", "sendEvent"]
+- ["14HyperTrackCore13HealthServiceC", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore13HealthServiceC", "startService"]
+- ["14HyperTrackCore13HealthServiceC", "stopService"]
+- !private ["14HyperTrackCore17HealthServiceDataV", "deinit"]
+- !private ["14HyperTrackCore17HealthServiceDataV", "init"]
+- !private ["14HyperTrackCore10HealthTypeO", "activityDisabled"]
+- !private ["14HyperTrackCore10HealthTypeO", "activityEnabled"]
+- !private ["14HyperTrackCore10HealthTypeO", "batteryCharging"]
+- !private ["14HyperTrackCore10HealthTypeO", "batteryDischarging"]
+- !private ["14HyperTrackCore10HealthTypeO", "batteryLow"]
+- !private ["14HyperTrackCore10HealthTypeO", "batteryNormal"]
+- !private ["14HyperTrackCore10HealthTypeO", "deinit"]
+- !private ["14HyperTrackCore10HealthTypeO", "deviceSwitchedOn"]
+- !private ["14HyperTrackCore10HealthTypeO", "keyValue"]
+- !private ["14HyperTrackCore10HealthTypeO", "locationDisabled"]
+- !private ["14HyperTrackCore10HealthTypeO", "locationEnabled"]
+- !private ["14HyperTrackCore10HealthTypeO", "locationPermissionDenied"]
+- !private ["14HyperTrackCore10HealthTypeO", "locationPermissionGranted"]
+- !private ["14HyperTrackCore10HealthTypeO", "sdkKilled"]
+- !private ["14HyperTrackCore10HealthTypeO", "sdkRestarted"]
+- !private ["14HyperTrackCore10HealthTypeO", "trackingPaused"]
+- !private ["14HyperTrackCore10HealthTypeO", "trackingResumed"]
+- !private ["14HyperTrackCore21HeartbeatInfoProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore21HeartbeatInfoProtocolP", "isSessionLaunchedInOffline"]
+- !private ["14HyperTrackCore21HeartbeatPingProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore21HeartbeatPingProtocolP", "isSessionLaunchedInOffline"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "batteryLevel"]
+- !private ["14HyperTrackCore8ConstantO6HealthO3KeyO", "location"]
+- ["14HyperTrackCore11LocalizableP", "denied"]
+- ["14HyperTrackCore11LocalizableP", "granted"]
+- ["14HyperTrackCore11LocalizableP", "grantedAlways"]
+- ["14HyperTrackCore11LocalizableP", "grantedWhenInUse"]
+- ["14HyperTrackCore11LocalizableP", "restricted"]
+- ["14HyperTrackCore11LocalizableP", "undetermined"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8LocationO", "PermissionChangedEvent"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "deinit"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "disabled"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Name"]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So14NSNotificationC", "Name"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "batteryLevel"]
+- !private ["So8NSObjectC", "batteryState"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "isBatteryMonitoringEnabled"]
+- !private ["So8NSObjectC", "processInfo"]
+- !private ["So8NSObjectC", "systemUptime"]
+- !private ["So8NSObjectP", "Name"]
+- !private ["So8NSObjectP", "batteryLevel"]
+- !private ["So8NSObjectP", "batteryState"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "isBatteryMonitoringEnabled"]
+- !private ["So8NSObjectP", "processInfo"]
+- !private ["So8NSObjectP", "systemUptime"]
+- !private ["So18NSNotificationNamea", "UIApplicationWillTerminate"]
+- !private ["So18NSNotificationNamea", "UIDeviceBatteryLevelDidChange"]
+- !private ["So18NSNotificationNamea", "rawValue"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Activity"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Location"]
+- !private ["10Foundation12NotificationV", "Name"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Tracking"]
+- !private ["10Foundation12NotificationV", "userInfo"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8TrackingO5PauseO", "name"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO", "name"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO", "name"]
+- !private ["14HyperTrackCore22PrivateDataAccessLevelO", "deinit"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "denied"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "granted"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "grantedAlways"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "grantedWhenInUse"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "restricted"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "undetermined"]
+- !private ["So13NSProcessInfoC", "processInfo"]
+- !private ["So13NSProcessInfoC", "systemUptime"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["SY", "UIApplicationWillTerminate"]
+- !private ["SY", "UIDeviceBatteryLevelDidChange"]
+- !private ["SY", "activityDisabled"]
+- !private ["SY", "activityEnabled"]
+- !private ["SY", "batteryCharging"]
+- !private ["SY", "batteryDischarging"]
+- !private ["SY", "batteryLow"]
+- !private ["SY", "batteryNormal"]
+- ["SY", "charging"]
+- ["SY", "denied"]
+- !private ["SY", "deviceSwitchedOn"]
+- !private ["SY", "disabled"]
+- ["SY", "full"]
+- ["SY", "granted"]
+- ["SY", "grantedAlways"]
+- ["SY", "grantedWhenInUse"]
+- !private ["SY", "keyValue"]
+- !private ["SY", "locationDisabled"]
+- !private ["SY", "locationEnabled"]
+- !private ["SY", "locationPermissionDenied"]
+- !private ["SY", "locationPermissionGranted"]
+- !private ["SY", "rawValue"]
+- ["SY", "restricted"]
+- !private ["SY", "sdkKilled"]
+- !private ["SY", "sdkRestarted"]
+- !private ["SY", "trackingPaused"]
+- !private ["SY", "trackingResumed"]
+- ["SY", "undetermined"]
+- ["SY", "unknown"]
+- ["SY", "unplugged"]
+- !private ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince"]
+- !private ["10Foundation20ReferenceConvertibleP", "userInfo"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8TrackingO6ResumeO", "name"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["14HyperTrackCore19SessionInfoProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore19SessionInfoProtocolP", "isSessionLaunchedInOffline"]
+- !private ["14HyperTrackCore20SetAccountIdProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore20SetAccountIdProtocolP", "isSessionLaunchedInOffline"]
+- !private ["14HyperTrackCore19SetDeviceIdProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore19SetDeviceIdProtocolP", "isSessionLaunchedInOffline"]
+- !private ["14HyperTrackCore25SetPublishableKeyProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore25SetPublishableKeyProtocolP", "isSessionLaunchedInOffline"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8TrackingO", "Pause"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8TrackingO", "Resume"]
+- !private ["So8UIDeviceC", "batteryLevel"]
+- !private ["So8UIDeviceC", "batteryState"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "isBatteryMonitoringEnabled"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "batteryLevel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "batteryState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isBatteryMonitoringEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemUptime"]
+- !private ["s21_ObjectiveCBridgeableP", "Name"]
+- !private ["s21_ObjectiveCBridgeableP", "UIApplicationWillTerminate"]
+- !private ["s21_ObjectiveCBridgeableP", "UIDeviceBatteryLevelDidChange"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "rawValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince"]
+- !private ["s21_ObjectiveCBridgeableP", "userInfo"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIApplicationWillTerminate"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIDeviceBatteryLevelDidChange"]
+- !private ["s20_SwiftNewtypeWrapperP", "rawValue"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "14HyperTrackCore16AbstractAppStateP"
+- !private "14HyperTrackCore26AbstractCollectionPipelineP"
+- !private "14HyperTrackCore16AbstractEventBusP"
+- !private "14HyperTrackCore21AbstractReadDataStoreP"
+- !private "14HyperTrackCore26AbstractReadWriteDataStoreP"
+- "14HyperTrackCore15AbstractServiceP"
+- !private "14HyperTrackCore19AbstractServiceDataP"
+- !private "14HyperTrackCore22AbstractWriteDataStoreP"
+- !private "14HyperTrackCore8ConstantO12NotificationO8ActivityO"
+- "So20UIDeviceBatteryStateV"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "14HyperTrackCore8ConstantO"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "Se"
+- !private "14HyperTrackCore18DeviceDataProtocolP"
+- !private "SD"
+- "SE"
+- "SQ"
+- !private "14HyperTrackCore19EventCollectionTypeO"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "14HyperTrackCore20GetAccountIdProtocolP"
+- !private "14HyperTrackCore19GetDeviceIdProtocolP"
+- !private "14HyperTrackCore25GetPublishableKeyProtocolP"
+- "SH"
+- !private "14HyperTrackCore8ConstantO6HealthO"
+- !private "14HyperTrackCore22HealthKeyValueProtocolP"
+- "14HyperTrackCore13HealthServiceC"
+- !private "14HyperTrackCore17HealthServiceDataV"
+- !private "14HyperTrackCore10HealthTypeO"
+- !private "14HyperTrackCore21HeartbeatInfoProtocolP"
+- !private "14HyperTrackCore21HeartbeatPingProtocolP"
+- !private "14HyperTrackCore8ConstantO6HealthO3KeyO"
+- "14HyperTrackCore11LocalizableP"
+- !private "14HyperTrackCore8ConstantO12NotificationO8LocationO"
+- !private "14HyperTrackCore8ConstantO6HealthO15LocationServiceO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSNotificationC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So18NSNotificationNamea"
+- !private "14HyperTrackCore8ConstantO12NotificationO"
+- !private "10Foundation12NotificationV"
+- !private "14HyperTrackCore8ConstantO12NotificationO"
+- !private "10Foundation12NotificationV"
+- !private "14HyperTrackCore8ConstantO12NotificationO8TrackingO5PauseO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO"
+- "14HyperTrackCore22PrivateDataAccessLevelO"
+- !private "So13NSProcessInfoC"
+- "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "14HyperTrackCore8ConstantO12NotificationO8TrackingO6ResumeO"
+- "ST"
+- !private "14HyperTrackCore19SessionInfoProtocolP"
+- !private "14HyperTrackCore20SetAccountIdProtocolP"
+- !private "14HyperTrackCore19SetDeviceIdProtocolP"
+- !private "14HyperTrackCore25SetPublishableKeyProtocolP"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "14HyperTrackCore8ConstantO12NotificationO8TrackingO"
+- !private "So8UIDeviceC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "52cc611e3342c4f2ecac19839b8d881d"

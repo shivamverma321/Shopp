@@ -1,0 +1,434 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbstractDispatch"
+- "Dispatch"
+- "AbstractDispatchStrategy"
+- "AbstractDispatchStrategyContext"
+- "DispatchStrategyContext"
+- "TimerDispatchStrategy"
+provides-nominal:
+- "14HyperTrackCore16AbstractDispatchP"
+- "14HyperTrackCore8DispatchC"
+- "14HyperTrackCore24AbstractDispatchStrategyP"
+- "14HyperTrackCore31AbstractDispatchStrategyContextP"
+- "14HyperTrackCore23DispatchStrategyContextC"
+- "14HyperTrackCore21TimerDispatchStrategyC"
+provides-member:
+- ["14HyperTrackCore16AbstractDispatchP", ""]
+- ["14HyperTrackCore8DispatchC", ""]
+- ["14HyperTrackCore24AbstractDispatchStrategyP", ""]
+- ["14HyperTrackCore31AbstractDispatchStrategyContextP", ""]
+- ["14HyperTrackCore23DispatchStrategyContextC", ""]
+- ["14HyperTrackCore21TimerDispatchStrategyC", ""]
+provides-dynamic-lookup:
+- "dataAvailable"
+- "dispatchTypeChanged"
+- "heartBeatStatusChanged"
+- "transmissionDone"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- !private "??"
+- "AbstractDispatch"
+- "AbstractDispatchConfig"
+- "AbstractDispatchStrategy"
+- "AbstractDispatchStrategyContext"
+- "AbstractEventBus"
+- "AbstractPipeline"
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Config"
+- !private "Constant"
+- "Debouncer"
+- "Dispatch"
+- !private "DispatchQueue"
+- "DispatchStrategyContext"
+- "Double"
+- !private "EventCollectionType"
+- !private "HeartbeatService"
+- "Int"
+- "Notification"
+- "Repeater"
+- "TimerDispatchStrategy"
+depends-member:
+- ["14HyperTrackCore22AbstractActivityConfigP", "Dispatch"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Dispatch"]
+- ["14HyperTrackCore14AbstractConfigP", "Dispatch"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Dispatch"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "Config"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "Constant"]
+- ["14HyperTrackCore16AbstractDispatchP", ""]
+- !private ["14HyperTrackCore16AbstractDispatchP", "config"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "context"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "dataAvailable"]
+- ["14HyperTrackCore16AbstractDispatchP", "dispatch"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "dispatchTypeChanged"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "eventBus"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "heartBeatStatusChanged"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "strategy"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "transmission"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "transmissionDone"]
+- !private ["14HyperTrackCore16AbstractDispatchP", "type"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Dispatch"]
+- !private ["14HyperTrackCore22AbstractDispatchConfigP", "dispatch"]
+- ["14HyperTrackCore24AbstractDispatchStrategyP", "AbstractDispatch"]
+- ["14HyperTrackCore24AbstractDispatchStrategyP", "AbstractDispatchConfig"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "Constant"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "Debouncer"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "DispatchQueue"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "Repeater"]
+- ["14HyperTrackCore24AbstractDispatchStrategyP", ""]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "config"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "debounce"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "debouncer"]
+- ["14HyperTrackCore24AbstractDispatchStrategyP", "dispatch"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "frequency"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "init"]
+- ["14HyperTrackCore24AbstractDispatchStrategyP", "start"]
+- ["14HyperTrackCore24AbstractDispatchStrategyP", "stop"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "timer"]
+- !private ["14HyperTrackCore24AbstractDispatchStrategyP", "tolerance"]
+- ["14HyperTrackCore24AbstractDispatchStrategyP", "updateConfig"]
+- ["14HyperTrackCore31AbstractDispatchStrategyContextP", "AbstractDispatch"]
+- ["14HyperTrackCore31AbstractDispatchStrategyContextP", "AbstractDispatchConfig"]
+- ["14HyperTrackCore31AbstractDispatchStrategyContextP", "AbstractDispatchStrategy"]
+- !private ["14HyperTrackCore31AbstractDispatchStrategyContextP", "TimerDispatchStrategy"]
+- ["14HyperTrackCore31AbstractDispatchStrategyContextP", ""]
+- ["14HyperTrackCore31AbstractDispatchStrategyContextP", "getDispatchStrategy"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "addObserver"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Dispatch"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Dispatch"]
+- !private ["14HyperTrackCore16AbstractPipelineP", "execute"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Dispatch"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Dispatch"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "Dispatch"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- ["14HyperTrackCore6ConfigC", "Dispatch"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO", "Dispatch"]
+- !private ["14HyperTrackCore8ConstantO", "Config"]
+- !private ["14HyperTrackCore8ConstantO", "Notification"]
+- ["s28CustomDebugStringConvertibleP", "Dispatch"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "userInfo"]
+- ["s23CustomStringConvertibleP", "Dispatch"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO", "name"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13DataSentEventO", "name"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO", "DataAvailableEvent"]
+- !private ["14HyperTrackCore9DebouncerC", "call"]
+- !private ["14HyperTrackCore9DebouncerC", "init"]
+- ["Se", "Dispatch"]
+- ["Se", "DispatchType"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "debounce"]
+- !private ["Se", "frequency"]
+- !private ["Se", "init"]
+- !private ["Se", "manual"]
+- !private ["Se", "subscript"]
+- ["Se", "timer"]
+- !private ["Se", "tolerance"]
+- !private ["Se", "type"]
+- !private ["SD", "subscript"]
+- ["14HyperTrackCore8DispatchC", "AbstractDispatchConfig"]
+- ["14HyperTrackCore8DispatchC", "AbstractDispatchStrategy"]
+- ["14HyperTrackCore8DispatchC", "AbstractDispatchStrategyContext"]
+- ["14HyperTrackCore8DispatchC", "AbstractEventBus"]
+- ["14HyperTrackCore8DispatchC", "AbstractPipeline"]
+- ["14HyperTrackCore8DispatchC", "Config"]
+- !private ["14HyperTrackCore8DispatchC", "Constant"]
+- ["14HyperTrackCore6ConfigC8DispatchV", "DispatchType"]
+- !private ["14HyperTrackCore8DispatchC", "EventCollectionType"]
+- !private ["14HyperTrackCore8DispatchC", "HeartbeatService"]
+- !private ["14HyperTrackCore8DispatchC", "Int"]
+- ["14HyperTrackCore8DispatchC", "Notification"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8DispatchO", "TypeChangedEvent"]
+- !private ["14HyperTrackCore8DispatchC", "config"]
+- !private ["14HyperTrackCore8DispatchC", "context"]
+- ["14HyperTrackCore8DispatchC", "dataAvailable"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV", "debounce"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "debounce"]
+- ["14HyperTrackCore8DispatchC", "deinit"]
+- ["14HyperTrackCore8DispatchC", "dispatch"]
+- ["14HyperTrackCore8DispatchC", "dispatchTypeChanged"]
+- !private ["14HyperTrackCore8DispatchC", "eventBus"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV", "frequency"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "frequency"]
+- ["14HyperTrackCore8DispatchC", "heartBeatStatusChanged"]
+- ["14HyperTrackCore8DispatchC", "init"]
+- !private ["14HyperTrackCore8DispatchC", "strategy"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV", "tolerance"]
+- !private ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "tolerance"]
+- !private ["14HyperTrackCore8DispatchC", "transmission"]
+- ["14HyperTrackCore8DispatchC", "transmissionDone"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV", "type"]
+- !private ["14HyperTrackCore8DispatchC", "type"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- ["14HyperTrackCore23DispatchStrategyContextC", "AbstractDispatch"]
+- ["14HyperTrackCore23DispatchStrategyContextC", "AbstractDispatchConfig"]
+- ["14HyperTrackCore23DispatchStrategyContextC", "AbstractDispatchStrategy"]
+- !private ["14HyperTrackCore23DispatchStrategyContextC", "TimerDispatchStrategy"]
+- ["14HyperTrackCore23DispatchStrategyContextC", "deinit"]
+- ["14HyperTrackCore23DispatchStrategyContextC", "getDispatchStrategy"]
+- ["14HyperTrackCore23DispatchStrategyContextC", "init"]
+- !private ["8Dispatch0A12TimeIntervalO", "seconds"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "deinit"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "init"]
+- !private ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "manual"]
+- ["14HyperTrackCore6ConfigC8DispatchV0E4TypeO", "timer"]
+- ["SE", "Dispatch"]
+- ["SE", "DispatchType"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "debounce"]
+- !private ["SE", "frequency"]
+- !private ["SE", "init"]
+- !private ["SE", "manual"]
+- !private ["SE", "subscript"]
+- ["SE", "timer"]
+- !private ["SE", "tolerance"]
+- !private ["SE", "type"]
+- ["SQ", "Dispatch"]
+- !private ["SQ", "Interval"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "background"]
+- !private ["SQ", "global"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isConnected"]
+- !private ["SQ", "manual"]
+- !private ["SQ", "online"]
+- !private ["SQ", "pause"]
+- !private ["SQ", "removeAllObservers"]
+- !private ["SQ", "reset"]
+- !private ["SQ", "seconds"]
+- !private ["SQ", "start"]
+- !private ["SQ", "subscript"]
+- ["SQ", "timer"]
+- !private ["SQ", "userInfo"]
+- !private ["14HyperTrackCore19EventCollectionTypeO", "deinit"]
+- !private ["14HyperTrackCore19EventCollectionTypeO", "online"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", "Dispatch"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "background"]
+- !private ["SH", "global"]
+- !private ["SH", "init"]
+- !private ["SH", "isConnected"]
+- !private ["SH", "manual"]
+- !private ["SH", "online"]
+- !private ["SH", "subscript"]
+- ["SH", "timer"]
+- !private ["SH", "userInfo"]
+- !private ["14HyperTrackCore16HeartbeatServiceC", "Status"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO", "StatusChangedEvent"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Dispatch"]
+- !private ["14HyperTrackCore8RepeaterC8IntervalO", "seconds"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["14HyperTrackCore8RepeaterC4ModeO", "infinite"]
+- ["So8NSObjectC", "Dispatch"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectP", "Dispatch"]
+- !private ["So8NSObjectP", "global"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Database"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Dispatch"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "HeartbeatService"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Transmission"]
+- !private ["10Foundation12NotificationV", "userInfo"]
+- !private ["So9OS_objectC", "global"]
+- !private ["14HyperTrackCore15PipelineLoggingP", "execute"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- !private ["SY", "init"]
+- !private ["SY", "manual"]
+- ["SY", "timer"]
+- !private ["10Foundation20ReferenceConvertibleP", "userInfo"]
+- !private ["14HyperTrackCore8RepeaterC", "Interval"]
+- !private ["14HyperTrackCore8RepeaterC", "init"]
+- !private ["14HyperTrackCore8RepeaterC", "pause"]
+- !private ["14HyperTrackCore8RepeaterC", "removeAllObservers"]
+- !private ["14HyperTrackCore8RepeaterC", "reset"]
+- !private ["14HyperTrackCore8RepeaterC", "start"]
+- !private ["ST", "subscript"]
+- !private ["14HyperTrackCore16HeartbeatServiceC6StatusO", "isConnected"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO", "name"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "AbstractDispatch"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "AbstractDispatchConfig"]
+- !private ["14HyperTrackCore21TimerDispatchStrategyC", "Constant"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "Debouncer"]
+- !private ["14HyperTrackCore21TimerDispatchStrategyC", "DispatchQueue"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "Double"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "Int"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "Repeater"]
+- !private ["14HyperTrackCore21TimerDispatchStrategyC", "config"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "debounce"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "debouncer"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "deinit"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "dispatch"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "frequency"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "init"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "start"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "stop"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "timer"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "tolerance"]
+- ["14HyperTrackCore21TimerDispatchStrategyC", "updateConfig"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO", "DataSentEvent"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO", "name"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Dispatch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "userInfo"]
+depends-nominal:
+- "14HyperTrackCore22AbstractActivityConfigP"
+- "14HyperTrackCore24AbstractCollectionConfigP"
+- "14HyperTrackCore14AbstractConfigP"
+- "14HyperTrackCore23AbstractDataStoreConfigP"
+- "14HyperTrackCore16AbstractDispatchP"
+- "14HyperTrackCore22AbstractDispatchConfigP"
+- "14HyperTrackCore24AbstractDispatchStrategyP"
+- "14HyperTrackCore31AbstractDispatchStrategyContextP"
+- !private "14HyperTrackCore16AbstractEventBusP"
+- "14HyperTrackCore22AbstractLocationConfigP"
+- "14HyperTrackCore21AbstractNetworkConfigP"
+- !private "14HyperTrackCore16AbstractPipelineP"
+- "14HyperTrackCore22AbstractServicesConfigP"
+- "14HyperTrackCore26AbstractTransmissionConfigP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO6ConfigO"
+- !private "14HyperTrackCore8ConstantO"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO"
+- !private "14HyperTrackCore8ConstantO12NotificationO12TransmissionO13DataSentEventO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8DatabaseO"
+- !private "14HyperTrackCore9DebouncerC"
+- "Se"
+- !private "SD"
+- "14HyperTrackCore8DispatchC"
+- "14HyperTrackCore6ConfigC8DispatchV"
+- "14HyperTrackCore8DispatchC"
+- !private "14HyperTrackCore8ConstantO12NotificationO8DispatchO"
+- "14HyperTrackCore8DispatchC"
+- !private "14HyperTrackCore6ConfigC8DispatchV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore8DispatchC"
+- !private "14HyperTrackCore6ConfigC8DispatchV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore8DispatchC"
+- !private "14HyperTrackCore6ConfigC8DispatchV"
+- !private "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore8DispatchC"
+- !private "14HyperTrackCore6ConfigC8DispatchV"
+- !private "14HyperTrackCore8DispatchC"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "14HyperTrackCore23DispatchStrategyContextC"
+- !private "8Dispatch0A12TimeIntervalO"
+- "14HyperTrackCore6ConfigC8DispatchV0E4TypeO"
+- "SE"
+- "SQ"
+- !private "14HyperTrackCore19EventCollectionTypeO"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "14HyperTrackCore16HeartbeatServiceC"
+- !private "14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO"
+- "14HyperTrackCore22HeartbeatServiceConfigP"
+- !private "14HyperTrackCore8RepeaterC8IntervalO"
+- !private "s25LosslessStringConvertibleP"
+- !private "14HyperTrackCore8RepeaterC4ModeO"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "14HyperTrackCore8ConstantO12NotificationO"
+- !private "10Foundation12NotificationV"
+- !private "So9OS_objectC"
+- !private "14HyperTrackCore15PipelineLoggingP"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "14HyperTrackCore8RepeaterC"
+- !private "ST"
+- !private "14HyperTrackCore16HeartbeatServiceC6StatusO"
+- !private "14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO"
+- "14HyperTrackCore21TimerDispatchStrategyC"
+- !private "14HyperTrackCore8ConstantO12NotificationO12TransmissionO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d34895694191a38914457dc148caee5f"

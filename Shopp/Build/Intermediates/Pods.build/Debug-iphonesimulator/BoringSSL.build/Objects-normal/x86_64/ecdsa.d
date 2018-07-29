@@ -19,4 +19,6 @@ dependencies: \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/sha.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ecdsa/../bn/internal.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ecdsa/../bn/../../internal.h \
-  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ecdsa/../ec/internal.h
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ecdsa/../ec/internal.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ecdsa/../ec/../bn/internal.h \
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ecdsa/../../internal.h

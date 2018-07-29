@@ -1,0 +1,744 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseServiceManager"
+- "AbstractServiceManager"
+- "AbstractServiceProtocol"
+- "AbstractLocationUpdate"
+- "ServiceManager"
+- "AbstractServiceFactory"
+- "ServiceFactory"
+provides-nominal:
+- "14HyperTrackCore18BaseServiceManagerP"
+- "14HyperTrackCore22AbstractServiceManagerP"
+- "14HyperTrackCore23AbstractServiceProtocolP"
+- "14HyperTrackCore22AbstractLocationUpdateP"
+- "14HyperTrackCore14ServiceManagerC"
+- "14HyperTrackCore22AbstractServiceFactoryP"
+- "14HyperTrackCore14ServiceFactoryC"
+provides-member:
+- ["14HyperTrackCore18BaseServiceManagerP", ""]
+- ["14HyperTrackCore22AbstractServiceManagerP", ""]
+- ["14HyperTrackCore23AbstractServiceProtocolP", ""]
+- ["14HyperTrackCore22AbstractLocationUpdateP", ""]
+- ["14HyperTrackCore14ServiceManagerC", ""]
+- ["14HyperTrackCore22AbstractServiceFactoryP", ""]
+- ["14HyperTrackCore14ServiceFactoryC", ""]
+provides-dynamic-lookup:
+- "activityPermissionChanged"
+- "locationPermissionChanged"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "=="
+- !private "??"
+- "AbstractAppState"
+- "AbstractCollectionPipeline"
+- "AbstractConfig"
+- "AbstractEventBus"
+- "AbstractLocationUpdate"
+- "AbstractLogger"
+- "AbstractService"
+- "AbstractServiceFactory"
+- "AbstractServiceManager"
+- "AbstractServiceProtocol"
+- !private "ActivityService"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BaseServiceManager"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Config"
+- !private "Constant"
+- !private "CoreLocationManager"
+- !private "DispatchQueue"
+- "EventUpdatesDelegate"
+- !private "HealthService"
+- "Int"
+- !private "LocationService"
+- "LocationUpdateDelegate"
+- "Notification"
+- "PrivateDataAccessLevel"
+- !private "Provider"
+- "ServiceError"
+- "ServiceFactory"
+- "ServiceManager"
+- "ServiceStatus"
+- "ServiceStatusUpdateDelegate"
+depends-member:
+- ["14HyperTrackCore22AbstractActivityConfigP", "Services"]
+- !private ["14HyperTrackCore16AbstractAppStateP", "isAppInitialized"]
+- !private ["14HyperTrackCore16AbstractAppStateP", "isPausedByUser"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "Services"]
+- ["14HyperTrackCore14AbstractConfigP", "Services"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "Services"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "Services"]
+- !private ["14HyperTrackCore16AbstractEventBusP", "addObserver"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "Services"]
+- !private ["14HyperTrackCore23AbstractLocationManagerP", "init"]
+- !private ["14HyperTrackCore23AbstractLocationServiceP", "init"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "Config"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "Constant"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "DispatchQueue"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "LocationUpdateDelegate"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "ServiceStatus"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", ""]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "activityPermissionChanged"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "appState"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "canStartServices"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "eventBus"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "getService"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "handlePermissionChanged"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "init"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "isServiceAuthorized"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "isServiceRunning"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "locationPermissionChanged"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "logger"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "numberOfRunningServices"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "numberOfServices"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "serviceStatusUpdated"]
+- !private ["14HyperTrackCore22AbstractLocationUpdateP", "services"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "startAllServices"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "startService"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "statusUpdatesDelegate"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "stopAllServices"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "stopService"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "logDebug"]
+- !private ["14HyperTrackCore14AbstractLoggerP", "logError"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "Services"]
+- !private ["14HyperTrackCore15AbstractServiceP", "init"]
+- !private ["14HyperTrackCore15AbstractServiceP", "isAuthorized"]
+- !private ["14HyperTrackCore15AbstractServiceP", "isServiceRunning"]
+- !private ["14HyperTrackCore15AbstractServiceP", "setEventUpdatesDelegate"]
+- !private ["14HyperTrackCore15AbstractServiceP", "startService"]
+- !private ["14HyperTrackCore15AbstractServiceP", "stopService"]
+- ["14HyperTrackCore22AbstractServiceFactoryP", "AbstractCollectionPipeline"]
+- ["14HyperTrackCore22AbstractServiceFactoryP", "AbstractConfig"]
+- ["14HyperTrackCore22AbstractServiceFactoryP", "AbstractService"]
+- !private ["14HyperTrackCore22AbstractServiceFactoryP", "ActivityService"]
+- ["14HyperTrackCore22AbstractServiceFactoryP", "Config"]
+- !private ["14HyperTrackCore22AbstractServiceFactoryP", "CoreLocationManager"]
+- !private ["14HyperTrackCore22AbstractServiceFactoryP", "HealthService"]
+- !private ["14HyperTrackCore22AbstractServiceFactoryP", "LocationService"]
+- !private ["14HyperTrackCore22AbstractServiceFactoryP", "Provider"]
+- ["14HyperTrackCore22AbstractServiceFactoryP", ""]
+- ["14HyperTrackCore22AbstractServiceFactoryP", "getService"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "Config"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "Constant"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "DispatchQueue"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "ServiceStatus"]
+- ["14HyperTrackCore22AbstractServiceManagerP", ""]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "activityPermissionChanged"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "appState"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "canStartServices"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "eventBus"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "getService"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "handlePermissionChanged"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "isServiceAuthorized"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "isServiceRunning"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "locationPermissionChanged"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "logger"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "numberOfRunningServices"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "numberOfServices"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "serviceStatusUpdated"]
+- !private ["14HyperTrackCore22AbstractServiceManagerP", "services"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "startAllServices"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "startService"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "statusUpdatesDelegate"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "stopAllServices"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "stopService"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "AbstractService"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "Bool"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "Config"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "Constant"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "DispatchQueue"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "EventUpdatesDelegate"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "Int"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "ServiceError"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "ServiceStatus"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "ServiceStatusUpdateDelegate"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", ""]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "activityPermissionChanged"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "appState"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "canStartServices"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "eventBus"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "getService"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "handlePermissionChanged"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "isServiceAuthorized"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "isServiceRunning"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "locationPermissionChanged"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "logger"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "numberOfRunningServices"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "numberOfServices"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "serviceStatusUpdated"]
+- !private ["14HyperTrackCore23AbstractServiceProtocolP", "services"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "startAllServices"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "startService"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "statusUpdatesDelegate"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "stopAllServices"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "stopService"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "Services"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "Services"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO", "PermissionChangedEvent"]
+- !private ["14HyperTrackCore15ActivityServiceC", "deinit"]
+- !private ["14HyperTrackCore15ActivityServiceC", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "forEach"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "forEach"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "Config"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "Constant"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "DispatchQueue"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "ServiceStatus"]
+- ["14HyperTrackCore18BaseServiceManagerP", ""]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "activityPermissionChanged"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "appState"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "canStartServices"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "eventBus"]
+- ["14HyperTrackCore18BaseServiceManagerP", "getService"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "handlePermissionChanged"]
+- ["14HyperTrackCore18BaseServiceManagerP", "isServiceAuthorized"]
+- ["14HyperTrackCore18BaseServiceManagerP", "isServiceRunning"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "locationPermissionChanged"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "logger"]
+- ["14HyperTrackCore18BaseServiceManagerP", "numberOfRunningServices"]
+- ["14HyperTrackCore18BaseServiceManagerP", "numberOfServices"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "serviceStatusUpdated"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "services"]
+- ["14HyperTrackCore18BaseServiceManagerP", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore18BaseServiceManagerP", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore18BaseServiceManagerP", "startAllServices"]
+- ["14HyperTrackCore18BaseServiceManagerP", "startService"]
+- ["14HyperTrackCore18BaseServiceManagerP", "statusUpdatesDelegate"]
+- ["14HyperTrackCore18BaseServiceManagerP", "stopAllServices"]
+- ["14HyperTrackCore18BaseServiceManagerP", "stopService"]
+- !private ["SK", "count"]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So25CLLocationManagerDelegateP", "init"]
+- ["s7CVarArgP", "Services"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["14HyperTrackCore6ConfigC", "Services"]
+- !private ["14HyperTrackCore8ConstantO", "Context"]
+- !private ["14HyperTrackCore8ConstantO", "Notification"]
+- !private ["14HyperTrackCore8ConstantO7ContextO", "services"]
+- !private ["14HyperTrackCore0C15LocationManagerC", "deinit"]
+- !private ["14HyperTrackCore0C15LocationManagerC", "init"]
+- ["s28CustomDebugStringConvertibleP", "Services"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "userInfo"]
+- ["s23CustomStringConvertibleP", "Services"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "activity"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "health"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- ["Se", "ServiceType"]
+- ["Se", "Services"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "activity"]
+- !private ["Se", "count"]
+- !private ["Se", "description"]
+- !private ["Se", "filter"]
+- !private ["Se", "forEach"]
+- ["Se", "health"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- ["Se", "location"]
+- !private ["Se", "subscript"]
+- !private ["14HyperTrackCore18DeviceDataProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore18DeviceDataProtocolP", "isPausedByUser"]
+- !private ["SD", "count"]
+- !private ["SD", "filter"]
+- !private ["SD", "forEach"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- ["SE", "ServiceType"]
+- ["SE", "Services"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "activity"]
+- !private ["SE", "count"]
+- !private ["SE", "description"]
+- !private ["SE", "filter"]
+- !private ["SE", "forEach"]
+- ["SE", "health"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SE", "location"]
+- !private ["SE", "subscript"]
+- ["SQ", "Services"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "activity"]
+- !private ["SQ", "async"]
+- !private ["SQ", "count"]
+- ["SQ", "denied"]
+- !private ["SQ", "description"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "forEach"]
+- ["SQ", "granted"]
+- ["SQ", "grantedAlways"]
+- ["SQ", "grantedWhenInUse"]
+- ["SQ", "health"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "location"]
+- !private ["SQ", "main"]
+- ["SQ", "restricted"]
+- !private ["SQ", "started"]
+- !private ["SQ", "stopped"]
+- !private ["SQ", "subscript"]
+- ["SQ", "unavailable"]
+- ["SQ", "undetermined"]
+- !private ["SQ", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "filter"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["14HyperTrackCore20GetAccountIdProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore20GetAccountIdProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore19GetDeviceIdProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore19GetDeviceIdProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore25GetPublishableKeyProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore25GetPublishableKeyProtocolP", "isPausedByUser"]
+- ["SH", "Services"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "activity"]
+- !private ["SH", "async"]
+- !private ["SH", "count"]
+- ["SH", "denied"]
+- !private ["SH", "description"]
+- !private ["SH", "filter"]
+- !private ["SH", "forEach"]
+- ["SH", "granted"]
+- ["SH", "grantedAlways"]
+- ["SH", "grantedWhenInUse"]
+- ["SH", "health"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "location"]
+- !private ["SH", "main"]
+- ["SH", "restricted"]
+- !private ["SH", "started"]
+- !private ["SH", "stopped"]
+- !private ["SH", "subscript"]
+- ["SH", "unavailable"]
+- ["SH", "undetermined"]
+- !private ["SH", "userInfo"]
+- !private ["14HyperTrackCore13HealthServiceC", "deinit"]
+- !private ["14HyperTrackCore13HealthServiceC", "init"]
+- !private ["14HyperTrackCore21HeartbeatInfoProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore21HeartbeatInfoProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore21HeartbeatPingProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore21HeartbeatPingProtocolP", "isPausedByUser"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "Services"]
+- ["14HyperTrackCore11LocalizableP", "denied"]
+- ["14HyperTrackCore11LocalizableP", "granted"]
+- ["14HyperTrackCore11LocalizableP", "grantedAlways"]
+- ["14HyperTrackCore11LocalizableP", "grantedWhenInUse"]
+- ["14HyperTrackCore11LocalizableP", "restricted"]
+- ["14HyperTrackCore11LocalizableP", "unavailable"]
+- ["14HyperTrackCore11LocalizableP", "undetermined"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8LocationO", "PermissionChangedEvent"]
+- !private ["14HyperTrackCore15LocationServiceC", "deinit"]
+- !private ["14HyperTrackCore15LocationServiceC", "init"]
+- !private ["14HyperTrackCore22LocationUpdateDelegateP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "forEach"]
+- ["So8NSObjectC", "Services"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectP", "Services"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Activity"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO", "Location"]
+- !private ["10Foundation12NotificationV", "userInfo"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO", "key"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO", "name"]
+- !private ["14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO", "name"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "denied"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "granted"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "grantedAlways"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "grantedWhenInUse"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "restricted"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "unavailable"]
+- ["14HyperTrackCore22PrivateDataAccessLevelO", "undetermined"]
+- !private ["14HyperTrackCore32PrivateDataAccessRequestProviderP", "init"]
+- !private ["14HyperTrackCore31PrivateDataAccessStatusProviderP", "init"]
+- !private ["14HyperTrackCore8ProviderC", "appState"]
+- !private ["14HyperTrackCore8ProviderC", "dataStore"]
+- !private ["14HyperTrackCore8ProviderC", "eventBus"]
+- !private ["14HyperTrackCore8ProviderC", "logger"]
+- !private ["Sk", "count"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", "count"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["SY", "activity"]
+- ["SY", "denied"]
+- !private ["SY", "description"]
+- ["SY", "granted"]
+- ["SY", "grantedAlways"]
+- ["SY", "grantedWhenInUse"]
+- ["SY", "health"]
+- !private ["SY", "init"]
+- ["SY", "location"]
+- ["SY", "restricted"]
+- !private ["SY", "started"]
+- !private ["SY", "stopped"]
+- ["SY", "unavailable"]
+- ["SY", "undetermined"]
+- !private ["10Foundation20ReferenceConvertibleP", "userInfo"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- ["14HyperTrackCore14ServiceFactoryC", "AbstractCollectionPipeline"]
+- ["14HyperTrackCore14ServiceFactoryC", "AbstractConfig"]
+- ["14HyperTrackCore14ServiceFactoryC", "AbstractService"]
+- !private ["14HyperTrackCore14ServiceFactoryC", "ActivityService"]
+- ["14HyperTrackCore14ServiceFactoryC", "Config"]
+- !private ["14HyperTrackCore14ServiceFactoryC", "CoreLocationManager"]
+- !private ["14HyperTrackCore14ServiceFactoryC", "HealthService"]
+- !private ["14HyperTrackCore14ServiceFactoryC", "LocationService"]
+- !private ["14HyperTrackCore14ServiceFactoryC", "Provider"]
+- ["14HyperTrackCore14ServiceFactoryC", "deinit"]
+- ["14HyperTrackCore14ServiceFactoryC", "getService"]
+- ["14HyperTrackCore14ServiceFactoryC", "init"]
+- ["14HyperTrackCore14ServiceManagerC", "AbstractAppState"]
+- ["14HyperTrackCore14ServiceManagerC", "AbstractCollectionPipeline"]
+- ["14HyperTrackCore14ServiceManagerC", "AbstractConfig"]
+- ["14HyperTrackCore14ServiceManagerC", "AbstractEventBus"]
+- !private ["14HyperTrackCore14ServiceManagerC", "AbstractLocationUpdate"]
+- ["14HyperTrackCore14ServiceManagerC", "AbstractLogger"]
+- ["14HyperTrackCore14ServiceManagerC", "AbstractService"]
+- ["14HyperTrackCore14ServiceManagerC", "AbstractServiceFactory"]
+- ["14HyperTrackCore14ServiceManagerC", "Bool"]
+- ["14HyperTrackCore14ServiceManagerC", "Config"]
+- !private ["14HyperTrackCore14ServiceManagerC", "Constant"]
+- !private ["14HyperTrackCore14ServiceManagerC", "DispatchQueue"]
+- ["14HyperTrackCore14ServiceManagerC", "EventUpdatesDelegate"]
+- ["14HyperTrackCore14ServiceManagerC", "Int"]
+- ["14HyperTrackCore14ServiceManagerC", "LocationUpdateDelegate"]
+- ["14HyperTrackCore14ServiceManagerC", "Notification"]
+- ["14HyperTrackCore14ServiceManagerC", "PrivateDataAccessLevel"]
+- ["14HyperTrackCore14ServiceManagerC", "ServiceError"]
+- ["14HyperTrackCore14ServiceManagerC", "ServiceStatus"]
+- ["14HyperTrackCore14ServiceManagerC", "ServiceStatusUpdateDelegate"]
+- ["14HyperTrackCore14ServiceManagerC", "activityPermissionChanged"]
+- !private ["14HyperTrackCore14ServiceManagerC", "appState"]
+- !private ["14HyperTrackCore14ServiceManagerC", "canStartServices"]
+- ["14HyperTrackCore14ServiceManagerC", "deinit"]
+- !private ["14HyperTrackCore14ServiceManagerC", "eventBus"]
+- ["14HyperTrackCore14ServiceManagerC", "getService"]
+- !private ["14HyperTrackCore14ServiceManagerC", "handlePermissionChanged"]
+- ["14HyperTrackCore14ServiceManagerC", "init"]
+- ["14HyperTrackCore14ServiceManagerC", "isServiceAuthorized"]
+- ["14HyperTrackCore14ServiceManagerC", "isServiceRunning"]
+- ["14HyperTrackCore14ServiceManagerC", "locationPermissionChanged"]
+- !private ["14HyperTrackCore14ServiceManagerC", "logger"]
+- ["14HyperTrackCore14ServiceManagerC", "numberOfRunningServices"]
+- ["14HyperTrackCore14ServiceManagerC", "numberOfServices"]
+- !private ["14HyperTrackCore14ServiceManagerC", "serviceStatusUpdated"]
+- !private ["14HyperTrackCore14ServiceManagerC", "services"]
+- ["14HyperTrackCore14ServiceManagerC", "setEventUpdatesDelegate"]
+- ["14HyperTrackCore14ServiceManagerC", "setLocationUpdatesDelegate"]
+- ["14HyperTrackCore14ServiceManagerC", "startAllServices"]
+- ["14HyperTrackCore14ServiceManagerC", "startService"]
+- ["14HyperTrackCore14ServiceManagerC", "statusUpdatesDelegate"]
+- ["14HyperTrackCore14ServiceManagerC", "stopAllServices"]
+- ["14HyperTrackCore14ServiceManagerC", "stopService"]
+- !private ["14HyperTrackCore13ServiceStatusO", "deinit"]
+- !private ["14HyperTrackCore13ServiceStatusO", "init"]
+- !private ["14HyperTrackCore13ServiceStatusO", "started"]
+- !private ["14HyperTrackCore13ServiceStatusO", "stopped"]
+- !private ["14HyperTrackCore27ServiceStatusUpdateDelegateP", "serviceStatusUpdated"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "activity"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "deinit"]
+- !private ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "description"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "health"]
+- ["14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO", "location"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "ServiceType"]
+- !private ["14HyperTrackCore19SessionInfoProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore19SessionInfoProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore20SetAccountIdProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore20SetAccountIdProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore19SetDeviceIdProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore19SetDeviceIdProtocolP", "isPausedByUser"]
+- !private ["14HyperTrackCore25SetPublishableKeyProtocolP", "isAppInitialized"]
+- !private ["14HyperTrackCore25SetPublishableKeyProtocolP", "isPausedByUser"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Services"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "userInfo"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14HyperTrackCore22AbstractActivityConfigP"
+- !private "14HyperTrackCore16AbstractAppStateP"
+- "14HyperTrackCore24AbstractCollectionConfigP"
+- "14HyperTrackCore14AbstractConfigP"
+- "14HyperTrackCore23AbstractDataStoreConfigP"
+- "14HyperTrackCore22AbstractDispatchConfigP"
+- !private "14HyperTrackCore16AbstractEventBusP"
+- "14HyperTrackCore22AbstractLocationConfigP"
+- !private "14HyperTrackCore23AbstractLocationManagerP"
+- !private "14HyperTrackCore23AbstractLocationServiceP"
+- "14HyperTrackCore22AbstractLocationUpdateP"
+- !private "14HyperTrackCore14AbstractLoggerP"
+- "14HyperTrackCore21AbstractNetworkConfigP"
+- !private "14HyperTrackCore15AbstractServiceP"
+- "14HyperTrackCore22AbstractServiceFactoryP"
+- "14HyperTrackCore22AbstractServiceManagerP"
+- "14HyperTrackCore23AbstractServiceProtocolP"
+- "14HyperTrackCore22AbstractServicesConfigP"
+- "14HyperTrackCore26AbstractTransmissionConfigP"
+- !private "14HyperTrackCore8ConstantO12NotificationO8ActivityO"
+- !private "14HyperTrackCore15ActivityServiceC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "14HyperTrackCore18BaseServiceManagerP"
+- !private "SK"
+- !private "Sb"
+- !private "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "14HyperTrackCore6ConfigC"
+- !private "14HyperTrackCore8ConstantO"
+- !private "14HyperTrackCore8ConstantO7ContextO"
+- !private "14HyperTrackCore0C15LocationManagerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "14HyperTrackCore18DeviceDataProtocolP"
+- !private "SD"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "14HyperTrackCore20GetAccountIdProtocolP"
+- !private "14HyperTrackCore19GetDeviceIdProtocolP"
+- !private "14HyperTrackCore25GetPublishableKeyProtocolP"
+- "SH"
+- !private "14HyperTrackCore13HealthServiceC"
+- !private "14HyperTrackCore21HeartbeatInfoProtocolP"
+- !private "14HyperTrackCore21HeartbeatPingProtocolP"
+- "14HyperTrackCore22HeartbeatServiceConfigP"
+- "14HyperTrackCore11LocalizableP"
+- !private "14HyperTrackCore8ConstantO12NotificationO8LocationO"
+- !private "14HyperTrackCore15LocationServiceC"
+- !private "14HyperTrackCore22LocationUpdateDelegateP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "14HyperTrackCore8ConstantO12NotificationO"
+- !private "10Foundation12NotificationV"
+- !private "So9OS_objectC"
+- !private "14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO"
+- !private "14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO"
+- "14HyperTrackCore22PrivateDataAccessLevelO"
+- !private "14HyperTrackCore32PrivateDataAccessRequestProviderP"
+- !private "14HyperTrackCore31PrivateDataAccessStatusProviderP"
+- !private "14HyperTrackCore8ProviderC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- "14HyperTrackCore14ServiceFactoryC"
+- "14HyperTrackCore14ServiceManagerC"
+- !private "14HyperTrackCore13ServiceStatusO"
+- !private "14HyperTrackCore27ServiceStatusUpdateDelegateP"
+- "14HyperTrackCore6ConfigC8ServicesV11ServiceTypeO"
+- "14HyperTrackCore6ConfigC8ServicesV"
+- !private "14HyperTrackCore19SessionInfoProtocolP"
+- !private "14HyperTrackCore20SetAccountIdProtocolP"
+- !private "14HyperTrackCore19SetDeviceIdProtocolP"
+- !private "14HyperTrackCore25SetPublishableKeyProtocolP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "588c96f6f10155400504bf31ed2162f2"

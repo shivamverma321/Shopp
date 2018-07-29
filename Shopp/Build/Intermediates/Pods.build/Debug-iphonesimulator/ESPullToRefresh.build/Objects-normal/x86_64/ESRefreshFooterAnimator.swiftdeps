@@ -21,6 +21,8 @@ depends-top-level:
 - "ESRefreshFooterAnimator"
 - "ESRefreshProtocol"
 - "ESRefreshViewState"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "NSCoder"
 - "NSLocalizedString"
 - "String"
@@ -34,7 +36,8 @@ depends-top-level:
 - "UIView"
 - !private "fatalError"
 depends-member:
-- ["s23BidirectionalCollectionP", "init"]
+- ["SK", "init"]
+- ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "CGPoint"]
 - ["So15CALayerDelegateP", "CGRect"]
@@ -53,6 +56,7 @@ depends-member:
 - ["So15CALayerDelegateP", "font"]
 - !private ["So15CALayerDelegateP", "frame"]
 - !private ["So15CALayerDelegateP", "indicatorView"]
+- ["So15CALayerDelegateP", "init"]
 - ["So15CALayerDelegateP", "init"]
 - ["So15CALayerDelegateP", "insets"]
 - ["So15CALayerDelegateP", "isHidden"]
@@ -74,14 +78,15 @@ depends-member:
 - !private ["So15CALayerDelegateP", "titleLabel"]
 - ["So15CALayerDelegateP", "trigger"]
 - ["So15CALayerDelegateP", "view"]
-- !private ["SC7CGPointV", "init"]
-- !private ["SC7CGPointV", "x"]
-- !private ["SC7CGPointV", "y"]
-- !private ["SC6CGRectV", "origin"]
-- !private ["SC6CGRectV", "size"]
-- ["SC6CGRectV", "zero"]
-- !private ["SC6CGSizeV", "height"]
-- !private ["SC6CGSizeV", "width"]
+- !private ["So7CGPointV", "init"]
+- !private ["So7CGPointV", "init"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "origin"]
+- !private ["So6CGRectV", "size"]
+- ["So6CGRectV", "zero"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
 - !private ["s7CVarArgP", "CGPoint"]
 - ["s7CVarArgP", "CGRect"]
 - ["s7CVarArgP", "NSLocalizedString"]
@@ -100,6 +105,7 @@ depends-member:
 - ["s7CVarArgP", "font"]
 - !private ["s7CVarArgP", "frame"]
 - !private ["s7CVarArgP", "indicatorView"]
+- ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "insets"]
 - ["s7CVarArgP", "isHidden"]
@@ -122,8 +128,10 @@ depends-member:
 - !private ["s7CVarArgP", "titleLabel"]
 - ["s7CVarArgP", "trigger"]
 - ["s7CVarArgP", "view"]
-- ["s10CollectionP", "init"]
-- ["s10ComparableP", "init"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
 - ["s28CustomDebugStringConvertibleP", "CGRect"]
 - ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
@@ -142,6 +150,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "frame"]
 - !private ["s28CustomDebugStringConvertibleP", "height"]
 - !private ["s28CustomDebugStringConvertibleP", "indicatorView"]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "insets"]
 - ["s28CustomDebugStringConvertibleP", "isHidden"]
@@ -173,6 +182,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "height"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "origin"]
 - !private ["s29CustomPlaygroundQuickLookableP", "size"]
 - !private ["s29CustomPlaygroundQuickLookableP", "width"]
@@ -181,6 +191,7 @@ depends-member:
 - ["s29CustomPlaygroundQuickLookableP", "zero"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "origin"]
 - !private ["s17CustomReflectableP", "size"]
@@ -207,6 +218,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "frame"]
 - !private ["s23CustomStringConvertibleP", "indicatorView"]
 - ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "insets"]
 - ["s23CustomStringConvertibleP", "isHidden"]
 - !private ["s23CustomStringConvertibleP", "layoutSubviews"]
@@ -228,15 +240,16 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "titleLabel"]
 - ["s23CustomStringConvertibleP", "trigger"]
 - ["s23CustomStringConvertibleP", "view"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
-- !private ["s9DecodableP", "height"]
-- ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "origin"]
-- !private ["s9DecodableP", "size"]
-- !private ["s9DecodableP", "width"]
-- !private ["s9DecodableP", "x"]
-- !private ["s9DecodableP", "y"]
-- ["s9DecodableP", "zero"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "height"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "origin"]
+- !private ["Se", "size"]
+- !private ["Se", "width"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
+- ["Se", "zero"]
 - !private ["15ESPullToRefresh25ESRefreshAnimatorProtocolP", "CGPoint"]
 - ["15ESPullToRefresh25ESRefreshAnimatorProtocolP", "CGRect"]
 - ["15ESPullToRefresh25ESRefreshAnimatorProtocolP", "NSLocalizedString"]
@@ -330,118 +343,126 @@ depends-member:
 - ["15ESPullToRefresh18ESRefreshViewStateO", "noMoreData"]
 - ["15ESPullToRefresh18ESRefreshViewStateO", "pullToRefresh"]
 - ["15ESPullToRefresh18ESRefreshViewStateO", "refreshing"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
-- !private ["s9EncodableP", "height"]
-- ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "origin"]
-- !private ["s9EncodableP", "size"]
-- !private ["s9EncodableP", "width"]
-- !private ["s9EncodableP", "x"]
-- !private ["s9EncodableP", "y"]
-- ["s9EncodableP", "zero"]
-- !private ["s9EquatableP", "CGPoint"]
-- ["s9EquatableP", "CGRect"]
-- ["s9EquatableP", "NSLocalizedString"]
-- ["s9EquatableP", "UIActivityIndicatorView"]
-- ["s9EquatableP", "UIColor"]
-- ["s9EquatableP", "UIEdgeInsets"]
-- ["s9EquatableP", "UIFont"]
-- ["s9EquatableP", "UILabel"]
-- ["s9EquatableP", ""]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
-- !private ["s9EquatableP", "addSubview"]
-- ["s9EquatableP", "autoRefreshing"]
-- !private ["s9EquatableP", "bounds"]
-- ["s9EquatableP", "center"]
-- ["s9EquatableP", "executeIncremental"]
-- !private ["s9EquatableP", "fatalError"]
-- ["s9EquatableP", "font"]
-- !private ["s9EquatableP", "frame"]
-- ["s9EquatableP", "gray"]
-- !private ["s9EquatableP", "height"]
-- !private ["s9EquatableP", "indicatorView"]
-- ["s9EquatableP", "init"]
-- ["s9EquatableP", "insets"]
-- ["s9EquatableP", "isHidden"]
-- !private ["s9EquatableP", "layoutSubviews"]
-- !private ["s9EquatableP", "loadingDescription"]
-- !private ["s9EquatableP", "loadingMoreDescription"]
-- ["s9EquatableP", "noMoreData"]
-- !private ["s9EquatableP", "noMoreDataDescription"]
-- !private ["s9EquatableP", "origin"]
-- ["s9EquatableP", "pullToRefresh"]
-- ["s9EquatableP", "refresh"]
-- ["s9EquatableP", "refreshAnimationBegin"]
-- ["s9EquatableP", "refreshAnimationEnd"]
-- ["s9EquatableP", "refreshing"]
-- !private ["s9EquatableP", "setNeedsLayout"]
-- !private ["s9EquatableP", "size"]
-- !private ["s9EquatableP", "sizeToFit"]
-- !private ["s9EquatableP", "startAnimating"]
-- ["s9EquatableP", "state"]
-- !private ["s9EquatableP", "stopAnimating"]
-- ["s9EquatableP", "systemFont"]
-- !private ["s9EquatableP", "text"]
-- ["s9EquatableP", "textAlignment"]
-- ["s9EquatableP", "textColor"]
-- !private ["s9EquatableP", "titleLabel"]
-- ["s9EquatableP", "trigger"]
-- ["s9EquatableP", "view"]
-- !private ["s9EquatableP", "width"]
-- !private ["s9EquatableP", "x"]
-- !private ["s9EquatableP", "y"]
-- ["s9EquatableP", "zero"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "height"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "origin"]
+- !private ["SE", "size"]
+- !private ["SE", "width"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- ["SE", "zero"]
+- !private ["SQ", "CGPoint"]
+- ["SQ", "CGRect"]
+- ["SQ", "NSLocalizedString"]
+- ["SQ", "UIActivityIndicatorView"]
+- ["SQ", "UIColor"]
+- ["SQ", "UIEdgeInsets"]
+- ["SQ", "UIFont"]
+- ["SQ", "UILabel"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addSubview"]
+- ["SQ", "autoRefreshing"]
+- !private ["SQ", "bounds"]
+- ["SQ", "center"]
+- ["SQ", "executeIncremental"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "font"]
+- !private ["SQ", "frame"]
+- ["SQ", "gray"]
+- !private ["SQ", "height"]
+- !private ["SQ", "indicatorView"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "insets"]
+- ["SQ", "isHidden"]
+- !private ["SQ", "layoutSubviews"]
+- !private ["SQ", "loadingDescription"]
+- !private ["SQ", "loadingMoreDescription"]
+- ["SQ", "noMoreData"]
+- !private ["SQ", "noMoreDataDescription"]
+- !private ["SQ", "origin"]
+- ["SQ", "pullToRefresh"]
+- ["SQ", "refresh"]
+- ["SQ", "refreshAnimationBegin"]
+- ["SQ", "refreshAnimationEnd"]
+- ["SQ", "refreshing"]
+- !private ["SQ", "setNeedsLayout"]
+- !private ["SQ", "size"]
+- !private ["SQ", "sizeToFit"]
+- !private ["SQ", "startAnimating"]
+- ["SQ", "state"]
+- !private ["SQ", "stopAnimating"]
+- ["SQ", "systemFont"]
+- !private ["SQ", "text"]
+- ["SQ", "textAlignment"]
+- ["SQ", "textColor"]
+- !private ["SQ", "titleLabel"]
+- ["SQ", "trigger"]
+- ["SQ", "view"]
+- !private ["SQ", "width"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- ["SQ", "zero"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s8HashableP", "CGPoint"]
-- ["s8HashableP", "CGRect"]
-- ["s8HashableP", "NSLocalizedString"]
-- ["s8HashableP", "UIActivityIndicatorView"]
-- ["s8HashableP", "UIColor"]
-- ["s8HashableP", "UIEdgeInsets"]
-- ["s8HashableP", "UIFont"]
-- ["s8HashableP", "UILabel"]
-- ["s8HashableP", ""]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "addSubview"]
-- ["s8HashableP", "autoRefreshing"]
-- !private ["s8HashableP", "bounds"]
-- ["s8HashableP", "center"]
-- ["s8HashableP", "executeIncremental"]
-- !private ["s8HashableP", "fatalError"]
-- ["s8HashableP", "font"]
-- !private ["s8HashableP", "frame"]
-- ["s8HashableP", "gray"]
-- !private ["s8HashableP", "indicatorView"]
-- ["s8HashableP", "init"]
-- ["s8HashableP", "insets"]
-- ["s8HashableP", "isHidden"]
-- !private ["s8HashableP", "layoutSubviews"]
-- !private ["s8HashableP", "loadingDescription"]
-- !private ["s8HashableP", "loadingMoreDescription"]
-- ["s8HashableP", "noMoreData"]
-- !private ["s8HashableP", "noMoreDataDescription"]
-- ["s8HashableP", "pullToRefresh"]
-- ["s8HashableP", "refresh"]
-- ["s8HashableP", "refreshAnimationBegin"]
-- ["s8HashableP", "refreshAnimationEnd"]
-- ["s8HashableP", "refreshing"]
-- !private ["s8HashableP", "setNeedsLayout"]
-- !private ["s8HashableP", "sizeToFit"]
-- !private ["s8HashableP", "startAnimating"]
-- ["s8HashableP", "state"]
-- !private ["s8HashableP", "stopAnimating"]
-- ["s8HashableP", "systemFont"]
-- !private ["s8HashableP", "text"]
-- ["s8HashableP", "textAlignment"]
-- ["s8HashableP", "textColor"]
-- !private ["s8HashableP", "titleLabel"]
-- ["s8HashableP", "trigger"]
-- ["s8HashableP", "view"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "CGPoint"]
+- ["SH", "CGRect"]
+- ["SH", "NSLocalizedString"]
+- ["SH", "UIActivityIndicatorView"]
+- ["SH", "UIColor"]
+- ["SH", "UIEdgeInsets"]
+- ["SH", "UIFont"]
+- ["SH", "UILabel"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addSubview"]
+- ["SH", "autoRefreshing"]
+- !private ["SH", "bounds"]
+- ["SH", "center"]
+- ["SH", "executeIncremental"]
+- !private ["SH", "fatalError"]
+- ["SH", "font"]
+- !private ["SH", "frame"]
+- ["SH", "gray"]
+- !private ["SH", "indicatorView"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "insets"]
+- ["SH", "isHidden"]
+- !private ["SH", "layoutSubviews"]
+- !private ["SH", "loadingDescription"]
+- !private ["SH", "loadingMoreDescription"]
+- ["SH", "noMoreData"]
+- !private ["SH", "noMoreDataDescription"]
+- ["SH", "pullToRefresh"]
+- ["SH", "refresh"]
+- ["SH", "refreshAnimationBegin"]
+- ["SH", "refreshAnimationEnd"]
+- ["SH", "refreshing"]
+- !private ["SH", "setNeedsLayout"]
+- !private ["SH", "sizeToFit"]
+- !private ["SH", "startAnimating"]
+- ["SH", "state"]
+- !private ["SH", "stopAnimating"]
+- ["SH", "systemFont"]
+- !private ["SH", "text"]
+- ["SH", "textAlignment"]
+- ["SH", "textColor"]
+- !private ["SH", "titleLabel"]
+- ["SH", "trigger"]
+- ["SH", "view"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
 - ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "CGPoint"]
 - ["So8NSCodingP", "CGRect"]
@@ -460,6 +481,7 @@ depends-member:
 - ["So8NSCodingP", "font"]
 - !private ["So8NSCodingP", "frame"]
 - !private ["So8NSCodingP", "indicatorView"]
+- ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "insets"]
 - ["So8NSCodingP", "isHidden"]
@@ -482,8 +504,11 @@ depends-member:
 - ["So8NSCodingP", "trigger"]
 - ["So8NSCodingP", "view"]
 - ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "init"]
 - ["So9NSCopyingP", "systemFont"]
 - ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
 - ["So21NSItemProviderWritingP", "init"]
 - ["So8NSObjectC", "CGFloat"]
 - !private ["So8NSObjectC", "CGPoint"]
@@ -510,6 +535,7 @@ depends-member:
 - !private ["So8NSObjectC", "frame"]
 - ["So8NSObjectC", "indicatorView"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "insets"]
 - ["So8NSObjectC", "isHidden"]
 - ["So8NSObjectC", "layoutSubviews"]
@@ -531,55 +557,65 @@ depends-member:
 - ["So8NSObjectC", "titleLabel"]
 - ["So8NSObjectC", "trigger"]
 - ["So8NSObjectC", "view"]
-- !private ["So16NSObjectProtocolP", "CGPoint"]
-- ["So16NSObjectProtocolP", "CGRect"]
-- ["So16NSObjectProtocolP", "NSLocalizedString"]
-- ["So16NSObjectProtocolP", "UIActivityIndicatorView"]
-- ["So16NSObjectProtocolP", "UIColor"]
-- ["So16NSObjectProtocolP", "UIEdgeInsets"]
-- ["So16NSObjectProtocolP", "UIFont"]
-- ["So16NSObjectProtocolP", "UILabel"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So16NSObjectProtocolP", "addSubview"]
-- !private ["So16NSObjectProtocolP", "bounds"]
-- !private ["So16NSObjectProtocolP", "center"]
-- ["So16NSObjectProtocolP", "executeIncremental"]
-- !private ["So16NSObjectProtocolP", "fatalError"]
-- ["So16NSObjectProtocolP", "font"]
-- !private ["So16NSObjectProtocolP", "frame"]
-- !private ["So16NSObjectProtocolP", "indicatorView"]
-- ["So16NSObjectProtocolP", "init"]
-- ["So16NSObjectProtocolP", "insets"]
-- ["So16NSObjectProtocolP", "isHidden"]
-- !private ["So16NSObjectProtocolP", "layoutSubviews"]
-- !private ["So16NSObjectProtocolP", "loadingDescription"]
-- !private ["So16NSObjectProtocolP", "loadingMoreDescription"]
-- !private ["So16NSObjectProtocolP", "noMoreDataDescription"]
-- ["So16NSObjectProtocolP", "refresh"]
-- ["So16NSObjectProtocolP", "refreshAnimationBegin"]
-- ["So16NSObjectProtocolP", "refreshAnimationEnd"]
-- !private ["So16NSObjectProtocolP", "setNeedsLayout"]
-- !private ["So16NSObjectProtocolP", "sizeToFit"]
-- !private ["So16NSObjectProtocolP", "startAnimating"]
-- ["So16NSObjectProtocolP", "state"]
-- !private ["So16NSObjectProtocolP", "stopAnimating"]
-- ["So16NSObjectProtocolP", "systemFont"]
-- !private ["So16NSObjectProtocolP", "text"]
-- ["So16NSObjectProtocolP", "textAlignment"]
-- ["So16NSObjectProtocolP", "textColor"]
-- !private ["So16NSObjectProtocolP", "titleLabel"]
-- ["So16NSObjectProtocolP", "trigger"]
-- ["So16NSObjectProtocolP", "view"]
+- !private ["So8NSObjectP", "CGPoint"]
+- ["So8NSObjectP", "CGRect"]
+- ["So8NSObjectP", "NSLocalizedString"]
+- ["So8NSObjectP", "UIActivityIndicatorView"]
+- ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", "UIEdgeInsets"]
+- ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "center"]
+- ["So8NSObjectP", "executeIncremental"]
+- !private ["So8NSObjectP", "fatalError"]
+- ["So8NSObjectP", "font"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "indicatorView"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "insets"]
+- ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "layoutSubviews"]
+- !private ["So8NSObjectP", "loadingDescription"]
+- !private ["So8NSObjectP", "loadingMoreDescription"]
+- !private ["So8NSObjectP", "noMoreDataDescription"]
+- ["So8NSObjectP", "refresh"]
+- ["So8NSObjectP", "refreshAnimationBegin"]
+- ["So8NSObjectP", "refreshAnimationEnd"]
+- !private ["So8NSObjectP", "setNeedsLayout"]
+- !private ["So8NSObjectP", "sizeToFit"]
+- !private ["So8NSObjectP", "startAnimating"]
+- ["So8NSObjectP", "state"]
+- !private ["So8NSObjectP", "stopAnimating"]
+- ["So8NSObjectP", "systemFont"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "textAlignment"]
+- ["So8NSObjectP", "textColor"]
+- !private ["So8NSObjectP", "titleLabel"]
+- ["So8NSObjectP", "trigger"]
+- ["So8NSObjectP", "view"]
 - ["So14NSSecureCodingP", "init"]
-- ["SC15NSTextAlignmentO", "center"]
-- ["s26RangeReplaceableCollectionP", "init"]
-- ["s16RawRepresentableP", "center"]
-- ["s16RawRepresentableP", "gray"]
-- ["s8SequenceP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So15NSTextAlignmentV", "center"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "center"]
+- ["SY", "gray"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
 - !private ["s12StaticStringV", "init"]
 - ["SS", "init"]
-- ["s14StringProtocolP", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["So28UIActivityIndicatorViewStyleV", "gray"]
 - ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
 - ["s20TextOutputStreamableP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "CGPoint"]
 - ["So29UIAccessibilityIdentificationP", "CGRect"]
@@ -598,6 +634,7 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "font"]
 - !private ["So29UIAccessibilityIdentificationP", "frame"]
 - !private ["So29UIAccessibilityIdentificationP", "indicatorView"]
+- ["So29UIAccessibilityIdentificationP", "init"]
 - ["So29UIAccessibilityIdentificationP", "init"]
 - ["So29UIAccessibilityIdentificationP", "insets"]
 - ["So29UIAccessibilityIdentificationP", "isHidden"]
@@ -621,10 +658,10 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "view"]
 - !private ["So23UIActivityIndicatorViewC", "center"]
 - ["So23UIActivityIndicatorViewC", "init"]
+- ["So23UIActivityIndicatorViewC", "init"]
 - ["So23UIActivityIndicatorViewC", "isHidden"]
 - !private ["So23UIActivityIndicatorViewC", "startAnimating"]
 - !private ["So23UIActivityIndicatorViewC", "stopAnimating"]
-- ["SC28UIActivityIndicatorViewStyleO", "gray"]
 - !private ["So12UIAppearanceP", "CGPoint"]
 - ["So12UIAppearanceP", "CGRect"]
 - ["So12UIAppearanceP", "NSLocalizedString"]
@@ -642,6 +679,7 @@ depends-member:
 - ["So12UIAppearanceP", "font"]
 - !private ["So12UIAppearanceP", "frame"]
 - !private ["So12UIAppearanceP", "indicatorView"]
+- ["So12UIAppearanceP", "init"]
 - ["So12UIAppearanceP", "init"]
 - ["So12UIAppearanceP", "insets"]
 - ["So12UIAppearanceP", "isHidden"]
@@ -681,6 +719,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "frame"]
 - !private ["So21UIAppearanceContainerP", "indicatorView"]
 - ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "init"]
 - ["So21UIAppearanceContainerP", "insets"]
 - ["So21UIAppearanceContainerP", "isHidden"]
 - !private ["So21UIAppearanceContainerP", "layoutSubviews"]
@@ -702,9 +741,11 @@ depends-member:
 - ["So21UIAppearanceContainerP", "trigger"]
 - ["So21UIAppearanceContainerP", "view"]
 - ["So7UIColorC", "init"]
+- ["So7UIColorC", "init"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "center"]
 - ["So30UIContentSizeCategoryAdjustingP", "font"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "frame"]
+- ["So30UIContentSizeCategoryAdjustingP", "init"]
 - ["So30UIContentSizeCategoryAdjustingP", "init"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "sizeToFit"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
@@ -727,6 +768,7 @@ depends-member:
 - ["So17UICoordinateSpaceP", "font"]
 - !private ["So17UICoordinateSpaceP", "frame"]
 - !private ["So17UICoordinateSpaceP", "indicatorView"]
+- ["So17UICoordinateSpaceP", "init"]
 - ["So17UICoordinateSpaceP", "init"]
 - ["So17UICoordinateSpaceP", "insets"]
 - ["So17UICoordinateSpaceP", "isHidden"]
@@ -766,6 +808,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "frame"]
 - !private ["So13UIDynamicItemP", "indicatorView"]
 - ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", "init"]
 - ["So13UIDynamicItemP", "insets"]
 - ["So13UIDynamicItemP", "isHidden"]
 - !private ["So13UIDynamicItemP", "layoutSubviews"]
@@ -786,7 +829,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "titleLabel"]
 - ["So13UIDynamicItemP", "trigger"]
 - ["So13UIDynamicItemP", "view"]
-- ["SC12UIEdgeInsetsV", "zero"]
+- ["So12UIEdgeInsetsV", "zero"]
 - !private ["So18UIFocusEnvironmentP", "CGPoint"]
 - ["So18UIFocusEnvironmentP", "CGRect"]
 - ["So18UIFocusEnvironmentP", "NSLocalizedString"]
@@ -804,6 +847,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "font"]
 - !private ["So18UIFocusEnvironmentP", "frame"]
 - !private ["So18UIFocusEnvironmentP", "indicatorView"]
+- ["So18UIFocusEnvironmentP", "init"]
 - ["So18UIFocusEnvironmentP", "init"]
 - ["So18UIFocusEnvironmentP", "insets"]
 - ["So18UIFocusEnvironmentP", "isHidden"]
@@ -843,6 +887,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "frame"]
 - !private ["So11UIFocusItemP", "indicatorView"]
 - ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", "init"]
 - ["So11UIFocusItemP", "insets"]
 - ["So11UIFocusItemP", "isHidden"]
 - !private ["So11UIFocusItemP", "layoutSubviews"]
@@ -863,10 +908,50 @@ depends-member:
 - !private ["So11UIFocusItemP", "titleLabel"]
 - ["So11UIFocusItemP", "trigger"]
 - ["So11UIFocusItemP", "view"]
+- !private ["So20UIFocusItemContainerP", "CGPoint"]
+- ["So20UIFocusItemContainerP", "CGRect"]
+- ["So20UIFocusItemContainerP", "NSLocalizedString"]
+- ["So20UIFocusItemContainerP", "UIActivityIndicatorView"]
+- ["So20UIFocusItemContainerP", "UIColor"]
+- ["So20UIFocusItemContainerP", "UIEdgeInsets"]
+- ["So20UIFocusItemContainerP", "UIFont"]
+- ["So20UIFocusItemContainerP", "UILabel"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "bounds"]
+- !private ["So20UIFocusItemContainerP", "center"]
+- ["So20UIFocusItemContainerP", "executeIncremental"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- ["So20UIFocusItemContainerP", "font"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "indicatorView"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "init"]
+- ["So20UIFocusItemContainerP", "insets"]
+- ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "layoutSubviews"]
+- !private ["So20UIFocusItemContainerP", "loadingDescription"]
+- !private ["So20UIFocusItemContainerP", "loadingMoreDescription"]
+- !private ["So20UIFocusItemContainerP", "noMoreDataDescription"]
+- ["So20UIFocusItemContainerP", "refresh"]
+- ["So20UIFocusItemContainerP", "refreshAnimationBegin"]
+- ["So20UIFocusItemContainerP", "refreshAnimationEnd"]
+- !private ["So20UIFocusItemContainerP", "setNeedsLayout"]
+- !private ["So20UIFocusItemContainerP", "sizeToFit"]
+- !private ["So20UIFocusItemContainerP", "startAnimating"]
+- ["So20UIFocusItemContainerP", "state"]
+- !private ["So20UIFocusItemContainerP", "stopAnimating"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- ["So20UIFocusItemContainerP", "textAlignment"]
+- ["So20UIFocusItemContainerP", "textColor"]
+- !private ["So20UIFocusItemContainerP", "titleLabel"]
+- ["So20UIFocusItemContainerP", "trigger"]
+- ["So20UIFocusItemContainerP", "view"]
 - ["So6UIFontC", "systemFont"]
 - !private ["So7UILabelC", "center"]
 - ["So7UILabelC", "font"]
 - !private ["So7UILabelC", "frame"]
+- ["So7UILabelC", "init"]
 - ["So7UILabelC", "init"]
 - !private ["So7UILabelC", "sizeToFit"]
 - !private ["So7UILabelC", "text"]
@@ -889,6 +974,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "font"]
 - !private ["So30UIPasteConfigurationSupportingP", "frame"]
 - !private ["So30UIPasteConfigurationSupportingP", "indicatorView"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "insets"]
 - ["So30UIPasteConfigurationSupportingP", "isHidden"]
@@ -935,6 +1021,7 @@ depends-member:
 - !private ["So11UIResponderC", "frame"]
 - ["So11UIResponderC", "indicatorView"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "insets"]
 - ["So11UIResponderC", "isHidden"]
 - ["So11UIResponderC", "layoutSubviews"]
@@ -972,6 +1059,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "font"]
 - !private ["So30UIResponderStandardEditActionsP", "frame"]
 - !private ["So30UIResponderStandardEditActionsP", "indicatorView"]
+- ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "insets"]
 - ["So30UIResponderStandardEditActionsP", "isHidden"]
@@ -1011,6 +1099,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "frame"]
 - !private ["So18UITraitEnvironmentP", "indicatorView"]
 - ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "init"]
 - ["So18UITraitEnvironmentP", "insets"]
 - ["So18UITraitEnvironmentP", "isHidden"]
 - !private ["So18UITraitEnvironmentP", "layoutSubviews"]
@@ -1031,6 +1120,45 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "titleLabel"]
 - ["So18UITraitEnvironmentP", "trigger"]
 - ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "CGPoint"]
+- ["So23UIUserActivityRestoringP", "CGRect"]
+- ["So23UIUserActivityRestoringP", "NSLocalizedString"]
+- ["So23UIUserActivityRestoringP", "UIActivityIndicatorView"]
+- ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", "UIEdgeInsets"]
+- ["So23UIUserActivityRestoringP", "UIFont"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "bounds"]
+- !private ["So23UIUserActivityRestoringP", "center"]
+- ["So23UIUserActivityRestoringP", "executeIncremental"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- ["So23UIUserActivityRestoringP", "font"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "indicatorView"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "insets"]
+- ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "layoutSubviews"]
+- !private ["So23UIUserActivityRestoringP", "loadingDescription"]
+- !private ["So23UIUserActivityRestoringP", "loadingMoreDescription"]
+- !private ["So23UIUserActivityRestoringP", "noMoreDataDescription"]
+- ["So23UIUserActivityRestoringP", "refresh"]
+- ["So23UIUserActivityRestoringP", "refreshAnimationBegin"]
+- ["So23UIUserActivityRestoringP", "refreshAnimationEnd"]
+- !private ["So23UIUserActivityRestoringP", "setNeedsLayout"]
+- !private ["So23UIUserActivityRestoringP", "sizeToFit"]
+- !private ["So23UIUserActivityRestoringP", "startAnimating"]
+- ["So23UIUserActivityRestoringP", "state"]
+- !private ["So23UIUserActivityRestoringP", "stopAnimating"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So23UIUserActivityRestoringP", "textAlignment"]
+- ["So23UIUserActivityRestoringP", "textColor"]
+- !private ["So23UIUserActivityRestoringP", "titleLabel"]
+- ["So23UIUserActivityRestoringP", "trigger"]
+- ["So23UIUserActivityRestoringP", "view"]
 - ["So6UIViewC", "CGFloat"]
 - !private ["So6UIViewC", "CGPoint"]
 - ["So6UIViewC", "CGRect"]
@@ -1056,6 +1184,7 @@ depends-member:
 - ["So6UIViewC", "font"]
 - !private ["So6UIViewC", "frame"]
 - ["So6UIViewC", "indicatorView"]
+- ["So6UIViewC", "init"]
 - ["So6UIViewC", "init"]
 - ["So6UIViewC", "insets"]
 - ["So6UIViewC", "isHidden"]
@@ -1095,6 +1224,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indicatorView"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "insets"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "isHidden"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutSubviews"]
@@ -1117,10 +1247,16 @@ depends-member:
 - ["s37_DefaultCustomPlaygroundQuickLookableP", "view"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s26_ExpressibleByColorLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
@@ -1139,6 +1275,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "font"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "indicatorView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "insets"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
@@ -1164,6 +1301,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "origin"]
 - !private ["s21_ObjectiveCBridgeableP", "size"]
 - !private ["s21_ObjectiveCBridgeableP", "width"]
@@ -1171,32 +1309,33 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "y"]
 - ["s21_ObjectiveCBridgeableP", "zero"]
 - ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
 depends-nominal:
-- "s23BidirectionalCollectionP"
+- "SK"
 - !private "Sb"
 - "So15CALayerDelegateP"
-- !private "SC7CGPointV"
-- "SC6CGRectV"
-- !private "SC6CGSizeV"
+- !private "So7CGPointV"
+- "So6CGRectV"
+- !private "So6CGSizeV"
 - "s7CVarArgP"
-- "s10CollectionP"
-- "s10ComparableP"
+- "Sl"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "s9DecodableP"
+- "Se"
 - "15ESPullToRefresh25ESRefreshAnimatorProtocolP"
 - "15ESPullToRefresh23ESRefreshFooterAnimatorC"
 - "15ESPullToRefresh17ESRefreshProtocolP"
 - "15ESPullToRefresh18ESRefreshViewStateO"
-- "s9EncodableP"
-- "s9EquatableP"
+- "SE"
+- "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
-- "s8HashableP"
+- "SH"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - "So8NSCodingP"
@@ -1204,35 +1343,37 @@ depends-nominal:
 - "So21NSItemProviderReadingP"
 - "So21NSItemProviderWritingP"
 - "So8NSObjectC"
-- "So16NSObjectProtocolP"
+- "So8NSObjectP"
 - "So14NSSecureCodingP"
-- "SC15NSTextAlignmentO"
-- "s26RangeReplaceableCollectionP"
-- "s16RawRepresentableP"
-- "s8SequenceP"
+- "So15NSTextAlignmentV"
+- "Sm"
+- "SY"
+- "ST"
 - !private "s12StaticStringV"
 - "SS"
-- "s14StringProtocolP"
+- "Sy"
+- "So28UIActivityIndicatorViewStyleV"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So23UIActivityIndicatorViewC"
-- "SC28UIActivityIndicatorViewStyleO"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So7UIColorC"
 - "So30UIContentSizeCategoryAdjustingP"
 - "So17UICoordinateSpaceP"
 - "So13UIDynamicItemP"
-- "SC12UIEdgeInsetsV"
+- "So12UIEdgeInsetsV"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
 - "So6UIFontC"
 - "So7UILabelC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
 - "So6UIViewC"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -1247,29 +1388,30 @@ depends-nominal:
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ESPullToRefresh/ESPullToRefresh-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/ESPullToRefresh.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "5a04ec88e958df7e7992d9f7247361b6"

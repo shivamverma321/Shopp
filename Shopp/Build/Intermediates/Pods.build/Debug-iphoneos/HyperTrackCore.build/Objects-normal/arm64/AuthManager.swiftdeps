@@ -1,0 +1,426 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AuthToken"
+- "AuthTokenProvider"
+- "AuthManager"
+provides-nominal:
+- "14HyperTrackCore9AuthTokenV"
+- "14HyperTrackCore9AuthTokenV4KeysO"
+- "14HyperTrackCore17AuthTokenProviderP"
+- "14HyperTrackCore11AuthManagerC"
+- "14HyperTrackCore11AuthManagerC6StatusO"
+provides-member:
+- ["14HyperTrackCore9AuthTokenV", ""]
+- ["14HyperTrackCore9AuthTokenV4KeysO", ""]
+- ["14HyperTrackCore17AuthTokenProviderP", ""]
+- ["14HyperTrackCore11AuthManagerC", ""]
+- ["14HyperTrackCore11AuthManagerC6StatusO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- !private "??"
+- "AbstractNetworkConfig"
+- "AbstractReadWriteDataStore"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "AuthManager"
+- "AuthToken"
+- "AuthTokenProvider"
+- "BaseServiceManager"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "Encoder"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "data"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "removeObject"]
+- !private ["14HyperTrackCore21AbstractReadDataStoreP", "set"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "data"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "removeObject"]
+- !private ["14HyperTrackCore26AbstractReadWriteDataStoreP", "set"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "data"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "removeObject"]
+- !private ["14HyperTrackCore22AbstractWriteDataStoreP", "set"]
+- ["14HyperTrackCore11AuthManagerC", "AbstractNetworkConfig"]
+- ["14HyperTrackCore11AuthManagerC", "AbstractReadWriteDataStore"]
+- ["14HyperTrackCore11AuthManagerC", "AuthManager"]
+- ["14HyperTrackCore11AuthManagerC", "AuthToken"]
+- ["14HyperTrackCore11AuthManagerC", "BaseServiceManager"]
+- ["14HyperTrackCore11AuthManagerC", "Codable"]
+- ["14HyperTrackCore11AuthManagerC", "Int"]
+- !private ["14HyperTrackCore11AuthManagerC", "JSONDecoder"]
+- !private ["14HyperTrackCore11AuthManagerC", "JSONEncoder"]
+- ["14HyperTrackCore11AuthManagerC", "Status"]
+- ["14HyperTrackCore11AuthManagerC", "authToken"]
+- !private ["14HyperTrackCore11AuthManagerC", "authTokenKey"]
+- !private ["14HyperTrackCore11AuthManagerC", "config"]
+- !private ["14HyperTrackCore11AuthManagerC", "dataStore"]
+- ["14HyperTrackCore11AuthManagerC", "deinit"]
+- ["14HyperTrackCore11AuthManagerC", "init"]
+- !private ["14HyperTrackCore11AuthManagerC", "serviceManager"]
+- ["14HyperTrackCore11AuthManagerC", "status"]
+- !private ["14HyperTrackCore11AuthManagerC", "statusKey"]
+- ["14HyperTrackCore9AuthTokenV", "CodingKey"]
+- ["14HyperTrackCore9AuthTokenV", "Decoder"]
+- ["14HyperTrackCore9AuthTokenV", "Encoder"]
+- ["14HyperTrackCore9AuthTokenV", "Keys"]
+- ["14HyperTrackCore9AuthTokenV", "String"]
+- !private ["14HyperTrackCore9AuthTokenV", "_findStringSwitchCase"]
+- ["14HyperTrackCore9AuthTokenV", "deinit"]
+- ["14HyperTrackCore9AuthTokenV", "encode"]
+- ["14HyperTrackCore9AuthTokenV", "init"]
+- ["14HyperTrackCore9AuthTokenV", "token"]
+- ["14HyperTrackCore17AuthTokenProviderP", "AuthManager"]
+- ["14HyperTrackCore17AuthTokenProviderP", "AuthToken"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "JSONDecoder"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "JSONEncoder"]
+- ["14HyperTrackCore17AuthTokenProviderP", "Status"]
+- ["14HyperTrackCore17AuthTokenProviderP", ""]
+- ["14HyperTrackCore17AuthTokenProviderP", "authToken"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "authTokenKey"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "config"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "dataStore"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "serviceManager"]
+- ["14HyperTrackCore17AuthTokenProviderP", "status"]
+- !private ["14HyperTrackCore17AuthTokenProviderP", "statusKey"]
+- !private ["14HyperTrackCore18BaseServiceManagerP", "stopAllServices"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "token"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "token"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "token"]
+- !private ["Se", "Keys"]
+- ["Se", "RawValue"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "active"]
+- ["Se", "encode"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- !private ["Se", "inactive"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "rawValue"]
+- !private ["Se", "token"]
+- !private ["s7DecoderP", "container"]
+- !private ["SE", "Keys"]
+- ["SE", "RawValue"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "active"]
+- ["SE", "encode"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- !private ["SE", "inactive"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "rawValue"]
+- !private ["SE", "token"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "active"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "inactive"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "token"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "active"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "encode"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "inactive"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["SH", "token"]
+- !private ["s6HasherV", "combine"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "hyperTrackDecoder"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "hyperTrackEncoder"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "RawValue"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "_Default_RawValue"]
+- !private ["14HyperTrackCore9AuthTokenV4KeysO", "_findStringSwitchCase"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "debugDescription"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "deinit"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "description"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "hash"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "hashValue"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "init"]
+- !private ["14HyperTrackCore9AuthTokenV4KeysO", "init"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "intValue"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "rawValue"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "stringValue"]
+- ["14HyperTrackCore9AuthTokenV4KeysO", "token"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "active"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "encode"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "inactive"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["SY", "token"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "RawValue"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "_Default_RawValue"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "active"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "deinit"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "encode"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "hash"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "hashValue"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "inactive"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "init"]
+- ["14HyperTrackCore11AuthManagerC6StatusO", "rawValue"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "14HyperTrackCore21AbstractReadDataStoreP"
+- !private "14HyperTrackCore26AbstractReadWriteDataStoreP"
+- !private "14HyperTrackCore22AbstractWriteDataStoreP"
+- "14HyperTrackCore11AuthManagerC"
+- "14HyperTrackCore9AuthTokenV"
+- "14HyperTrackCore17AuthTokenProviderP"
+- !private "14HyperTrackCore18BaseServiceManagerP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "14HyperTrackCore9AuthTokenV4KeysO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "Sm"
+- "SY"
+- "ST"
+- !private "s12StaticStringV"
+- "14HyperTrackCore11AuthManagerC6StatusO"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5392f18a4bfa1031cd9ccf88d38d99df"

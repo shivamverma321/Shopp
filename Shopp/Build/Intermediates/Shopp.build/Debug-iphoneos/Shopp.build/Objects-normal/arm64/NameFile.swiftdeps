@@ -4,24 +4,34 @@ provides-top-level:
 provides-nominal:
 - "5Shopp8NameFileV"
 - "5Shopp8NameFileV6SeguesV"
-- "5Shopp8NameFileV6SeguesV5ItemsV"
 - "5Shopp8NameFileV5CellsV"
 - "5Shopp8NameFileV8FirebaseV"
+- "5Shopp8NameFileV8FirebaseV6ItemDBV"
+- "5Shopp8NameFileV8FirebaseV9ProductDBV"
+- "5Shopp8NameFileV8FirebaseV10BusinessDBV"
 provides-member:
 - ["5Shopp8NameFileV", ""]
 - ["5Shopp8NameFileV6SeguesV", ""]
-- ["5Shopp8NameFileV6SeguesV5ItemsV", ""]
 - ["5Shopp8NameFileV5CellsV", ""]
 - ["5Shopp8NameFileV8FirebaseV", ""]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", ""]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", ""]
+- ["5Shopp8NameFileV8FirebaseV10BusinessDBV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "NameFile"
 - "StringLiteralType"
 depends-member:
 - ["s23BidirectionalCollectionP", "init"]
+- ["5Shopp8NameFileV8FirebaseV10BusinessDBV", "businesses"]
+- ["5Shopp8NameFileV8FirebaseV10BusinessDBV", "init"]
+- ["5Shopp8NameFileV8FirebaseV10BusinessDBV", "location"]
+- ["5Shopp8NameFileV8FirebaseV10BusinessDBV", "name"]
+- ["5Shopp8NameFileV8FirebaseV10BusinessDBV", "type"]
 - ["s7CVarArgP", "init"]
 - ["5Shopp8NameFileV5CellsV", "init"]
 - ["5Shopp8NameFileV5CellsV", "item"]
+- ["5Shopp8NameFileV5CellsV", "product"]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "init"]
@@ -34,18 +44,36 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["5Shopp8NameFileV8FirebaseV", "BusinessDB"]
+- ["5Shopp8NameFileV8FirebaseV", "ItemDB"]
+- ["5Shopp8NameFileV8FirebaseV", "ProductDB"]
 - ["5Shopp8NameFileV8FirebaseV", "init"]
 - ["s8HashableP", "init"]
-- ["5Shopp8NameFileV6SeguesV5ItemsV", "init"]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", "description"]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", "imageURL"]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", "init"]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", "items"]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", "name"]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", "price"]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", "type"]
+- ["5Shopp8NameFileV8FirebaseV6ItemDBV", "user"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
 - ["5Shopp8NameFileV", "Cells"]
 - ["5Shopp8NameFileV", "Firebase"]
 - ["5Shopp8NameFileV", "Segues"]
 - ["5Shopp8NameFileV", "init"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "description"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "imageURL"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "init"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "name"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "price"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "products"]
+- ["5Shopp8NameFileV8FirebaseV9ProductDBV", "type"]
 - ["s26RangeReplaceableCollectionP", "init"]
-- ["5Shopp8NameFileV6SeguesV", "Items"]
 - ["5Shopp8NameFileV6SeguesV", "init"]
+- ["5Shopp8NameFileV6SeguesV", "toProductVC"]
+- ["5Shopp8NameFileV6SeguesV", "unwindToItems"]
 - ["s8SequenceP", "init"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
@@ -60,6 +88,7 @@ depends-member:
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "s23BidirectionalCollectionP"
+- "5Shopp8NameFileV8FirebaseV10BusinessDBV"
 - "s7CVarArgP"
 - "5Shopp8NameFileV5CellsV"
 - "s10CollectionP"
@@ -76,10 +105,11 @@ depends-nominal:
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - "5Shopp8NameFileV8FirebaseV"
 - "s8HashableP"
-- "5Shopp8NameFileV6SeguesV5ItemsV"
+- "5Shopp8NameFileV8FirebaseV6ItemDBV"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - "5Shopp8NameFileV"
+- "5Shopp8NameFileV8FirebaseV9ProductDBV"
 - "s26RangeReplaceableCollectionP"
 - "5Shopp8NameFileV6SeguesV"
 - "s8SequenceP"
@@ -97,6 +127,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Geofirestore/Geofirestore.framework/Modules/Geofirestore.swiftmodule/arm64.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Modules/ESPullToRefresh.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
@@ -104,23 +136,33 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Geofirestore/Geofirestore.framework/Headers/Geofirestore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Headers/FirebaseFunctions-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRCollectionReference.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentReference.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSource.h"
@@ -129,14 +171,22 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentChange.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Headers/FIRHTTPSCallable.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestore.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Firebase/CoreOnly/Sources/Firebase.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GeoFire+Private.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFQuery+Private.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldValue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRWriteBatch.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFGeoHash.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFieldPath.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
@@ -164,6 +214,7 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Headers/FIRError.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
@@ -173,25 +224,42 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFBase32Utils.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Headers/FIRFunctions.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Headers/FirebaseFunctions.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Geofirestore/Geofirestore.framework/Headers/Geofirestore-Swift.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-Swift.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRGeoPoint.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFQuery.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRQuery.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFCircleQuery.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFGeoHashQuery.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Headers/GFRegionQuery.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/GeoFire/GeoFire.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/Geofirestore/Geofirestore.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphoneos/FirebaseFunctions/FirebaseFunctions.framework/Modules/module.modulemap"
@@ -202,8 +270,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "e8e575888f5bf275f0502c4c1e6def59"
+interface-hash: "8f2d93e01008442f79dce50d9102dae3"

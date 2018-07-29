@@ -1,0 +1,729 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Constant"
+- "EventType"
+- "EventCollectionType"
+provides-nominal:
+- "14HyperTrackCore8ConstantO"
+- "14HyperTrackCore8ConstantO12NotificationO"
+- "14HyperTrackCore8ConstantO12NotificationO9DataStoreO"
+- "14HyperTrackCore8ConstantO12NotificationO8DatabaseO"
+- "14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO"
+- "14HyperTrackCore8ConstantO12NotificationO12TransmissionO"
+- "14HyperTrackCore8ConstantO12NotificationO12TransmissionO13SendDataEventO"
+- "14HyperTrackCore8ConstantO12NotificationO12TransmissionO13DataSentEventO"
+- "14HyperTrackCore8ConstantO12NotificationO6HealthO"
+- "14HyperTrackCore8ConstantO12NotificationO6ConfigO"
+- "14HyperTrackCore8ConstantO12NotificationO6ConfigO0F12ChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8DispatchO"
+- "14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8ActivityO"
+- "14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8LocationO"
+- "14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO7NetworkO"
+- "14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8TrackingO"
+- "14HyperTrackCore8ConstantO12NotificationO8TrackingO5PauseO"
+- "14HyperTrackCore8ConstantO12NotificationO8TrackingO6ResumeO"
+- "14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO"
+- "14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO"
+- "14HyperTrackCore8ConstantO7ContextO"
+- "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore8ConstantO6ConfigO9DataStoreO"
+- "14HyperTrackCore8ConstantO6ConfigO7NetworkO"
+- "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore8ConstantO6ConfigO12TransmissionO"
+- "14HyperTrackCore8ConstantO6ConfigO8ServicesO"
+- "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore8ConstantO6ConfigO10CollectionO"
+- "14HyperTrackCore8ConstantO6ConfigO9HeartbeatO"
+- "14HyperTrackCore8ConstantO10EventValueO"
+- "14HyperTrackCore8ConstantO10EventValueO8ActivityO"
+- "14HyperTrackCore8ConstantO10ServerKeysO"
+- "14HyperTrackCore8ConstantO10ServerKeysO5EventO"
+- "14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO"
+- "14HyperTrackCore8ConstantO10ServerKeysO9HeartbeatO"
+- "14HyperTrackCore8ConstantO8DatabaseO"
+- "14HyperTrackCore8ConstantO8DatabaseO9TableNameO"
+- "14HyperTrackCore8ConstantO9HeartbeatO"
+- "14HyperTrackCore8ConstantO9HeartbeatO3KeyO"
+- "14HyperTrackCore8ConstantO6HealthO"
+- "14HyperTrackCore8ConstantO6HealthO3KeyO"
+- "14HyperTrackCore8ConstantO6HealthO8TrackingO"
+- "14HyperTrackCore8ConstantO6HealthO15LocationServiceO"
+- "14HyperTrackCore8ConstantO6HealthO18LocationPermissionO"
+- "14HyperTrackCore8ConstantO6HealthO8ActivityO"
+- "14HyperTrackCore8ConstantO6HealthO12BatteryLevelO"
+- "14HyperTrackCore8ConstantO6HealthO12BatteryStateO"
+- "14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO"
+- "14HyperTrackCore8ConstantO6HealthO10DeviceBootO"
+- "14HyperTrackCore9EventTypeO"
+- "14HyperTrackCore19EventCollectionTypeO"
+provides-member:
+- ["14HyperTrackCore8ConstantO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO9DataStoreO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13SendDataEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13DataSentEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO6HealthO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO6ConfigO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO6ConfigO0F12ChangedEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8DispatchO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8LocationO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO7NetworkO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO5PauseO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO6ResumeO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO", ""]
+- ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO", ""]
+- ["14HyperTrackCore8ConstantO7ContextO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO9DataStoreO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO12TransmissionO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO8ServicesO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO10CollectionO", ""]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", ""]
+- ["14HyperTrackCore8ConstantO10EventValueO", ""]
+- ["14HyperTrackCore8ConstantO10EventValueO8ActivityO", ""]
+- ["14HyperTrackCore8ConstantO10ServerKeysO", ""]
+- ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", ""]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", ""]
+- ["14HyperTrackCore8ConstantO10ServerKeysO9HeartbeatO", ""]
+- ["14HyperTrackCore8ConstantO8DatabaseO", ""]
+- ["14HyperTrackCore8ConstantO8DatabaseO9TableNameO", ""]
+- ["14HyperTrackCore8ConstantO9HeartbeatO", ""]
+- ["14HyperTrackCore8ConstantO9HeartbeatO3KeyO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO3KeyO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", ""]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", ""]
+- ["14HyperTrackCore9EventTypeO", ""]
+- ["14HyperTrackCore19EventCollectionTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "+"
+- "=="
+- !private "Array"
+- "Bool"
+- "BooleanLiteralType"
+- "Constant"
+- "Double"
+- "EventCollectionType"
+- "EventType"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "TimeInterval"
+- "UInt"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO", "ActivityChangedEvent"]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO", "PermissionChangedEvent"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "RawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "_Default_RawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO10EventValueO8ActivityO", "cycle"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "deinit"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "disabled"]
+- ["14HyperTrackCore8ConstantO10EventValueO8ActivityO", "drive"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "enabled"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "hash"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "hashValue"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO8ActivityO", "rawValue"]
+- ["14HyperTrackCore8ConstantO10EventValueO8ActivityO", "run"]
+- ["14HyperTrackCore8ConstantO10EventValueO8ActivityO", "stop"]
+- ["14HyperTrackCore8ConstantO10EventValueO8ActivityO", "unknown"]
+- ["14HyperTrackCore8ConstantO10EventValueO8ActivityO", "walk"]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO", "name"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "RawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "_Default_RawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "deinit"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "hash"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "hashValue"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "low"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "normal"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryLevelO", "rawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "RawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "_Default_RawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "charging"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "deinit"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "discharging"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "hash"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "hashValue"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO12BatteryStateO", "rawValue"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["14HyperTrackCore8ConstantO6ConfigO10CollectionO", "Bool"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["14HyperTrackCore8ConstantO6ConfigO10CollectionO", "isFiltering"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Bool"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Collection"]
+- ["14HyperTrackCore8ConstantO12NotificationO6ConfigO", "ConfigChangedEvent"]
+- ["14HyperTrackCore8ConstantO12NotificationO6ConfigO", "Constant"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "DataStore"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Dispatch"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Double"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Heartbeat"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Int"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Location"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Network"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Services"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "String"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "TimeInterval"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "Transmission"]
+- ["14HyperTrackCore8ConstantO6ConfigO", "UInt"]
+- ["14HyperTrackCore8ConstantO12NotificationO6ConfigO0F12ChangedEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO6ConfigO0F12ChangedEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO6ConfigO0F12ChangedEventO", "name"]
+- ["14HyperTrackCore8ConstantO", "Bool"]
+- ["14HyperTrackCore8ConstantO", "Config"]
+- ["14HyperTrackCore8ConstantO", "Constant"]
+- ["14HyperTrackCore8ConstantO", "Context"]
+- ["14HyperTrackCore8ConstantO", "Database"]
+- ["14HyperTrackCore8ConstantO", "Double"]
+- ["14HyperTrackCore8ConstantO", "EventValue"]
+- ["14HyperTrackCore8ConstantO", "Float"]
+- ["14HyperTrackCore8ConstantO", "Health"]
+- ["14HyperTrackCore8ConstantO", "Heartbeat"]
+- ["14HyperTrackCore8ConstantO", "Int"]
+- ["14HyperTrackCore8ConstantO", "Notification"]
+- ["14HyperTrackCore8ConstantO", "ServerKeys"]
+- ["14HyperTrackCore8ConstantO", "String"]
+- ["14HyperTrackCore8ConstantO", "TimeInterval"]
+- ["14HyperTrackCore8ConstantO", "UInt"]
+- !private ["14HyperTrackCore8ConstantO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO", "lowBatteryValue"]
+- ["14HyperTrackCore8ConstantO", "namespace"]
+- ["14HyperTrackCore8ConstantO7ContextO", "activity"]
+- ["14HyperTrackCore8ConstantO7ContextO", "appState"]
+- ["14HyperTrackCore8ConstantO7ContextO", "collectionPipeline"]
+- ["14HyperTrackCore8ConstantO7ContextO", "config"]
+- ["14HyperTrackCore8ConstantO7ContextO", "dataStore"]
+- ["14HyperTrackCore8ConstantO7ContextO", "database"]
+- ["14HyperTrackCore8ConstantO7ContextO", "dispatch"]
+- ["14HyperTrackCore8ConstantO7ContextO", "eventBus"]
+- ["14HyperTrackCore8ConstantO7ContextO", "fileStorage"]
+- ["14HyperTrackCore8ConstantO7ContextO", "health"]
+- ["14HyperTrackCore8ConstantO7ContextO", "heartbeat"]
+- ["14HyperTrackCore8ConstantO7ContextO", "initPipeline"]
+- ["14HyperTrackCore8ConstantO7ContextO", "lifecycle"]
+- ["14HyperTrackCore8ConstantO7ContextO", "location"]
+- ["14HyperTrackCore8ConstantO7ContextO", "network"]
+- ["14HyperTrackCore8ConstantO7ContextO", "pipelineStep"]
+- ["14HyperTrackCore8ConstantO7ContextO", "services"]
+- ["14HyperTrackCore8ConstantO7ContextO", "transmissionPipeline"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO", "name"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13DataSentEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13DataSentEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13DataSentEventO", "name"]
+- ["14HyperTrackCore8ConstantO6ConfigO9DataStoreO", "dataStoreSuitName"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DatabaseO", "DataAvailableEvent"]
+- ["14HyperTrackCore8ConstantO8DatabaseO", "TableName"]
+- ["14HyperTrackCore8ConstantO8DatabaseO", "name"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "RawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "_Default_RawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "deinit"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "hash"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "hashValue"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "rawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "switchOff"]
+- ["14HyperTrackCore8ConstantO6HealthO10DeviceBootO", "switchOn"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "appPackageName"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "appVersion"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "deviceHardware"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "deviceId"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "deviceManufacturer"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "hasPlayServices"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "networkOperator"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "osName"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "osVersion"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "recordedAt"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "sdkVersion"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO", "timeZone"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DispatchO", "Constant"]
+- ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "Double"]
+- ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "Int"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DispatchO", "TypeChangedEvent"]
+- ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "debounce"]
+- ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "frequency"]
+- ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "throttle"]
+- ["14HyperTrackCore8ConstantO6ConfigO8DispatchO", "tolerance"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SQ", "Constant"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "offline"]
+- ["SQ", "online"]
+- ["SQ", "rawValue"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "data"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "deviceId"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "events"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "id"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "recordedAt"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO5EventO", "type"]
+- !private ["14HyperTrackCore19EventCollectionTypeO", "Constant"]
+- ["14HyperTrackCore19EventCollectionTypeO", "String"]
+- ["14HyperTrackCore19EventCollectionTypeO", "__derived_enum_equals"]
+- ["14HyperTrackCore19EventCollectionTypeO", "deinit"]
+- ["14HyperTrackCore19EventCollectionTypeO", "hash"]
+- ["14HyperTrackCore19EventCollectionTypeO", "hashValue"]
+- ["14HyperTrackCore19EventCollectionTypeO", "offline"]
+- ["14HyperTrackCore19EventCollectionTypeO", "online"]
+- ["14HyperTrackCore19EventCollectionTypeO", "tableName"]
+- ["14HyperTrackCore9EventTypeO", "RawValue"]
+- ["14HyperTrackCore9EventTypeO", "_Default_RawValue"]
+- !private ["14HyperTrackCore9EventTypeO", "_findStringSwitchCase"]
+- ["14HyperTrackCore9EventTypeO", "activityChange"]
+- ["14HyperTrackCore9EventTypeO", "deinit"]
+- ["14HyperTrackCore9EventTypeO", "deviceReconnected"]
+- ["14HyperTrackCore9EventTypeO", "hash"]
+- ["14HyperTrackCore9EventTypeO", "hashValue"]
+- ["14HyperTrackCore9EventTypeO", "healthChange"]
+- ["14HyperTrackCore9EventTypeO", "init"]
+- ["14HyperTrackCore9EventTypeO", "locationChange"]
+- ["14HyperTrackCore9EventTypeO", "rawValue"]
+- ["14HyperTrackCore8ConstantO10EventValueO", "Activity"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Constant"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "offline"]
+- ["SH", "online"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- ["14HyperTrackCore8ConstantO6HealthO", "Activity"]
+- ["14HyperTrackCore8ConstantO6HealthO", "BatteryLevel"]
+- ["14HyperTrackCore8ConstantO6HealthO", "BatteryState"]
+- ["14HyperTrackCore8ConstantO6HealthO", "DeviceBoot"]
+- ["14HyperTrackCore8ConstantO6HealthO", "Key"]
+- ["14HyperTrackCore8ConstantO6HealthO", "LocationPermission"]
+- ["14HyperTrackCore8ConstantO6HealthO", "LocationService"]
+- ["14HyperTrackCore8ConstantO6HealthO", "SdkRunningState"]
+- ["14HyperTrackCore8ConstantO6HealthO", "String"]
+- ["14HyperTrackCore8ConstantO6HealthO", "Tracking"]
+- !private ["14HyperTrackCore8ConstantO6HealthO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "Bool"]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "Int"]
+- ["14HyperTrackCore8ConstantO9HeartbeatO", "Key"]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "TimeInterval"]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "disconnectInterval"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO9HeartbeatO", "lastPingTime"]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "pingInterval"]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "retryCount"]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "retryInterval"]
+- ["14HyperTrackCore8ConstantO6ConfigO9HeartbeatO", "toPing"]
+- ["14HyperTrackCore8ConstantO9HeartbeatO", "url"]
+- ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO", "StatusChangedEvent"]
+- ["14HyperTrackCore8ConstantO6HealthO3KeyO", "activity"]
+- ["14HyperTrackCore8ConstantO6HealthO3KeyO", "batteryLevel"]
+- ["14HyperTrackCore8ConstantO6HealthO3KeyO", "batteryState"]
+- ["14HyperTrackCore8ConstantO6HealthO3KeyO", "deviceBoot"]
+- ["14HyperTrackCore8ConstantO9HeartbeatO3KeyO", "lastSuccessTimeStamp"]
+- ["14HyperTrackCore8ConstantO6HealthO3KeyO", "location"]
+- ["14HyperTrackCore8ConstantO6HealthO3KeyO", "sdkRunningState"]
+- ["14HyperTrackCore8ConstantO6HealthO3KeyO", "tracking"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "Bool"]
+- ["14HyperTrackCore8ConstantO12NotificationO8LocationO", "Constant"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "Double"]
+- ["14HyperTrackCore8ConstantO12NotificationO8LocationO", "PermissionChangedEvent"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "backgroundLocationUpdates"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "deferredLocationUpdatesDistance"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "deferredLocationUpdatesTimeout"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "desiredAccuracy"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "distanceFilter"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "distanceFilterForLowSpeed"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "onlySignificantLocationUpdates"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "pausesLocationUpdatesAutomatically"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "permissionType"]
+- ["14HyperTrackCore8ConstantO6ConfigO8LocationO", "showsBackgroundLocationIndicator"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "RawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "_Default_RawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "deinit"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "denied"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "granted"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "hash"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "hashValue"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO18LocationPermissionO", "rawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "RawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "_Default_RawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "deinit"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "disabled"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "enabled"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "hash"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "hashValue"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO15LocationServiceO", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["14HyperTrackCore8ConstantO12NotificationO7NetworkO", "Constant"]
+- ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "Double"]
+- ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "Int"]
+- ["14HyperTrackCore8ConstantO12NotificationO7NetworkO", "ReachabilityEvent"]
+- ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "String"]
+- ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "host"]
+- ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "retryCount"]
+- ["14HyperTrackCore8ConstantO6ConfigO7NetworkO", "timeoutInterval"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Activity"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Config"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "DataStore"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Database"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Dispatch"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Health"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "HeartbeatService"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Location"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Network"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Tracking"]
+- ["14HyperTrackCore8ConstantO12NotificationO", "Transmission"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO5PauseO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO5PauseO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO5PauseO", "name"]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO", "name"]
+- ["14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO", "name"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO", "name"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO6ResumeO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO6ResumeO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO6ResumeO", "name"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "RawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "_Default_RawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "deinit"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "hash"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "hashValue"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "killed"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "rawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO", "restarted"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13SendDataEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13SendDataEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO13SendDataEventO", "name"]
+- ["ST", "init"]
+- ["ST", "init"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO", "DeviceInfo"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO", "Event"]
+- ["14HyperTrackCore8ConstantO10ServerKeysO", "Heartbeat"]
+- ["14HyperTrackCore8ConstantO6ConfigO8ServicesO", "Int"]
+- ["14HyperTrackCore8ConstantO6ConfigO8ServicesO", "types"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO", "name"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["14HyperTrackCore8ConstantO8DatabaseO9TableNameO", "offlineEvent"]
+- ["14HyperTrackCore8ConstantO8DatabaseO9TableNameO", "onlineEvent"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO", "Pause"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "RawValue"]
+- ["14HyperTrackCore8ConstantO12NotificationO8TrackingO", "Resume"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "_Default_RawValue"]
+- !private ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "_findStringSwitchCase"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "deinit"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "hash"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "hashValue"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "init"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "pause"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "rawValue"]
+- ["14HyperTrackCore8ConstantO6HealthO8TrackingO", "resume"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO", "DataSentEvent"]
+- ["14HyperTrackCore8ConstantO12NotificationO12TransmissionO", "SendDataEvent"]
+- ["14HyperTrackCore8ConstantO6ConfigO12TransmissionO", "UInt"]
+- ["14HyperTrackCore8ConstantO6ConfigO12TransmissionO", "batchSize"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO", "Constant"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO", "key"]
+- ["14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO", "name"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14HyperTrackCore8ConstantO12NotificationO8ActivityO"
+- "14HyperTrackCore8ConstantO6HealthO8ActivityO"
+- "14HyperTrackCore8ConstantO10EventValueO8ActivityO"
+- "14HyperTrackCore8ConstantO6HealthO8ActivityO"
+- "14HyperTrackCore8ConstantO10EventValueO8ActivityO"
+- "14HyperTrackCore8ConstantO6HealthO8ActivityO"
+- "14HyperTrackCore8ConstantO10EventValueO8ActivityO"
+- "14HyperTrackCore8ConstantO12NotificationO8ActivityO0F12ChangedEventO"
+- "14HyperTrackCore8ConstantO6HealthO12BatteryLevelO"
+- "14HyperTrackCore8ConstantO6HealthO12BatteryStateO"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "14HyperTrackCore8ConstantO6ConfigO10CollectionO"
+- "Sl"
+- "14HyperTrackCore8ConstantO6ConfigO10CollectionO"
+- "SL"
+- "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore8ConstantO12NotificationO6ConfigO"
+- "14HyperTrackCore8ConstantO6ConfigO"
+- "14HyperTrackCore8ConstantO12NotificationO6ConfigO0F12ChangedEventO"
+- "14HyperTrackCore8ConstantO"
+- "14HyperTrackCore8ConstantO7ContextO"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "14HyperTrackCore8ConstantO12NotificationO8DatabaseO18DataAvailableEventO"
+- "14HyperTrackCore8ConstantO12NotificationO12TransmissionO13DataSentEventO"
+- "14HyperTrackCore8ConstantO6ConfigO9DataStoreO"
+- "14HyperTrackCore8ConstantO12NotificationO8DatabaseO"
+- "14HyperTrackCore8ConstantO8DatabaseO"
+- "Se"
+- "14HyperTrackCore8ConstantO6HealthO10DeviceBootO"
+- "14HyperTrackCore8ConstantO10ServerKeysO10DeviceInfoO"
+- "14HyperTrackCore8ConstantO12NotificationO8DispatchO"
+- "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "14HyperTrackCore8ConstantO12NotificationO8DispatchO"
+- "14HyperTrackCore8ConstantO6ConfigO8DispatchO"
+- "SE"
+- "SQ"
+- "14HyperTrackCore8ConstantO10ServerKeysO5EventO"
+- "14HyperTrackCore19EventCollectionTypeO"
+- "14HyperTrackCore9EventTypeO"
+- "14HyperTrackCore8ConstantO10EventValueO"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "14HyperTrackCore8ConstantO6HealthO"
+- "14HyperTrackCore8ConstantO6ConfigO9HeartbeatO"
+- "14HyperTrackCore8ConstantO9HeartbeatO"
+- "14HyperTrackCore8ConstantO6ConfigO9HeartbeatO"
+- "14HyperTrackCore8ConstantO10ServerKeysO9HeartbeatO"
+- "14HyperTrackCore8ConstantO6ConfigO9HeartbeatO"
+- "14HyperTrackCore8ConstantO9HeartbeatO"
+- "14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO"
+- "14HyperTrackCore8ConstantO6HealthO3KeyO"
+- "14HyperTrackCore8ConstantO9HeartbeatO3KeyO"
+- "14HyperTrackCore8ConstantO6HealthO3KeyO"
+- "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore8ConstantO12NotificationO8LocationO"
+- "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore8ConstantO12NotificationO8LocationO"
+- "14HyperTrackCore8ConstantO6ConfigO8LocationO"
+- "14HyperTrackCore8ConstantO6HealthO18LocationPermissionO"
+- "14HyperTrackCore8ConstantO6HealthO15LocationServiceO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "14HyperTrackCore8ConstantO12NotificationO7NetworkO"
+- "14HyperTrackCore8ConstantO6ConfigO7NetworkO"
+- "14HyperTrackCore8ConstantO12NotificationO7NetworkO"
+- "14HyperTrackCore8ConstantO6ConfigO7NetworkO"
+- "14HyperTrackCore8ConstantO12NotificationO"
+- "14HyperTrackCore8ConstantO12NotificationO8TrackingO5PauseO"
+- "14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8ActivityO22PermissionChangedEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8LocationO22PermissionChangedEventO"
+- "Sm"
+- "SY"
+- "14HyperTrackCore8ConstantO12NotificationO7NetworkO17ReachabilityEventO"
+- "14HyperTrackCore8ConstantO12NotificationO8TrackingO6ResumeO"
+- "14HyperTrackCore8ConstantO6HealthO15SdkRunningStateO"
+- "14HyperTrackCore8ConstantO12NotificationO12TransmissionO13SendDataEventO"
+- "ST"
+- "14HyperTrackCore8ConstantO10ServerKeysO"
+- "14HyperTrackCore8ConstantO6ConfigO8ServicesO"
+- !private "s12StaticStringV"
+- "14HyperTrackCore8ConstantO12NotificationO16HeartbeatServiceO18StatusChangedEventO"
+- "SS"
+- "Sy"
+- "14HyperTrackCore8ConstantO8DatabaseO9TableNameO"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "14HyperTrackCore8ConstantO12NotificationO8TrackingO"
+- "14HyperTrackCore8ConstantO6HealthO8TrackingO"
+- "14HyperTrackCore8ConstantO12NotificationO8TrackingO"
+- "14HyperTrackCore8ConstantO6HealthO8TrackingO"
+- "14HyperTrackCore8ConstantO12NotificationO12TransmissionO"
+- "14HyperTrackCore8ConstantO6ConfigO12TransmissionO"
+- "14HyperTrackCore8ConstantO12NotificationO8DispatchO16TypeChangedEventO"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "87642fa329d68cb7ecd20cb5841c3fbd"

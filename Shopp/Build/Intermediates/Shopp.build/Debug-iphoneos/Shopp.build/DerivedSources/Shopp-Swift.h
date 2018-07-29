@@ -164,6 +164,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
+@import Foundation;
+@import MapKit;
+@import CoreLocation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -196,37 +200,151 @@ SWIFT_CLASS("_TtC5Shopp11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
-@class UILabel;
+@class UIImage;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC5Shopp14AsyncImageView")
+@interface AsyncImageView : UIImageView
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image highlightedImage:(UIImage * _Nullable)highlightedImage OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIColor;
+
+SWIFT_CLASS("_TtC5Shopp12GradientView")
+@interface GradientView : UIView
+@property (nonatomic, strong) UIColor * _Nonnull startColor;
+@property (nonatomic, strong) UIColor * _Nonnull middleColor;
+@property (nonatomic, strong) UIColor * _Nonnull endColor;
+@property (nonatomic) double startLocation;
+@property (nonatomic) double middleLocation;
+@property (nonatomic) double endLocation;
+@property (nonatomic) BOOL horizontalMode;
+@property (nonatomic) BOOL diagonalMode;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
++ (Class _Nonnull)layerClass SWIFT_WARN_UNUSED_RESULT;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
 
 SWIFT_CLASS("_TtC5Shopp8ItemCell")
 @interface ItemCell : UITableViewCell
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified itemImageView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descriptionLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified priceLabel;
+@property (nonatomic, weak) IBOutlet AsyncImageView * _Null_unspecified itemImageView;
 - (void)awakeFromNib;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UISearchBar;
+@class UIButton;
 @class UITableView;
+@class UIScrollView;
+@class UIStoryboardSegue;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC5Shopp7ItemsVC")
-@interface ItemsVC : UIViewController
+@interface ItemsVC : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified yourItemsLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified itemCountLabel;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImageView;
+@property (nonatomic, weak) IBOutlet AsyncImageView * _Null_unspecified profileImageView;
 @property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified inventoryTableView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified noItemsLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified noItemsDescriptionLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified noItemsAddItemBtn;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+- (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (IBAction)unwindToItemsWithSegue:(UIStoryboardSegue * _Nonnull)segue;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+@class MKMapView;
+@protocol MKOverlay;
+@class MKOverlayRenderer;
+@class CLLocationManager;
+@class CLLocation;
+
+SWIFT_CLASS("_TtC5Shopp5MapVC")
+@interface MapVC : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate>
+@property (nonatomic, weak) IBOutlet MKMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidDisappear:(BOOL)animated;
+- (MKOverlayRenderer * _Nonnull)mapView:(MKMapView * _Nonnull)mapView rendererForOverlay:(id <MKOverlay> _Nonnull)overlay SWIFT_WARN_UNUSED_RESULT;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Shopp11ProductCell")
+@interface ProductCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet AsyncImageView * _Null_unspecified productImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descriptionLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified priceLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified addBtn;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Shopp9ProductVC")
+@interface ProductVC : UITableViewController <UISearchBarDelegate>
+@property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

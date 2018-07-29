@@ -1,0 +1,337 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Provider"
+provides-nominal:
+- "14HyperTrackCore8ProviderC"
+provides-member:
+- ["14HyperTrackCore8ProviderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "APIClient"
+- "AbstractAPIClient"
+- "AbstractAppState"
+- "AbstractCollectionPipeline"
+- "AbstractConfigManager"
+- "AbstractDatabaseManager"
+- "AbstractDispatch"
+- "AbstractEventBus"
+- "AbstractFileStorage"
+- "AbstractLogger"
+- "AbstractReadWriteDataStore"
+- "AbstractServiceManager"
+- "AbstractTransmissionManager"
+- "AppState"
+- "Array"
+- "AuthManager"
+- "AuthTokenProvider"
+- "CollectionPipeline"
+- "ConfigManager"
+- "Constant"
+- "DatabaseManager"
+- "Dispatch"
+- "DispatchStrategyContext"
+- "EventBusWrapper"
+- "FileStorage"
+- "HeartbeatService"
+- "InitializationPipeline"
+- "LoggerWrapper"
+- "Provider"
+- "ReadWriteDataStoreWrapper"
+- "ServiceFactory"
+- "ServiceManager"
+- "TransmissionManager"
+depends-member:
+- ["14HyperTrackCore9APIClientC", "deinit"]
+- ["14HyperTrackCore9APIClientC", "init"]
+- ["14HyperTrackCore17AbstractAPIClientP", "init"]
+- ["14HyperTrackCore22AbstractActivityConfigP", "services"]
+- ["14HyperTrackCore16AbstractAppStateP", "getHeartbeatInfo"]
+- ["14HyperTrackCore16AbstractAppStateP", "init"]
+- ["14HyperTrackCore24AbstractCollectionConfigP", "services"]
+- ["14HyperTrackCore26AbstractCollectionPipelineP", "Input"]
+- ["14HyperTrackCore26AbstractCollectionPipelineP", "init"]
+- ["14HyperTrackCore14AbstractConfigP", "services"]
+- ["14HyperTrackCore21AbstractConfigManagerP", "config"]
+- ["14HyperTrackCore21AbstractConfigManagerP", "init"]
+- ["14HyperTrackCore23AbstractDataStoreConfigP", "services"]
+- ["14HyperTrackCore23AbstractDatabaseManagerP", "Info"]
+- ["14HyperTrackCore23AbstractDatabaseManagerP", "init"]
+- ["14HyperTrackCore16AbstractDispatchP", "init"]
+- ["14HyperTrackCore22AbstractDispatchConfigP", "services"]
+- ["14HyperTrackCore31AbstractDispatchStrategyContextP", "init"]
+- ["14HyperTrackCore19AbstractFileStorageP", "init"]
+- ["14HyperTrackCore20AbstractInitPipelineP", "init"]
+- ["14HyperTrackCore22AbstractLocationConfigP", "services"]
+- ["14HyperTrackCore22AbstractLocationUpdateP", "init"]
+- ["14HyperTrackCore21AbstractNetworkConfigP", "services"]
+- ["14HyperTrackCore16AbstractPipelineP", "Input"]
+- ["14HyperTrackCore16AbstractPipelineP", "init"]
+- ["14HyperTrackCore22AbstractServiceFactoryP", "init"]
+- ["14HyperTrackCore22AbstractServiceManagerP", "init"]
+- ["14HyperTrackCore23AbstractServiceProtocolP", "init"]
+- ["14HyperTrackCore22AbstractServicesConfigP", "services"]
+- ["14HyperTrackCore26AbstractTransmissionConfigP", "services"]
+- ["14HyperTrackCore27AbstractTransmissionManagerP", "Input"]
+- ["14HyperTrackCore27AbstractTransmissionManagerP", "init"]
+- ["14HyperTrackCore8AppStateC", "deinit"]
+- ["14HyperTrackCore8AppStateC", "init"]
+- ["14HyperTrackCore11AuthManagerC", "deinit"]
+- ["14HyperTrackCore11AuthManagerC", "init"]
+- ["14HyperTrackCore17AuthTokenProviderP", "init"]
+- ["14HyperTrackCore18BaseServiceManagerP", "init"]
+- ["s7CVarArgP", "services"]
+- ["14HyperTrackCore18CollectionPipelineC", "Input"]
+- ["14HyperTrackCore18CollectionPipelineC", "deinit"]
+- ["14HyperTrackCore18CollectionPipelineC", "init"]
+- ["14HyperTrackCore6ConfigC", "deinit"]
+- ["14HyperTrackCore6ConfigC", "services"]
+- ["14HyperTrackCore13ConfigManagerC", "deinit"]
+- ["14HyperTrackCore13ConfigManagerC", "init"]
+- ["14HyperTrackCore8ConstantO", "Database"]
+- ["s28CustomDebugStringConvertibleP", "services"]
+- ["s23CustomStringConvertibleP", "services"]
+- ["14HyperTrackCore8ConstantO8DatabaseO", "name"]
+- ["14HyperTrackCore15DatabaseManagerC", "Info"]
+- ["14HyperTrackCore15DatabaseManagerC", "deinit"]
+- ["14HyperTrackCore15DatabaseManagerC", "init"]
+- ["Se", "services"]
+- ["Se", "types"]
+- ["14HyperTrackCore18DeviceDataProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore18DeviceDataProtocolP", "init"]
+- ["14HyperTrackCore8DispatchC", "deinit"]
+- ["14HyperTrackCore8DispatchC", "init"]
+- ["14HyperTrackCore23DispatchStrategyContextC", "deinit"]
+- ["14HyperTrackCore23DispatchStrategyContextC", "init"]
+- ["SE", "services"]
+- ["SE", "types"]
+- ["SQ", "offline"]
+- ["SQ", "online"]
+- ["SQ", "services"]
+- ["14HyperTrackCore15EventBusWrapperC", "center"]
+- ["14HyperTrackCore15EventBusWrapperC", "init"]
+- ["14HyperTrackCore19EventCollectionTypeO", "offline"]
+- ["14HyperTrackCore19EventCollectionTypeO", "online"]
+- ["14HyperTrackCore11FileStorageC", "deinit"]
+- ["14HyperTrackCore11FileStorageC", "init"]
+- ["14HyperTrackCore20GetAccountIdProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore20GetAccountIdProtocolP", "init"]
+- ["14HyperTrackCore19GetDeviceIdProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore19GetDeviceIdProtocolP", "init"]
+- ["14HyperTrackCore25GetPublishableKeyProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore25GetPublishableKeyProtocolP", "init"]
+- ["SH", "offline"]
+- ["SH", "online"]
+- ["SH", "services"]
+- ["14HyperTrackCore21HeartbeatInfoProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore21HeartbeatInfoProtocolP", "init"]
+- ["14HyperTrackCore21HeartbeatPingProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore21HeartbeatPingProtocolP", "init"]
+- ["14HyperTrackCore16HeartbeatServiceC", "init"]
+- ["14HyperTrackCore22HeartbeatServiceConfigP", "services"]
+- ["14HyperTrackCore15DatabaseManagerC4InfoV", "init"]
+- ["14HyperTrackCore22InitializationPipelineC", "init"]
+- ["14HyperTrackCore18CollectionPipelineC5InputV", "init"]
+- ["14HyperTrackCore19TransmissionManagerC5InputV", "init"]
+- ["14HyperTrackCore13LoggerWrapperC", "init"]
+- ["14HyperTrackCore13LoggerWrapperC", "lumberJack"]
+- ["14HyperTrackCore16LumberJackLoggerC", "deinit"]
+- ["So8NSObjectC", "services"]
+- ["So8NSObjectP", "services"]
+- ["14HyperTrackCore15PipelineLoggingP", "Input"]
+- ["14HyperTrackCore15PipelineLoggingP", "init"]
+- ["14HyperTrackCore8ProviderC", "APIClient"]
+- ["14HyperTrackCore8ProviderC", "AbstractAPIClient"]
+- ["14HyperTrackCore8ProviderC", "AbstractAppState"]
+- ["14HyperTrackCore8ProviderC", "AbstractCollectionPipeline"]
+- ["14HyperTrackCore8ProviderC", "AbstractConfigManager"]
+- ["14HyperTrackCore8ProviderC", "AbstractDatabaseManager"]
+- ["14HyperTrackCore8ProviderC", "AbstractDispatch"]
+- ["14HyperTrackCore8ProviderC", "AbstractEventBus"]
+- ["14HyperTrackCore8ProviderC", "AbstractFileStorage"]
+- ["14HyperTrackCore8ProviderC", "AbstractLogger"]
+- ["14HyperTrackCore8ProviderC", "AbstractReadWriteDataStore"]
+- ["14HyperTrackCore8ProviderC", "AbstractServiceManager"]
+- ["14HyperTrackCore8ProviderC", "AbstractTransmissionManager"]
+- ["14HyperTrackCore8ProviderC", "AppState"]
+- ["14HyperTrackCore8ProviderC", "AuthManager"]
+- ["14HyperTrackCore8ProviderC", "AuthTokenProvider"]
+- ["14HyperTrackCore8ProviderC", "CollectionPipeline"]
+- ["14HyperTrackCore8ProviderC", "ConfigManager"]
+- ["14HyperTrackCore8ProviderC", "Constant"]
+- ["14HyperTrackCore8ProviderC", "DatabaseManager"]
+- ["14HyperTrackCore8ProviderC", "Dispatch"]
+- ["14HyperTrackCore8ProviderC", "DispatchStrategyContext"]
+- ["14HyperTrackCore8ProviderC", "EventBusWrapper"]
+- ["14HyperTrackCore8ProviderC", "FileStorage"]
+- ["14HyperTrackCore8ProviderC", "HeartbeatService"]
+- ["14HyperTrackCore8ProviderC", "InitializationPipeline"]
+- ["14HyperTrackCore8ProviderC", "LoggerWrapper"]
+- ["14HyperTrackCore8ProviderC", "Provider"]
+- ["14HyperTrackCore8ProviderC", "ReadWriteDataStoreWrapper"]
+- ["14HyperTrackCore8ProviderC", "ServiceFactory"]
+- ["14HyperTrackCore8ProviderC", "ServiceManager"]
+- ["14HyperTrackCore8ProviderC", "TransmissionManager"]
+- ["14HyperTrackCore8ProviderC", "apiClient"]
+- ["14HyperTrackCore8ProviderC", "appState"]
+- ["14HyperTrackCore8ProviderC", "authManager"]
+- ["14HyperTrackCore8ProviderC", "collectionPipeline"]
+- ["14HyperTrackCore8ProviderC", "configManager"]
+- ["14HyperTrackCore8ProviderC", "dataStore"]
+- ["14HyperTrackCore8ProviderC", "databaseManager"]
+- ["14HyperTrackCore8ProviderC", "dispatch"]
+- ["14HyperTrackCore8ProviderC", "eventBus"]
+- ["14HyperTrackCore8ProviderC", "fileStorage"]
+- ["14HyperTrackCore8ProviderC", "heartbeat"]
+- ["14HyperTrackCore8ProviderC", "init"]
+- ["14HyperTrackCore8ProviderC", "initPipeline"]
+- ["14HyperTrackCore8ProviderC", "logger"]
+- ["14HyperTrackCore8ProviderC", "serviceManager"]
+- ["14HyperTrackCore8ProviderC", "transmissionPipeline"]
+- ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "defaults"]
+- ["14HyperTrackCore25ReadWriteDataStoreWrapperC", "init"]
+- ["14HyperTrackCore14ServiceFactoryC", "deinit"]
+- ["14HyperTrackCore14ServiceFactoryC", "init"]
+- ["14HyperTrackCore14ServiceManagerC", "deinit"]
+- ["14HyperTrackCore14ServiceManagerC", "init"]
+- ["14HyperTrackCore6ConfigC8ServicesV", "types"]
+- ["14HyperTrackCore19SessionInfoProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore19SessionInfoProtocolP", "init"]
+- ["14HyperTrackCore20SetAccountIdProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore20SetAccountIdProtocolP", "init"]
+- ["14HyperTrackCore19SetDeviceIdProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore19SetDeviceIdProtocolP", "init"]
+- ["14HyperTrackCore25SetPublishableKeyProtocolP", "getHeartbeatInfo"]
+- ["14HyperTrackCore25SetPublishableKeyProtocolP", "init"]
+- ["14HyperTrackCore19TransmissionManagerC", "Input"]
+- ["14HyperTrackCore19TransmissionManagerC", "deinit"]
+- ["14HyperTrackCore19TransmissionManagerC", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "services"]
+depends-nominal:
+- "14HyperTrackCore9APIClientC"
+- "14HyperTrackCore17AbstractAPIClientP"
+- "14HyperTrackCore22AbstractActivityConfigP"
+- "14HyperTrackCore16AbstractAppStateP"
+- "14HyperTrackCore24AbstractCollectionConfigP"
+- "14HyperTrackCore26AbstractCollectionPipelineP"
+- "14HyperTrackCore14AbstractConfigP"
+- "14HyperTrackCore21AbstractConfigManagerP"
+- "14HyperTrackCore23AbstractDataStoreConfigP"
+- "14HyperTrackCore23AbstractDatabaseManagerP"
+- "14HyperTrackCore16AbstractDispatchP"
+- "14HyperTrackCore22AbstractDispatchConfigP"
+- "14HyperTrackCore31AbstractDispatchStrategyContextP"
+- "14HyperTrackCore19AbstractFileStorageP"
+- "14HyperTrackCore20AbstractInitPipelineP"
+- "14HyperTrackCore22AbstractLocationConfigP"
+- "14HyperTrackCore22AbstractLocationUpdateP"
+- "14HyperTrackCore21AbstractNetworkConfigP"
+- "14HyperTrackCore16AbstractPipelineP"
+- "14HyperTrackCore22AbstractServiceFactoryP"
+- "14HyperTrackCore22AbstractServiceManagerP"
+- "14HyperTrackCore23AbstractServiceProtocolP"
+- "14HyperTrackCore22AbstractServicesConfigP"
+- "14HyperTrackCore26AbstractTransmissionConfigP"
+- "14HyperTrackCore27AbstractTransmissionManagerP"
+- "14HyperTrackCore8AppStateC"
+- "14HyperTrackCore11AuthManagerC"
+- "14HyperTrackCore17AuthTokenProviderP"
+- "14HyperTrackCore18BaseServiceManagerP"
+- "s7CVarArgP"
+- "14HyperTrackCore18CollectionPipelineC"
+- "14HyperTrackCore6ConfigC"
+- "14HyperTrackCore13ConfigManagerC"
+- "14HyperTrackCore8ConstantO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "14HyperTrackCore8ConstantO8DatabaseO"
+- "14HyperTrackCore15DatabaseManagerC"
+- "Se"
+- "14HyperTrackCore18DeviceDataProtocolP"
+- "14HyperTrackCore8DispatchC"
+- "14HyperTrackCore23DispatchStrategyContextC"
+- "SE"
+- "SQ"
+- "14HyperTrackCore15EventBusWrapperC"
+- "14HyperTrackCore19EventCollectionTypeO"
+- "14HyperTrackCore11FileStorageC"
+- "14HyperTrackCore20GetAccountIdProtocolP"
+- "14HyperTrackCore19GetDeviceIdProtocolP"
+- "14HyperTrackCore25GetPublishableKeyProtocolP"
+- "SH"
+- "14HyperTrackCore21HeartbeatInfoProtocolP"
+- "14HyperTrackCore21HeartbeatPingProtocolP"
+- "14HyperTrackCore16HeartbeatServiceC"
+- "14HyperTrackCore22HeartbeatServiceConfigP"
+- "14HyperTrackCore15DatabaseManagerC4InfoV"
+- "14HyperTrackCore22InitializationPipelineC"
+- "14HyperTrackCore18CollectionPipelineC5InputV"
+- "14HyperTrackCore19TransmissionManagerC5InputV"
+- "14HyperTrackCore13LoggerWrapperC"
+- "14HyperTrackCore16LumberJackLoggerC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "14HyperTrackCore15PipelineLoggingP"
+- "14HyperTrackCore8ProviderC"
+- "14HyperTrackCore25ReadWriteDataStoreWrapperC"
+- "14HyperTrackCore14ServiceFactoryC"
+- "14HyperTrackCore14ServiceManagerC"
+- "14HyperTrackCore6ConfigC8ServicesV"
+- "14HyperTrackCore19SessionInfoProtocolP"
+- "14HyperTrackCore20SetAccountIdProtocolP"
+- "14HyperTrackCore19SetDeviceIdProtocolP"
+- "14HyperTrackCore25SetPublishableKeyProtocolP"
+- "14HyperTrackCore19TransmissionManagerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDB.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog+LOGV.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/HyperTrackCore/HyperTrackCore-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/HyperTrackCore.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogCapture.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabase.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseQueue.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLog.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/CocoaLumberjack.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabasePool.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDASLLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDOSLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDTTYLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDFileLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAbstractDatabaseLogger.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMDatabaseAdditions.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLogMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDAssertMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Logging/CocoaLumberJack/DDLegacyMacros.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Persistence/Database/FMDB/FMResultSet.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/HyperTrackCore/core-ios-sdk/Networking/Reachability.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphoneos/HyperTrackCore.build/unextended-module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "35fa4bffa9dfcb8e9f740ae6307e9097"
