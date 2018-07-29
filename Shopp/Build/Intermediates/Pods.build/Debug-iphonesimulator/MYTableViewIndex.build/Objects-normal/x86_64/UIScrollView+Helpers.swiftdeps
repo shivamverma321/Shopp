@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So12UIScrollViewC", ""]
+- ["So12UIScrollViewC", "my_effectiveContentInset"]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIEdgeInsets"
+- "UIScrollView"
+depends-member:
+- !private ["So15CALayerDelegateP", "adjustedContentInset"]
+- !private ["So15CALayerDelegateP", "contentInset"]
+- !private ["s7CVarArgP", "adjustedContentInset"]
+- !private ["s7CVarArgP", "contentInset"]
+- !private ["s28CustomDebugStringConvertibleP", "adjustedContentInset"]
+- !private ["s28CustomDebugStringConvertibleP", "contentInset"]
+- !private ["s23CustomStringConvertibleP", "adjustedContentInset"]
+- !private ["s23CustomStringConvertibleP", "contentInset"]
+- !private ["s9EquatableP", "adjustedContentInset"]
+- !private ["s9EquatableP", "contentInset"]
+- !private ["s8HashableP", "adjustedContentInset"]
+- !private ["s8HashableP", "contentInset"]
+- !private ["16MYTableViewIndex0C4ItemP", "adjustedContentInset"]
+- !private ["16MYTableViewIndex0C4ItemP", "contentInset"]
+- !private ["So8NSCodingP", "adjustedContentInset"]
+- !private ["So8NSCodingP", "contentInset"]
+- ["So8NSObjectC", "UIEdgeInsets"]
+- !private ["So8NSObjectC", "adjustedContentInset"]
+- !private ["So8NSObjectC", "contentInset"]
+- ["So8NSObjectC", "my_effectiveContentInset"]
+- !private ["So16NSObjectProtocolP", "adjustedContentInset"]
+- !private ["So16NSObjectProtocolP", "contentInset"]
+- !private ["So29UIAccessibilityIdentificationP", "adjustedContentInset"]
+- !private ["So29UIAccessibilityIdentificationP", "contentInset"]
+- !private ["So12UIAppearanceP", "adjustedContentInset"]
+- !private ["So12UIAppearanceP", "contentInset"]
+- !private ["So21UIAppearanceContainerP", "adjustedContentInset"]
+- !private ["So21UIAppearanceContainerP", "contentInset"]
+- !private ["So17UICoordinateSpaceP", "adjustedContentInset"]
+- !private ["So17UICoordinateSpaceP", "contentInset"]
+- !private ["So13UIDynamicItemP", "adjustedContentInset"]
+- !private ["So13UIDynamicItemP", "contentInset"]
+- !private ["So18UIFocusEnvironmentP", "adjustedContentInset"]
+- !private ["So18UIFocusEnvironmentP", "contentInset"]
+- !private ["So11UIFocusItemP", "adjustedContentInset"]
+- !private ["So11UIFocusItemP", "contentInset"]
+- !private ["So30UIPasteConfigurationSupportingP", "adjustedContentInset"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentInset"]
+- ["So11UIResponderC", "UIEdgeInsets"]
+- !private ["So11UIResponderC", "adjustedContentInset"]
+- !private ["So11UIResponderC", "contentInset"]
+- ["So11UIResponderC", "my_effectiveContentInset"]
+- !private ["So30UIResponderStandardEditActionsP", "adjustedContentInset"]
+- !private ["So30UIResponderStandardEditActionsP", "contentInset"]
+- ["So12UIScrollViewC", "UIEdgeInsets"]
+- !private ["So12UIScrollViewC", "adjustedContentInset"]
+- !private ["So12UIScrollViewC", "contentInset"]
+- ["So12UIScrollViewC", "my_effectiveContentInset"]
+- !private ["So18UITraitEnvironmentP", "adjustedContentInset"]
+- !private ["So18UITraitEnvironmentP", "contentInset"]
+- ["So6UIViewC", "UIEdgeInsets"]
+- !private ["So6UIViewC", "adjustedContentInset"]
+- !private ["So6UIViewC", "contentInset"]
+- ["So6UIViewC", "my_effectiveContentInset"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "adjustedContentInset"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentInset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "adjustedContentInset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentInset"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "16MYTableViewIndex0C4ItemP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- !private "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/MYTableViewIndex/MYTableViewIndex-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/MYTableViewIndex.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "655c70eca04ce2576141c226798413bc"

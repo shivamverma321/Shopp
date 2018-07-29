@@ -20,10 +20,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
-        var storyboard: UIStoryboard!
-        storyboard = UIStoryboard(name: "App", bundle: nil)
+        let db = Firestore.firestore()
+        let settings = db.settings
+        settings.areTimestampsInSnapshotsEnabled = true
+        db.settings = settings
         
-        window?.rootViewController = storyboard.instantiateInitialViewController()
+        Auth.auth().signIn(withEmail: AppStorage.User.email, password: AppStorage.User.password) { (authResult, error) in
+            guard let _ = authResult, error == nil else{
+                print("An error occured while attempting to login")
+                return
+            }
+            
+            var storyboard: UIStoryboard!
+            storyboard = UIStoryboard(name: "App", bundle: nil)
+            
+            self.window?.rootViewController = storyboard.instantiateInitialViewController()
+        }
         
         return true
     }

@@ -1,6 +1,11 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "7c5b4827ea2d6191b358ac8b4c203d45"
-build_time: [1532813044, 657584000]
+build_time: [1532815584, 975979000]
 inputs:
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemRepoVC.swift": [1532811810, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppDelegate.swift": [1532812899, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/Item.swift": [1532815093, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/Extensions.swift": [1532815329, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemCell.swift": [1532815544, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemsVC.swift": [1532814574, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/AppDelegate.swift": [1532813107, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/NameFile.swift": [1532815503, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Shopp/App/ItemSystem.swift": [9223372036, 854775807]

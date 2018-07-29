@@ -196,15 +196,27 @@ SWIFT_CLASS("_TtC5Shopp11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
 @class UIImageView;
+@class UILabel;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC5Shopp8ItemCell")
+@interface ItemCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified itemImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descriptionLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified priceLabel;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UISearchBar;
 @class UITableView;
 @class NSBundle;
-@class NSCoder;
 
-SWIFT_CLASS("_TtC5Shopp10ItemRepoVC")
-@interface ItemRepoVC : UIViewController
+SWIFT_CLASS("_TtC5Shopp7ItemsVC")
+@interface ItemsVC : UIViewController
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified yourItemsLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified itemCountLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImageView;
