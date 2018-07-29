@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.7.3)
   - BoringSSL (10.0.5):
     - BoringSSL/Implementation (= 10.0.5)
     - BoringSSL/Interface (= 10.0.5)
@@ -88,8 +89,10 @@ PODS:
   - nanopb/encode (0.3.8)
   - Protobuf (3.6.0)
   - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
+  - Alamofire
   - ESPullToRefresh
   - Firebase/Auth
   - Firebase/Core
@@ -98,9 +101,11 @@ DEPENDENCIES:
   - Firebase/Storage
   - MYTableViewIndex
   - SVProgressHUD
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - BoringSSL
     - ESPullToRefresh
     - Firebase
@@ -122,8 +127,10 @@ SPEC REPOS:
     - nanopb
     - Protobuf
     - SVProgressHUD
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   BoringSSL: cf3f1793eb6e3c445c4d150456341f149c268a35
   ESPullToRefresh: 119e2710b82b75536aab2bbe4883ba119fca35c8
   Firebase: 355bd535bfdacaa82a7fe8d9784115edefd6fc03
@@ -145,7 +152,8 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: 074e14e6394611aceefa653faec682d1ed3c81a0
+PODFILE CHECKSUM: df0a78791229c1db7c653841cafb392b05f2f0fc
 
 COCOAPODS: 1.5.3

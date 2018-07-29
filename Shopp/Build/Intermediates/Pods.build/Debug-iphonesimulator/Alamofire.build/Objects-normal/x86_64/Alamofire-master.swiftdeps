@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "9fbea39d40e4b725bf0b2d49ad37bfd6"
+build_time: [1532843730, 845673000]
+inputs:
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/AFError.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/Alamofire.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/MultipartFormData.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/Notifications.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/ParameterEncoding.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/Request.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/Response.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/ResponseSerialization.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/Result.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/SessionDelegate.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/SessionManager.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/TaskDelegate.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/Timeline.swift": [1532843565, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Alamofire/Source/Validation.swift": [1532843565, 0]

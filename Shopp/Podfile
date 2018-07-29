@@ -12,6 +12,9 @@ target 'Shopp' do
   pod 'Firebase/Storage'
   pod 'Firebase/Auth'
   pod 'Firebase/Functions'
+  
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
   pod 'SVProgressHUD'
   pod 'ESPullToRefresh'

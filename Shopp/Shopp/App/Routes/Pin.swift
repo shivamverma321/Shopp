@@ -7,10 +7,10 @@
 //
 
 import Foundation
-
 import MapKit
 
 class Pin: NSObject, MKAnnotation {
+    
     let title: String?
     let locationName: String
     let discipline: String
