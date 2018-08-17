@@ -17,5 +17,4 @@ dependencies: \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/mem.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ec/internal.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ec/../bn/internal.h \
-  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ec/../bn/../../internal.h \
-  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ec/../../internal.h
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/ec/../bn/../../internal.h

@@ -30,13 +30,9 @@ depends-member:
 - !private ["Sa", "append"]
 - !private ["Sa", "forEach"]
 - ["Sa", "init"]
-- !private ["s13ArrayProtocolP", "append"]
-- !private ["s13ArrayProtocolP", "forEach"]
-- ["s13ArrayProtocolP", "init"]
-- !private ["SK", "append"]
-- !private ["SK", "forEach"]
-- ["SK", "init"]
-- !private ["SK", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- ["s23BidirectionalCollectionP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addSnapshotListener"]
@@ -50,22 +46,19 @@ depends-member:
 - ["s7CVarArgP", "firestore"]
 - !private ["s7CVarArgP", "forEach"]
 - ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "reference"]
 - !private ["s7CVarArgP", "setData"]
 - ["s7CVarArgP", "storage"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "type"]
 - !private ["s7CVarArgP", "whereField"]
-- !private ["Sl", "append"]
-- !private ["Sl", "forEach"]
-- ["Sl", "init"]
-- !private ["Sl", "init"]
-- !private ["Sl", "subscript"]
-- !private ["So22FIRCollectionReferenceC", "document"]
-- !private ["So22FIRCollectionReferenceC", "whereField"]
-- !private ["SL", "init"]
-- !private ["SL", "init"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "forEach"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["So19CollectionReferenceC", "document"]
+- !private ["So19CollectionReferenceC", "whereField"]
+- !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "addSnapshotListener"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - ["s28CustomDebugStringConvertibleP", "collection"]
@@ -77,7 +70,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "firestore"]
 - !private ["s28CustomDebugStringConvertibleP", "forEach"]
 - ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "reference"]
 - !private ["s28CustomDebugStringConvertibleP", "setData"]
 - ["s28CustomDebugStringConvertibleP", "storage"]
@@ -86,12 +78,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "whereField"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "forEach"]
 - ["s17CustomReflectableP", "init"]
-- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addSnapshotListener"]
@@ -105,91 +95,80 @@ depends-member:
 - ["s23CustomStringConvertibleP", "firestore"]
 - !private ["s23CustomStringConvertibleP", "forEach"]
 - ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "reference"]
 - !private ["s23CustomStringConvertibleP", "setData"]
 - ["s23CustomStringConvertibleP", "storage"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "type"]
 - !private ["s23CustomStringConvertibleP", "whereField"]
-- !private ["Se", "_getBuiltinLogicValue"]
-- !private ["Se", "append"]
-- !private ["Se", "forEach"]
-- ["Se", "init"]
-- !private ["Se", "init"]
-- !private ["Se", "subscript"]
-- !private ["SD", "subscript"]
-- !private ["So17FIRDocumentChangeC", "document"]
-- !private ["So17FIRDocumentChangeC", "type"]
-- !private ["So20FIRDocumentReferenceC", "delete"]
-- !private ["So20FIRDocumentReferenceC", "setData"]
-- !private ["So19FIRDocumentSnapshotC", "data"]
-- !private ["So19FIRDocumentSnapshotC", "documentID"]
-- !private ["SE", "_getBuiltinLogicValue"]
-- !private ["SE", "append"]
-- !private ["SE", "forEach"]
-- ["SE", "init"]
-- !private ["SE", "init"]
-- !private ["SE", "subscript"]
-- !private ["SQ", "_getBuiltinLogicValue"]
-- !private ["SQ", "addSnapshotListener"]
-- !private ["SQ", "append"]
-- ["SQ", "clothing"]
-- ["SQ", "collection"]
-- !private ["SQ", "data"]
-- !private ["SQ", "delete"]
-- !private ["SQ", "document"]
-- !private ["SQ", "documentChanges"]
-- !private ["SQ", "documentID"]
-- ["SQ", "firestore"]
-- !private ["SQ", "forEach"]
-- ["SQ", "grocery"]
-- ["SQ", "init"]
-- !private ["SQ", "init"]
-- ["SQ", "pharmacy"]
-- ["SQ", "reference"]
-- !private ["SQ", "setData"]
-- ["SQ", "storage"]
-- !private ["SQ", "subscript"]
-- !private ["SQ", "type"]
-- !private ["SQ", "whereField"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "forEach"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["So14DocumentChangeC", "document"]
+- !private ["So14DocumentChangeC", "type"]
+- !private ["So17DocumentReferenceC", "delete"]
+- !private ["So17DocumentReferenceC", "setData"]
+- !private ["So16DocumentSnapshotC", "data"]
+- !private ["So16DocumentSnapshotC", "documentID"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "forEach"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSnapshotListener"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "clothing"]
+- ["s9EquatableP", "collection"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "delete"]
+- !private ["s9EquatableP", "document"]
+- !private ["s9EquatableP", "documentChanges"]
+- !private ["s9EquatableP", "documentID"]
+- ["s9EquatableP", "firestore"]
+- !private ["s9EquatableP", "forEach"]
+- ["s9EquatableP", "grocery"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "pharmacy"]
+- ["s9EquatableP", "reference"]
+- !private ["s9EquatableP", "setData"]
+- ["s9EquatableP", "storage"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "type"]
+- !private ["s9EquatableP", "whereField"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "forEach"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["5Shopp8NameFileV8FirebaseV", "ItemDB"]
 - ["5Shopp8NameFileV8FirebaseV", "ProductDB"]
-- ["So12FIRFirestoreC", "collection"]
-- ["So12FIRFirestoreC", "firestore"]
-- !private ["SH", "_getBuiltinLogicValue"]
-- !private ["SH", "addSnapshotListener"]
-- !private ["SH", "append"]
-- ["SH", "clothing"]
-- ["SH", "collection"]
-- !private ["SH", "data"]
-- !private ["SH", "delete"]
-- !private ["SH", "document"]
-- !private ["SH", "documentChanges"]
-- !private ["SH", "documentID"]
-- ["SH", "firestore"]
-- !private ["SH", "forEach"]
-- ["SH", "grocery"]
-- ["SH", "init"]
-- !private ["SH", "init"]
-- ["SH", "pharmacy"]
-- ["SH", "reference"]
-- !private ["SH", "setData"]
-- ["SH", "storage"]
-- !private ["SH", "subscript"]
-- !private ["SH", "type"]
-- !private ["SH", "whereField"]
+- ["So9FirestoreC", "collection"]
+- ["So9FirestoreC", "firestore"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSnapshotListener"]
+- ["s8HashableP", "clothing"]
+- ["s8HashableP", "collection"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "delete"]
+- !private ["s8HashableP", "document"]
+- !private ["s8HashableP", "documentChanges"]
+- !private ["s8HashableP", "documentID"]
+- ["s8HashableP", "firestore"]
+- ["s8HashableP", "grocery"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "pharmacy"]
+- ["s8HashableP", "reference"]
+- !private ["s8HashableP", "setData"]
+- ["s8HashableP", "storage"]
+- !private ["s8HashableP", "type"]
+- !private ["s8HashableP", "whereField"]
 - !private ["5Shopp4ItemC", "description"]
 - !private ["5Shopp4ItemC", "imageURL"]
 - !private ["5Shopp4ItemC", "init"]
@@ -222,6 +201,7 @@ depends-member:
 - ["5Shopp10ItemSystemC", "addItemObserver"]
 - ["5Shopp10ItemSystemC", "addProductObserver"]
 - !private ["5Shopp10ItemSystemC", "database"]
+- ["5Shopp10ItemSystemC", "deinit"]
 - ["5Shopp10ItemSystemC", "deleteItem"]
 - ["5Shopp10ItemSystemC", "init"]
 - !private ["5Shopp10ItemSystemC", "itemRegistrations"]
@@ -235,15 +215,13 @@ depends-member:
 - ["5Shopp8ItemTypeO", "clothing"]
 - ["5Shopp8ItemTypeO", "grocery"]
 - ["5Shopp8ItemTypeO", "pharmacy"]
-- !private ["So23FIRListenerRegistrationP", "remove"]
+- !private ["So20ListenerRegistrationP", "remove"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
-- !private ["s10MirrorPathP", "init"]
-- !private ["SM", "append"]
-- !private ["SM", "forEach"]
-- ["SM", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "forEach"]
+- ["s17MutableCollectionP", "init"]
 - !private ["So8NSObjectC", "addSnapshotListener"]
 - ["So8NSObjectC", "collection"]
 - !private ["So8NSObjectC", "data"]
@@ -257,65 +235,57 @@ depends-member:
 - ["So8NSObjectC", "storage"]
 - !private ["So8NSObjectC", "type"]
 - !private ["So8NSObjectC", "whereField"]
-- !private ["So8NSObjectP", "addSnapshotListener"]
-- ["So8NSObjectP", "collection"]
-- !private ["So8NSObjectP", "data"]
-- !private ["So8NSObjectP", "delete"]
-- !private ["So8NSObjectP", "document"]
-- !private ["So8NSObjectP", "documentChanges"]
-- !private ["So8NSObjectP", "documentID"]
-- ["So8NSObjectP", "firestore"]
-- ["So8NSObjectP", "reference"]
-- !private ["So8NSObjectP", "remove"]
-- !private ["So8NSObjectP", "setData"]
-- ["So8NSObjectP", "storage"]
-- !private ["So8NSObjectP", "type"]
-- !private ["So8NSObjectP", "whereField"]
+- !private ["So16NSObjectProtocolP", "addSnapshotListener"]
+- ["So16NSObjectProtocolP", "collection"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "delete"]
+- !private ["So16NSObjectProtocolP", "document"]
+- !private ["So16NSObjectProtocolP", "documentChanges"]
+- !private ["So16NSObjectProtocolP", "documentID"]
+- ["So16NSObjectProtocolP", "firestore"]
+- ["So16NSObjectProtocolP", "reference"]
+- !private ["So16NSObjectProtocolP", "remove"]
+- !private ["So16NSObjectProtocolP", "setData"]
+- ["So16NSObjectProtocolP", "storage"]
+- !private ["So16NSObjectProtocolP", "type"]
+- !private ["So16NSObjectProtocolP", "whereField"]
 - ["5Shopp8NameFileV", "Firebase"]
 - !private ["5Shopp8NameFileV8FirebaseV9ProductDBV", "name"]
 - ["5Shopp8NameFileV8FirebaseV9ProductDBV", "products"]
-- !private ["So8FIRQueryC", "addSnapshotListener"]
-- !private ["So8FIRQueryC", "document"]
-- !private ["So8FIRQueryC", "whereField"]
-- !private ["So24FIRQueryDocumentSnapshotC", "data"]
-- !private ["So24FIRQueryDocumentSnapshotC", "documentID"]
-- !private ["So16FIRQuerySnapshotC", "documentChanges"]
-- !private ["Sk", "append"]
-- !private ["Sk", "forEach"]
-- ["Sk", "init"]
-- !private ["Sm", "append"]
-- !private ["Sm", "forEach"]
-- ["Sm", "init"]
-- !private ["Sm", "init"]
-- !private ["ST", "append"]
-- !private ["ST", "forEach"]
-- ["ST", "init"]
-- !private ["ST", "init"]
-- !private ["ST", "subscript"]
-- ["So10FIRStorageC", "reference"]
-- ["So10FIRStorageC", "storage"]
+- !private ["So5QueryC", "addSnapshotListener"]
+- !private ["So5QueryC", "document"]
+- !private ["So5QueryC", "whereField"]
+- !private ["So21QueryDocumentSnapshotC", "data"]
+- !private ["So21QueryDocumentSnapshotC", "documentID"]
+- !private ["So13QuerySnapshotC", "documentChanges"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- ["So7StorageC", "reference"]
+- ["So7StorageC", "storage"]
 - !private ["SS", "init"]
-- !private ["SS", "init"]
-- !private ["Sy", "init"]
-- !private ["Sy", "init"]
+- !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["5Shopp10AppStorageV4UserV", "userID"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- ["s14_ArrayProtocolP", "init"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "forEach"]
 - ["s24_DestructorSafeContainerP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addSnapshotListener"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "collection"]
@@ -334,31 +304,28 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "forEach"]
 - ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
-- !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "5Shopp10AppStorageV"
 - "Sa"
-- "s13ArrayProtocolP"
-- "SK"
+- "s23BidirectionalCollectionP"
 - !private "Sb"
 - "s7CVarArgP"
-- "Sl"
-- !private "So22FIRCollectionReferenceC"
-- !private "SL"
+- "s10CollectionP"
+- !private "So19CollectionReferenceC"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "Se"
-- !private "SD"
-- !private "So17FIRDocumentChangeC"
-- !private "So20FIRDocumentReferenceC"
-- !private "So19FIRDocumentSnapshotC"
-- "SE"
-- "SQ"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "So14DocumentChangeC"
+- !private "So17DocumentReferenceC"
+- !private "So16DocumentSnapshotC"
+- "s9EncodableP"
+- "s9EquatableP"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
@@ -366,32 +333,33 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "5Shopp8NameFileV8FirebaseV"
-- "So12FIRFirestoreC"
-- "SH"
+- "So9FirestoreC"
+- "s8HashableP"
 - !private "5Shopp4ItemC"
 - "5Shopp8NameFileV8FirebaseV6ItemDBV"
 - "5Shopp10ItemSystemC"
 - "5Shopp8ItemTypeO"
-- !private "So23FIRListenerRegistrationP"
+- !private "So20ListenerRegistrationP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- "SM"
+- "s17MutableCollectionP"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- "So16NSObjectProtocolP"
 - "5Shopp8NameFileV"
 - "5Shopp8NameFileV8FirebaseV9ProductDBV"
-- !private "So8FIRQueryC"
-- !private "So24FIRQueryDocumentSnapshotC"
-- !private "So16FIRQuerySnapshotC"
-- "Sk"
-- "Sm"
-- "ST"
-- "So10FIRStorageC"
+- !private "So5QueryC"
+- !private "So21QueryDocumentSnapshotC"
+- !private "So13QuerySnapshotC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "So7StorageC"
 - !private "SS"
-- !private "Sy"
+- !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "5Shopp10AppStorageV4UserV"
+- "s14_ArrayProtocolP"
 - "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -404,27 +372,38 @@ depends-nominal:
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ARCL/ARCL.framework/Modules/ARCL.swiftmodule/x86_64.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Modules/ESPullToRefresh.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ARCL/ARCL.framework/Headers/ARCL-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
@@ -494,6 +473,7 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ARCL/ARCL.framework/Headers/ARCL-Swift.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-Swift.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
@@ -508,6 +488,7 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ARCL/ARCL.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
@@ -515,18 +496,24 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Modules/module.modulemap"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 interface-hash: "0372c4a53080bf222629d5dcf03bd323"

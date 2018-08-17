@@ -19,5 +19,4 @@ dependencies: \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/rand.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/sha.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/dsa/../fipsmodule/bn/internal.h \
-  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/dsa/../fipsmodule/bn/../../internal.h \
-  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/dsa/../internal.h
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/dsa/../fipsmodule/bn/../../internal.h

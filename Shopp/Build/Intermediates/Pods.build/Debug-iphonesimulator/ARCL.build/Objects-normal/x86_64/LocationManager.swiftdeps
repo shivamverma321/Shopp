@@ -1,0 +1,418 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationManagerDelegate"
+- "LocationManager"
+provides-nominal:
+- "4ARCL23LocationManagerDelegateP"
+- "4ARCL15LocationManagerC"
+provides-member:
+- ["4ARCL23LocationManagerDelegateP", ""]
+- ["4ARCL15LocationManagerC", ""]
+provides-dynamic-lookup:
+- "locationManager"
+- "locationManagerShouldDisplayHeadingCalibration"
+depends-top-level:
+- !private "=="
+- !private ">="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CLAuthorizationStatus"
+- "CLHeading"
+- "CLLocation"
+- "CLLocationDegrees"
+- "CLLocationDirection"
+- "CLLocationManager"
+- "CLLocationManagerDelegate"
+- "LocationManager"
+- "LocationManagerDelegate"
+- "NSObject"
+- !private "kCLDistanceFilterNone"
+- !private "kCLHeadingFilterNone"
+- !private "kCLLocationAccuracyBestForNavigation"
+- !private "||"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC21CLAuthorizationStatusO", "authorizedAlways"]
+- !private ["SC21CLAuthorizationStatusO", "authorizedWhenInUse"]
+- !private ["SC21CLAuthorizationStatusO", "denied"]
+- !private ["SC21CLAuthorizationStatusO", "restricted"]
+- !private ["So9CLHeadingC", "headingAccuracy"]
+- !private ["So9CLHeadingC", "magneticHeading"]
+- !private ["So9CLHeadingC", "trueHeading"]
+- !private ["So17CLLocationManagerC", "authorizationStatus"]
+- !private ["So17CLLocationManagerC", "delegate"]
+- !private ["So17CLLocationManagerC", "desiredAccuracy"]
+- !private ["So17CLLocationManagerC", "distanceFilter"]
+- !private ["So17CLLocationManagerC", "headingFilter"]
+- !private ["So17CLLocationManagerC", "init"]
+- !private ["So17CLLocationManagerC", "location"]
+- !private ["So17CLLocationManagerC", "pausesLocationUpdatesAutomatically"]
+- !private ["So17CLLocationManagerC", "requestWhenInUseAuthorization"]
+- !private ["So17CLLocationManagerC", "startUpdatingHeading"]
+- !private ["So17CLLocationManagerC", "startUpdatingLocation"]
+- !private ["So25CLLocationManagerDelegateP", "CLAuthorizationStatus"]
+- !private ["So25CLLocationManagerDelegateP", "CLLocationManager"]
+- ["So25CLLocationManagerDelegateP", ""]
+- !private ["So25CLLocationManagerDelegateP", "currentLocation"]
+- !private ["So25CLLocationManagerDelegateP", "delegate"]
+- !private ["So25CLLocationManagerDelegateP", "heading"]
+- !private ["So25CLLocationManagerDelegateP", "headingAccuracy"]
+- !private ["So25CLLocationManagerDelegateP", "kCLDistanceFilterNone"]
+- !private ["So25CLLocationManagerDelegateP", "kCLHeadingFilterNone"]
+- !private ["So25CLLocationManagerDelegateP", "kCLLocationAccuracyBestForNavigation"]
+- ["So25CLLocationManagerDelegateP", "locationManager"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidPauseLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidResumeLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s7CVarArgP", "CLAuthorizationStatus"]
+- !private ["s7CVarArgP", "CLLocationManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "authorizationStatus"]
+- !private ["s7CVarArgP", "currentLocation"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "desiredAccuracy"]
+- !private ["s7CVarArgP", "distanceFilter"]
+- !private ["s7CVarArgP", "heading"]
+- !private ["s7CVarArgP", "headingAccuracy"]
+- !private ["s7CVarArgP", "headingFilter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kCLDistanceFilterNone"]
+- !private ["s7CVarArgP", "kCLHeadingFilterNone"]
+- !private ["s7CVarArgP", "kCLLocationAccuracyBestForNavigation"]
+- !private ["s7CVarArgP", "location"]
+- ["s7CVarArgP", "locationManager"]
+- ["s7CVarArgP", "locationManagerDidPauseLocationUpdates"]
+- ["s7CVarArgP", "locationManagerDidResumeLocationUpdates"]
+- ["s7CVarArgP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s7CVarArgP", "magneticHeading"]
+- !private ["s7CVarArgP", "pausesLocationUpdatesAutomatically"]
+- !private ["s7CVarArgP", "requestWhenInUseAuthorization"]
+- !private ["s7CVarArgP", "startUpdatingHeading"]
+- !private ["s7CVarArgP", "startUpdatingLocation"]
+- !private ["s7CVarArgP", "trueHeading"]
+- !private ["s28CustomDebugStringConvertibleP", "CLAuthorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "currentLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "desiredAccuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "distanceFilter"]
+- !private ["s28CustomDebugStringConvertibleP", "heading"]
+- !private ["s28CustomDebugStringConvertibleP", "headingAccuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "headingFilter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLDistanceFilterNone"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLHeadingFilterNone"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLLocationAccuracyBestForNavigation"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- ["s28CustomDebugStringConvertibleP", "locationManager"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s28CustomDebugStringConvertibleP", "magneticHeading"]
+- !private ["s28CustomDebugStringConvertibleP", "pausesLocationUpdatesAutomatically"]
+- !private ["s28CustomDebugStringConvertibleP", "requestWhenInUseAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "startUpdatingHeading"]
+- !private ["s28CustomDebugStringConvertibleP", "startUpdatingLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "trueHeading"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "CLAuthorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "CLLocationManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "authorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "currentLocation"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "desiredAccuracy"]
+- !private ["s23CustomStringConvertibleP", "distanceFilter"]
+- !private ["s23CustomStringConvertibleP", "heading"]
+- !private ["s23CustomStringConvertibleP", "headingAccuracy"]
+- !private ["s23CustomStringConvertibleP", "headingFilter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kCLDistanceFilterNone"]
+- !private ["s23CustomStringConvertibleP", "kCLHeadingFilterNone"]
+- !private ["s23CustomStringConvertibleP", "kCLLocationAccuracyBestForNavigation"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- ["s23CustomStringConvertibleP", "locationManager"]
+- ["s23CustomStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s23CustomStringConvertibleP", "magneticHeading"]
+- !private ["s23CustomStringConvertibleP", "pausesLocationUpdatesAutomatically"]
+- !private ["s23CustomStringConvertibleP", "requestWhenInUseAuthorization"]
+- !private ["s23CustomStringConvertibleP", "startUpdatingHeading"]
+- !private ["s23CustomStringConvertibleP", "startUpdatingLocation"]
+- !private ["s23CustomStringConvertibleP", "trueHeading"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "CLAuthorizationStatus"]
+- !private ["s9EquatableP", "CLLocationManager"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "authorizationStatus"]
+- !private ["s9EquatableP", "authorizedAlways"]
+- !private ["s9EquatableP", "authorizedWhenInUse"]
+- !private ["s9EquatableP", "currentLocation"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "denied"]
+- !private ["s9EquatableP", "desiredAccuracy"]
+- !private ["s9EquatableP", "distanceFilter"]
+- !private ["s9EquatableP", "heading"]
+- !private ["s9EquatableP", "headingAccuracy"]
+- !private ["s9EquatableP", "headingFilter"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "kCLDistanceFilterNone"]
+- !private ["s9EquatableP", "kCLHeadingFilterNone"]
+- !private ["s9EquatableP", "kCLLocationAccuracyBestForNavigation"]
+- !private ["s9EquatableP", "location"]
+- ["s9EquatableP", "locationManager"]
+- ["s9EquatableP", "locationManagerDidPauseLocationUpdates"]
+- ["s9EquatableP", "locationManagerDidResumeLocationUpdates"]
+- ["s9EquatableP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s9EquatableP", "magneticHeading"]
+- !private ["s9EquatableP", "pausesLocationUpdatesAutomatically"]
+- !private ["s9EquatableP", "requestWhenInUseAuthorization"]
+- !private ["s9EquatableP", "restricted"]
+- !private ["s9EquatableP", "startUpdatingHeading"]
+- !private ["s9EquatableP", "startUpdatingLocation"]
+- !private ["s9EquatableP", "trueHeading"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "CLAuthorizationStatus"]
+- !private ["s8HashableP", "CLLocationManager"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "authorizationStatus"]
+- !private ["s8HashableP", "authorizedAlways"]
+- !private ["s8HashableP", "authorizedWhenInUse"]
+- !private ["s8HashableP", "currentLocation"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "denied"]
+- !private ["s8HashableP", "desiredAccuracy"]
+- !private ["s8HashableP", "distanceFilter"]
+- !private ["s8HashableP", "heading"]
+- !private ["s8HashableP", "headingAccuracy"]
+- !private ["s8HashableP", "headingFilter"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "kCLDistanceFilterNone"]
+- !private ["s8HashableP", "kCLHeadingFilterNone"]
+- !private ["s8HashableP", "kCLLocationAccuracyBestForNavigation"]
+- !private ["s8HashableP", "location"]
+- ["s8HashableP", "locationManager"]
+- ["s8HashableP", "locationManagerDidPauseLocationUpdates"]
+- ["s8HashableP", "locationManagerDidResumeLocationUpdates"]
+- ["s8HashableP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s8HashableP", "magneticHeading"]
+- !private ["s8HashableP", "pausesLocationUpdatesAutomatically"]
+- !private ["s8HashableP", "requestWhenInUseAuthorization"]
+- !private ["s8HashableP", "restricted"]
+- !private ["s8HashableP", "startUpdatingHeading"]
+- !private ["s8HashableP", "startUpdatingLocation"]
+- !private ["s8HashableP", "trueHeading"]
+- ["4ARCL15LocationManagerC", "Bool"]
+- ["4ARCL15LocationManagerC", "CLAuthorizationStatus"]
+- ["4ARCL15LocationManagerC", "CLHeading"]
+- ["4ARCL15LocationManagerC", "CLLocation"]
+- ["4ARCL15LocationManagerC", "CLLocationDegrees"]
+- ["4ARCL15LocationManagerC", "CLLocationDirection"]
+- ["4ARCL15LocationManagerC", "CLLocationManager"]
+- ["4ARCL15LocationManagerC", "LocationManagerDelegate"]
+- ["4ARCL15LocationManagerC", "currentLocation"]
+- ["4ARCL15LocationManagerC", "deinit"]
+- ["4ARCL15LocationManagerC", "delegate"]
+- ["4ARCL15LocationManagerC", "heading"]
+- ["4ARCL15LocationManagerC", "headingAccuracy"]
+- ["4ARCL15LocationManagerC", "init"]
+- !private ["4ARCL15LocationManagerC", "kCLDistanceFilterNone"]
+- !private ["4ARCL15LocationManagerC", "kCLHeadingFilterNone"]
+- !private ["4ARCL15LocationManagerC", "kCLLocationAccuracyBestForNavigation"]
+- ["4ARCL15LocationManagerC", "locationManager"]
+- ["4ARCL15LocationManagerC", "locationManagerDidPauseLocationUpdates"]
+- ["4ARCL15LocationManagerC", "locationManagerDidResumeLocationUpdates"]
+- ["4ARCL15LocationManagerC", "locationManagerShouldDisplayHeadingCalibration"]
+- ["4ARCL15LocationManagerC", "requestAuthorization"]
+- ["4ARCL23LocationManagerDelegateP", "CLLocation"]
+- ["4ARCL23LocationManagerDelegateP", "CLLocationDirection"]
+- ["4ARCL23LocationManagerDelegateP", "LocationManager"]
+- ["4ARCL23LocationManagerDelegateP", "locationManagerDidUpdateHeading"]
+- ["4ARCL23LocationManagerDelegateP", "locationManagerDidUpdateLocation"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "headingAccuracy"]
+- !private ["So8NSCodingP", "magneticHeading"]
+- !private ["So8NSCodingP", "trueHeading"]
+- !private ["So9NSCopyingP", "headingAccuracy"]
+- !private ["So9NSCopyingP", "magneticHeading"]
+- !private ["So9NSCopyingP", "trueHeading"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CLAuthorizationStatus"]
+- ["So8NSObjectC", "CLHeading"]
+- ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "CLLocationDegrees"]
+- ["So8NSObjectC", "CLLocationDirection"]
+- ["So8NSObjectC", "CLLocationManager"]
+- ["So8NSObjectC", "LocationManagerDelegate"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "authorizationStatus"]
+- ["So8NSObjectC", "currentLocation"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "desiredAccuracy"]
+- !private ["So8NSObjectC", "distanceFilter"]
+- ["So8NSObjectC", "heading"]
+- ["So8NSObjectC", "headingAccuracy"]
+- !private ["So8NSObjectC", "headingFilter"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kCLDistanceFilterNone"]
+- !private ["So8NSObjectC", "kCLHeadingFilterNone"]
+- !private ["So8NSObjectC", "kCLLocationAccuracyBestForNavigation"]
+- !private ["So8NSObjectC", "location"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSObjectC", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSObjectC", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So8NSObjectC", "magneticHeading"]
+- !private ["So8NSObjectC", "pausesLocationUpdatesAutomatically"]
+- ["So8NSObjectC", "requestAuthorization"]
+- !private ["So8NSObjectC", "requestWhenInUseAuthorization"]
+- !private ["So8NSObjectC", "startUpdatingHeading"]
+- !private ["So8NSObjectC", "startUpdatingLocation"]
+- !private ["So8NSObjectC", "trueHeading"]
+- !private ["So16NSObjectProtocolP", "CLAuthorizationStatus"]
+- !private ["So16NSObjectProtocolP", "CLLocationManager"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "authorizationStatus"]
+- !private ["So16NSObjectProtocolP", "currentLocation"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "desiredAccuracy"]
+- !private ["So16NSObjectProtocolP", "distanceFilter"]
+- !private ["So16NSObjectProtocolP", "heading"]
+- !private ["So16NSObjectProtocolP", "headingAccuracy"]
+- !private ["So16NSObjectProtocolP", "headingFilter"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "kCLDistanceFilterNone"]
+- !private ["So16NSObjectProtocolP", "kCLHeadingFilterNone"]
+- !private ["So16NSObjectProtocolP", "kCLLocationAccuracyBestForNavigation"]
+- !private ["So16NSObjectProtocolP", "location"]
+- ["So16NSObjectProtocolP", "locationManager"]
+- ["So16NSObjectProtocolP", "locationManagerDidPauseLocationUpdates"]
+- ["So16NSObjectProtocolP", "locationManagerDidResumeLocationUpdates"]
+- ["So16NSObjectProtocolP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So16NSObjectProtocolP", "magneticHeading"]
+- !private ["So16NSObjectProtocolP", "pausesLocationUpdatesAutomatically"]
+- !private ["So16NSObjectProtocolP", "requestWhenInUseAuthorization"]
+- !private ["So16NSObjectProtocolP", "startUpdatingHeading"]
+- !private ["So16NSObjectProtocolP", "startUpdatingLocation"]
+- !private ["So16NSObjectProtocolP", "trueHeading"]
+- !private ["So14NSSecureCodingP", "headingAccuracy"]
+- !private ["So14NSSecureCodingP", "magneticHeading"]
+- !private ["So14NSSecureCodingP", "trueHeading"]
+- !private ["s16RawRepresentableP", "authorizedAlways"]
+- !private ["s16RawRepresentableP", "authorizedWhenInUse"]
+- !private ["s16RawRepresentableP", "denied"]
+- !private ["s16RawRepresentableP", "restricted"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLAuthorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desiredAccuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distanceFilter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "heading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headingAccuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "headingFilter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLDistanceFilterNone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLHeadingFilterNone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLLocationAccuracyBestForNavigation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidPauseLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidResumeLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "magneticHeading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pausesLocationUpdatesAutomatically"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestWhenInUseAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startUpdatingHeading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startUpdatingLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trueHeading"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "SC21CLAuthorizationStatusO"
+- !private "So9CLHeadingC"
+- !private "So17CLLocationManagerC"
+- "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- "4ARCL15LocationManagerC"
+- "4ARCL23LocationManagerDelegateP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s16RawRepresentableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ARCL/ARCL-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/ARCL.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "c81dfe2d7d5f548248d212667c6b8517"

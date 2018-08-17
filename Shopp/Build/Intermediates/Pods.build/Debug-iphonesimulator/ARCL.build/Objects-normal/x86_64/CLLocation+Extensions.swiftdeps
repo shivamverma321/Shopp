@@ -1,0 +1,379 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LocationTranslation"
+provides-nominal:
+- "4ARCL19LocationTranslationV"
+provides-member:
+- ["4ARCL19LocationTranslationV", ""]
+- ["So10CLLocationC", ""]
+- ["Sd", ""]
+- ["SC22CLLocationCoordinate2DV", ""]
+- ["So10CLLocationC", "init"]
+- ["So10CLLocationC", "translation"]
+- ["So10CLLocationC", "translatedLocation"]
+- ["Sd", "metersToLatitude"]
+- ["Sd", "metersToLongitude"]
+- ["SC22CLLocationCoordinate2DV", "coordinateWithBearing"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private ">"
+- "AssignmentPrecedence"
+- "CLLocation"
+- "CLLocationCoordinate2D"
+- "CLLocationDistance"
+- !private "Date"
+- "Double"
+- "LocationTranslation"
+- !private "asin"
+- !private "atan2"
+- !private "cos"
+- !private "sin"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "metersToLatitude"]
+- !private ["s19BinaryFloatingPointP", "metersToLongitude"]
+- !private ["s19BinaryFloatingPointP", "pi"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So10CLLocationC", "CLLocation"]
+- ["So10CLLocationC", "CLLocationCoordinate2D"]
+- ["So10CLLocationC", "CLLocationDistance"]
+- !private ["So10CLLocationC", "Date"]
+- !private ["So10CLLocationC", "Double"]
+- ["So10CLLocationC", "LocationTranslation"]
+- !private ["So10CLLocationC", "altitude"]
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["So10CLLocationC", "distance"]
+- !private ["So10CLLocationC", "horizontalAccuracy"]
+- ["So10CLLocationC", "init"]
+- !private ["So10CLLocationC", "timestamp"]
+- ["So10CLLocationC", "translatedLocation"]
+- ["So10CLLocationC", "translation"]
+- !private ["So10CLLocationC", "verticalAccuracy"]
+- ["SC22CLLocationCoordinate2DV", "CLLocationCoordinate2D"]
+- ["SC22CLLocationCoordinate2DV", "Double"]
+- !private ["SC22CLLocationCoordinate2DV", "asin"]
+- !private ["SC22CLLocationCoordinate2DV", "atan2"]
+- ["SC22CLLocationCoordinate2DV", "coordinateWithBearing"]
+- !private ["SC22CLLocationCoordinate2DV", "cos"]
+- !private ["SC22CLLocationCoordinate2DV", "init"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- !private ["SC22CLLocationCoordinate2DV", "sin"]
+- !private ["s7CVarArgP", "CLLocation"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "LocationTranslation"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "altitude"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "distance"]
+- !private ["s7CVarArgP", "horizontalAccuracy"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "metersToLatitude"]
+- !private ["s7CVarArgP", "metersToLongitude"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "timestamp"]
+- !private ["s7CVarArgP", "verticalAccuracy"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "metersToLatitude"]
+- !private ["s10ComparableP", "metersToLongitude"]
+- !private ["s10ComparableP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "LocationTranslation"]
+- !private ["s28CustomDebugStringConvertibleP", "altitude"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "horizontalAccuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "metersToLatitude"]
+- !private ["s28CustomDebugStringConvertibleP", "metersToLongitude"]
+- !private ["s28CustomDebugStringConvertibleP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- !private ["s28CustomDebugStringConvertibleP", "verticalAccuracy"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "metersToLatitude"]
+- !private ["s29CustomPlaygroundQuickLookableP", "metersToLongitude"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "metersToLatitude"]
+- !private ["s17CustomReflectableP", "metersToLongitude"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s23CustomStringConvertibleP", "CLLocation"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "LocationTranslation"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "altitude"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- !private ["s23CustomStringConvertibleP", "horizontalAccuracy"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "metersToLatitude"]
+- !private ["s23CustomStringConvertibleP", "metersToLongitude"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "timestamp"]
+- !private ["s23CustomStringConvertibleP", "verticalAccuracy"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "metersToLatitude"]
+- !private ["s9DecodableP", "metersToLongitude"]
+- !private ["s9DecodableP", "pi"]
+- ["Sd", "Double"]
+- ["Sd", "metersToLatitude"]
+- ["Sd", "metersToLongitude"]
+- !private ["Sd", "pi"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "metersToLatitude"]
+- !private ["s9EncodableP", "metersToLongitude"]
+- !private ["s9EncodableP", "pi"]
+- !private ["s9EquatableP", "CLLocation"]
+- !private ["s9EquatableP", "CLLocationCoordinate2D"]
+- !private ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "LocationTranslation"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "altitude"]
+- !private ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "distance"]
+- !private ["s9EquatableP", "horizontalAccuracy"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "metersToLatitude"]
+- !private ["s9EquatableP", "metersToLongitude"]
+- !private ["s9EquatableP", "pi"]
+- !private ["s9EquatableP", "timestamp"]
+- !private ["s9EquatableP", "verticalAccuracy"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "metersToLatitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "metersToLongitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "metersToLatitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "metersToLongitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s13FloatingPointP", "metersToLatitude"]
+- !private ["s13FloatingPointP", "metersToLongitude"]
+- !private ["s13FloatingPointP", "pi"]
+- !private ["s8HashableP", "CLLocation"]
+- !private ["s8HashableP", "CLLocationCoordinate2D"]
+- !private ["s8HashableP", "Date"]
+- !private ["s8HashableP", "LocationTranslation"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "altitude"]
+- !private ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "distance"]
+- !private ["s8HashableP", "horizontalAccuracy"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "metersToLatitude"]
+- !private ["s8HashableP", "metersToLongitude"]
+- !private ["s8HashableP", "pi"]
+- !private ["s8HashableP", "timestamp"]
+- !private ["s8HashableP", "verticalAccuracy"]
+- ["4ARCL19LocationTranslationV", "Double"]
+- ["4ARCL19LocationTranslationV", "altitudeTranslation"]
+- ["4ARCL19LocationTranslationV", "init"]
+- ["4ARCL19LocationTranslationV", "latitudeTranslation"]
+- ["4ARCL19LocationTranslationV", "longitudeTranslation"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "metersToLatitude"]
+- !private ["s25LosslessStringConvertibleP", "metersToLongitude"]
+- !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["So8NSCodingP", "CLLocation"]
+- !private ["So8NSCodingP", "CLLocationCoordinate2D"]
+- !private ["So8NSCodingP", "Date"]
+- !private ["So8NSCodingP", "LocationTranslation"]
+- !private ["So8NSCodingP", "altitude"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "distance"]
+- !private ["So8NSCodingP", "horizontalAccuracy"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "timestamp"]
+- !private ["So8NSCodingP", "verticalAccuracy"]
+- !private ["So9NSCopyingP", "CLLocation"]
+- !private ["So9NSCopyingP", "CLLocationCoordinate2D"]
+- !private ["So9NSCopyingP", "Date"]
+- !private ["So9NSCopyingP", "LocationTranslation"]
+- !private ["So9NSCopyingP", "altitude"]
+- !private ["So9NSCopyingP", "coordinate"]
+- !private ["So9NSCopyingP", "distance"]
+- !private ["So9NSCopyingP", "horizontalAccuracy"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "timestamp"]
+- !private ["So9NSCopyingP", "verticalAccuracy"]
+- ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- ["So8NSObjectC", "CLLocationDistance"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "LocationTranslation"]
+- !private ["So8NSObjectC", "altitude"]
+- !private ["So8NSObjectC", "coordinate"]
+- !private ["So8NSObjectC", "distance"]
+- !private ["So8NSObjectC", "horizontalAccuracy"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "timestamp"]
+- ["So8NSObjectC", "translatedLocation"]
+- ["So8NSObjectC", "translation"]
+- !private ["So8NSObjectC", "verticalAccuracy"]
+- !private ["So16NSObjectProtocolP", "CLLocation"]
+- !private ["So16NSObjectProtocolP", "CLLocationCoordinate2D"]
+- !private ["So16NSObjectProtocolP", "Date"]
+- !private ["So16NSObjectProtocolP", "LocationTranslation"]
+- !private ["So16NSObjectProtocolP", "altitude"]
+- !private ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "distance"]
+- !private ["So16NSObjectProtocolP", "horizontalAccuracy"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "timestamp"]
+- !private ["So16NSObjectProtocolP", "verticalAccuracy"]
+- !private ["So14NSSecureCodingP", "CLLocation"]
+- !private ["So14NSSecureCodingP", "CLLocationCoordinate2D"]
+- !private ["So14NSSecureCodingP", "Date"]
+- !private ["So14NSSecureCodingP", "LocationTranslation"]
+- !private ["So14NSSecureCodingP", "altitude"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["So14NSSecureCodingP", "distance"]
+- !private ["So14NSSecureCodingP", "horizontalAccuracy"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "timestamp"]
+- !private ["So14NSSecureCodingP", "verticalAccuracy"]
+- !private ["s7NumericP", "metersToLatitude"]
+- !private ["s7NumericP", "metersToLongitude"]
+- !private ["s7NumericP", "pi"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s13SignedNumericP", "metersToLatitude"]
+- !private ["s13SignedNumericP", "metersToLongitude"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s10StrideableP", "metersToLatitude"]
+- !private ["s10StrideableP", "metersToLongitude"]
+- !private ["s10StrideableP", "pi"]
+- !private ["s15_CVarArgAlignedP", "metersToLatitude"]
+- !private ["s15_CVarArgAlignedP", "metersToLongitude"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "metersToLatitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "metersToLongitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "metersToLatitude"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "metersToLongitude"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "metersToLatitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "metersToLongitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LocationTranslation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "altitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontalAccuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timestamp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verticalAccuracy"]
+- !private ["s21_ObjectiveCBridgeableP", "CLLocationCoordinate2D"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "asin"]
+- !private ["s21_ObjectiveCBridgeableP", "atan2"]
+- !private ["s21_ObjectiveCBridgeableP", "coordinateWithBearing"]
+- !private ["s21_ObjectiveCBridgeableP", "cos"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "metersToLatitude"]
+- !private ["s21_ObjectiveCBridgeableP", "metersToLongitude"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "sin"]
+depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- "So10CLLocationC"
+- "SC22CLLocationCoordinate2DV"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "s9DecodableP"
+- "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- "4ARCL19LocationTranslationV"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/ARCL/ARCL-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/ARCL.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "256bc543d8b28c91b113e0159b720527"

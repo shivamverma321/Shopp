@@ -1,12 +1,12 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.0.25.1 clang-1000.10.28.1)"
-options: "73a971a2aa28d1ae62de54e428e93c29"
-build_time: [1532873550, 756891000]
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "f99bbdac8fc341d36b5f47a1b9a2ca8e"
+build_time: [1534492879, 635028000]
 inputs:
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ES.swift": [1532845370, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESPullToRefresh+Manager.swift": [1532845370, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESPullToRefresh.swift": [1532845370, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshAnimator.swift": [1532845370, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshComponent.swift": [1532845370, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/Animator/ESRefreshFooterAnimator.swift": [1532845370, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/Animator/ESRefreshHeaderAnimator.swift": [1532845370, 0]
-  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshProtocol.swift": [1532845370, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ES.swift": [1534492849, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESPullToRefresh+Manager.swift": [1534492849, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESPullToRefresh.swift": [1534492849, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshAnimator.swift": [1534492849, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshComponent.swift": [1534492849, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/Animator/ESRefreshFooterAnimator.swift": [1534492849, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/Animator/ESRefreshHeaderAnimator.swift": [1534492849, 0]
+  "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/ESPullToRefresh/Sources/ESRefreshProtocol.swift": [1534492849, 0]

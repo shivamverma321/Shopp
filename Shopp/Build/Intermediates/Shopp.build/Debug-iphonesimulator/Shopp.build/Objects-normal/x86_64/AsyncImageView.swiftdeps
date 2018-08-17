@@ -13,8 +13,6 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "AsyncImageView"
 - "BooleanLiteralType"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
 - !private "Storage"
 - "String"
 - !private "UIColor"
@@ -27,6 +25,7 @@ depends-member:
 - !private ["5Shopp14AsyncImageViewC", "UIColor"]
 - ["5Shopp14AsyncImageViewC", "UIImage"]
 - !private ["5Shopp14AsyncImageViewC", "cached"]
+- ["5Shopp14AsyncImageViewC", "deinit"]
 - ["5Shopp14AsyncImageViewC", "firebaseURL"]
 - !private ["5Shopp14AsyncImageViewC", "image"]
 - ["5Shopp14AsyncImageViewC", "init"]
@@ -41,7 +40,6 @@ depends-member:
 - !private ["So15CALayerDelegateP", "firebaseURL"]
 - !private ["So15CALayerDelegateP", "image"]
 - !private ["So15CALayerDelegateP", "init"]
-- !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "placeholderImage"]
 - !private ["s7CVarArgP", "Storage"]
 - !private ["s7CVarArgP", "UIColor"]
@@ -52,7 +50,6 @@ depends-member:
 - !private ["s7CVarArgP", "firebaseURL"]
 - !private ["s7CVarArgP", "getData"]
 - !private ["s7CVarArgP", "image"]
-- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "lightGray"]
 - !private ["s7CVarArgP", "placeholderImage"]
@@ -66,7 +63,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "firebaseURL"]
 - !private ["s28CustomDebugStringConvertibleP", "getData"]
 - !private ["s28CustomDebugStringConvertibleP", "image"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "lightGray"]
 - !private ["s28CustomDebugStringConvertibleP", "placeholderImage"]
@@ -84,44 +80,41 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "getData"]
 - !private ["s23CustomStringConvertibleP", "image"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "lightGray"]
 - !private ["s23CustomStringConvertibleP", "placeholderImage"]
 - !private ["s23CustomStringConvertibleP", "reference"]
 - !private ["s23CustomStringConvertibleP", "storage"]
-- !private ["Se", "_getBuiltinLogicValue"]
-- !private ["SE", "_getBuiltinLogicValue"]
-- !private ["SQ", "Storage"]
-- !private ["SQ", "UIColor"]
-- !private ["SQ", "UIImage"]
-- ["SQ", ""]
-- !private ["SQ", "_getBuiltinLogicValue"]
-- !private ["SQ", "cached"]
-- !private ["SQ", "firebaseURL"]
-- !private ["SQ", "getData"]
-- !private ["SQ", "image"]
-- !private ["SQ", "init"]
-- !private ["SQ", "init"]
-- !private ["SQ", "lightGray"]
-- !private ["SQ", "placeholderImage"]
-- !private ["SQ", "reference"]
-- !private ["SQ", "storage"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "Storage"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIImage"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "cached"]
+- !private ["s9EquatableP", "firebaseURL"]
+- !private ["s9EquatableP", "getData"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lightGray"]
+- !private ["s9EquatableP", "placeholderImage"]
+- !private ["s9EquatableP", "reference"]
+- !private ["s9EquatableP", "storage"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["SH", "Storage"]
-- !private ["SH", "UIColor"]
-- !private ["SH", "UIImage"]
-- ["SH", ""]
-- !private ["SH", "_getBuiltinLogicValue"]
-- !private ["SH", "cached"]
-- !private ["SH", "firebaseURL"]
-- !private ["SH", "getData"]
-- !private ["SH", "image"]
-- !private ["SH", "init"]
-- !private ["SH", "init"]
-- !private ["SH", "lightGray"]
-- !private ["SH", "placeholderImage"]
-- !private ["SH", "reference"]
-- !private ["SH", "storage"]
+- !private ["s8HashableP", "Storage"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIImage"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "cached"]
+- !private ["s8HashableP", "firebaseURL"]
+- !private ["s8HashableP", "getData"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lightGray"]
+- !private ["s8HashableP", "placeholderImage"]
+- !private ["s8HashableP", "reference"]
+- !private ["s8HashableP", "storage"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["So8NSCodingP", "Storage"]
 - !private ["So8NSCodingP", "UIColor"]
@@ -130,7 +123,6 @@ depends-member:
 - !private ["So8NSCodingP", "cached"]
 - !private ["So8NSCodingP", "firebaseURL"]
 - !private ["So8NSCodingP", "image"]
-- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "lightGray"]
 - !private ["So8NSCodingP", "placeholderImage"]
@@ -148,31 +140,29 @@ depends-member:
 - !private ["So8NSObjectC", "getData"]
 - !private ["So8NSObjectC", "image"]
 - ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "lightGray"]
 - ["So8NSObjectC", "placeholderImage"]
 - !private ["So8NSObjectC", "reference"]
 - ["So8NSObjectC", "setFirebaseURL"]
 - !private ["So8NSObjectC", "storage"]
-- !private ["So8NSObjectP", "Storage"]
-- !private ["So8NSObjectP", "UIColor"]
-- !private ["So8NSObjectP", "UIImage"]
-- ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "cached"]
-- !private ["So8NSObjectP", "firebaseURL"]
-- !private ["So8NSObjectP", "getData"]
-- !private ["So8NSObjectP", "image"]
-- !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "lightGray"]
-- !private ["So8NSObjectP", "placeholderImage"]
-- !private ["So8NSObjectP", "reference"]
-- !private ["So8NSObjectP", "storage"]
+- !private ["So16NSObjectProtocolP", "Storage"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "cached"]
+- !private ["So16NSObjectProtocolP", "firebaseURL"]
+- !private ["So16NSObjectProtocolP", "getData"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lightGray"]
+- !private ["So16NSObjectProtocolP", "placeholderImage"]
+- !private ["So16NSObjectProtocolP", "reference"]
+- !private ["So16NSObjectProtocolP", "storage"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "lightGray"]
-- !private ["So10FIRStorageC", "reference"]
-- !private ["So10FIRStorageC", "storage"]
-- !private ["So19FIRStorageReferenceC", "getData"]
+- !private ["So7StorageC", "reference"]
+- !private ["So7StorageC", "storage"]
+- !private ["So16StorageReferenceC", "getData"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "Storage"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UIColor"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "UIImage"]
@@ -180,7 +170,6 @@ depends-member:
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "cached"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "firebaseURL"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
-- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "placeholderImage"]
 - !private ["So29UIAccessibilityIdentificationP", "Storage"]
@@ -191,7 +180,6 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "firebaseURL"]
 - !private ["So29UIAccessibilityIdentificationP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
-- !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "placeholderImage"]
 - !private ["So12UIAppearanceP", "Storage"]
 - !private ["So12UIAppearanceP", "UIColor"]
@@ -201,7 +189,6 @@ depends-member:
 - !private ["So12UIAppearanceP", "firebaseURL"]
 - !private ["So12UIAppearanceP", "image"]
 - !private ["So12UIAppearanceP", "init"]
-- !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "placeholderImage"]
 - !private ["So21UIAppearanceContainerP", "Storage"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
@@ -210,7 +197,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "cached"]
 - !private ["So21UIAppearanceContainerP", "firebaseURL"]
 - !private ["So21UIAppearanceContainerP", "image"]
-- !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "placeholderImage"]
 - !private ["So7UIColorC", "lightGray"]
@@ -222,7 +208,6 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "firebaseURL"]
 - !private ["So17UICoordinateSpaceP", "image"]
 - !private ["So17UICoordinateSpaceP", "init"]
-- !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "placeholderImage"]
 - !private ["So13UIDynamicItemP", "Storage"]
 - !private ["So13UIDynamicItemP", "UIColor"]
@@ -231,7 +216,6 @@ depends-member:
 - !private ["So13UIDynamicItemP", "cached"]
 - !private ["So13UIDynamicItemP", "firebaseURL"]
 - !private ["So13UIDynamicItemP", "image"]
-- !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "placeholderImage"]
 - !private ["So18UIFocusEnvironmentP", "Storage"]
@@ -242,7 +226,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "firebaseURL"]
 - !private ["So18UIFocusEnvironmentP", "image"]
 - !private ["So18UIFocusEnvironmentP", "init"]
-- !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "placeholderImage"]
 - !private ["So11UIFocusItemP", "Storage"]
 - !private ["So11UIFocusItemP", "UIColor"]
@@ -252,18 +235,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "firebaseURL"]
 - !private ["So11UIFocusItemP", "image"]
 - !private ["So11UIFocusItemP", "init"]
-- !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "placeholderImage"]
-- !private ["So20UIFocusItemContainerP", "Storage"]
-- !private ["So20UIFocusItemContainerP", "UIColor"]
-- !private ["So20UIFocusItemContainerP", "UIImage"]
-- ["So20UIFocusItemContainerP", ""]
-- !private ["So20UIFocusItemContainerP", "cached"]
-- !private ["So20UIFocusItemContainerP", "firebaseURL"]
-- !private ["So20UIFocusItemContainerP", "image"]
-- !private ["So20UIFocusItemContainerP", "init"]
-- !private ["So20UIFocusItemContainerP", "init"]
-- !private ["So20UIFocusItemContainerP", "placeholderImage"]
 - !private ["So7UIImageC", "init"]
 - !private ["So11UIImageViewC", "Storage"]
 - ["So11UIImageViewC", "String"]
@@ -274,7 +246,6 @@ depends-member:
 - ["So11UIImageViewC", "firebaseURL"]
 - !private ["So11UIImageViewC", "image"]
 - ["So11UIImageViewC", "init"]
-- !private ["So11UIImageViewC", "init"]
 - ["So11UIImageViewC", "placeholderImage"]
 - ["So11UIImageViewC", "setFirebaseURL"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
@@ -286,7 +257,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "firebaseURL"]
 - !private ["So30UIPasteConfigurationSupportingP", "image"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "placeholderImage"]
 - !private ["So11UIResponderC", "Storage"]
 - ["So11UIResponderC", "String"]
@@ -296,7 +266,6 @@ depends-member:
 - ["So11UIResponderC", "firebaseURL"]
 - !private ["So11UIResponderC", "image"]
 - ["So11UIResponderC", "init"]
-- !private ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "placeholderImage"]
 - ["So11UIResponderC", "setFirebaseURL"]
 - !private ["So30UIResponderStandardEditActionsP", "Storage"]
@@ -307,7 +276,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "firebaseURL"]
 - !private ["So30UIResponderStandardEditActionsP", "image"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "placeholderImage"]
 - !private ["So18UITraitEnvironmentP", "Storage"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
@@ -317,18 +285,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "firebaseURL"]
 - !private ["So18UITraitEnvironmentP", "image"]
 - !private ["So18UITraitEnvironmentP", "init"]
-- !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "placeholderImage"]
-- !private ["So23UIUserActivityRestoringP", "Storage"]
-- !private ["So23UIUserActivityRestoringP", "UIColor"]
-- !private ["So23UIUserActivityRestoringP", "UIImage"]
-- ["So23UIUserActivityRestoringP", ""]
-- !private ["So23UIUserActivityRestoringP", "cached"]
-- !private ["So23UIUserActivityRestoringP", "firebaseURL"]
-- !private ["So23UIUserActivityRestoringP", "image"]
-- !private ["So23UIUserActivityRestoringP", "init"]
-- !private ["So23UIUserActivityRestoringP", "init"]
-- !private ["So23UIUserActivityRestoringP", "placeholderImage"]
 - !private ["So6UIViewC", "Storage"]
 - ["So6UIViewC", "String"]
 - !private ["So6UIViewC", "UIColor"]
@@ -337,7 +294,6 @@ depends-member:
 - ["So6UIViewC", "firebaseURL"]
 - !private ["So6UIViewC", "image"]
 - ["So6UIViewC", "init"]
-- !private ["So6UIViewC", "init"]
 - ["So6UIViewC", "placeholderImage"]
 - ["So6UIViewC", "setFirebaseURL"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "Storage"]
@@ -347,7 +303,6 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cached"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "firebaseURL"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "placeholderImage"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
@@ -361,7 +316,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "firebaseURL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getData"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lightGray"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "placeholderImage"]
@@ -377,21 +331,21 @@ depends-nominal:
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "Se"
-- !private "SE"
-- "SQ"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
 - !private "s27ExpressibleByBooleanLiteralP"
-- "SH"
+- "s8HashableP"
 - !private "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
-- !private "So10FIRStorageC"
-- !private "So19FIRStorageReferenceC"
+- !private "So7StorageC"
+- !private "So16StorageReferenceC"
 - "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -401,7 +355,6 @@ depends-nominal:
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
-- "So20UIFocusItemContainerP"
 - !private "So7UIImageC"
 - "So11UIImageViewC"
 - !private "So39UIItemProviderPresentationSizeProvidingP"
@@ -409,7 +362,6 @@ depends-nominal:
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So18UITraitEnvironmentP"
-- "So23UIUserActivityRestoringP"
 - "So6UIViewC"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -419,27 +371,38 @@ depends-nominal:
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ARCL/ARCL.framework/Modules/ARCL.swiftmodule/x86_64.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Modules/ESPullToRefresh.swiftmodule/x86_64.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ARCL/ARCL.framework/Headers/ARCL-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h"
@@ -509,6 +472,7 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ARCL/ARCL.framework/Headers/ARCL-Swift.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-Swift.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
@@ -523,6 +487,7 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/ARCL/ARCL.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Modules/module.modulemap"
@@ -530,18 +495,24 @@ depends-external:
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Products/Debug-iphonesimulator/FirebaseFunctions/FirebaseFunctions.framework/Modules/module.modulemap"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 interface-hash: "22bae0b4898c8cd57894b39e72833b8d"

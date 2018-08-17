@@ -1,0 +1,11 @@
+framework module ARCL {
+  umbrella header "ARCL-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ARCL.Swift {
+    header "ARCL-Swift.h"
+    requires objc
+}

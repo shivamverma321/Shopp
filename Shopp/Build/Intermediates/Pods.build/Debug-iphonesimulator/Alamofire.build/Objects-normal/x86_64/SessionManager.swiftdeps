@@ -33,12 +33,10 @@ depends-top-level:
 - "DownloadRequest"
 - "Error"
 - !private "FileManager"
-- "FloatLiteralType"
 - "HTTPHeaders"
 - "HTTPMethod"
 - "InputStream"
 - "Int"
-- "IntegerLiteralType"
 - "Locale"
 - "MultipartFormData"
 - !private "NSTemporaryDirectory"
@@ -73,20 +71,16 @@ depends-top-level:
 depends-member:
 - ["Sa", "joined"]
 - ["Sa", "prefix"]
-- ["s13ArrayProtocolP", "enumerated"]
-- ["s13ArrayProtocolP", "joined"]
-- ["s13ArrayProtocolP", "prefix"]
 - ["s10ArraySliceV", "enumerated"]
-- ["SK", "enumerated"]
-- ["SK", "init"]
-- ["SK", "init"]
-- ["SK", "joined"]
-- ["SK", "prefix"]
-- ["SB", "init"]
+- ["s23BidirectionalCollectionP", "enumerated"]
+- ["s23BidirectionalCollectionP", "init"]
+- ["s23BidirectionalCollectionP", "joined"]
+- ["s23BidirectionalCollectionP", "prefix"]
+- ["s19BinaryFloatingPointP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- ["So8NSBundleC", "infoDictionary"]
-- ["So8NSBundleC", "init"]
-- ["So8NSBundleC", "main"]
+- ["So6BundleC", "infoDictionary"]
+- ["So6BundleC", "init"]
+- ["So6BundleC", "main"]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addOperation"]
 - !private ["s7CVarArgP", "after"]
@@ -101,7 +95,6 @@ depends-member:
 - ["s7CVarArgP", "httpAdditionalHeaders"]
 - !private ["s7CVarArgP", "identifier"]
 - ["s7CVarArgP", "infoDictionary"]
-- ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "invalidateAndCancel"]
 - ["s7CVarArgP", "joined"]
@@ -121,14 +114,12 @@ depends-member:
 - !private ["s7CVarArgP", "task"]
 - !private ["s7CVarArgP", "taskNeedNewBodyStream"]
 - !private ["s7CVarArgP", "utility"]
-- ["Sl", "enumerated"]
-- ["Sl", "init"]
-- ["Sl", "init"]
-- ["Sl", "joined"]
-- ["Sl", "prefix"]
-- ["Sl", "subscript"]
-- ["SL", "init"]
-- ["SL", "init"]
+- ["s10CollectionP", "enumerated"]
+- ["s10CollectionP", "init"]
+- ["s10CollectionP", "joined"]
+- ["s10CollectionP", "prefix"]
+- ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "DownloadFileDestination"]
 - ["s28CustomDebugStringConvertibleP", "Downloadable"]
 - !private ["s28CustomDebugStringConvertibleP", "RequestTask"]
@@ -152,7 +143,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "httpAdditionalHeaders"]
 - !private ["s28CustomDebugStringConvertibleP", "identifier"]
 - ["s28CustomDebugStringConvertibleP", "infoDictionary"]
-- ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "invalidateAndCancel"]
 - ["s28CustomDebugStringConvertibleP", "joined"]
@@ -181,10 +171,8 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
-- ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - ["s17CustomReflectableP", "enumerated"]
-- ["s17CustomReflectableP", "init"]
 - ["s17CustomReflectableP", "init"]
 - ["s17CustomReflectableP", "joined"]
 - ["s17CustomReflectableP", "preferredLanguages"]
@@ -217,7 +205,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "identifier"]
 - ["s23CustomStringConvertibleP", "infoDictionary"]
 - ["s23CustomStringConvertibleP", "init"]
-- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "invalidateAndCancel"]
 - ["s23CustomStringConvertibleP", "joined"]
 - ["s23CustomStringConvertibleP", "main"]
@@ -247,30 +234,28 @@ depends-member:
 - !private ["9Alamofire11DataRequestC", "delegate"]
 - !private ["9Alamofire11DataRequestC", "init"]
 - !private ["9Alamofire11DataRequestC", "resume"]
-- !private ["Se", "_getBuiltinLogicValue"]
-- !private ["Se", "appendingPathComponent"]
-- ["Se", "init"]
-- ["Se", "init"]
-- ["Se", "joined"]
-- ["Se", "preferredLanguages"]
-- ["Se", "prefix"]
-- ["Se", "subscript"]
-- ["Se", "uuidString"]
-- ["SD", "subscript"]
-- !private ["So18OS_dispatch_objectC", "after"]
-- !private ["So18OS_dispatch_objectC", "async"]
-- !private ["So18OS_dispatch_objectC", "global"]
-- ["So18OS_dispatch_objectC", "init"]
-- !private ["So18OS_dispatch_objectC", "main"]
-- !private ["So18OS_dispatch_objectC", "sync"]
-- !private ["So18OS_dispatch_objectC", "utility"]
-- !private ["So17OS_dispatch_queueC", "after"]
-- !private ["So17OS_dispatch_queueC", "async"]
-- !private ["So17OS_dispatch_queueC", "global"]
-- ["So17OS_dispatch_queueC", "init"]
-- !private ["So17OS_dispatch_queueC", "main"]
-- !private ["So17OS_dispatch_queueC", "sync"]
-- !private ["So17OS_dispatch_queueC", "utility"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "appendingPathComponent"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "joined"]
+- ["s9DecodableP", "preferredLanguages"]
+- ["s9DecodableP", "prefix"]
+- ["s9DecodableP", "subscript"]
+- ["s9DecodableP", "uuidString"]
+- ["s10DictionaryV", "subscript"]
+- !private ["So14DispatchObjectC", "after"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "global"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So14DispatchObjectC", "sync"]
+- !private ["So14DispatchObjectC", "utility"]
+- !private ["So13DispatchQueueC", "after"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "global"]
+- ["So13DispatchQueueC", "init"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["So13DispatchQueueC", "sync"]
+- !private ["So13DispatchQueueC", "utility"]
 - ["Sd", "init"]
 - ["9Alamofire15DownloadRequestC", "DownloadFileDestination"]
 - ["9Alamofire15DownloadRequestC", "Downloadable"]
@@ -282,57 +267,55 @@ depends-member:
 - !private ["9Alamofire15DownloadRequestC12DownloadableO", "request"]
 - !private ["9Alamofire15DownloadRequestC12DownloadableO", "resumeData"]
 - !private ["9Alamofire15DownloadRequestC12DownloadableO", "task"]
-- !private ["SE", "_getBuiltinLogicValue"]
-- !private ["SE", "appendingPathComponent"]
-- ["SE", "init"]
-- ["SE", "init"]
-- ["SE", "joined"]
-- ["SE", "preferredLanguages"]
-- ["SE", "prefix"]
-- ["SE", "subscript"]
-- ["SE", "uuidString"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "appendingPathComponent"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "joined"]
+- ["s9EncodableP", "preferredLanguages"]
+- ["s9EncodableP", "prefix"]
+- ["s9EncodableP", "subscript"]
+- ["s9EncodableP", "uuidString"]
 - ["s18EnumeratedSequenceV", "map"]
-- !private ["SQ", "_getBuiltinLogicValue"]
-- !private ["SQ", "addOperation"]
-- !private ["SQ", "after"]
-- !private ["SQ", "appendingPathComponent"]
-- !private ["SQ", "async"]
-- !private ["SQ", "configuration"]
-- !private ["SQ", "createDirectory"]
-- ["SQ", "default"]
-- !private ["SQ", "delegate"]
-- !private ["SQ", "destination"]
-- ["SQ", "enumerated"]
-- !private ["SQ", "error"]
-- !private ["SQ", "get"]
-- !private ["SQ", "global"]
-- ["SQ", "httpAdditionalHeaders"]
-- !private ["SQ", "identifier"]
-- ["SQ", "infoDictionary"]
-- ["SQ", "init"]
-- ["SQ", "init"]
-- !private ["SQ", "invalidateAndCancel"]
-- ["SQ", "joined"]
-- ["SQ", "main"]
-- ["SQ", "operatingSystemVersion"]
-- !private ["SQ", "post"]
-- ["SQ", "preferredLanguages"]
-- ["SQ", "prefix"]
-- ["SQ", "processInfo"]
-- !private ["SQ", "queue"]
-- !private ["SQ", "removeItem"]
-- !private ["SQ", "resume"]
-- !private ["SQ", "retrier"]
-- !private ["SQ", "serverTrustPolicyManager"]
-- !private ["SQ", "sessionDidFinishEventsForBackgroundURLSession"]
-- !private ["SQ", "sessionManager"]
-- !private ["SQ", "setValue"]
-- ["SQ", "subscript"]
-- !private ["SQ", "sync"]
-- !private ["SQ", "task"]
-- !private ["SQ", "taskNeedNewBodyStream"]
-- !private ["SQ", "utility"]
-- ["SQ", "uuidString"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addOperation"]
+- !private ["s9EquatableP", "after"]
+- !private ["s9EquatableP", "appendingPathComponent"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "configuration"]
+- !private ["s9EquatableP", "createDirectory"]
+- ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "destination"]
+- ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "error"]
+- !private ["s9EquatableP", "get"]
+- !private ["s9EquatableP", "global"]
+- ["s9EquatableP", "httpAdditionalHeaders"]
+- !private ["s9EquatableP", "identifier"]
+- ["s9EquatableP", "infoDictionary"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "invalidateAndCancel"]
+- ["s9EquatableP", "joined"]
+- ["s9EquatableP", "main"]
+- ["s9EquatableP", "operatingSystemVersion"]
+- !private ["s9EquatableP", "post"]
+- ["s9EquatableP", "preferredLanguages"]
+- ["s9EquatableP", "prefix"]
+- ["s9EquatableP", "processInfo"]
+- !private ["s9EquatableP", "queue"]
+- !private ["s9EquatableP", "removeItem"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "retrier"]
+- !private ["s9EquatableP", "serverTrustPolicyManager"]
+- !private ["s9EquatableP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s9EquatableP", "sessionManager"]
+- !private ["s9EquatableP", "setValue"]
+- ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "sync"]
+- !private ["s9EquatableP", "task"]
+- !private ["s9EquatableP", "taskNeedNewBodyStream"]
+- !private ["s9EquatableP", "utility"]
+- ["s9EquatableP", "uuidString"]
 - !private ["s5ErrorP", "underlyingAdaptError"]
 - ["s25ExpressibleByArrayLiteralP", "enumerated"]
 - ["s25ExpressibleByArrayLiteralP", "joined"]
@@ -340,65 +323,56 @@ depends-member:
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s25ExpressibleByFloatLiteralP", "init"]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
-- ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["So13NSFileManagerC", "createDirectory"]
-- !private ["So13NSFileManagerC", "default"]
-- !private ["So13NSFileManagerC", "removeItem"]
-- ["SF", "init"]
+- !private ["So11FileManagerC", "createDirectory"]
+- !private ["So11FileManagerC", "default"]
+- !private ["So11FileManagerC", "removeItem"]
+- ["s13FloatingPointP", "init"]
 - !private ["9Alamofire10HTTPMethodO", "get"]
 - !private ["9Alamofire10HTTPMethodO", "post"]
-- !private ["SH", "_getBuiltinLogicValue"]
-- !private ["SH", "addOperation"]
-- !private ["SH", "after"]
-- !private ["SH", "appendingPathComponent"]
-- !private ["SH", "async"]
-- !private ["SH", "configuration"]
-- !private ["SH", "createDirectory"]
-- ["SH", "default"]
-- !private ["SH", "delegate"]
-- !private ["SH", "destination"]
-- ["SH", "enumerated"]
-- !private ["SH", "error"]
-- !private ["SH", "get"]
-- !private ["SH", "global"]
-- ["SH", "httpAdditionalHeaders"]
-- !private ["SH", "identifier"]
-- ["SH", "infoDictionary"]
-- ["SH", "init"]
-- ["SH", "init"]
-- !private ["SH", "invalidateAndCancel"]
-- ["SH", "joined"]
-- ["SH", "main"]
-- ["SH", "operatingSystemVersion"]
-- !private ["SH", "post"]
-- ["SH", "preferredLanguages"]
-- ["SH", "prefix"]
-- ["SH", "processInfo"]
-- !private ["SH", "queue"]
-- !private ["SH", "removeItem"]
-- !private ["SH", "resume"]
-- !private ["SH", "retrier"]
-- !private ["SH", "serverTrustPolicyManager"]
-- !private ["SH", "sessionDidFinishEventsForBackgroundURLSession"]
-- !private ["SH", "sessionManager"]
-- !private ["SH", "setValue"]
-- ["SH", "subscript"]
-- !private ["SH", "sync"]
-- !private ["SH", "task"]
-- !private ["SH", "taskNeedNewBodyStream"]
-- !private ["SH", "utility"]
-- ["SH", "uuidString"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addOperation"]
+- !private ["s8HashableP", "after"]
+- !private ["s8HashableP", "appendingPathComponent"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "configuration"]
+- !private ["s8HashableP", "createDirectory"]
+- ["s8HashableP", "default"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "error"]
+- !private ["s8HashableP", "get"]
+- !private ["s8HashableP", "global"]
+- ["s8HashableP", "httpAdditionalHeaders"]
+- !private ["s8HashableP", "identifier"]
+- ["s8HashableP", "infoDictionary"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "invalidateAndCancel"]
+- ["s8HashableP", "main"]
+- ["s8HashableP", "operatingSystemVersion"]
+- !private ["s8HashableP", "post"]
+- ["s8HashableP", "preferredLanguages"]
+- ["s8HashableP", "processInfo"]
+- !private ["s8HashableP", "queue"]
+- !private ["s8HashableP", "removeItem"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "retrier"]
+- !private ["s8HashableP", "serverTrustPolicyManager"]
+- !private ["s8HashableP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s8HashableP", "sessionManager"]
+- !private ["s8HashableP", "setValue"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "sync"]
+- !private ["s8HashableP", "task"]
+- !private ["s8HashableP", "taskNeedNewBodyStream"]
+- !private ["s8HashableP", "utility"]
+- ["s8HashableP", "uuidString"]
 - ["10Foundation6LocaleV", "preferredLanguages"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
-- ["s25LosslessStringConvertibleP", "init"]
-- ["s10MirrorPathP", "init"]
 - ["s10MirrorPathP", "init"]
 - !private ["9Alamofire17MultipartFormDataC", "contentLength"]
 - !private ["9Alamofire17MultipartFormDataC", "contentType"]
@@ -411,9 +385,9 @@ depends-member:
 - ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "UploadRequest"]
 - ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "failure"]
 - ["9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO", "success"]
-- ["SM", "enumerated"]
-- ["SM", "joined"]
-- ["SM", "prefix"]
+- ["s17MutableCollectionP", "enumerated"]
+- ["s17MutableCollectionP", "joined"]
+- ["s17MutableCollectionP", "prefix"]
 - ["So9NSCopyingP", "default"]
 - ["So9NSCopyingP", "httpAdditionalHeaders"]
 - !private ["So9NSCopyingP", "identifier"]
@@ -448,64 +422,62 @@ depends-member:
 - !private ["So8NSObjectC", "task"]
 - !private ["So8NSObjectC", "taskNeedNewBodyStream"]
 - !private ["So8NSObjectC", "utility"]
-- !private ["So8NSObjectP", "addOperation"]
-- !private ["So8NSObjectP", "after"]
-- !private ["So8NSObjectP", "async"]
-- !private ["So8NSObjectP", "configuration"]
-- !private ["So8NSObjectP", "createDirectory"]
-- ["So8NSObjectP", "default"]
-- !private ["So8NSObjectP", "delegate"]
-- !private ["So8NSObjectP", "destination"]
-- !private ["So8NSObjectP", "error"]
-- !private ["So8NSObjectP", "global"]
-- ["So8NSObjectP", "httpAdditionalHeaders"]
-- !private ["So8NSObjectP", "identifier"]
-- ["So8NSObjectP", "infoDictionary"]
-- ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "invalidateAndCancel"]
-- ["So8NSObjectP", "main"]
-- ["So8NSObjectP", "operatingSystemVersion"]
-- ["So8NSObjectP", "processInfo"]
-- !private ["So8NSObjectP", "queue"]
-- !private ["So8NSObjectP", "removeItem"]
-- !private ["So8NSObjectP", "resume"]
-- !private ["So8NSObjectP", "retrier"]
-- !private ["So8NSObjectP", "serverTrustPolicyManager"]
-- !private ["So8NSObjectP", "sessionDidFinishEventsForBackgroundURLSession"]
-- !private ["So8NSObjectP", "sessionManager"]
-- !private ["So8NSObjectP", "subscript"]
-- !private ["So8NSObjectP", "sync"]
-- !private ["So8NSObjectP", "task"]
-- !private ["So8NSObjectP", "taskNeedNewBodyStream"]
-- !private ["So8NSObjectP", "utility"]
-- ["Sj", "init"]
+- !private ["So16NSObjectProtocolP", "addOperation"]
+- !private ["So16NSObjectProtocolP", "after"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "configuration"]
+- !private ["So16NSObjectProtocolP", "createDirectory"]
+- ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "error"]
+- !private ["So16NSObjectProtocolP", "global"]
+- ["So16NSObjectProtocolP", "httpAdditionalHeaders"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- ["So16NSObjectProtocolP", "infoDictionary"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "invalidateAndCancel"]
+- ["So16NSObjectProtocolP", "main"]
+- ["So16NSObjectProtocolP", "operatingSystemVersion"]
+- ["So16NSObjectProtocolP", "processInfo"]
+- !private ["So16NSObjectProtocolP", "queue"]
+- !private ["So16NSObjectProtocolP", "removeItem"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "retrier"]
+- !private ["So16NSObjectProtocolP", "serverTrustPolicyManager"]
+- !private ["So16NSObjectProtocolP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So16NSObjectProtocolP", "sessionManager"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So16NSObjectProtocolP", "sync"]
+- !private ["So16NSObjectProtocolP", "task"]
+- !private ["So16NSObjectProtocolP", "taskNeedNewBodyStream"]
+- !private ["So16NSObjectProtocolP", "utility"]
+- ["s7NumericP", "init"]
 - !private ["So9OS_objectC", "after"]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "global"]
-- ["So9OS_objectC", "init"]
 - !private ["So9OS_objectC", "main"]
 - !private ["So9OS_objectC", "sync"]
 - !private ["So9OS_objectC", "utility"]
-- ["So24NSOperatingSystemVersiona", "majorVersion"]
-- ["So24NSOperatingSystemVersiona", "minorVersion"]
-- ["So24NSOperatingSystemVersiona", "patchVersion"]
-- !private ["So16NSOperationQueueC", "addOperation"]
+- ["SC22OperatingSystemVersionV", "majorVersion"]
+- ["SC22OperatingSystemVersionV", "minorVersion"]
+- ["SC22OperatingSystemVersionV", "patchVersion"]
+- !private ["So14OperationQueueC", "addOperation"]
 - !private ["9Alamofire17ParameterEncodingP", "default"]
 - !private ["9Alamofire17ParameterEncodingP", "encode"]
-- ["So13NSProcessInfoC", "operatingSystemVersion"]
-- ["So13NSProcessInfoC", "processInfo"]
-- !private ["So19NSProgressReportingP", "resume"]
+- ["So11ProcessInfoC", "operatingSystemVersion"]
+- ["So11ProcessInfoC", "processInfo"]
+- !private ["So17ProgressReportingP", "resume"]
 - !private ["8Dispatch0A3QoSV0B6SClassO", "utility"]
-- ["Sk", "enumerated"]
-- ["Sk", "joined"]
-- ["Sk", "prefix"]
-- ["Sm", "enumerated"]
-- ["Sm", "init"]
-- ["Sm", "init"]
-- ["Sm", "joined"]
-- ["Sm", "prefix"]
-- !private ["SY", "get"]
-- !private ["SY", "post"]
+- ["s22RandomAccessCollectionP", "enumerated"]
+- ["s22RandomAccessCollectionP", "joined"]
+- ["s22RandomAccessCollectionP", "prefix"]
+- ["s26RangeReplaceableCollectionP", "enumerated"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "joined"]
+- ["s26RangeReplaceableCollectionP", "prefix"]
+- !private ["s16RawRepresentableP", "get"]
+- !private ["s16RawRepresentableP", "post"]
 - !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
 - ["10Foundation20ReferenceConvertibleP", "init"]
 - ["10Foundation20ReferenceConvertibleP", "preferredLanguages"]
@@ -534,13 +506,12 @@ depends-member:
 - !private ["9Alamofire11DataRequestC11RequestableV", "deinit"]
 - !private ["9Alamofire11DataRequestC11RequestableV", "init"]
 - !private ["9Alamofire11DataRequestC11RequestableV", "task"]
-- ["ST", "enumerated"]
-- ["ST", "init"]
-- ["ST", "init"]
-- ["ST", "joined"]
-- ["ST", "map"]
-- ["ST", "prefix"]
-- ["ST", "subscript"]
+- ["s8SequenceP", "enumerated"]
+- ["s8SequenceP", "init"]
+- ["s8SequenceP", "joined"]
+- ["s8SequenceP", "map"]
+- ["s8SequenceP", "prefix"]
+- ["s8SequenceP", "subscript"]
 - !private ["9Alamofire15SessionDelegateC", "deinit"]
 - !private ["9Alamofire15SessionDelegateC", "init"]
 - !private ["9Alamofire15SessionDelegateC", "retrier"]
@@ -619,11 +590,9 @@ depends-member:
 - !private ["9Alamofire13StreamRequestC10StreamableO", "netService"]
 - !private ["9Alamofire13StreamRequestC10StreamableO", "stream"]
 - !private ["9Alamofire13StreamRequestC10StreamableO", "task"]
-- ["Sx", "init"]
+- ["s10StrideableP", "init"]
 - ["SS", "init"]
-- ["SS", "init"]
-- ["Sy", "init"]
-- ["Sy", "init"]
+- ["s14StringProtocolP", "init"]
 - !private ["9Alamofire15TaskConvertibleP", "data"]
 - !private ["9Alamofire15TaskConvertibleP", "file"]
 - !private ["9Alamofire15TaskConvertibleP", "init"]
@@ -638,13 +607,10 @@ depends-member:
 - !private ["9Alamofire12TaskDelegateC", "task"]
 - !private ["9Alamofire12TaskDelegateC", "taskNeedNewBodyStream"]
 - ["s16TextOutputStreamP", "init"]
-- ["s16TextOutputStreamP", "init"]
-- ["s20TextOutputStreamableP", "init"]
 - ["s20TextOutputStreamableP", "init"]
 - !private ["10Foundation3URLV", "appendingPathComponent"]
 - !private ["10Foundation3URLV", "init"]
 - !private ["9Alamofire14URLConvertibleP", "appendingPathComponent"]
-- ["9Alamofire14URLConvertibleP", "init"]
 - ["9Alamofire14URLConvertibleP", "init"]
 - !private ["9Alamofire14URLConvertibleP", "request"]
 - !private ["9Alamofire14URLConvertibleP", "resumeData"]
@@ -658,43 +624,43 @@ depends-member:
 - !private ["9Alamofire21URLRequestConvertibleP", "request"]
 - !private ["9Alamofire21URLRequestConvertibleP", "resumeData"]
 - !private ["9Alamofire21URLRequestConvertibleP", "setValue"]
-- !private ["So12NSURLSessionC", "configuration"]
-- !private ["So12NSURLSessionC", "delegate"]
-- !private ["So12NSURLSessionC", "init"]
-- !private ["So12NSURLSessionC", "invalidateAndCancel"]
-- !private ["So12NSURLSessionC", "serverTrustPolicyManager"]
-- ["So25NSURLSessionConfigurationC", "default"]
-- ["So25NSURLSessionConfigurationC", "httpAdditionalHeaders"]
-- !private ["So25NSURLSessionConfigurationC", "identifier"]
-- !private ["So24NSURLSessionDataDelegateP", "init"]
-- !private ["So24NSURLSessionDataDelegateP", "retrier"]
-- !private ["So24NSURLSessionDataDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
-- !private ["So24NSURLSessionDataDelegateP", "sessionManager"]
-- !private ["So24NSURLSessionDataDelegateP", "subscript"]
-- !private ["So20NSURLSessionDelegateP", "destination"]
-- !private ["So20NSURLSessionDelegateP", "init"]
-- !private ["So20NSURLSessionDelegateP", "retrier"]
-- !private ["So20NSURLSessionDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
-- !private ["So20NSURLSessionDelegateP", "sessionManager"]
-- !private ["So20NSURLSessionDelegateP", "subscript"]
-- !private ["So28NSURLSessionDownloadDelegateP", "destination"]
-- !private ["So28NSURLSessionDownloadDelegateP", "init"]
-- !private ["So28NSURLSessionDownloadDelegateP", "retrier"]
-- !private ["So28NSURLSessionDownloadDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
-- !private ["So28NSURLSessionDownloadDelegateP", "sessionManager"]
-- !private ["So28NSURLSessionDownloadDelegateP", "subscript"]
-- !private ["So26NSURLSessionStreamDelegateP", "init"]
-- !private ["So26NSURLSessionStreamDelegateP", "retrier"]
-- !private ["So26NSURLSessionStreamDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
-- !private ["So26NSURLSessionStreamDelegateP", "sessionManager"]
-- !private ["So26NSURLSessionStreamDelegateP", "subscript"]
-- !private ["So16NSURLSessionTaskC", "resume"]
-- !private ["So24NSURLSessionTaskDelegateP", "destination"]
-- !private ["So24NSURLSessionTaskDelegateP", "init"]
-- !private ["So24NSURLSessionTaskDelegateP", "retrier"]
-- !private ["So24NSURLSessionTaskDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
-- !private ["So24NSURLSessionTaskDelegateP", "sessionManager"]
-- !private ["So24NSURLSessionTaskDelegateP", "subscript"]
+- !private ["So10URLSessionC", "configuration"]
+- !private ["So10URLSessionC", "delegate"]
+- !private ["So10URLSessionC", "init"]
+- !private ["So10URLSessionC", "invalidateAndCancel"]
+- !private ["So10URLSessionC", "serverTrustPolicyManager"]
+- ["So23URLSessionConfigurationC", "default"]
+- ["So23URLSessionConfigurationC", "httpAdditionalHeaders"]
+- !private ["So23URLSessionConfigurationC", "identifier"]
+- !private ["So22URLSessionDataDelegateP", "init"]
+- !private ["So22URLSessionDataDelegateP", "retrier"]
+- !private ["So22URLSessionDataDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So22URLSessionDataDelegateP", "sessionManager"]
+- !private ["So22URLSessionDataDelegateP", "subscript"]
+- !private ["So18URLSessionDelegateP", "destination"]
+- !private ["So18URLSessionDelegateP", "init"]
+- !private ["So18URLSessionDelegateP", "retrier"]
+- !private ["So18URLSessionDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So18URLSessionDelegateP", "sessionManager"]
+- !private ["So18URLSessionDelegateP", "subscript"]
+- !private ["So26URLSessionDownloadDelegateP", "destination"]
+- !private ["So26URLSessionDownloadDelegateP", "init"]
+- !private ["So26URLSessionDownloadDelegateP", "retrier"]
+- !private ["So26URLSessionDownloadDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So26URLSessionDownloadDelegateP", "sessionManager"]
+- !private ["So26URLSessionDownloadDelegateP", "subscript"]
+- !private ["So24URLSessionStreamDelegateP", "init"]
+- !private ["So24URLSessionStreamDelegateP", "retrier"]
+- !private ["So24URLSessionStreamDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So24URLSessionStreamDelegateP", "sessionManager"]
+- !private ["So24URLSessionStreamDelegateP", "subscript"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["So22URLSessionTaskDelegateP", "destination"]
+- !private ["So22URLSessionTaskDelegateP", "init"]
+- !private ["So22URLSessionTaskDelegateP", "retrier"]
+- !private ["So22URLSessionTaskDelegateP", "sessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So22URLSessionTaskDelegateP", "sessionManager"]
+- !private ["So22URLSessionTaskDelegateP", "subscript"]
 - ["10Foundation4UUIDV", "init"]
 - ["10Foundation4UUIDV", "uuidString"]
 - ["9Alamofire13UploadRequestC", "Uploadable"]
@@ -706,6 +672,9 @@ depends-member:
 - !private ["9Alamofire13UploadRequestC10UploadableO", "file"]
 - ["9Alamofire13UploadRequestC10UploadableO", "stream"]
 - !private ["9Alamofire13UploadRequestC10UploadableO", "task"]
+- ["s14_ArrayProtocolP", "enumerated"]
+- ["s14_ArrayProtocolP", "joined"]
+- ["s14_ArrayProtocolP", "prefix"]
 - ["s15_CVarArgAlignedP", "init"]
 - ["s22_CVarArgPassedAsDoubleP", "init"]
 - ["s24_DestructorSafeContainerP", "enumerated"]
@@ -713,18 +682,13 @@ depends-member:
 - ["s24_DestructorSafeContainerP", "prefix"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
-- ["s33_ExpressibleByStringInterpolationP", "init"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "after"]
@@ -759,7 +723,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
 - ["s21_ObjectiveCBridgeableP", "init"]
-- ["s21_ObjectiveCBridgeableP", "init"]
 - ["s21_ObjectiveCBridgeableP", "joined"]
 - ["s21_ObjectiveCBridgeableP", "preferredLanguages"]
 - ["s21_ObjectiveCBridgeableP", "prefix"]
@@ -767,34 +730,32 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "subscript"]
 - ["s21_ObjectiveCBridgeableP", "uuidString"]
 - ["s16_SwiftStringViewP", "init"]
-- ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "Sa"
-- "s13ArrayProtocolP"
 - "s10ArraySliceV"
-- "SK"
-- "SB"
+- "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
 - !private "Sb"
-- "So8NSBundleC"
+- "So6BundleC"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- "s10CollectionP"
+- "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "9Alamofire11DataRequestC"
-- "Se"
-- "SD"
-- "So18OS_dispatch_objectC"
-- "So17OS_dispatch_queueC"
+- "s9DecodableP"
+- "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- "So13DispatchQueueC"
 - "Sd"
 - "9Alamofire15DownloadRequestC"
 - !private "9Alamofire20DownloadTaskDelegateC"
 - !private "9Alamofire15DownloadRequestC12DownloadableO"
-- "SE"
+- "s9EncodableP"
 - "s18EnumeratedSequenceV"
-- "SQ"
+- "s9EquatableP"
 - !private "s5ErrorP"
 - "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
@@ -804,44 +765,44 @@ depends-nominal:
 - "s27ExpressibleByIntegerLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "So13NSFileManagerC"
-- "SF"
+- !private "So11FileManagerC"
+- "s13FloatingPointP"
 - !private "9Alamofire10HTTPMethodO"
-- "SH"
+- "s8HashableP"
 - "10Foundation6LocaleV"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - !private "9Alamofire17MultipartFormDataC"
 - "9Alamofire14SessionManagerC31MultipartFormDataEncodingResultO"
-- "SM"
+- "s17MutableCollectionP"
 - "So9NSCopyingP"
 - "So8NSObjectC"
-- "So8NSObjectP"
-- "Sj"
-- "So9OS_objectC"
-- "So24NSOperatingSystemVersiona"
-- !private "So16NSOperationQueueC"
+- "So16NSObjectProtocolP"
+- "s7NumericP"
+- !private "So9OS_objectC"
+- "SC22OperatingSystemVersionV"
+- !private "So14OperationQueueC"
 - !private "9Alamofire17ParameterEncodingP"
-- "So13NSProcessInfoC"
-- !private "So19NSProgressReportingP"
+- "So11ProcessInfoC"
+- !private "So17ProgressReportingP"
 - !private "8Dispatch0A3QoSV0B6SClassO"
-- "Sk"
-- "Sm"
-- !private "SY"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
 - "10Foundation20ReferenceConvertibleP"
 - "9Alamofire7RequestC"
 - !private "9Alamofire14RequestRetrierP"
 - !private "9Alamofire7RequestC0B4TaskO"
 - !private "9Alamofire11DataRequestC11RequestableV"
-- "ST"
+- "s8SequenceP"
 - !private "9Alamofire15SessionDelegateC"
 - "9Alamofire14SessionManagerC"
 - "s13SignedNumericP"
 - "9Alamofire13StreamRequestC"
 - !private "9Alamofire13StreamRequestC10StreamableO"
-- "Sx"
+- "s10StrideableP"
 - "SS"
-- "Sy"
+- "s14StringProtocolP"
 - "9Alamofire15TaskConvertibleP"
 - !private "9Alamofire12TaskDelegateC"
 - "s16TextOutputStreamP"
@@ -851,17 +812,18 @@ depends-nominal:
 - !private "9Alamofire11URLEncodingV"
 - !private "10Foundation10URLRequestV"
 - !private "9Alamofire21URLRequestConvertibleP"
-- !private "So12NSURLSessionC"
-- "So25NSURLSessionConfigurationC"
-- !private "So24NSURLSessionDataDelegateP"
-- !private "So20NSURLSessionDelegateP"
-- !private "So28NSURLSessionDownloadDelegateP"
-- !private "So26NSURLSessionStreamDelegateP"
-- !private "So16NSURLSessionTaskC"
-- !private "So24NSURLSessionTaskDelegateP"
+- !private "So10URLSessionC"
+- "So23URLSessionConfigurationC"
+- !private "So22URLSessionDataDelegateP"
+- !private "So18URLSessionDelegateP"
+- !private "So26URLSessionDownloadDelegateP"
+- !private "So24URLSessionStreamDelegateP"
+- !private "So14URLSessionTaskC"
+- !private "So22URLSessionTaskDelegateP"
 - "10Foundation4UUIDV"
 - "9Alamofire13UploadRequestC"
 - "9Alamofire13UploadRequestC10UploadableO"
+- "s14_ArrayProtocolP"
 - "s15_CVarArgAlignedP"
 - "s22_CVarArgPassedAsDoubleP"
 - "s24_DestructorSafeContainerP"
@@ -879,30 +841,29 @@ depends-nominal:
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "62b3d8e8c3913870a7b69c51c57f4307"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "40b4fbb65eac46e7910f5d6349d8cddd"

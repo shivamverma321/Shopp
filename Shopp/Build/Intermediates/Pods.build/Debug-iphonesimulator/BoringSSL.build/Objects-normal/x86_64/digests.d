@@ -16,5 +16,4 @@ dependencies: \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/ex_data.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/stack.h \
   /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/type_check.h \
-  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/thread.h \
-  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/crypto/fipsmodule/digest/../../internal.h
+  /Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/BoringSSL/include/openssl/thread.h

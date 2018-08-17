@@ -34,11 +34,9 @@ depends-top-level:
 - !private "Dictionary"
 - "ExtendedGraphemeClusterType"
 - !private "FileManager"
-- !private "FloatLiteralType"
 - "HTTPHeaders"
 - "InputStream"
 - "Int"
-- !private "IntegerLiteralType"
 - "MultipartFormData"
 - !private "NSNumber"
 - !private "ObjCBool"
@@ -66,32 +64,24 @@ depends-member:
 - !private ["Sa", "last"]
 - !private ["Sa", "reduce"]
 - !private ["Sa", "subscript"]
-- !private ["s13ArrayProtocolP", "append"]
-- !private ["s13ArrayProtocolP", "count"]
-- !private ["s13ArrayProtocolP", "first"]
-- !private ["s13ArrayProtocolP", "init"]
-- !private ["s13ArrayProtocolP", "last"]
-- !private ["s13ArrayProtocolP", "reduce"]
-- !private ["s13ArrayProtocolP", "subscript"]
-- !private ["SK", "Encoding"]
-- !private ["SK", "append"]
-- !private ["SK", "copyBytes"]
-- !private ["SK", "count"]
-- !private ["SK", "data"]
-- !private ["SK", "first"]
-- ["SK", "init"]
-- ["SK", "init"]
-- !private ["SK", "isEmpty"]
-- !private ["SK", "last"]
-- !private ["SK", "reduce"]
-- !private ["SK", "size"]
-- !private ["SK", "subscript"]
-- !private ["Sz", "init"]
+- !private ["s23BidirectionalCollectionP", "Encoding"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "copyBytes"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "data"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "last"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s13BinaryIntegerP", "init"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "HTTPHeaders"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "InputStream"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "UInt64"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "bodyContentLength"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "bodyStream"]
+- ["9Alamofire17MultipartFormDataC8BodyPartC", "deinit"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "hasFinalBoundary"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "hasInitialBoundary"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "headers"]
@@ -109,7 +99,6 @@ depends-member:
 - ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "deinit"]
 - ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "encapsulated"]
 - ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "final"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "hash"]
 - ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "hashValue"]
 - ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "initial"]
 - !private ["s7CVarArgP", "Encoding"]
@@ -125,7 +114,6 @@ depends-member:
 - !private ["s7CVarArgP", "hasBytesAvailable"]
 - !private ["s7CVarArgP", "hasSpaceAvailable"]
 - ["s7CVarArgP", "init"]
-- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isEmpty"]
 - !private ["s7CVarArgP", "last"]
 - !private ["s7CVarArgP", "open"]
@@ -135,25 +123,22 @@ depends-member:
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "uint64Value"]
 - !private ["s7CVarArgP", "write"]
-- !private ["Sl", "Encoding"]
-- !private ["Sl", "append"]
-- !private ["Sl", "copyBytes"]
-- !private ["Sl", "count"]
-- !private ["Sl", "data"]
-- !private ["Sl", "first"]
-- ["Sl", "init"]
-- ["Sl", "init"]
-- !private ["Sl", "isEmpty"]
-- !private ["Sl", "last"]
-- !private ["Sl", "reduce"]
-- !private ["Sl", "size"]
-- !private ["Sl", "subscript"]
-- !private ["SL", "Encoding"]
-- !private ["SL", "data"]
-- ["SL", "init"]
-- ["SL", "init"]
-- !private ["SL", "isEmpty"]
-- !private ["SL", "size"]
+- !private ["s10CollectionP", "Encoding"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "copyBytes"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "data"]
+- !private ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "last"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "Encoding"]
+- !private ["s10ComparableP", "data"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["s10ComparableP", "size"]
 - !private ["s28CustomDebugStringConvertibleP", "Encoding"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "attributesOfItem"]
@@ -167,7 +152,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "first"]
 - !private ["s28CustomDebugStringConvertibleP", "hasBytesAvailable"]
 - !private ["s28CustomDebugStringConvertibleP", "hasSpaceAvailable"]
-- ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
 - !private ["s28CustomDebugStringConvertibleP", "isFileURL"]
@@ -188,7 +172,6 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "checkPromisedItemIsReachable"]
 - !private ["s29CustomPlaygroundQuickLookableP", "data"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
-- ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
 - !private ["s29CustomPlaygroundQuickLookableP", "isFileURL"]
 - !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
@@ -202,7 +185,6 @@ depends-member:
 - !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "data"]
 - !private ["s17CustomReflectableP", "first"]
-- ["s17CustomReflectableP", "init"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isEmpty"]
 - !private ["s17CustomReflectableP", "last"]
@@ -225,7 +207,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "hasBytesAvailable"]
 - !private ["s23CustomStringConvertibleP", "hasSpaceAvailable"]
 - ["s23CustomStringConvertibleP", "init"]
-- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isEmpty"]
 - !private ["s23CustomStringConvertibleP", "isFileURL"]
 - !private ["s23CustomStringConvertibleP", "last"]
@@ -245,83 +226,79 @@ depends-member:
 - !private ["10Foundation4DataV", "copyBytes"]
 - !private ["10Foundation4DataV", "count"]
 - !private ["10Foundation4DataV", "init"]
-- !private ["Se", "Encoding"]
-- !private ["Se", "_getBuiltinLogicValue"]
-- !private ["Se", "append"]
-- !private ["Se", "checkPromisedItemIsReachable"]
-- !private ["Se", "copyBytes"]
-- !private ["Se", "count"]
-- !private ["Se", "data"]
-- !private ["Se", "first"]
-- ["Se", "init"]
-- ["Se", "init"]
-- !private ["Se", "isEmpty"]
-- !private ["Se", "isFileURL"]
-- !private ["Se", "last"]
-- !private ["Se", "lastPathComponent"]
-- !private ["Se", "path"]
-- !private ["Se", "pathExtension"]
-- !private ["Se", "reduce"]
-- !private ["Se", "subscript"]
-- !private ["SD", "subscript"]
-- !private ["SE", "Encoding"]
-- !private ["SE", "_getBuiltinLogicValue"]
-- !private ["SE", "append"]
-- !private ["SE", "checkPromisedItemIsReachable"]
-- !private ["SE", "copyBytes"]
-- !private ["SE", "count"]
-- !private ["SE", "data"]
-- !private ["SE", "first"]
-- ["SE", "init"]
-- ["SE", "init"]
-- !private ["SE", "isEmpty"]
-- !private ["SE", "isFileURL"]
-- !private ["SE", "last"]
-- !private ["SE", "lastPathComponent"]
-- !private ["SE", "path"]
-- !private ["SE", "pathExtension"]
-- !private ["SE", "reduce"]
-- !private ["SE", "subscript"]
+- !private ["s9DecodableP", "Encoding"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "checkPromisedItemIsReachable"]
+- !private ["s9DecodableP", "copyBytes"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "data"]
+- !private ["s9DecodableP", "first"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "isFileURL"]
+- !private ["s9DecodableP", "last"]
+- !private ["s9DecodableP", "lastPathComponent"]
+- !private ["s9DecodableP", "path"]
+- !private ["s9DecodableP", "pathExtension"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "Encoding"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "checkPromisedItemIsReachable"]
+- !private ["s9EncodableP", "copyBytes"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "data"]
+- !private ["s9EncodableP", "first"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "isFileURL"]
+- !private ["s9EncodableP", "last"]
+- !private ["s9EncodableP", "lastPathComponent"]
+- !private ["s9EncodableP", "path"]
+- !private ["s9EncodableP", "pathExtension"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EncodableP", "subscript"]
 - !private ["SS10FoundationE8EncodingV", "utf8"]
 - ["9Alamofire17MultipartFormDataC18EncodingCharactersV", "crlf"]
 - ["9Alamofire17MultipartFormDataC18EncodingCharactersV", "init"]
-- !private ["SQ", "Encoding"]
-- ["SQ", ""]
-- !private ["SQ", "_getBuiltinLogicValue"]
-- !private ["SQ", "append"]
-- !private ["SQ", "attributesOfItem"]
-- !private ["SQ", "checkPromisedItemIsReachable"]
-- !private ["SQ", "close"]
-- !private ["SQ", "copyBytes"]
-- !private ["SQ", "count"]
-- !private ["SQ", "data"]
-- !private ["SQ", "default"]
-- ["SQ", "encapsulated"]
-- !private ["SQ", "fileExists"]
-- ["SQ", "final"]
-- !private ["SQ", "first"]
-- !private ["SQ", "hasBytesAvailable"]
-- !private ["SQ", "hasSpaceAvailable"]
-- ["SQ", "hash"]
-- ["SQ", "hashValue"]
-- ["SQ", "init"]
-- ["SQ", "init"]
-- ["SQ", "initial"]
-- !private ["SQ", "isEmpty"]
-- !private ["SQ", "isFileURL"]
-- !private ["SQ", "last"]
-- !private ["SQ", "lastPathComponent"]
-- !private ["SQ", "open"]
-- !private ["SQ", "path"]
-- !private ["SQ", "pathExtension"]
-- !private ["SQ", "read"]
-- !private ["SQ", "reduce"]
-- !private ["SQ", "size"]
-- !private ["SQ", "streamError"]
-- !private ["SQ", "subscript"]
-- !private ["SQ", "uint64Value"]
-- !private ["SQ", "utf8"]
-- !private ["SQ", "write"]
+- !private ["s9EquatableP", "Encoding"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "attributesOfItem"]
+- !private ["s9EquatableP", "checkPromisedItemIsReachable"]
+- !private ["s9EquatableP", "close"]
+- !private ["s9EquatableP", "copyBytes"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "default"]
+- ["s9EquatableP", "encapsulated"]
+- !private ["s9EquatableP", "fileExists"]
+- ["s9EquatableP", "final"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "hasBytesAvailable"]
+- !private ["s9EquatableP", "hasSpaceAvailable"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "initial"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "isFileURL"]
+- !private ["s9EquatableP", "last"]
+- !private ["s9EquatableP", "lastPathComponent"]
+- !private ["s9EquatableP", "open"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "pathExtension"]
+- !private ["s9EquatableP", "read"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "streamError"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "uint64Value"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s9EquatableP", "write"]
 - ["s5ErrorP", "MultipartEncodingFailureReason"]
 - !private ["s5ErrorP", "multipartEncodingFailed"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
@@ -338,7 +315,6 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
 - !private ["s25ExpressibleByFloatLiteralP", "uint64Value"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
@@ -346,74 +322,63 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "Encoding"]
 - !private ["s26ExpressibleByStringLiteralP", "data"]
 - ["s26ExpressibleByStringLiteralP", "init"]
-- ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
-- !private ["So18NSFileAttributeKeya", "size"]
-- !private ["So13NSFileManagerC", "attributesOfItem"]
-- !private ["So13NSFileManagerC", "default"]
-- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["SC16FileAttributeKeyV", "size"]
+- !private ["So11FileManagerC", "attributesOfItem"]
+- !private ["So11FileManagerC", "default"]
+- !private ["So11FileManagerC", "fileExists"]
 - !private ["s17FixedWidthIntegerP", "init"]
-- !private ["SH", "Encoding"]
-- ["SH", ""]
-- !private ["SH", "_getBuiltinLogicValue"]
-- !private ["SH", "append"]
-- !private ["SH", "attributesOfItem"]
-- !private ["SH", "checkPromisedItemIsReachable"]
-- !private ["SH", "close"]
-- !private ["SH", "copyBytes"]
-- !private ["SH", "count"]
-- !private ["SH", "data"]
-- !private ["SH", "default"]
-- ["SH", "encapsulated"]
-- !private ["SH", "fileExists"]
-- ["SH", "final"]
-- !private ["SH", "first"]
-- !private ["SH", "hasBytesAvailable"]
-- !private ["SH", "hasSpaceAvailable"]
-- ["SH", "hash"]
-- ["SH", "hashValue"]
-- ["SH", "init"]
-- ["SH", "init"]
-- ["SH", "initial"]
-- !private ["SH", "isEmpty"]
-- !private ["SH", "isFileURL"]
-- !private ["SH", "last"]
-- !private ["SH", "lastPathComponent"]
-- !private ["SH", "open"]
-- !private ["SH", "path"]
-- !private ["SH", "pathExtension"]
-- !private ["SH", "read"]
-- !private ["SH", "reduce"]
-- !private ["SH", "size"]
-- !private ["SH", "streamError"]
-- !private ["SH", "subscript"]
-- !private ["SH", "uint64Value"]
-- !private ["SH", "utf8"]
-- !private ["SH", "write"]
-- !private ["s6HasherV", "combine"]
-- !private ["SD5IndexV", "size"]
-- !private ["So13NSInputStreamC", "close"]
-- !private ["So13NSInputStreamC", "hasBytesAvailable"]
-- !private ["So13NSInputStreamC", "init"]
-- !private ["So13NSInputStreamC", "open"]
-- !private ["So13NSInputStreamC", "read"]
-- !private ["So13NSInputStreamC", "streamError"]
+- !private ["s8HashableP", "Encoding"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "append"]
+- !private ["s8HashableP", "attributesOfItem"]
+- !private ["s8HashableP", "checkPromisedItemIsReachable"]
+- !private ["s8HashableP", "close"]
+- !private ["s8HashableP", "copyBytes"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "default"]
+- ["s8HashableP", "encapsulated"]
+- !private ["s8HashableP", "fileExists"]
+- ["s8HashableP", "final"]
+- !private ["s8HashableP", "hasBytesAvailable"]
+- !private ["s8HashableP", "hasSpaceAvailable"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "initial"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s8HashableP", "isFileURL"]
+- !private ["s8HashableP", "lastPathComponent"]
+- !private ["s8HashableP", "open"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "pathExtension"]
+- !private ["s8HashableP", "read"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "streamError"]
+- !private ["s8HashableP", "uint64Value"]
+- !private ["s8HashableP", "utf8"]
+- !private ["s8HashableP", "write"]
+- !private ["s10DictionaryV5IndexV", "size"]
+- !private ["So11InputStreamC", "close"]
+- !private ["So11InputStreamC", "hasBytesAvailable"]
+- !private ["So11InputStreamC", "init"]
+- !private ["So11InputStreamC", "open"]
+- !private ["So11InputStreamC", "read"]
+- !private ["So11InputStreamC", "streamError"]
 - ["10Foundation14LocalizedErrorP", "MultipartEncodingFailureReason"]
 - !private ["10Foundation14LocalizedErrorP", "multipartEncodingFailed"]
 - !private ["s25LosslessStringConvertibleP", "Encoding"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "data"]
 - ["s25LosslessStringConvertibleP", "init"]
-- ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "isEmpty"]
 - !private ["s10MirrorPathP", "Encoding"]
 - !private ["s10MirrorPathP", "data"]
-- ["s10MirrorPathP", "init"]
 - ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "isEmpty"]
 - !private ["9Alamofire7AFErrorO30MultipartEncodingFailureReasonO", "bodyPartFileIsDirectory"]
@@ -458,6 +423,7 @@ depends-member:
 - ["9Alamofire17MultipartFormDataC", "contentLength"]
 - ["9Alamofire17MultipartFormDataC", "contentType"]
 - !private ["9Alamofire17MultipartFormDataC", "contentType.storage"]
+- ["9Alamofire17MultipartFormDataC", "deinit"]
 - !private ["9Alamofire17MultipartFormDataC", "encapsulatedBoundaryData"]
 - ["9Alamofire17MultipartFormDataC", "encode"]
 - !private ["9Alamofire17MultipartFormDataC", "encodeBodyStream"]
@@ -476,14 +442,14 @@ depends-member:
 - !private ["9Alamofire17MultipartFormDataC", "writeFinalBoundaryData"]
 - !private ["9Alamofire17MultipartFormDataC", "writeHeaderData"]
 - !private ["9Alamofire17MultipartFormDataC", "writeInitialBoundaryData"]
-- !private ["SM", "append"]
-- !private ["SM", "copyBytes"]
-- !private ["SM", "count"]
-- !private ["SM", "first"]
-- !private ["SM", "init"]
-- !private ["SM", "last"]
-- !private ["SM", "reduce"]
-- !private ["SM", "subscript"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "copyBytes"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "last"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s17MutableCollectionP", "subscript"]
 - !private ["So8NSCodingP", "data"]
 - !private ["So8NSCodingP", "isEmpty"]
 - !private ["So8NSCodingP", "uint64Value"]
@@ -511,59 +477,57 @@ depends-member:
 - !private ["So8NSObjectC", "streamError"]
 - !private ["So8NSObjectC", "uint64Value"]
 - !private ["So8NSObjectC", "write"]
-- !private ["So8NSObjectP", "attributesOfItem"]
-- !private ["So8NSObjectP", "close"]
-- !private ["So8NSObjectP", "data"]
-- !private ["So8NSObjectP", "default"]
-- !private ["So8NSObjectP", "fileExists"]
-- !private ["So8NSObjectP", "hasBytesAvailable"]
-- !private ["So8NSObjectP", "hasSpaceAvailable"]
-- !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "isEmpty"]
-- !private ["So8NSObjectP", "open"]
-- !private ["So8NSObjectP", "read"]
-- !private ["So8NSObjectP", "streamError"]
-- !private ["So8NSObjectP", "uint64Value"]
-- !private ["So8NSObjectP", "write"]
+- !private ["So16NSObjectProtocolP", "attributesOfItem"]
+- !private ["So16NSObjectProtocolP", "close"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "fileExists"]
+- !private ["So16NSObjectProtocolP", "hasBytesAvailable"]
+- !private ["So16NSObjectProtocolP", "hasSpaceAvailable"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "open"]
+- !private ["So16NSObjectProtocolP", "read"]
+- !private ["So16NSObjectProtocolP", "streamError"]
+- !private ["So16NSObjectProtocolP", "uint64Value"]
+- !private ["So16NSObjectProtocolP", "write"]
 - !private ["So14NSSecureCodingP", "data"]
 - !private ["So14NSSecureCodingP", "isEmpty"]
 - !private ["So14NSSecureCodingP", "uint64Value"]
 - !private ["So8NSStringC", "data"]
 - !private ["So8NSStringC", "isEmpty"]
 - !private ["So7NSValueC", "uint64Value"]
-- !private ["Sj", "init"]
+- !private ["s7NumericP", "init"]
 - !private ["10ObjectiveC8ObjCBoolV", "boolValue"]
-- !private ["So14NSOutputStreamC", "close"]
-- !private ["So14NSOutputStreamC", "hasSpaceAvailable"]
-- !private ["So14NSOutputStreamC", "init"]
-- !private ["So14NSOutputStreamC", "open"]
-- !private ["So14NSOutputStreamC", "streamError"]
-- !private ["So14NSOutputStreamC", "write"]
-- !private ["Sk", "append"]
-- !private ["Sk", "copyBytes"]
-- !private ["Sk", "count"]
-- !private ["Sk", "first"]
-- !private ["Sk", "init"]
-- !private ["Sk", "last"]
-- !private ["Sk", "reduce"]
-- !private ["Sk", "size"]
-- !private ["Sk", "subscript"]
-- !private ["Sn", "size"]
-- !private ["SX", "size"]
-- !private ["Sm", "Encoding"]
-- !private ["Sm", "append"]
-- !private ["Sm", "copyBytes"]
-- !private ["Sm", "count"]
-- !private ["Sm", "data"]
-- !private ["Sm", "first"]
-- ["Sm", "init"]
-- ["Sm", "init"]
-- !private ["Sm", "isEmpty"]
-- !private ["Sm", "last"]
-- !private ["Sm", "reduce"]
-- !private ["Sm", "subscript"]
-- !private ["SY", "size"]
-- !private ["SY", "utf8"]
+- !private ["So12OutputStreamC", "close"]
+- !private ["So12OutputStreamC", "hasSpaceAvailable"]
+- !private ["So12OutputStreamC", "init"]
+- !private ["So12OutputStreamC", "open"]
+- !private ["So12OutputStreamC", "streamError"]
+- !private ["So12OutputStreamC", "write"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "copyBytes"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "last"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s5RangeV", "size"]
+- !private ["s15RangeExpressionP", "size"]
+- !private ["s26RangeReplaceableCollectionP", "Encoding"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "copyBytes"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "data"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "last"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "size"]
+- !private ["s16RawRepresentableP", "utf8"]
 - !private ["10Foundation20ReferenceConvertibleP", "append"]
 - !private ["10Foundation20ReferenceConvertibleP", "checkPromisedItemIsReachable"]
 - !private ["10Foundation20ReferenceConvertibleP", "copyBytes"]
@@ -573,46 +537,40 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
 - !private ["10Foundation20ReferenceConvertibleP", "path"]
 - !private ["10Foundation20ReferenceConvertibleP", "pathExtension"]
-- !private ["ST", "Encoding"]
-- !private ["ST", "append"]
-- !private ["ST", "copyBytes"]
-- !private ["ST", "count"]
-- !private ["ST", "data"]
-- !private ["ST", "first"]
-- ["ST", "init"]
-- ["ST", "init"]
-- !private ["ST", "isEmpty"]
-- !private ["ST", "last"]
-- !private ["ST", "reduce"]
-- !private ["ST", "size"]
-- !private ["ST", "subscript"]
-- !private ["So8NSStreamC", "close"]
-- !private ["So8NSStreamC", "hasBytesAvailable"]
-- !private ["So8NSStreamC", "hasSpaceAvailable"]
-- !private ["So8NSStreamC", "init"]
-- !private ["So8NSStreamC", "open"]
-- !private ["So8NSStreamC", "read"]
-- !private ["So8NSStreamC", "streamError"]
-- !private ["So8NSStreamC", "write"]
-- !private ["Sx", "init"]
+- !private ["s8SequenceP", "Encoding"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "copyBytes"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "data"]
+- !private ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "last"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["So6StreamC", "close"]
+- !private ["So6StreamC", "hasBytesAvailable"]
+- !private ["So6StreamC", "hasSpaceAvailable"]
+- !private ["So6StreamC", "init"]
+- !private ["So6StreamC", "open"]
+- !private ["So6StreamC", "read"]
+- !private ["So6StreamC", "streamError"]
+- !private ["So6StreamC", "write"]
+- !private ["s10StrideableP", "init"]
 - !private ["SS", "Encoding"]
 - !private ["SS", "data"]
 - ["SS", "init"]
-- ["SS", "init"]
 - !private ["SS", "isEmpty"]
-- !private ["Sy", "Encoding"]
-- !private ["Sy", "data"]
-- ["Sy", "init"]
-- ["Sy", "init"]
-- !private ["Sy", "isEmpty"]
+- !private ["s14StringProtocolP", "Encoding"]
+- !private ["s14StringProtocolP", "data"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
 - !private ["s16TextOutputStreamP", "Encoding"]
 - !private ["s16TextOutputStreamP", "data"]
-- ["s16TextOutputStreamP", "init"]
 - ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "isEmpty"]
 - !private ["s20TextOutputStreamableP", "Encoding"]
 - !private ["s20TextOutputStreamableP", "data"]
-- ["s20TextOutputStreamableP", "init"]
 - ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "isEmpty"]
 - !private ["s6UInt64V", "init"]
@@ -625,14 +583,20 @@ depends-member:
 - !private ["9Alamofire14URLConvertibleP", "checkPromisedItemIsReachable"]
 - !private ["9Alamofire14URLConvertibleP", "data"]
 - ["9Alamofire14URLConvertibleP", "init"]
-- ["9Alamofire14URLConvertibleP", "init"]
 - !private ["9Alamofire14URLConvertibleP", "isEmpty"]
 - !private ["9Alamofire14URLConvertibleP", "isFileURL"]
 - !private ["9Alamofire14URLConvertibleP", "lastPathComponent"]
 - !private ["9Alamofire14URLConvertibleP", "path"]
 - !private ["9Alamofire14URLConvertibleP", "pathExtension"]
 - !private ["s9UnmanagedV", "takeRetainedValue"]
-- !private ["SU", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s15_CVarArgAlignedP", "init"]
 - !private ["s24_DestructorSafeContainerP", "append"]
@@ -646,22 +610,18 @@ depends-member:
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Encoding"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "data"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "checkPromisedItemIsReachable"]
@@ -671,7 +631,6 @@ depends-member:
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "pathExtension"]
 - !private ["s33_ExpressibleByStringInterpolationP", "Encoding"]
 - !private ["s33_ExpressibleByStringInterpolationP", "data"]
-- ["s33_ExpressibleByStringInterpolationP", "init"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
@@ -700,7 +659,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "data"]
 - !private ["s21_ObjectiveCBridgeableP", "first"]
 - ["s21_ObjectiveCBridgeableP", "init"]
-- ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
 - !private ["s21_ObjectiveCBridgeableP", "isFileURL"]
 - !private ["s21_ObjectiveCBridgeableP", "last"]
@@ -714,32 +672,30 @@ depends-member:
 - !private ["s16_SwiftStringViewP", "Encoding"]
 - !private ["s16_SwiftStringViewP", "data"]
 - ["s16_SwiftStringViewP", "init"]
-- ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "isEmpty"]
 depends-nominal:
 - "9Alamofire7AFErrorO"
 - !private "Sa"
-- !private "s13ArrayProtocolP"
-- "SK"
-- !private "Sz"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
 - "9Alamofire17MultipartFormDataC8BodyPartC"
 - !private "Sb"
 - "9Alamofire17MultipartFormDataC17BoundaryGeneratorV"
 - "9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- "s10CollectionP"
+- "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "10Foundation4DataV"
-- "Se"
-- !private "SD"
-- "SE"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
 - !private "SS10FoundationE8EncodingV"
 - "9Alamofire17MultipartFormDataC18EncodingCharactersV"
-- "SQ"
+- "s9EquatableP"
 - "s5ErrorP"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
@@ -749,19 +705,18 @@ depends-nominal:
 - !private "s27ExpressibleByIntegerLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "So18NSFileAttributeKeya"
-- !private "So13NSFileManagerC"
+- !private "SC16FileAttributeKeyV"
+- !private "So11FileManagerC"
 - !private "s17FixedWidthIntegerP"
-- "SH"
-- !private "s6HasherV"
-- !private "SD5IndexV"
-- !private "So13NSInputStreamC"
+- "s8HashableP"
+- !private "s10DictionaryV5IndexV"
+- !private "So11InputStreamC"
 - "10Foundation14LocalizedErrorP"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - !private "9Alamofire7AFErrorO30MultipartEncodingFailureReasonO"
 - "9Alamofire17MultipartFormDataC"
-- !private "SM"
+- !private "s17MutableCollectionP"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
@@ -769,31 +724,32 @@ depends-nominal:
 - !private "So16NSMutableCopyingP"
 - !private "So8NSNumberC"
 - !private "So8NSObjectC"
-- !private "So8NSObjectP"
+- !private "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "So7NSValueC"
-- !private "Sj"
+- !private "s7NumericP"
 - !private "10ObjectiveC8ObjCBoolV"
-- !private "So14NSOutputStreamC"
-- !private "Sk"
-- !private "Sn"
-- !private "SX"
-- "Sm"
-- !private "SY"
+- !private "So12OutputStreamC"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
 - !private "10Foundation20ReferenceConvertibleP"
-- "ST"
-- !private "So8NSStreamC"
-- !private "Sx"
+- "s8SequenceP"
+- !private "So6StreamC"
+- !private "s10StrideableP"
 - "SS"
-- "Sy"
+- "s14StringProtocolP"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - !private "s6UInt64V"
 - !private "10Foundation3URLV"
 - "9Alamofire14URLConvertibleP"
 - !private "s9UnmanagedV"
-- !private "SU"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s24_DestructorSafeContainerP"
@@ -812,30 +768,29 @@ depends-nominal:
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
 - "/Users/nikhilsridhar/Desktop/Shopp/Shopp/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "6dcff910b9290f958c17ad6fc4553bb7"
